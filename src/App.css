@@ -380,3 +380,27 @@ h1 {
   .result-inner { padding: 2rem 1.25rem; }
 }
 
+.lang-switcher {
+  display: flex;
+  gap: 0.5rem;
+}
+.lang-switcher button {
+  background: none;
+  border: 1px solid rgba(143,163,200,0.12);
+  color: var(--fog);
+  padding: 0.2rem 0.5rem;
+  cursor: pointer;
+  border-radius: 2px;
+  font-family: var(--mono);
+  font-size: 0.6rem;
+  transition: color 0.2s, border-color 0.2s;
+}
+.lang-switcher button:hover {
+  border-color: rgba(79,200,168,0.3);
+  color: var(--biolum);
+}
+.lang-switcher button.active {
+  color: var(--biolum);
+  border-color: rgba(79,200,168,0.5);
+  background: rgba(79,200,168,0.1);
+}

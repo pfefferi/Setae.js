@@ -1,13 +1,28 @@
 import { useState } from 'react';
-import fauchaldKey from './data/fauchald_family_key.json';
+import fauchaldKeyEn from './data/fauchald_family_key_en.json';
+import fauchaldKeyEs from './data/fauchald_family_key_es.json';
+import en from './locales/en.json';
+import es from './locales/es.json';
 import './App.css';
 
-const TOTAL_STEPS = Object.keys(fauchaldKey).length;
+const keys = {
+  en: fauchaldKeyEn,
+  es: fauchaldKeyEs
+};
+
+const translations = {
+  en,
+  es
+};
 
 function App() {
+  const [lang, setLang] = useState('en');
   const [currentStep, setCurrentStep] = useState('1');
   const [history, setHistory] = useState([]);
 
+  const fauchaldKey = keys[lang];
+  const t = translations[lang];
+  const TOTAL_STEPS = Object.keys(fauchaldKey).length;
   const node = fauchaldKey[currentStep];
 
   const handleChoice = (opt, letter) => {
@@ -37,11 +52,13 @@ function App() {
 
   return (
     <>
-      {/* Background and particles can go here or be managed via CSS/Canvas */}
-      
       <div className="wrapper">
-        <header>
-          <h1>Fauchald Polychaeta Key</h1>
+        <header style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center' }}>
+          <h1>{t.title}</h1>
+          <div className="lang-switcher">
+            <button className={lang === 'en' ? 'active' : ''} onClick={() => setLang('en')}>EN</button>
+            <button className={lang === 'es' ? 'active' : ''} onClick={() => setLang('es')}>ES</button>
+          </div>
         </header>
 
         <div className="breadcrumb">
@@ -64,7 +81,7 @@ function App() {
           {currentStep.result ? (
             <div className="result-card">
               <div className="result-inner">
-                <div className="result-label">Result</div>
+                <div className="result-label">{t.result_label}</div>
                 <div className="result-name">{currentStep.result}</div>
                 <div className="result-divider"></div>
                 <div className="result-path">
@@ -75,13 +92,13 @@ function App() {
                     </span>
                   ))}
                 </div>
-                <button className="btn-reset" onClick={reset}>↺ &nbsp; start over</button>
+                <button className="btn-reset" onClick={reset}>↺ &nbsp; {t.start_over}</button>
               </div>
             </div>
           ) : node ? (
             <div className="step-card">
               <button className="btn-back" onClick={handleBack} disabled={history.length === 0}>
-                ← BACK
+                ← {t.back_btn}
               </button>
 
               <div className="step-meta">
@@ -103,7 +120,7 @@ function App() {
               </div>
             </div>
           ) : (
-            <div>Error: Step not found.</div>
+            <div>{t.error_not_found}</div>
           )}
         </div>
       </div>

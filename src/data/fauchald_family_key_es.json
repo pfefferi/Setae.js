@@ -1,0 +1,1224 @@
+{
+  "1": {
+    "step": "1",
+    "optionA": {
+      "text": "External segmentation and setae absent",
+      "goTo": "2",
+      "result": null
+    },
+    "optionB": {
+      "text": "External segmentation and/or setae present",
+      "goTo": "4",
+      "result": null
+    }
+  },
+  "2": {
+    "step": "2",
+    "optionA": {
+      "text": "Paired antennae on the prostomium",
+      "goTo": "3",
+      "result": null
+    },
+    "optionB": {
+      "text": "Paired antennae absent; tactile hairs along the body; small interstitial forms",
+      "goTo": null,
+      "result": "DINOPHILIDAE"
+    }
+  },
+  "3": {
+    "step": "3",
+    "optionA": {
+      "text": "Body long and slender; interstitial forms",
+      "goTo": null,
+      "result": "PROTODRILIDAE (in part)"
+    },
+    "optionB": {
+      "text": "Body short and saclike, pelagic",
+      "goTo": null,
+      "result": "POEOBIIDAE"
+    }
+  },
+  "4": {
+    "step": "4",
+    "optionA": {
+      "text": "Body a flattened disc with indistinct segmentation; ectoparasitic",
+      "goTo": null,
+      "result": "SPINTHERIDAE"
+    },
+    "optionB": {
+      "text": "Body not a flattened disc; segmentation usually distinct, if indistinct, then body clearly longer than wide",
+      "goTo": "5",
+      "result": null
+    }
+  },
+  "5": {
+    "step": "5",
+    "optionA": {
+      "text": "Dorsum with series of elytra (scales) or distinct elytral scars present at the dorsal side of notopodial bases in several segments; felt of matted notosetae may be present",
+      "goTo": "6",
+      "result": null
+    },
+    "optionB": {
+      "text": "Dorsum without elytra, elytral scars or felt",
+      "goTo": "11",
+      "result": null
+    }
+  },
+  "6": {
+    "step": "6",
+    "optionA": {
+      "text": "Neuracicula distally hammer-headed",
+      "goTo": null,
+      "result": "EULEPETHIDAE"
+    },
+    "optionB": {
+      "text": "Neuracicula distally pointed",
+      "goTo": "7",
+      "result": null
+    }
+  },
+  "7": {
+    "step": "7",
+    "optionA": {
+      "text": "Prostomium with a single median antenna; dorsum with felt, or notosetae harpoon-shaped or held erect over the dorsum",
+      "goTo": null,
+      "result": "APHRODITIDAE"
+    },
+    "optionB": {
+      "text": "Prostomium with one to three antennae; dorsum without felt; notosetae usually distinctly lateral in position, never harpoon-shaped",
+      "goTo": "8",
+      "result": null
+    }
+  },
+  "8": {
+    "step": "8",
+    "optionA": {
+      "text": "Neurosetae composite",
+      "goTo": "9",
+      "result": null
+    },
+    "optionB": {
+      "text": "Neurosetae simple",
+      "goTo": "10",
+      "result": null
+    }
+  },
+  "9": {
+    "step": "9",
+    "optionA": {
+      "text": "All posterior segments with elytra; prostomium with one to three antennae",
+      "goTo": null,
+      "result": "SIGALIONIDAE"
+    },
+    "optionB": {
+      "text": "Elytra alternate with dorsal cirri along the whole length of the body; one antenna present",
+      "goTo": null,
+      "result": "PHOLOIDIDAE"
+    }
+  },
+  "10": {
+    "step": "10",
+    "optionA": {
+      "text": "Spinning glands present; median antenna, if present, attached near the posterior or middle of the prostomium; notosetae absent",
+      "goTo": null,
+      "result": "POLYODONTIDAE"
+    },
+    "optionB": {
+      "text": "Spinning glands absent; median antenna attached at the anterior margin of the prostomium; notosetae usually present",
+      "goTo": null,
+      "result": "POLYNOIDAE"
+    }
+  },
+  "11": {
+    "step": "11",
+    "optionA": {
+      "text": "Notopodia with expanded, golden or brassy setae that more or less cover the dorsum",
+      "goTo": "12",
+      "result": null
+    },
+    "optionB": {
+      "text": "Notosetae otherwise (may be absent)",
+      "goTo": "13",
+      "result": null
+    }
+  },
+  "12": {
+    "step": "12",
+    "optionA": {
+      "text": "Prostomium with large facial tubercle and a median antenna; notosetae in rosettes",
+      "goTo": null,
+      "result": "PALMYRIDAE"
+    },
+    "optionB": {
+      "text": "Prostomium without a facial tubercle; paired lateral and a median antenna present; notosetae in transverse rows",
+      "goTo": null,
+      "result": "CHRYSOPETALIDAE"
+    }
+  },
+  "13": {
+    "step": "13",
+    "optionA": {
+      "text": "Posterior end covered ventrally by a chitinized shield",
+      "goTo": null,
+      "result": "STERNASPIDAE"
+    },
+    "optionB": {
+      "text": "Posterior end not covered by a shield",
+      "goTo": "14",
+      "result": null
+    }
+  },
+  "14": {
+    "step": "14",
+    "optionA": {
+      "text": "Prostomium completely retracted between the first parapodia which have three pairs of tentacular cirri, partially supported by acicula",
+      "goTo": null,
+      "result": "PISIONIDAE (in part)"
+    },
+    "optionB": {
+      "text": "Prostomium not completely retracted between the first parapodia which are otherwise equipped",
+      "goTo": "15",
+      "result": null
+    }
+  },
+  "15": {
+    "step": "15",
+    "optionA": {
+      "text": "Anterior end with one or several series of long, specialized setae either covering the retractable anterior end or forming an operculum or a series of long protective spines (paleae)",
+      "goTo": "16",
+      "result": null
+    },
+    "optionB": {
+      "text": "Anterior end without exceptionally long, specialized setae (NOTE: Short, strong hooks may be present)",
+      "goTo": "20",
+      "result": null
+    }
+  },
+  "16": {
+    "step": "16",
+    "optionA": {
+      "text": "Specialized setae long and chambered, forming a protective cage around the retractable anterior end; body with numerous epithelial papillae",
+      "goTo": null,
+      "result": "FLABELLIGERIDAE (part)"
+    },
+    "optionB": {
+      "text": "Specialized anterior setae do not form a protective cage; anterior end not retractable; skin-papillae few and small, or absent; setae otherwise",
+      "goTo": "17",
+      "result": null
+    }
+  },
+  "17": {
+    "step": "17",
+    "optionA": {
+      "text": "Specialized setae slender, distally curved, often spinous; prostomium with seven antennae",
+      "goTo": null,
+      "result": "ONUPHIDAE (part)"
+    },
+    "optionB": {
+      "text": "Specialized setae stout, smooth and not distally curved; prostomium without appendages or with numerous tentacles",
+      "goTo": "18",
+      "result": null
+    }
+  },
+  "18": {
+    "step": "18",
+    "optionA": {
+      "text": "Specialized setae in a transverse row; tube conical, usually formed of closely fitted sandgrains",
+      "goTo": null,
+      "result": "PECTINARIIDAE"
+    },
+    "optionB": {
+      "text": "Specialized anterior setae either as a fan-shaped group of paleae on either side of the anterior end or as an operculum to the tube",
+      "goTo": "19",
+      "result": null
+    }
+  },
+  "19": {
+    "step": "19",
+    "optionA": {
+      "text": "Specialized setae form paleae; anterior end with two to four pairs of branchiae",
+      "goTo": null,
+      "result": "AMPHARETIDAE (part)"
+    },
+    "optionB": {
+      "text": "Specialized setae form an operculum; anterior end without branchiae",
+      "goTo": null,
+      "result": "SABELLARIIDAE"
+    }
+  },
+  "20": {
+    "step": "20",
+    "optionA": {
+      "text": "Anterior end, including in part the prostomium, transformed into a tentacular crown",
+      "goTo": "21",
+      "result": null
+    },
+    "optionB": {
+      "text": "Anterior end not transformed into a tentacular crown (NOTE: Antennae and tentacular cirri may be crowded near the anterior end)",
+      "goTo": "25",
+      "result": null
+    }
+  },
+  "21": {
+    "step": "21",
+    "optionA": {
+      "text": "Tube calcareous; thoracic membrane present",
+      "goTo": "22",
+      "result": null
+    },
+    "optionB": {
+      "text": "Tube mucoid or horny, often covered with sand-grains; thoracal membrane absent",
+      "goTo": "23",
+      "result": null
+    }
+  },
+  "22": {
+    "step": "22",
+    "optionA": {
+      "text": "Tube irregularly twisted or straight, sometimes coiled near base; body symmetrical; more than four thoracic setigers",
+      "goTo": null,
+      "result": "SERPULIDAE"
+    },
+    "optionB": {
+      "text": "Tube completely coiled; body asymmetrical; four thoracic setigers present",
+      "goTo": null,
+      "result": "SPIRORBIDAE (Usually considered a sub-family of the SERPULIDAE)"
+    }
+  },
+  "23": {
+    "step": "23",
+    "optionA": {
+      "text": "Parapodia with uncini in one or a few distinct rows; tentacular crown with smooth or pennate radioles",
+      "goTo": "24",
+      "result": null
+    },
+    "optionB": {
+      "text": "Small uncini massed in dense fields in the neuropodia only; short tentacular crown with branching tentacles",
+      "goTo": null,
+      "result": "OWENIIDAE (part)"
+    }
+  },
+  "24": {
+    "step": "24",
+    "optionA": {
+      "text": "Digestive tract recurved with anus far anteriorly; thorax without hooks except in the first setiger",
+      "goTo": null,
+      "result": "CAOBANGIIDAE"
+    },
+    "optionB": {
+      "text": "Digestive tract straight with far posterior or terminal anus; thorax with hooks in most setigers",
+      "goTo": null,
+      "result": "SABELLIDAE"
+    }
+  },
+  "25": {
+    "step": "25",
+    "optionA": {
+      "text": "Setiger 4 with one or a few thick spines; some median parapodia strongly modified, usually fan-shaped; tubes parchmentlike, or, if horny, distinctly annulated",
+      "goTo": null,
+      "result": "CHAETOPTERIDAE"
+    },
+    "optionB": {
+      "text": "Setiger 4 without thick spines (NOTE: Other setigers may have modified setae); no parapodia fan-shaped; tubes never parchmentlike, if horny, then without annulations",
+      "goTo": "26",
+      "result": null
+    }
+  },
+  "26": {
+    "step": "26",
+    "optionA": {
+      "text": "Numerous tentacles on the lower side of the prostomium or on the peristomium; branchiae, if present, limited to a few pairs of anterior setigers",
+      "goTo": "27",
+      "result": null
+    },
+    "optionB": {
+      "text": "Anterior end with a limited (10 or fewer pairs, usually) number of antennae and tentacular cirri, or without appendages",
+      "goTo": "29",
+      "result": null
+    }
+  },
+  "27": {
+    "step": "27",
+    "optionA": {
+      "text": "Branchiae in a transverse or oblique row or grouped in two groups on either side of the anterior dorsum, usually digitiform and smooth, more rarely bipinnate or lamellate (NOTE: Branchiae are often lost, but scars remain); buccal tentacles retractable; uncini with teeth in one or a few rows",
+      "goTo": null,
+      "result": "AMPHARETIDAE (part)"
+    },
+    "optionB": {
+      "text": "Branchiae, if present, on two-three successive segments, stalked or sessile, branched or as numerous filaments, rarely smooth; buccal tentacles non-retractable; uncini with several teeth in one or more transverse rows above the main fang (crested)",
+      "goTo": "28",
+      "result": null
+    }
+  },
+  "28": {
+    "step": "28",
+    "optionA": {
+      "text": "Thoracic uncini long-handled, abdominal ones short-handled",
+      "goTo": null,
+      "result": "TRICHOBRANCHIDAE"
+    },
+    "optionB": {
+      "text": "Both thoracic and abdominal uncini short-handled; sometimes with a posterior prolongation in thoracic uncini",
+      "goTo": null,
+      "result": "TEREBELLIDAE"
+    }
+  },
+  "29": {
+    "step": "29",
+    "optionA": {
+      "text": "Prostomium with at least one pair of antennae; peristomium usually with paired palps or tentacular cirri",
+      "goTo": "30",
+      "result": null
+    },
+    "optionB": {
+      "text": "Prostomium without appendages or with a single antenna; peristomium with paired dorsal palps, maximally two pairs of tentacular cirri or without appendages",
+      "goTo": "58",
+      "result": null
+    }
+  },
+  "30": {
+    "step": "30",
+    "optionA": {
+      "text": "Prostomium continued posteriorly in a caruncle; large notosetae furcate; others smooth or serrated",
+      "goTo": "31",
+      "result": null
+    },
+    "optionB": {
+      "text": "Caruncle absent; furcate notosetae, if present, small, or furcate setae only kind of setae present",
+      "goTo": "32",
+      "result": null
+    }
+  },
+  "31": {
+    "step": "31",
+    "optionA": {
+      "text": "Notosetae arranged in transverse rows on dorsum; branchiae shorter than setae",
+      "goTo": null,
+      "result": "EUPHROSINIDAE"
+    },
+    "optionB": {
+      "text": "Notosetae in tufts on the notopodial lobes; branchiae conspicuous branching tufts",
+      "goTo": null,
+      "result": "AMPHINOMIDAE"
+    }
+  },
+  "32": {
+    "step": "32",
+    "optionA": {
+      "text": "Palps absent",
+      "goTo": "33",
+      "result": null
+    },
+    "optionB": {
+      "text": "Palps present, sometimes as ventrolateral pads on the peristomium or fused to the anterior end of the prostomium so that the latter appear cleft, but usually free and digitate",
+      "goTo": "49",
+      "result": null
+    }
+  },
+  "33": {
+    "step": "33",
+    "optionA": {
+      "text": "Setae absent; acicula present only in the prolonged acicular lobes of the second segment (first segment in juveniles); otherwise absent",
+      "goTo": null,
+      "result": "TOMOPTERIDAE"
+    },
+    "optionB": {
+      "text": "Setae or acicula or both present in most segments",
+      "goTo": "34",
+      "result": null
+    }
+  },
+  "34": {
+    "step": "34",
+    "optionA": {
+      "text": "Prostomium long and conical; usually annulated, with two pairs of antennae at the tip",
+      "goTo": "35",
+      "result": null
+    },
+    "optionB": {
+      "text": "Prostomium no more than twice as long as wide, never annulated; antennae long or short",
+      "goTo": "36",
+      "result": null
+    }
+  },
+  "35": {
+    "step": "35",
+    "optionA": {
+      "text": "Eversible pharynx with four jaws in a cross; parapodia either all uniramous or all biramous",
+      "goTo": null,
+      "result": "GLYCERIDAE"
+    },
+    "optionB": {
+      "text": "Eversible pharynx with more than four jaws; parapodia uniramous anteriorly and biramous posteriorly",
+      "goTo": null,
+      "result": "GONIADIDAE"
+    }
+  },
+  "36": {
+    "step": "36",
+    "optionA": {
+      "text": "Jaws present",
+      "goTo": "37",
+      "result": null
+    },
+    "optionB": {
+      "text": "Jaws absent",
+      "goTo": "40",
+      "result": null
+    }
+  },
+  "37": {
+    "step": "37",
+    "optionA": {
+      "text": "Each jaws consisting of a series of denticles in a row",
+      "goTo": null,
+      "result": "DORVILLEIDAE (part)"
+    },
+    "optionB": {
+      "text": "Each jaw consisting of a single piece",
+      "goTo": "38",
+      "result": null
+    }
+  },
+  "38": {
+    "step": "38",
+    "optionA": {
+      "text": "Four or five pairs of jaws",
+      "goTo": null,
+      "result": "LYSARETIDAE"
+    },
+    "optionB": {
+      "text": "A single pair of jaws present",
+      "goTo": "39",
+      "result": null
+    }
+  },
+  "39": {
+    "step": "39",
+    "optionA": {
+      "text": "Both composite and simple setae present, parasitic in decapod crustaceans",
+      "goTo": null,
+      "result": "IPHITIMIDAE"
+    },
+    "optionB": {
+      "text": "All setae composite, parasitic in fish",
+      "goTo": null,
+      "result": "ICHTHYOTOMIDAE"
+    }
+  },
+  "40": {
+    "step": "40",
+    "optionA": {
+      "text": "One pair of antennae; interstitial forms",
+      "goTo": null,
+      "result": "PROTODRILIDAE"
+    },
+    "optionB": {
+      "text": "More than one pair of antennae",
+      "goTo": "41",
+      "result": null
+    }
+  },
+  "41": {
+    "step": "41",
+    "optionA": {
+      "text": "Eyes larger than the rest of the prostomium, with well defined lenses and pigment layers",
+      "goTo": null,
+      "result": "ALCIOPIDAE"
+    },
+    "optionB": {
+      "text": "Eyes, if present, smaller than the prostomium proper, usually small pigment cups, but lensed eyes occur",
+      "goTo": "42",
+      "result": null
+    }
+  },
+  "42": {
+    "step": "42",
+    "optionA": {
+      "text": "Series of large epithelial capsules on the dorsum; two or three pairs of lateral antennae and one median, unpaired antenna",
+      "goTo": null,
+      "result": "SPHAERODORIDAE"
+    },
+    "optionB": {
+      "text": "Epithelial capsules absent (NOTE: Dorsal cirri of phyllodocids may be inflated, but are associated with the parapodia rather than situated on the dorsum)",
+      "goTo": "43",
+      "result": null
+    }
+  },
+  "43": {
+    "step": "43",
+    "optionA": {
+      "text": "Dorsal cirri large and foliose",
+      "goTo": null,
+      "result": "PHYLLODOCIDAE"
+    },
+    "optionB": {
+      "text": "Dorsal cirri, if present, cirriform",
+      "goTo": "44",
+      "result": null
+    }
+  },
+  "44": {
+    "step": "44",
+    "optionA": {
+      "text": "Setae absent; with a few pairs of appendages anteriorly and posteriorly, parasitic in lobsters",
+      "goTo": null,
+      "result": "HISTRIOBDELLIDAE"
+    },
+    "optionB": {
+      "text": "Setae present; several pairs of appendages along the body",
+      "goTo": "45",
+      "result": null
+    }
+  },
+  "45": {
+    "step": "45",
+    "optionA": {
+      "text": "All setae composite, pelagic",
+      "goTo": null,
+      "result": "LOPADORHYNCHIDAE"
+    },
+    "optionB": {
+      "text": "At least some setae simple, benthic or parasitic forms",
+      "goTo": "46",
+      "result": null
+    }
+  },
+  "46": {
+    "step": "46",
+    "optionA": {
+      "text": "With ciliary bands on the dorsum of each segment in addition to a large ciliary organ on the prostomium; minute interstitial forms",
+      "goTo": null,
+      "result": "NERILLIDAE"
+    },
+    "optionB": {
+      "text": "External ciliation limited mostly to small patches in sensory and respiratory organs, small or large forms",
+      "goTo": "47",
+      "result": null
+    }
+  },
+  "47": {
+    "step": "47",
+    "optionA": {
+      "text": "Five prostomial antennae, inquilines in bivalved mollusks",
+      "goTo": null,
+      "result": "ANTONBRUUNIDAE"
+    },
+    "optionB": {
+      "text": "Four antennae, free-living benthic forms",
+      "goTo": "48",
+      "result": null
+    }
+  },
+  "48": {
+    "step": "48",
+    "optionA": {
+      "text": "Interramal cirri between the noto- and neuropodia in most forms, all setae simple",
+      "goTo": null,
+      "result": "NEPHTYIDAE"
+    },
+    "optionB": {
+      "text": "Interramal cirri absent; notosetae simple, neurosetae composite",
+      "goTo": null,
+      "result": "LACYDONIIDAE"
+    }
+  },
+  "49": {
+    "step": "49",
+    "optionA": {
+      "text": "Palps bi- or multiarticulated",
+      "goTo": "50",
+      "result": null
+    },
+    "optionB": {
+      "text": "Palps simple, sometimes fused to the prostomium so the latter appears cleft or forming ventrolateral pads on the peristomium",
+      "goTo": "52",
+      "result": null
+    }
+  },
+  "50": {
+    "step": "50",
+    "optionA": {
+      "text": "Palps multiarticulated; tentacular cirri absent",
+      "goTo": null,
+      "result": "DORVILLEIDAE (part)"
+    },
+    "optionB": {
+      "text": "Palps biarticulated; at least one pair of tentacular cirri",
+      "goTo": "51",
+      "result": null
+    }
+  },
+  "51": {
+    "step": "51",
+    "optionA": {
+      "text": "Pharynx with paired jaws; paragnaths or soft papillae or both on the surface of the everted pharynx or pharynx smooth, parapodia usually biramous",
+      "goTo": null,
+      "result": "NEREIDAE"
+    },
+    "optionB": {
+      "text": "Pharynx usually without jaws; paragnaths or pharyngeal papillae always absent; everted pharynx often with a circlet of distal papillae or lappets, parapodia often sub-biramous or uniramous",
+      "goTo": null,
+      "result": "HESIONIDAE"
+    }
+  },
+  "52": {
+    "step": "52",
+    "optionA": {
+      "text": "Palps ventrolateral pads on the peristomium; five occipital and two frontal antennae",
+      "goTo": null,
+      "result": "ONUPHIDAE (part)"
+    },
+    "optionB": {
+      "text": "Palps either fused anteriorly to the prostomium or as free ventrolateral projections; maximally five antennae",
+      "goTo": "53",
+      "result": null
+    }
+  },
+  "53": {
+    "step": "53",
+    "optionA": {
+      "text": "Palps free ventrolateral projections, sometimes fused to each other",
+      "goTo": "54",
+      "result": null
+    },
+    "optionB": {
+      "text": "Palps fused to the prostomium so that the latter appears anteriorly cleft",
+      "goTo": "57",
+      "result": null
+    }
+  },
+  "54": {
+    "step": "54",
+    "optionA": {
+      "text": "Prostomium longer than wide, with a pair of antennae at the tip",
+      "goTo": null,
+      "result": "PISIONIDAE (part)"
+    },
+    "optionB": {
+      "text": "Prostomium no longer than wide (NOTE: Fused palps may make it appear longer than it is)",
+      "goTo": "55",
+      "result": null
+    }
+  },
+  "55": {
+    "step": "55",
+    "optionA": {
+      "text": "Jaws present",
+      "goTo": null,
+      "result": "DORVILLEIDAE (part)"
+    },
+    "optionB": {
+      "text": "Jaws absent",
+      "goTo": "56",
+      "result": null
+    }
+  },
+  "56": {
+    "step": "56",
+    "optionA": {
+      "text": "Parapodia strongly prolonged, with long supportive acicula; anterior part of the digestive tract not visibly separated into distinct parts, pelagic",
+      "goTo": null,
+      "result": "PONTODORIDAE"
+    },
+    "optionB": {
+      "text": "Parapodia not strongly prolonged; acicula short; anterior part of the digestive tract with a visible proventriculus in most species",
+      "goTo": null,
+      "result": "SYLLIDAE"
+    }
+  },
+  "57": {
+    "step": "57",
+    "optionA": {
+      "text": "Eversible pharynx, if present, unarmed",
+      "goTo": null,
+      "result": "PILARGIIDAE"
+    },
+    "optionB": {
+      "text": "Eversible pharynx with four pairs of upper and one pair of lower jaws",
+      "goTo": null,
+      "result": "EUNICIDAE"
+    }
+  },
+  "58": {
+    "step": "58",
+    "optionA": {
+      "text": "Anterior end, including both pro- and peristomium without appendages (NOTE: Appendages may be present on some anterior setigers)",
+      "goTo": "59",
+      "result": null
+    },
+    "optionB": {
+      "text": "Prostomium with a single median antenna, or peristomium with paired palps or tentacular cirri or both pro- and peristomium equipped as indicated",
+      "goTo": "85",
+      "result": null
+    }
+  },
+  "59": {
+    "step": "59",
+    "optionA": {
+      "text": "Paired palps on the first or one of the first postperistomial segments",
+      "goTo": "60",
+      "result": null
+    },
+    "optionB": {
+      "text": "Paired palps absent",
+      "goTo": "61",
+      "result": null
+    }
+  },
+  "60": {
+    "step": "60",
+    "optionA": {
+      "text": "Both composite falcigers and simple setae present",
+      "goTo": null,
+      "result": "ACROCIRRIDAE (part)"
+    },
+    "optionB": {
+      "text": "All setae simple, distally curved or straight, sometimes acicular",
+      "goTo": null,
+      "result": "CIRRATULIDAE (part)"
+    }
+  },
+  "61": {
+    "step": "61",
+    "optionA": {
+      "text": "With a single mid-dorsal palp on one of the first setigers (setigers 3-6 usually)",
+      "goTo": null,
+      "result": "COSSURIDAE"
+    },
+    "optionB": {
+      "text": "Mid-dorsal palp absent",
+      "goTo": "62",
+      "result": null
+    }
+  },
+  "62": {
+    "step": "62",
+    "optionA": {
+      "text": "With series of long, slender branchial filaments and tentacular and dorsal cirri along the body (often lost, scars remain)",
+      "goTo": null,
+      "result": "CIRRATULIDAE (part)"
+    },
+    "optionB": {
+      "text": "Branchial filaments and tentacular cirri absent or limited to a few segments",
+      "goTo": "63",
+      "result": null
+    }
+  },
+  "63": {
+    "step": "63",
+    "optionA": {
+      "text": "Parapodia strongly reduced so that the setae appear sessile on the body-wall; all setae simple, true capillary setae absent",
+      "goTo": "64",
+      "result": null
+    },
+    "optionB": {
+      "text": "Parapodia usually well developed or at least present as low folds; setae usually of several different kinds, including in most cases true capillary setae",
+      "goTo": "68",
+      "result": null
+    }
+  },
+  "64": {
+    "step": "64",
+    "optionA": {
+      "text": "Thorax with series of long dorsal cirri supported by acicula",
+      "goTo": null,
+      "result": "PSAMMODRILIDAE"
+    },
+    "optionB": {
+      "text": "Body usually not clearly regionated; apart from papillae and reduced parapodia, other appendages absent",
+      "goTo": "65",
+      "result": null
+    }
+  },
+  "65": {
+    "step": "65",
+    "optionA": {
+      "text": "At least some setae with an internal structure of small chambers",
+      "goTo": null,
+      "result": "FLABELLIGERIDAE (part)"
+    },
+    "optionB": {
+      "text": "No setae chambered",
+      "goTo": "66",
+      "result": null
+    }
+  },
+  "66": {
+    "step": "66",
+    "optionA": {
+      "text": "With a papilla between the rami of each parapodium; setae smooth and slightly recurved",
+      "goTo": null,
+      "result": "FAUVELIOPSIDAE"
+    },
+    "optionB": {
+      "text": "Without papillae between the rami; setae otherwise",
+      "goTo": "67",
+      "result": null
+    }
+  },
+  "67": {
+    "step": "67",
+    "optionA": {
+      "text": "Setae in four fascicles on each segment (biramous condition)",
+      "goTo": null,
+      "result": "CTENODRILIDAE"
+    },
+    "optionB": {
+      "text": "Setae in two fascicles on each segment (uniramous condition)",
+      "goTo": null,
+      "result": "PARERGODRILIDAE"
+    }
+  },
+  "68": {
+    "step": "68",
+    "optionA": {
+      "text": "Prostomium an oblique plaque, usually bordered by a flange",
+      "goTo": "69",
+      "result": null
+    },
+    "optionB": {
+      "text": "Prostomium pointed, rounded or blunt",
+      "goTo": "70",
+      "result": null
+    }
+  },
+  "69": {
+    "step": "69",
+    "optionA": {
+      "text": "Setae include anterior spines, rostrate long-shafted uncini and spinose or smooth capillaries; segments usually elongated (bamboo-worms)",
+      "goTo": null,
+      "result": "MALDANIDAE"
+    },
+    "optionB": {
+      "text": "Setae include bilimbate and spatulate kinds, long-handled uncini and companion-setae; segments not prolonged",
+      "goTo": null,
+      "result": "SABELLONGIDAE"
+    }
+  },
+  "70": {
+    "step": "70",
+    "optionA": {
+      "text": "Body separated into two regions with different kinds of setae in a thoracic and abdominal region (NOTE: Regions may sometimes also be definable on parapodial features)",
+      "goTo": "71",
+      "result": null
+    },
+    "optionB": {
+      "text": "Body not separated into regions; setal distribution and parapodial shapes grade along the body",
+      "goTo": "73",
+      "result": null
+    }
+  },
+  "71": {
+    "step": "71",
+    "optionA": {
+      "text": "Thorax with lateral parapodia, abdomen with both noto- and neuropodia in dorsal positions",
+      "goTo": null,
+      "result": "ORBINIIDAE"
+    },
+    "optionB": {
+      "text": "Parapodia lateral in all parts of the body; notopodia often reduced in posterior segments and neuropodia may form nearly complete cinctures",
+      "goTo": "72",
+      "result": null
+    }
+  },
+  "72": {
+    "step": "72",
+    "optionA": {
+      "text": "Slender capillary setae in thorax and sometimes in the first few abdominal segments only; branchiae, if present, retractable filaments on the abdomen",
+      "goTo": null,
+      "result": "CAPITELLIDAE"
+    },
+    "optionB": {
+      "text": "Slender capillary setae present on anterior, median and sometimes posterior parts of the body, including the branchial region; branchiae non-retractable, bushy or simple filaments",
+      "goTo": null,
+      "result": "ARENICOLIDAE"
+    }
+  },
+  "73": {
+    "step": "73",
+    "optionA": {
+      "text": "Anterior end with complex jaw-apparatus",
+      "goTo": "74",
+      "result": null
+    },
+    "optionB": {
+      "text": "Jaw-apparatus absent",
+      "goTo": "76",
+      "result": null
+    }
+  },
+  "74": {
+    "step": "74",
+    "optionA": {
+      "text": "Each jaw consisting of a series of small denticles",
+      "goTo": null,
+      "result": "DORVILLEIDAE"
+    },
+    "optionB": {
+      "text": "Each jaw consisting of a single piece",
+      "goTo": "75",
+      "result": null
+    }
+  },
+  "75": {
+    "step": "75",
+    "optionA": {
+      "text": "Hooded hooks present in at least some setigers; one pair of maxillary carriers",
+      "goTo": null,
+      "result": "LUMBRINERIDAE"
+    },
+    "optionB": {
+      "text": "Hooded hooks absent; three maxillary carriers",
+      "goTo": null,
+      "result": "ARABELLIDAE"
+    }
+  },
+  "76": {
+    "step": "76",
+    "optionA": {
+      "text": "Branchiae present on maximally 15-20 segments, starting from one of setigers 4-10",
+      "goTo": null,
+      "result": "PARAONIDAE (part)"
+    },
+    "optionB": {
+      "text": "Branchiae, if present, either limited to the extreme anterior end, or found scattered over a large part of the body",
+      "goTo": "77",
+      "result": null
+    }
+  },
+  "77": {
+    "step": "77",
+    "optionA": {
+      "text": "Setae include anterior spines, rostrate long-shafted uncini and spinose or smooth capillaries; segments usually elongated (bamboo-worms)",
+      "goTo": null,
+      "result": "MALDANIDAE"
+    },
+    "optionB": {
+      "text": "Setal distribution otherwise; segments rarely elongated",
+      "goTo": "78",
+      "result": null
+    }
+  },
+  "78": {
+    "step": "78",
+    "optionA": {
+      "text": "Setae include simple capillaries and simple bifid falcigers in both noto- and neuropodia in a long region of the body",
+      "goTo": null,
+      "result": "QUESTIDAE"
+    },
+    "optionB": {
+      "text": "Simple bifid falcigers absent",
+      "goTo": "79",
+      "result": null
+    }
+  },
+  "79": {
+    "step": "79",
+    "optionA": {
+      "text": "Prostomium an elongated cone, usually more than twice as long as wide, nearly always articulated",
+      "goTo": "80",
+      "result": null
+    },
+    "optionB": {
+      "text": "Prostomium less than twice as long as wide, may be bluntly conical, rounded or truncate, never articulated",
+      "goTo": "81",
+      "result": null
+    }
+  },
+  "80": {
+    "step": "80",
+    "optionA": {
+      "text": "Eversible pharynx with four jaws; parapodia either all uniramous or all biramous",
+      "goTo": null,
+      "result": "GLYCERIDAE (part)"
+    },
+    "optionB": {
+      "text": "Eversible pharynx with more than four jaws; anterior parapodia uniramous, posterior ones biramous",
+      "goTo": null,
+      "result": "GONIADIDAE"
+    }
+  },
+  "81": {
+    "step": "81",
+    "optionA": {
+      "text": "Parapodia rounded lobes with large, easily dehiscent cirri; pelagic",
+      "goTo": null,
+      "result": "TYPHLOSCOLECIDAE"
+    },
+    "optionB": {
+      "text": "Parapodia low folds or blunt, button-shaped projections; cirri, if present, cirriform",
+      "goTo": "82",
+      "result": null
+    }
+  },
+  "82": {
+    "step": "82",
+    "optionA": {
+      "text": "Composite falcigers present in anterior setigers",
+      "goTo": null,
+      "result": "ACROCIRRIDAE (part)"
+    },
+    "optionB": {
+      "text": "All setae simple",
+      "goTo": "83",
+      "result": null
+    }
+  },
+  "83": {
+    "step": "83",
+    "optionA": {
+      "text": "Neurosetae uncinal in structure",
+      "goTo": null,
+      "result": "BOGUEIDAE"
+    },
+    "optionB": {
+      "text": "Uncini absent",
+      "goTo": "84",
+      "result": null
+    }
+  },
+  "84": {
+    "step": "84",
+    "optionA": {
+      "text": "All setae simple capillaries; branchiae cirriform, pectinate or absent; prostomium entire, pointed or rounded",
+      "goTo": null,
+      "result": "OPHELIIDAE"
+    },
+    "optionB": {
+      "text": "Furcate and acicular setae usually present; branchiae, if present, limited to the anterior end and strongly arborescent; prostomium T-shaped or bifid",
+      "goTo": null,
+      "result": "SCALIBREGMIDAE"
+    }
+  },
+  "85": {
+    "step": "85",
+    "optionA": {
+      "text": "Prostomium with a median antenna",
+      "goTo": "86",
+      "result": null
+    },
+    "optionB": {
+      "text": "Prostomium without appendages",
+      "goTo": "88",
+      "result": null
+    }
+  },
+  "86": {
+    "step": "86",
+    "optionA": {
+      "text": "Branchiae present on maximally 15-20 segments first starting from one of setigers 4-10",
+      "goTo": null,
+      "result": "PARAONIDAE (part)"
+    },
+    "optionB": {
+      "text": "Branchial distribution otherwise or branchiae absent",
+      "goTo": "87",
+      "result": null
+    }
+  },
+  "87": {
+    "step": "87",
+    "optionA": {
+      "text": "Notopodial cirri flask-shaped in some setigers, plumose setae present",
+      "goTo": null,
+      "result": "POECILOCHAETIDAE"
+    },
+    "optionB": {
+      "text": "Notopodial cirri cirriform or foliose, plumose setae absent",
+      "goTo": null,
+      "result": "SPIONIDAE (part)"
+    }
+  },
+  "88": {
+    "step": "88",
+    "optionA": {
+      "text": "With two pairs of tentacular cirri; setae composite",
+      "goTo": "89",
+      "result": null
+    },
+    "optionB": {
+      "text": "Without tentacular cirri; setae simple",
+      "goTo": "90",
+      "result": null
+    }
+  },
+  "89": {
+    "step": "89",
+    "optionA": {
+      "text": "Setal appendages long and slender; pelagic",
+      "goTo": null,
+      "result": "IOSPILIDAE"
+    },
+    "optionB": {
+      "text": "Setal appendages short; parasitic",
+      "goTo": null,
+      "result": "CALAMYZIDAE"
+    }
+  },
+  "90": {
+    "step": "90",
+    "optionA": {
+      "text": "With multiple series of small, long-shafted uncini in the neuropodia",
+      "goTo": null,
+      "result": "OWENIIDAE (part)"
+    },
+    "optionB": {
+      "text": "Uncini in single rows or absent",
+      "goTo": "91",
+      "result": null
+    }
+  },
+  "91": {
+    "step": "91",
+    "optionA": {
+      "text": "Prostomium flattened and spatulate; as wide as the widest part of the body",
+      "goTo": null,
+      "result": "MAGELONIDAE"
+    },
+    "optionB": {
+      "text": "Prostomium not flattened; distinctly narrower than the widest part of the body",
+      "goTo": "92",
+      "result": null
+    }
+  },
+  "92": {
+    "step": "92",
+    "optionA": {
+      "text": "Parapodia inconspicuous; abdominal segments prolonged with setae forming complete cinctures around the body",
+      "goTo": null,
+      "result": "HETEROSPIONIDAE"
+    },
+    "optionB": {
+      "text": "Parapodia well developed; abdominal segments usually not prolonged; setae limited to lateral tufts",
+      "goTo": "93",
+      "result": null
+    }
+  },
+  "93": {
+    "step": "93",
+    "optionA": {
+      "text": "All parapodia biramous, except possibly the first one",
+      "goTo": "94",
+      "result": null
+    },
+    "optionB": {
+      "text": "Median parapodia uniramous",
+      "goTo": null,
+      "result": "TROCHOCHAETIDAE"
+    }
+  },
+  "94": {
+    "step": "94",
+    "optionA": {
+      "text": "Uncini absent; notopodia with acicula, but without setae; true branchiae absent",
+      "goTo": null,
+      "result": "APISTOBRANCHIDAE"
+    },
+    "optionB": {
+      "text": "Uncini normally present, at least in the neuropodia; notopodia with setae in addition to acicula; branchiae present or absent",
+      "goTo": null,
+      "result": "SPIONIDAE (part)"
+    }
+  }
+}
