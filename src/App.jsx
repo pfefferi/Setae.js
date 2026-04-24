@@ -238,10 +238,10 @@ function App() {
                         borderRadius: '4px',
                         fontSize: '0.9rem'
                       }}>
-                        <span style={{ color: 'orange', fontWeight: 'bold' }}>⚠️ Name update: </span>
+                        <span style={{ color: 'orange', fontWeight: 'bold' }}>{t.worms_update} </span>
                         <br />
-                        This name is considered <i>{wormsData.reason}</i>.<br/>
-                        Currently accepted name: <strong>{wormsData.validName}</strong>
+                        {t.worms_reason} <i>{wormsData.reason}</i>.<br/>
+                        {t.worms_accepted} <strong>{wormsData.validName}</strong>
                       </div>
                     )}
                     <div className="result-name">
@@ -328,10 +328,10 @@ function App() {
                       borderRadius: '4px',
                       fontSize: '0.9rem'
                     }}>
-                      <span style={{ color: 'orange', fontWeight: 'bold' }}>⚠️ Name update: </span>
+                      <span style={{ color: 'orange', fontWeight: 'bold' }}>{t.worms_update} </span>
                       <br />
-                      This name is considered <i>{listWormsData[taxon.split(' ')[0]].reason}</i>.<br/>
-                      Currently accepted name: <strong>{listWormsData[taxon.split(' ')[0]].validName}</strong>
+                      {t.worms_reason} <i>{listWormsData[taxon.split(' ')[0]].reason}</i>.<br/>
+                      {t.worms_accepted} <strong>{listWormsData[taxon.split(' ')[0]].validName}</strong>
                     </div>
                   )}
                   {taxaPaths[taxon].map((path, pathIdx) => (
@@ -344,7 +344,7 @@ function App() {
                       ))}
                       {pathIdx < taxaPaths[taxon].length - 1 && (
                         <div style={{ margin: '1rem 0', color: 'var(--fog)', fontStyle: 'italic', fontSize: '0.8rem', textAlign: 'center' }}>
-                          — OR —
+                          {t.list_or}
                         </div>
                       )}
                     </div>
@@ -364,7 +364,7 @@ function App() {
                         letterSpacing: '0.05em'
                       }}
                     >
-                      View on WoRMS →
+                      {t.worms_view}
                     </a>
                   </div>
                 </div>

@@ -5,5 +5,10 @@
   "back_btn": "VOLVER",
   "error_not_found": "Error: Paso no encontrado.",
   "mode_key": "Clave Dicotómica",
-  "mode_list": "Lista de Taxones"
+  "mode_list": "Lista de Taxones",
+  "worms_update": "⚠️ Actualización de nombre:",
+  "worms_reason": "Este nombre se considera",
+  "worms_accepted": "Nombre actualmente aceptado:",
+  "worms_view": "Ver en WoRMS →",
+  "list_or": "— O —"
 }

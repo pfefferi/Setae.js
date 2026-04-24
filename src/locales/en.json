@@ -5,5 +5,10 @@
   "back_btn": "BACK",
   "error_not_found": "Error: Step not found.",
   "mode_key": "Dichotomous Key",
-  "mode_list": "Taxa List"
+  "mode_list": "Taxa List",
+  "worms_update": "⚠️ Name update:",
+  "worms_reason": "This name is considered",
+  "worms_accepted": "Currently accepted name:",
+  "worms_view": "View on WoRMS →",
+  "list_or": "— OR —"
 }
