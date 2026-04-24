@@ -19,6 +19,7 @@ function App() {
   const [lang, setLang] = useState('en');
   const [currentStep, setCurrentStep] = useState('1');
   const [history, setHistory] = useState([]);
+  const [taxonImage, setTaxonImage] = useState(null);
 
   const fauchaldKey = keys[lang];
   const t = translations[lang];
@@ -30,8 +31,22 @@ function App() {
 
     if (opt.result) {
       setCurrentStep({ result: opt.result });
+      fetchTaxonImage(opt.result.split(' ')[0]);
     } else if (opt.goTo) {
       setCurrentStep(String(opt.goTo));
+    }
+  };
+
+  const fetchTaxonImage = async (familyName) => {
+    setTaxonImage(null);
+    try {
+      const res = await fetch(`https://api.inaturalist.org/v1/taxa?q=${familyName}`);
+      const data = await res.json();
+      if (data.results && data.results.length > 0 && data.results[0].default_photo) {
+        setTaxonImage(data.results[0].default_photo.medium_url);
+      }
+    } catch (e) {
+      console.error('Failed to fetch taxon image:', e);
     }
   };
 
@@ -41,11 +56,13 @@ function App() {
     const last = newHistory.pop();
     setHistory(newHistory);
     setCurrentStep(last.step);
+    setTaxonImage(null);
   };
 
   const reset = () => {
     setCurrentStep('1');
     setHistory([]);
+    setTaxonImage(null);
   };
 
   const depth = currentStep.result ? 100 : Math.round((history.length / TOTAL_STEPS) * 90);
@@ -91,6 +108,20 @@ function App() {
             <div className="result-card">
               <div className="result-inner">
                 <div className="result-label">{t.result_label}</div>
+                {taxonImage && (
+                  <div className="result-image" style={{ marginBottom: '1.5rem' }}>
+                    <img 
+                      src={taxonImage} 
+                      alt={currentStep.result} 
+                      style={{ 
+                        maxWidth: '200px', 
+                        borderRadius: '4px', 
+                        boxShadow: '0 4px 12px rgba(0,0,0,0.5)',
+                        border: '1px solid rgba(79,200,168,0.2)'
+                      }} 
+                    />
+                  </div>
+                )}
                 <div className="result-name">
                   <a 
                     href={`https://www.marinespecies.org/aphia.php?p=taxlist&tName=${currentStep.result.split(' ')[0]}`} 
