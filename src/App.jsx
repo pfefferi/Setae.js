@@ -20,6 +20,7 @@ function App() {
   const [currentStep, setCurrentStep] = useState('1');
   const [history, setHistory] = useState([]);
   const [taxonImage, setTaxonImage] = useState(null);
+  const [wormsData, setWormsData] = useState(null);
 
   const fauchaldKey = keys[lang];
   const t = translations[lang];
@@ -30,8 +31,10 @@ function App() {
     setHistory([...history, { step: currentStep, choice: letter, text: opt.text }]);
 
     if (opt.result) {
+      const familyName = opt.result.split(' ')[0];
       setCurrentStep({ result: opt.result });
-      fetchTaxonImage(opt.result.split(' ')[0]);
+      fetchTaxonImage(familyName);
+      checkWorms(familyName);
     } else if (opt.goTo) {
       setCurrentStep(String(opt.goTo));
     }
@@ -50,6 +53,29 @@ function App() {
     }
   };
 
+  const checkWorms = async (familyName) => {
+    setWormsData(null);
+    try {
+      const res = await fetch(`https://www.marinespecies.org/rest/AphiaRecordsByName/${encodeURIComponent(familyName)}?like=false`);
+      if (res.ok) {
+        const data = await res.json();
+        if (data && data.length > 0) {
+          const record = data[0];
+          // We only care if it's an unaccepted name (where valid_name differs from the provided scientificname/family)
+          if (record.status !== 'accepted' && record.valid_name) {
+            setWormsData({
+              status: record.status,
+              validName: record.valid_name,
+              reason: record.unacceptreason || record.status
+            });
+          }
+        }
+      }
+    } catch (e) {
+      console.error('Failed to query WoRMS:', e);
+    }
+  };
+
   const handleBack = () => {
     if (history.length === 0) return;
     const newHistory = [...history];
@@ -57,12 +83,14 @@ function App() {
     setHistory(newHistory);
     setCurrentStep(last.step);
     setTaxonImage(null);
+    setWormsData(null);
   };
 
   const reset = () => {
     setCurrentStep('1');
     setHistory([]);
     setTaxonImage(null);
+    setWormsData(null);
   };
 
   const depth = currentStep.result ? 100 : Math.round((history.length / TOTAL_STEPS) * 90);
@@ -120,6 +148,21 @@ function App() {
                         border: '1px solid rgba(79,200,168,0.2)'
                       }} 
                     />
+                  </div>
+                )}
+                {wormsData && (
+                  <div className="worms-update" style={{
+                    marginBottom: '1rem',
+                    padding: '0.75rem',
+                    backgroundColor: 'rgba(255, 165, 0, 0.1)',
+                    border: '1px solid orange',
+                    borderRadius: '4px',
+                    fontSize: '0.9rem'
+                  }}>
+                    <span style={{ color: 'orange', fontWeight: 'bold' }}>⚠️ Name update: </span>
+                    <br />
+                    This name is considered <i>{wormsData.reason}</i>.<br/>
+                    Currently accepted name: <strong>{wormsData.validName}</strong>
                   </div>
                 )}
                 <div className="result-name">
