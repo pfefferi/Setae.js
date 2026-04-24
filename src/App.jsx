@@ -79,6 +79,27 @@ function App() {
     }
   };
 
+  const renderWormsWarning = (data, isBottom = false) => {
+    if (!data || data.valid) return null;
+    return (
+      <div className="worms-update" style={{
+        marginBottom: isBottom ? '0' : '1.5rem',
+        marginTop: isBottom ? '1.5rem' : '0',
+        padding: '0.75rem',
+        backgroundColor: 'rgba(255, 165, 0, 0.1)',
+        border: '1px solid orange',
+        borderRadius: '4px',
+        fontSize: '0.9rem',
+        textAlign: 'left'
+      }}>
+        <span style={{ color: 'orange', fontWeight: 'bold' }}>{t.worms_update} </span>
+        <br />
+        {t.worms_reason} <i>{data.reason}</i>.<br/>
+        {t.worms_accepted} <strong>{data.validName}</strong>
+      </div>
+    );
+  };
+
   const checkListWorms = async (familyName) => {
     if (listWormsData[familyName]) return; // already checked
     try {
@@ -229,21 +250,7 @@ function App() {
                         />
                       </div>
                     )}
-                    {wormsData && (
-                      <div className="worms-update" style={{
-                        marginBottom: '1rem',
-                        padding: '0.75rem',
-                        backgroundColor: 'rgba(255, 165, 0, 0.1)',
-                        border: '1px solid orange',
-                        borderRadius: '4px',
-                        fontSize: '0.9rem'
-                      }}>
-                        <span style={{ color: 'orange', fontWeight: 'bold' }}>{t.worms_update} </span>
-                        <br />
-                        {t.worms_reason} <i>{wormsData.reason}</i>.<br/>
-                        {t.worms_accepted} <strong>{wormsData.validName}</strong>
-                      </div>
-                    )}
+                    {wormsData && renderWormsWarning(wormsData)}
                     <div className="result-name">
                       <a 
                         href={`https://www.marinespecies.org/aphia.php?p=taxlist&tName=${currentStep.result.split(' ')[0]}`} 
@@ -319,21 +326,7 @@ function App() {
                   <span className="taxon-list-icon">▼</span>
                 </div>
                 <div className="taxon-list-content">
-                  {listWormsData[taxon.split(' ')[0]] && !listWormsData[taxon.split(' ')[0]].valid && (
-                    <div className="worms-update" style={{
-                      marginBottom: '1.5rem',
-                      padding: '0.75rem',
-                      backgroundColor: 'rgba(255, 165, 0, 0.1)',
-                      border: '1px solid orange',
-                      borderRadius: '4px',
-                      fontSize: '0.9rem'
-                    }}>
-                      <span style={{ color: 'orange', fontWeight: 'bold' }}>{t.worms_update} </span>
-                      <br />
-                      {t.worms_reason} <i>{listWormsData[taxon.split(' ')[0]].reason}</i>.<br/>
-                      {t.worms_accepted} <strong>{listWormsData[taxon.split(' ')[0]].validName}</strong>
-                    </div>
-                  )}
+                  {listWormsData[taxon.split(' ')[0]] && !listWormsData[taxon.split(' ')[0]].valid && renderWormsWarning(listWormsData[taxon.split(' ')[0]])}
                   {taxaPaths[taxon].map((path, pathIdx) => (
                     <div key={pathIdx} style={{ marginBottom: pathIdx < taxaPaths[taxon].length - 1 ? '2rem' : '0' }}>
                       {path.map((step, stepIdx) => (
@@ -349,6 +342,7 @@ function App() {
                       )}
                     </div>
                   ))}
+                  {listWormsData[taxon.split(' ')[0]] && !listWormsData[taxon.split(' ')[0]].valid && renderWormsWarning(listWormsData[taxon.split(' ')[0]], true)}
                   <div style={{ marginTop: '1.5rem', textAlign: 'right' }}>
                     <a 
                       href={`https://www.marinespecies.org/aphia.php?p=taxlist&tName=${taxon.split(' ')[0]}`} 
