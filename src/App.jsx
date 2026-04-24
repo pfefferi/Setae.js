@@ -22,6 +22,7 @@ function App() {
   const [history, setHistory] = useState([]);
   const [taxonImage, setTaxonImage] = useState(null);
   const [wormsData, setWormsData] = useState(null);
+  const [expandedTaxon, setExpandedTaxon] = useState(null); // Added for accordion state
 
   const fauchaldKey = keys[lang];
   const t = translations[lang];
@@ -140,7 +141,7 @@ function App() {
         <header style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center' }}>
           <h1>{t.title}</h1>
           <div style={{ display: 'flex', gap: '1rem', alignItems: 'center' }}>
-            <div className="mode-switcher" style={{ display: 'flex', gap: '0.5rem' }}>
+            <div className="mode-switcher">
               <button className={mode === 'key' ? 'active' : ''} onClick={() => setMode('key')}>{t.mode_key}</button>
               <button className={mode === 'list' ? 'active' : ''} onClick={() => setMode('list')}>{t.mode_list}</button>
             </div>
@@ -261,47 +262,54 @@ function App() {
             </div>
           </>
         ) : (
-          <div className="taxa-list" style={{ marginTop: '2rem' }}>
+          <div className="taxa-list" style={{ marginTop: '2rem', width: '100%', maxWidth: '760px' }}>
             {Object.keys(taxaPaths).map(taxon => (
-              <div key={taxon} className="taxon-list-card" style={{
-                backgroundColor: '#111',
-                border: '1px solid #333',
-                borderRadius: '8px',
-                padding: '1.5rem',
-                marginBottom: '1.5rem'
-              }}>
-                <h3 style={{ margin: '0 0 1rem 0', color: 'var(--biolum)', fontSize: '1.5rem' }}>
-                  <a 
-                    href={`https://www.marinespecies.org/aphia.php?p=taxlist&tName=${taxon.split(' ')[0]}`} 
-                    target="_blank" 
-                    rel="noopener noreferrer"
-                    style={{ color: 'inherit', textDecoration: 'none' }}
-                  >
-                    {taxon}
-                  </a>
-                </h3>
-                {taxaPaths[taxon].map((path, pathIdx) => (
-                  <div key={pathIdx} style={{
-                    backgroundColor: '#1a1a1a',
-                    padding: '1rem',
-                    borderRadius: '4px',
-                    marginBottom: pathIdx < taxaPaths[taxon].length - 1 ? '1rem' : '0'
-                  }}>
-                    {path.map((step, stepIdx) => (
-                      <div key={stepIdx} style={{ display: 'flex', gap: '1rem', marginBottom: '0.5rem', alignItems: 'flex-start' }}>
-                        <span style={{ 
-                          color: '#888', 
-                          minWidth: '40px', 
-                          fontFamily: 'monospace',
-                          fontSize: '0.9rem'
-                        }}>
-                          {step.step}{step.choice}
-                        </span>
-                        <span style={{ lineHeight: '1.4' }}>{step.text}</span>
-                      </div>
-                    ))}
+              <div 
+                key={taxon} 
+                className={`taxon-list-item ${expandedTaxon === taxon ? 'open' : ''}`}
+              >
+                <div 
+                  className="taxon-list-header"
+                  onClick={() => setExpandedTaxon(expandedTaxon === taxon ? null : taxon)}
+                >
+                  <h3 className="taxon-list-title">{taxon}</h3>
+                  <span className="taxon-list-icon">▼</span>
+                </div>
+                <div className="taxon-list-content">
+                  {taxaPaths[taxon].map((path, pathIdx) => (
+                    <div key={pathIdx} style={{ marginBottom: pathIdx < taxaPaths[taxon].length - 1 ? '2rem' : '0' }}>
+                      {path.map((step, stepIdx) => (
+                        <div key={stepIdx} className="taxon-path-step">
+                          <div className="taxon-path-id">{step.step}{step.choice}</div>
+                          <div className="taxon-path-text">{step.text}</div>
+                        </div>
+                      ))}
+                      {pathIdx < taxaPaths[taxon].length - 1 && (
+                        <div style={{ margin: '1rem 0', color: 'var(--fog)', fontStyle: 'italic', fontSize: '0.8rem', textAlign: 'center' }}>
+                          — OR —
+                        </div>
+                      )}
+                    </div>
+                  ))}
+                  <div style={{ marginTop: '1.5rem', textAlign: 'right' }}>
+                    <a 
+                      href={`https://www.marinespecies.org/aphia.php?p=taxlist&tName=${taxon.split(' ')[0]}`} 
+                      target="_blank" 
+                      rel="noopener noreferrer"
+                      style={{ 
+                        color: 'var(--biolum)', 
+                        textDecoration: 'none', 
+                        fontSize: '0.75rem', 
+                        fontFamily: 'var(--mono)',
+                        borderBottom: '1px dashed rgba(79,200,168,0.4)',
+                        textTransform: 'uppercase',
+                        letterSpacing: '0.05em'
+                      }}
+                    >
+                      View on WoRMS →
+                    </a>
                   </div>
-                ))}
+                </div>
               </div>
             ))}
           </div>
