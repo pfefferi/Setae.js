@@ -23,6 +23,7 @@ function App() {
   const [taxonImage, setTaxonImage] = useState(null);
   const [wormsData, setWormsData] = useState(null);
   const [expandedTaxon, setExpandedTaxon] = useState(null); // Added for accordion state
+  const [listWormsData, setListWormsData] = useState({});
 
   const fauchaldKey = keys[lang];
   const t = translations[lang];
@@ -75,6 +76,36 @@ function App() {
       }
     } catch (e) {
       console.error('Failed to query WoRMS:', e);
+    }
+  };
+
+  const checkListWorms = async (familyName) => {
+    if (listWormsData[familyName]) return; // already checked
+    try {
+      const res = await fetch(`https://www.marinespecies.org/rest/AphiaRecordsByName/${encodeURIComponent(familyName)}?like=false`);
+      if (res.ok) {
+        const data = await res.json();
+        if (data && data.length > 0) {
+          const record = data[0];
+          if (record.status !== 'accepted' && record.valid_name) {
+            setListWormsData(prev => ({
+              ...prev,
+              [familyName]: {
+                status: record.status,
+                validName: record.valid_name,
+                reason: record.unacceptreason || record.status
+              }
+            }));
+          } else {
+            setListWormsData(prev => ({
+              ...prev,
+              [familyName]: { valid: true }
+            }));
+          }
+        }
+      }
+    } catch (e) {
+      console.error('Failed to query WoRMS for list:', e);
     }
   };
 
@@ -274,6 +305,8 @@ function App() {
                     const isOpening = expandedTaxon !== taxon;
                     setExpandedTaxon(isOpening ? taxon : null);
                     if (isOpening) {
+                      const familyName = taxon.split(' ')[0];
+                      checkListWorms(familyName);
                       const el = e.currentTarget.parentElement;
                       setTimeout(() => {
                         const y = el.getBoundingClientRect().top + window.scrollY - 20;
@@ -286,6 +319,21 @@ function App() {
                   <span className="taxon-list-icon">▼</span>
                 </div>
                 <div className="taxon-list-content">
+                  {listWormsData[taxon.split(' ')[0]] && !listWormsData[taxon.split(' ')[0]].valid && (
+                    <div className="worms-update" style={{
+                      marginBottom: '1.5rem',
+                      padding: '0.75rem',
+                      backgroundColor: 'rgba(255, 165, 0, 0.1)',
+                      border: '1px solid orange',
+                      borderRadius: '4px',
+                      fontSize: '0.9rem'
+                    }}>
+                      <span style={{ color: 'orange', fontWeight: 'bold' }}>⚠️ Name update: </span>
+                      <br />
+                      This name is considered <i>{listWormsData[taxon.split(' ')[0]].reason}</i>.<br/>
+                      Currently accepted name: <strong>{listWormsData[taxon.split(' ')[0]].validName}</strong>
+                    </div>
+                  )}
                   {taxaPaths[taxon].map((path, pathIdx) => (
                     <div key={pathIdx} style={{ marginBottom: pathIdx < taxaPaths[taxon].length - 1 ? '2rem' : '0' }}>
                       {path.map((step, stepIdx) => (
