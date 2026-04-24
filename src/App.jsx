@@ -91,7 +91,17 @@ function App() {
             <div className="result-card">
               <div className="result-inner">
                 <div className="result-label">{t.result_label}</div>
-                <div className="result-name">{currentStep.result}</div>
+                <div className="result-name">
+                  <a 
+                    href={`https://www.marinespecies.org/aphia.php?p=taxlist&tName=${currentStep.result.split(' ')[0]}`} 
+                    target="_blank" 
+                    rel="noopener noreferrer"
+                    style={{ color: 'inherit', textDecoration: 'none', borderBottom: '1px dashed var(--biolum)' }}
+                    title="View on WoRMS"
+                  >
+                    {currentStep.result}
+                  </a>
+                </div>
                 <div className="result-divider"></div>
                 <div className="result-path">
                   {history.map((h, i) => (
