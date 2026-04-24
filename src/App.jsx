@@ -270,7 +270,17 @@ function App() {
               >
                 <div 
                   className="taxon-list-header"
-                  onClick={() => setExpandedTaxon(expandedTaxon === taxon ? null : taxon)}
+                  onClick={(e) => {
+                    const isOpening = expandedTaxon !== taxon;
+                    setExpandedTaxon(isOpening ? taxon : null);
+                    if (isOpening) {
+                      const el = e.currentTarget.parentElement;
+                      setTimeout(() => {
+                        const y = el.getBoundingClientRect().top + window.scrollY - 20;
+                        window.scrollTo({ top: y, behavior: 'smooth' });
+                      }, 100);
+                    }
+                  }}
                 >
                   <h3 className="taxon-list-title">{taxon}</h3>
                   <span className="taxon-list-icon">▼</span>
