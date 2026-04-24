@@ -3,5 +3,7 @@
   "result_label": "Result",
   "start_over": "start over",
   "back_btn": "BACK",
-  "error_not_found": "Error: Step not found."
+  "error_not_found": "Error: Step not found.",
+  "mode_key": "Dichotomous Key",
+  "mode_list": "Taxa List"
 }

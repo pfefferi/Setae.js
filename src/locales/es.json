@@ -3,5 +3,7 @@
   "result_label": "Resultado",
   "start_over": "empezar de nuevo",
   "back_btn": "VOLVER",
-  "error_not_found": "Error: Paso no encontrado."
+  "error_not_found": "Error: Paso no encontrado.",
+  "mode_key": "Clave Dicotómica",
+  "mode_list": "Lista de Taxones"
 }

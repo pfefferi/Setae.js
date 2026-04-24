@@ -17,6 +17,7 @@ const translations = {
 
 function App() {
   const [lang, setLang] = useState('en');
+  const [mode, setMode] = useState('key'); // 'key' or 'list'
   const [currentStep, setCurrentStep] = useState('1');
   const [history, setHistory] = useState([]);
   const [taxonImage, setTaxonImage] = useState(null);
@@ -95,123 +96,216 @@ function App() {
 
   const depth = currentStep.result ? 100 : Math.round((history.length / TOTAL_STEPS) * 90);
 
+  // Compute taxa paths for List mode
+  const getTaxaPaths = () => {
+    const paths = {};
+    const traverse = (stepId, currentPath) => {
+      const node = fauchaldKey[stepId];
+      if (!node) return;
+
+      // Check Option A
+      if (node.optionA.result) {
+        if (!paths[node.optionA.result]) paths[node.optionA.result] = [];
+        paths[node.optionA.result].push([...currentPath, { step: stepId, choice: 'A', text: node.optionA.text }]);
+      } else if (node.optionA.goTo) {
+        traverse(node.optionA.goTo, [...currentPath, { step: stepId, choice: 'A', text: node.optionA.text }]);
+      }
+
+      // Check Option B
+      if (node.optionB.result) {
+        if (!paths[node.optionB.result]) paths[node.optionB.result] = [];
+        paths[node.optionB.result].push([...currentPath, { step: stepId, choice: 'B', text: node.optionB.text }]);
+      } else if (node.optionB.goTo) {
+        traverse(node.optionB.goTo, [...currentPath, { step: stepId, choice: 'B', text: node.optionB.text }]);
+      }
+    };
+
+    traverse('1', []);
+    
+    // Sort taxa alphabetically
+    const sortedKeys = Object.keys(paths).sort();
+    const sortedPaths = {};
+    sortedKeys.forEach(k => {
+      sortedPaths[k] = paths[k];
+    });
+
+    return sortedPaths;
+  };
+
+  const taxaPaths = mode === 'list' ? getTaxaPaths() : {};
+
   return (
     <>
       <div className="wrapper">
         <header style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center' }}>
           <h1>{t.title}</h1>
-          <div className="lang-switcher">
-            <button className={lang === 'en' ? 'active' : ''} onClick={() => setLang('en')}>EN</button>
-            <button className={lang === 'es' ? 'active' : ''} onClick={() => setLang('es')}>ES</button>
+          <div style={{ display: 'flex', gap: '1rem', alignItems: 'center' }}>
+            <div className="mode-switcher" style={{ display: 'flex', gap: '0.5rem' }}>
+              <button className={mode === 'key' ? 'active' : ''} onClick={() => setMode('key')}>{t.mode_key}</button>
+              <button className={mode === 'list' ? 'active' : ''} onClick={() => setMode('list')}>{t.mode_list}</button>
+            </div>
+            <div className="lang-switcher">
+              <button className={lang === 'en' ? 'active' : ''} onClick={() => setLang('en')}>EN</button>
+              <button className={lang === 'es' ? 'active' : ''} onClick={() => setLang('es')}>ES</button>
+            </div>
           </div>
         </header>
 
-        <div className="breadcrumb">
-          <span className="crumb">{history.length === 0 ? '01' : '01'}</span>
-          {history.length > 0 && <span className="crumb-sep">·</span>}
-          {history.map((h, i) => {
-            const isActive = i === history.length - 1 && !currentStep.result;
-            const cls = isActive ? 'crumb active' : 'crumb';
-            const label = String(i + 2).padStart(2, '0') + h.choice;
-            return (
-              <span key={i}>
-                <span className={cls}>{label}</span>
-                {i < history.length - 1 && <span className="crumb-sep">·</span>}
-              </span>
-            );
-          })}
-        </div>
+        {mode === 'key' ? (
+          <>
+            <div className="breadcrumb">
+              <span className="crumb">{history.length === 0 ? '01' : '01'}</span>
+              {history.length > 0 && <span className="crumb-sep">·</span>}
+              {history.map((h, i) => {
+                const isActive = i === history.length - 1 && !currentStep.result;
+                const cls = isActive ? 'crumb active' : 'crumb';
+                const label = String(i + 2).padStart(2, '0') + h.choice;
+                return (
+                  <span key={i}>
+                    <span className={cls}>{label}</span>
+                    {i < history.length - 1 && <span className="crumb-sep">·</span>}
+                  </span>
+                );
+              })}
+            </div>
 
-        <div id="app">
-          <div className="controls-row" style={{ display: 'flex', gap: '1rem', marginBottom: '1rem' }}>
-            <button className="btn-back" onClick={handleBack} disabled={history.length === 0}>
-              ← {t.back_btn}
-            </button>
-            <button className="btn-reset-small" onClick={reset} disabled={history.length === 0}>
-              ↺ {t.start_over}
-            </button>
-          </div>
+            <div id="app">
+              <div className="controls-row" style={{ display: 'flex', gap: '1rem', marginBottom: '1rem' }}>
+                <button className="btn-back" onClick={handleBack} disabled={history.length === 0}>
+                  ← {t.back_btn}
+                </button>
+                <button className="btn-reset-small" onClick={reset} disabled={history.length === 0}>
+                  ↺ {t.start_over}
+                </button>
+              </div>
 
-          {currentStep.result ? (
-            <div className="result-card">
-              <div className="result-inner">
-                <div className="result-label">{t.result_label}</div>
-                {taxonImage && (
-                  <div className="result-image" style={{ marginBottom: '1.5rem' }}>
-                    <img 
-                      src={taxonImage} 
-                      alt={currentStep.result} 
-                      style={{ 
-                        maxWidth: '200px', 
-                        borderRadius: '4px', 
-                        boxShadow: '0 4px 12px rgba(0,0,0,0.5)',
-                        border: '1px solid rgba(79,200,168,0.2)'
-                      }} 
-                    />
+              {currentStep.result ? (
+                <div className="result-card">
+                  <div className="result-inner">
+                    <div className="result-label">{t.result_label}</div>
+                    {taxonImage && (
+                      <div className="result-image" style={{ marginBottom: '1.5rem' }}>
+                        <img 
+                          src={taxonImage} 
+                          alt={currentStep.result} 
+                          style={{ 
+                            maxWidth: '200px', 
+                            borderRadius: '4px', 
+                            boxShadow: '0 4px 12px rgba(0,0,0,0.5)',
+                            border: '1px solid rgba(79,200,168,0.2)'
+                          }} 
+                        />
+                      </div>
+                    )}
+                    {wormsData && (
+                      <div className="worms-update" style={{
+                        marginBottom: '1rem',
+                        padding: '0.75rem',
+                        backgroundColor: 'rgba(255, 165, 0, 0.1)',
+                        border: '1px solid orange',
+                        borderRadius: '4px',
+                        fontSize: '0.9rem'
+                      }}>
+                        <span style={{ color: 'orange', fontWeight: 'bold' }}>⚠️ Name update: </span>
+                        <br />
+                        This name is considered <i>{wormsData.reason}</i>.<br/>
+                        Currently accepted name: <strong>{wormsData.validName}</strong>
+                      </div>
+                    )}
+                    <div className="result-name">
+                      <a 
+                        href={`https://www.marinespecies.org/aphia.php?p=taxlist&tName=${currentStep.result.split(' ')[0]}`} 
+                        target="_blank" 
+                        rel="noopener noreferrer"
+                        style={{ color: 'inherit', textDecoration: 'none', borderBottom: '1px dashed var(--biolum)' }}
+                        title="View on WoRMS"
+                      >
+                        {currentStep.result}
+                      </a>
+                    </div>
+                    <div className="result-divider"></div>
+                    <div className="result-path">
+                      {history.map((h, i) => (
+                        <span key={i}>
+                          <span className="path-crumb">{h.choice}</span>
+                          {i < history.length - 1 && <span className="path-sep">→</span>}
+                        </span>
+                      ))}
+                    </div>
+                    <button className="btn-reset" onClick={reset}>↺ &nbsp; {t.start_over}</button>
                   </div>
-                )}
-                {wormsData && (
-                  <div className="worms-update" style={{
-                    marginBottom: '1rem',
-                    padding: '0.75rem',
-                    backgroundColor: 'rgba(255, 165, 0, 0.1)',
-                    border: '1px solid orange',
-                    borderRadius: '4px',
-                    fontSize: '0.9rem'
-                  }}>
-                    <span style={{ color: 'orange', fontWeight: 'bold' }}>⚠️ Name update: </span>
-                    <br />
-                    This name is considered <i>{wormsData.reason}</i>.<br/>
-                    Currently accepted name: <strong>{wormsData.validName}</strong>
+                </div>
+              ) : node ? (
+                <div className="step-card">
+                  <div className="step-meta">
+                    <span className="step-num">{node.step}</span>
+                    <div className="step-line"></div>
                   </div>
-                )}
-                <div className="result-name">
+
+                  <div className="options">
+                    <button className="option-btn" onClick={() => handleChoice(node.optionA, 'A')}>
+                      <span className="option-letter">A</span>
+                      <div>{node.optionA.text}</div>
+                      <span className="option-arrow">→</span>
+                    </button>
+                    <button className="option-btn" onClick={() => handleChoice(node.optionB, 'B')}>
+                      <span className="option-letter">B</span>
+                      <div>{node.optionB.text}</div>
+                      <span className="option-arrow">→</span>
+                    </button>
+                  </div>
+                </div>
+              ) : (
+                <div>{t.error_not_found}</div>
+              )}
+            </div>
+          </>
+        ) : (
+          <div className="taxa-list" style={{ marginTop: '2rem' }}>
+            {Object.keys(taxaPaths).map(taxon => (
+              <div key={taxon} className="taxon-list-card" style={{
+                backgroundColor: '#111',
+                border: '1px solid #333',
+                borderRadius: '8px',
+                padding: '1.5rem',
+                marginBottom: '1.5rem'
+              }}>
+                <h3 style={{ margin: '0 0 1rem 0', color: 'var(--biolum)', fontSize: '1.5rem' }}>
                   <a 
-                    href={`https://www.marinespecies.org/aphia.php?p=taxlist&tName=${currentStep.result.split(' ')[0]}`} 
+                    href={`https://www.marinespecies.org/aphia.php?p=taxlist&tName=${taxon.split(' ')[0]}`} 
                     target="_blank" 
                     rel="noopener noreferrer"
-                    style={{ color: 'inherit', textDecoration: 'none', borderBottom: '1px dashed var(--biolum)' }}
-                    title="View on WoRMS"
+                    style={{ color: 'inherit', textDecoration: 'none' }}
                   >
-                    {currentStep.result}
+                    {taxon}
                   </a>
-                </div>
-                <div className="result-divider"></div>
-                <div className="result-path">
-                  {history.map((h, i) => (
-                    <span key={i}>
-                      <span className="path-crumb">{h.choice}</span>
-                      {i < history.length - 1 && <span className="path-sep">→</span>}
-                    </span>
-                  ))}
-                </div>
-                <button className="btn-reset" onClick={reset}>↺ &nbsp; {t.start_over}</button>
+                </h3>
+                {taxaPaths[taxon].map((path, pathIdx) => (
+                  <div key={pathIdx} style={{
+                    backgroundColor: '#1a1a1a',
+                    padding: '1rem',
+                    borderRadius: '4px',
+                    marginBottom: pathIdx < taxaPaths[taxon].length - 1 ? '1rem' : '0'
+                  }}>
+                    {path.map((step, stepIdx) => (
+                      <div key={stepIdx} style={{ display: 'flex', gap: '1rem', marginBottom: '0.5rem', alignItems: 'flex-start' }}>
+                        <span style={{ 
+                          color: '#888', 
+                          minWidth: '40px', 
+                          fontFamily: 'monospace',
+                          fontSize: '0.9rem'
+                        }}>
+                          {step.step}{step.choice}
+                        </span>
+                        <span style={{ lineHeight: '1.4' }}>{step.text}</span>
+                      </div>
+                    ))}
+                  </div>
+                ))}
               </div>
-            </div>
-          ) : node ? (
-            <div className="step-card">
-              <div className="step-meta">
-                <span className="step-num">{node.step}</span>
-                <div className="step-line"></div>
-              </div>
-
-              <div className="options">
-                <button className="option-btn" onClick={() => handleChoice(node.optionA, 'A')}>
-                  <span className="option-letter">A</span>
-                  <div>{node.optionA.text}</div>
-                  <span className="option-arrow">→</span>
-                </button>
-                <button className="option-btn" onClick={() => handleChoice(node.optionB, 'B')}>
-                  <span className="option-letter">B</span>
-                  <div>{node.optionB.text}</div>
-                  <span className="option-arrow">→</span>
-                </button>
-              </div>
-            </div>
-          ) : (
-            <div>{t.error_not_found}</div>
-          )}
-        </div>
+            ))}
+          </div>
+        )}
       </div>
 
       <div className="depth-meter">
