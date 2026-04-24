@@ -24,6 +24,8 @@ function App() {
   const [wormsData, setWormsData] = useState(null);
   const [expandedTaxon, setExpandedTaxon] = useState(null); // Added for accordion state
   const [listWormsData, setListWormsData] = useState({});
+  const [searchQuery, setSearchQuery] = useState('');
+  const [imageFailed, setImageFailed] = useState(false);
 
   const fauchaldKey = keys[lang];
   const t = translations[lang];
@@ -45,14 +47,18 @@ function App() {
 
   const fetchTaxonImage = async (familyName) => {
     setTaxonImage(null);
+    setImageFailed(false);
     try {
       const res = await fetch(`https://api.inaturalist.org/v1/taxa?q=${familyName}`);
       const data = await res.json();
       if (data.results && data.results.length > 0 && data.results[0].default_photo) {
         setTaxonImage(data.results[0].default_photo.medium_url);
+      } else {
+        setImageFailed(true);
       }
     } catch (e) {
       console.error('Failed to fetch taxon image:', e);
+      setImageFailed(true);
     }
   };
 
@@ -130,6 +136,17 @@ function App() {
     }
   };
 
+  const handleJumpToStep = (index) => {
+    if (index >= history.length - 1) return; // Don't jump to current step or beyond
+    const newHistory = history.slice(0, index + 1);
+    const targetStep = history[index + 1].step;
+    setHistory(newHistory);
+    setCurrentStep(targetStep);
+    setTaxonImage(null);
+    setWormsData(null);
+    setImageFailed(false);
+  };
+
   const handleBack = () => {
     if (history.length === 0) return;
     const newHistory = [...history];
@@ -138,6 +155,7 @@ function App() {
     setCurrentStep(last.step);
     setTaxonImage(null);
     setWormsData(null);
+    setImageFailed(false);
   };
 
   const reset = () => {
@@ -145,6 +163,7 @@ function App() {
     setHistory([]);
     setTaxonImage(null);
     setWormsData(null);
+    setImageFailed(false);
   };
 
   const depth = currentStep.result ? 100 : Math.round((history.length / TOTAL_STEPS) * 90);
@@ -185,7 +204,22 @@ function App() {
     return sortedPaths;
   };
 
-  const taxaPaths = mode === 'list' ? getTaxaPaths() : {};
+  const filteredTaxaPaths = Object.keys(taxaPaths)
+    .filter(taxon => {
+      if (!searchQuery) return true;
+      const q = searchQuery.toLowerCase();
+      if (taxon.toLowerCase().includes(q)) return true;
+      
+      // search through all path steps text
+      return taxaPaths[taxon].some(path => 
+        path.some(step => step.text.toLowerCase().includes(q))
+      );
+    })
+    .sort()
+    .reduce((obj, key) => {
+      obj[key] = taxaPaths[key];
+      return obj;
+    }, {});
 
   return (
     <>
@@ -215,7 +249,13 @@ function App() {
                 const label = String(i + 2).padStart(2, '0') + h.choice;
                 return (
                   <span key={i}>
-                    <span className={cls}>{label}</span>
+                    {i < history.length - 1 || currentStep.result ? (
+                      <button className="crumb-btn" onClick={() => handleJumpToStep(i)}>
+                        <span className={cls} title={`Jump back to step ${h.step}`}>{label}</span>
+                      </button>
+                    ) : (
+                      <span className={cls}>{label}</span>
+                    )}
                     {i < history.length - 1 && <span className="crumb-sep">·</span>}
                   </span>
                 );
@@ -305,7 +345,16 @@ function App() {
           </>
         ) : (
           <div className="taxa-list" style={{ marginTop: '2rem', width: '100%', maxWidth: '760px' }}>
-            {Object.keys(taxaPaths).map(taxon => (
+            <div className="search-bar">
+              <input 
+                type="text" 
+                className="search-input" 
+                placeholder={t.search_placeholder}
+                value={searchQuery}
+                onChange={(e) => setSearchQuery(e.target.value)}
+              />
+            </div>
+            {Object.keys(filteredTaxaPaths).map(taxon => (
               <div 
                 key={taxon} 
                 className={`taxon-list-item ${expandedTaxon === taxon ? 'open' : ''}`}
@@ -331,15 +380,15 @@ function App() {
                 </div>
                 <div className="taxon-list-content">
                   {listWormsData[taxon.split(' ')[0]] && !listWormsData[taxon.split(' ')[0]].valid && renderWormsWarning(listWormsData[taxon.split(' ')[0]])}
-                  {taxaPaths[taxon].map((path, pathIdx) => (
-                    <div key={pathIdx} style={{ marginBottom: pathIdx < taxaPaths[taxon].length - 1 ? '2rem' : '0' }}>
+                  {filteredTaxaPaths[taxon].map((path, pathIdx) => (
+                    <div key={pathIdx} style={{ marginBottom: pathIdx < filteredTaxaPaths[taxon].length - 1 ? '2rem' : '0' }}>
                       {path.map((step, stepIdx) => (
                         <div key={stepIdx} className="taxon-path-step">
                           <div className="taxon-path-id">{step.step}{step.choice}</div>
                           <div className="taxon-path-text">{step.text}</div>
                         </div>
                       ))}
-                      {pathIdx < taxaPaths[taxon].length - 1 && (
+                      {pathIdx < filteredTaxaPaths[taxon].length - 1 && (
                         <div style={{ margin: '1rem 0', color: 'var(--fog)', fontStyle: 'italic', fontSize: '0.8rem', textAlign: 'center' }}>
                           {t.list_or}
                         </div>
