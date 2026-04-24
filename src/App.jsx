@@ -230,8 +230,20 @@ function App() {
           <h1>{t.title}</h1>
           <div style={{ display: 'flex', gap: '1rem', alignItems: 'center' }}>
             <div className="mode-switcher">
-              <button className={mode === 'key' ? 'active' : ''} onClick={() => setMode('key')}>{t.mode_key}</button>
-              <button className={mode === 'list' ? 'active' : ''} onClick={() => setMode('list')}>{t.mode_list}</button>
+              <button 
+                className={mode === 'key' ? 'active' : ''} 
+                onClick={() => setMode('key')}
+                data-text={t.mode_key}
+              >
+                {t.mode_key}
+              </button>
+              <button 
+                className={mode === 'list' ? 'active' : ''} 
+                onClick={() => setMode('list')}
+                data-text={t.mode_list}
+              >
+                {t.mode_list}
+              </button>
             </div>
             <div className="lang-switcher">
               <button className={lang === 'en' ? 'active' : ''} onClick={() => setLang('en')}>EN</button>

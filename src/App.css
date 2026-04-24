@@ -430,8 +430,15 @@ h1 {
   cursor: pointer;
   border-radius: 2px;
   transition: all 0.2s ease;
-  min-width: 140px; /* Prevents jitter when language changes */
-  text-align: center;
+}
+
+.mode-switcher button::after {
+  content: attr(data-text);
+  display: block;
+  font-weight: bold;
+  height: 0;
+  overflow: hidden;
+  visibility: hidden;
 }
 
 .mode-switcher button:hover {
