@@ -10,5 +10,6 @@
   "worms_reason": "This name is considered",
   "worms_accepted": "Currently accepted name:",
   "worms_view": "View on WoRMS →",
-  "list_or": "— OR —"
+  "list_or": "— OR —",
+  "search_placeholder": "Search taxa or traits..."
 }

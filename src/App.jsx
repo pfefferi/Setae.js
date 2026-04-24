@@ -236,7 +236,7 @@ function App() {
                 <div className="result-card">
                   <div className="result-inner">
                     <div className="result-label">{t.result_label}</div>
-                    {taxonImage && (
+                    {taxonImage && !imageFailed ? (
                       <div className="result-image" style={{ marginBottom: '1.5rem' }}>
                         <img 
                           src={taxonImage} 
@@ -249,7 +249,11 @@ function App() {
                           }} 
                         />
                       </div>
-                    )}
+                    ) : imageFailed ? (
+                      <div className="result-image-placeholder">
+                        No image available<br/>on iNaturalist
+                      </div>
+                    ) : null}
                     {wormsData && renderWormsWarning(wormsData)}
                     <div className="result-name">
                       <a 

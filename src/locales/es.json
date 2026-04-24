@@ -10,5 +10,6 @@
   "worms_reason": "Este nombre se considera",
   "worms_accepted": "Nombre actualmente aceptado:",
   "worms_view": "Ver en WoRMS →",
-  "list_or": "— O —"
+  "list_or": "— O —",
+  "search_placeholder": "Buscar taxones o rasgos..."
 }
