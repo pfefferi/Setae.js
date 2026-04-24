@@ -78,6 +78,15 @@ function App() {
         </div>
 
         <div id="app">
+          <div className="controls-row" style={{ display: 'flex', gap: '1rem', marginBottom: '1rem' }}>
+            <button className="btn-back" onClick={handleBack} disabled={history.length === 0}>
+              ← {t.back_btn}
+            </button>
+            <button className="btn-reset-small" onClick={reset} disabled={history.length === 0}>
+              ↺ {t.start_over}
+            </button>
+          </div>
+
           {currentStep.result ? (
             <div className="result-card">
               <div className="result-inner">
@@ -97,10 +106,6 @@ function App() {
             </div>
           ) : node ? (
             <div className="step-card">
-              <button className="btn-back" onClick={handleBack} disabled={history.length === 0}>
-                ← {t.back_btn}
-              </button>
-
               <div className="step-meta">
                 <span className="step-num">{node.step}</span>
                 <div className="step-line"></div>
