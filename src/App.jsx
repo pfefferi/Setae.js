@@ -204,6 +204,8 @@ function App() {
     return sortedPaths;
   };
 
+  const taxaPaths = mode === 'list' ? getTaxaPaths() : {};
+
   const filteredTaxaPaths = Object.keys(taxaPaths)
     .filter(taxon => {
       if (!searchQuery) return true;
