@@ -1,16 +1,57 @@
-# React + Vite
+# Setae.js
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Interactive taxonomic key for marine polychaete (bristle worm) families, based on the **Fauchald (1977) family key**. Named after the bristle-like appendages (*setae*) that define this class of segmented worms.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+- **Dichotomous Key** — Step-by-step binary decision tree to identify polychaete families
+- **Taxa List** — Alphabetical index of all families with full diagnostic paths, searchable by taxon name or morphological traits
+- **Bilingual** — Full English (en) and Spanish (es) support
+- **iNaturalist Integration** — Live taxon images fetched from iNaturalist
+- **WoRMS Validation** — Checks family names against the World Register of Marine Species, flags outdated/unaccepted names with the currently accepted name
+- **Depth Meter** — Visual progress indicator mimicking ocean depth descent
+- **Breadcrumb Navigation** — Click any breadcrumb to jump back to that step in the key
 
-## React Compiler
+## Tech Stack
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- [React 19](https://react.dev/) + [Vite 8](https://vitejs.dev/)
+- Data: Fauchald family key in structured JSON (en/es)
+- i18n: Locale-aware JSON string bundles
+- APIs: [iNaturalist](https://api.inaturalist.org/) · [WoRMS](https://www.marinespecies.org/rest/)
 
-## Expanding the ESLint configuration
+## Development
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+```bash
+npm install
+npm run dev       # Start dev server with HMR
+npm run build     # Production build → dist/
+npm run preview   # Preview production build
+```
+
+## Deployment
+
+GitHub Actions auto-deploys to GitHub Pages on every push to `main`/`master`:
+
+```
+.github/workflows/deploy.yml
+```
+
+The workflow builds the Vite project and publishes `dist/` via `actions/deploy-pages`.
+
+## Data
+
+Taxonomic key data is located in `src/data/`:
+
+| File | Content |
+|------|---------|
+| `fauchald_family_key_en.json` | English key — binary decision tree |
+| `fauchald_family_key_es.json` | Spanish key |
+| `fauchald_family_key.json` | Legacy / reference copy |
+
+Each node has a `step` number and two `optionA`/`optionB` choices leading to either:
+- `goTo` → another step
+- `result` → a family name (leaf node)
+
+## License
+
+MIT
