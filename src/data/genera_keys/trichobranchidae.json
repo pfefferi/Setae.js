@@ -1,0 +1,33 @@
+{
+  "_meta": { "family": "TRICHOBRANCHIDAE", "source": "Fauchald (1977) Key to Genera", "type": "genera_key" },
+  "1": {
+    "step": "1",
+    "optionA": { "text": "A single middorsally attached branchia present", "goTo": "2", "result": null },
+    "optionB": { "text": "At least a pair of branchiae present", "goTo": "3", "result": null }
+  },
+  "2": {
+    "step": "2",
+    "optionA": { "text": "Branchia a single tapering, digitate projection", "goTo": null, "result": "Unobranchus" },
+    "optionB": { "text": "Branchia stalked with four lobes; each lobe with numerous flat branchial lamellae", "goTo": null, "result": "Terebellides" }
+  },
+  "3": {
+    "step": "3",
+    "optionA": { "text": "Two or three pairs of branchiae present", "goTo": "4", "result": null },
+    "optionB": { "text": "Four pairs of branchiae present", "goTo": "5", "result": null }
+  },
+  "4": {
+    "step": "4",
+    "optionA": { "text": "Two pairs of branchiae, 17 thoracic setigers", "goTo": null, "result": "Filibranchus" },
+    "optionB": { "text": "Three pairs of branchiae; 15 thoracic setigers", "goTo": null, "result": "Trichobranchus" }
+  },
+  "5": {
+    "step": "5",
+    "optionA": { "text": "Each branchia with pectinate branchial lamellae", "goTo": null, "result": "Ampharetides" },
+    "optionB": { "text": "Each branchia simple and digitate or rosette-shaped", "goTo": "6", "result": null }
+  },
+  "6": {
+    "step": "6",
+    "optionA": { "text": "All branchiae simple and tapering", "goTo": null, "result": "Octobranchus" },
+    "optionB": { "text": "Fourth pair of branchiae sessile rosettes", "goTo": null, "result": "Novobranchus" }
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "_meta": { "family": "EULEPETHIDAE", "source": "Fauchald (1977) Key to Genera", "type": "genera_key" },
+  "1": {
+    "step": "1",
+    "optionA": { "text": "Elytrae 12 pairs, increasing in length progressively, followed by posterior pseudelytrae", "goTo": "2", "result": null },
+    "optionB": { "text": "Elytrae more than 12 pairs; the first 12 pairs increasing in length posteriorly; the more posterior pairs smaller", "goTo": "3", "result": null }
+  },
+  "2": {
+    "step": "2",
+    "optionA": { "text": "Elytrae with lateral border notched", "goTo": null, "result": "Pareulepis" },
+    "optionB": { "text": "Elytrae with flattened lateral marginal lappets", "goTo": null, "result": "Grubeulepis" }
+  },
+  "3": {
+    "step": "3",
+    "optionA": { "text": "Elytrae with lateral borders notched", "goTo": null, "result": "Eulepethus" },
+    "optionB": { "text": "Elytrae with flattened lateral marginal lappets", "goTo": null, "result": "Mexieulepis" }
+  }
+}

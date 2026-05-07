@@ -1,0 +1,18 @@
+{
+  "_meta": { "family": "DINOPHILIDAE", "source": "Fauchald (1977) Key to Genera", "type": "genera_key" },
+  "1": {
+    "step": "1",
+    "optionA": { "text": "Muscular pharynx absent", "goTo": null, "result": "Apharyngtus" },
+    "optionB": { "text": "Muscular pharynx present", "goTo": "2", "result": null }
+  },
+  "2": {
+    "step": "2",
+    "optionA": { "text": "Body slender and elongated; prostomium trilobed", "goTo": null, "result": "Trilobodrilus" },
+    "optionB": { "text": "Body short, more or less inflated; prostomium rounded", "goTo": "3", "result": null }
+  },
+  "3": {
+    "step": "3",
+    "optionA": { "text": "Pygidium with two adhesive glands; eyes absent", "goTo": null, "result": "Diurodrilus" },
+    "optionB": { "text": "Pygidium conical, without adhesive glands; eyes usually present", "goTo": null, "result": "Dinophilus" }
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "_meta": { "family": "GONIADIDAE", "source": "Fauchald (1977) Key to Genera", "type": "genera_key" },
+  "1": {
+    "step": "1",
+    "optionA": { "text": "All parapodia uniramous", "goTo": null, "result": "Progoniada" },
+    "optionB": { "text": "Anterior parapodia uniramous, posterior ones biramous", "goTo": "2", "result": null }
+  },
+  "2": {
+    "step": "2",
+    "optionA": { "text": "Eversible pharynx with organs of many kinds", "goTo": "3", "result": null },
+    "optionB": { "text": "Eversible pharynx with organs of one or a few kinds", "goTo": "4", "result": null }
+  },
+  "3": {
+    "step": "3",
+    "optionA": { "text": "Notosetae slender capillaries", "goTo": null, "result": "Bathyglycinde" },
+    "optionB": { "text": "Notosetae knobbed or falcate hooded hooks", "goTo": null, "result": "Glycinde" }
+  },
+  "4": {
+    "step": "4",
+    "optionA": { "text": "Eversible pharynx with chevrons", "goTo": "5", "result": null },
+    "optionB": { "text": "Eversible pharynx without chevrons", "goTo": "6", "result": null }
+  },
+  "5": {
+    "step": "5",
+    "optionA": { "text": "Neuropodia with spinigers only", "goTo": null, "result": "Goniada" },
+    "optionB": { "text": "Neuropodia with both spinigers and falcigers", "goTo": null, "result": "Goniadella" }
+  },
+  "6": {
+    "step": "6",
+    "optionA": { "text": "Neuropodia with spinigers only", "goTo": null, "result": "Ophioglycera" },
+    "optionB": { "text": "At least some falcigers present", "goTo": "7", "result": null }
+  },
+  "7": {
+    "step": "7",
+    "optionA": { "text": "Notopodia reduced to a rounded knob with a few thick acicular setae and a cirrus", "goTo": null, "result": "Goniadides" },
+    "optionB": { "text": "Notopodia well developed", "goTo": "8", "result": null }
+  },
+  "8": {
+    "step": "8",
+    "optionA": { "text": "Anterior setae all falcigers; posterior ones both spinigers and falcigers", "goTo": null, "result": "Bookhoutia" },
+    "optionB": { "text": "Anterior setae all falcigers, posterior ones all spinigers", "goTo": null, "result": "Goniadopsis" }
+  }
+}

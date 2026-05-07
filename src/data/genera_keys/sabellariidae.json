@@ -1,0 +1,33 @@
+{
+  "_meta": { "family": "SABELLARIIDAE", "source": "Fauchald (1977) Key to Genera", "type": "genera_key" },
+  "1": {
+    "step": "1",
+    "optionA": { "text": "With a single row of paleae in the operculum", "goTo": "2", "result": null },
+    "optionB": { "text": "With at least two rows of paleae in the operculum", "goTo": "3", "result": null }
+  },
+  "2": {
+    "step": "2",
+    "optionA": { "text": "The prolonged opercular peduncles free from one another", "goTo": null, "result": "Phalacrostemma" },
+    "optionB": { "text": "Opercular peduncles short and fused", "goTo": null, "result": "Monorchos" }
+  },
+  "3": {
+    "step": "3",
+    "optionA": { "text": "Two rows of paleae", "goTo": "4", "result": null },
+    "optionB": { "text": "Three rows of paleae", "goTo": "6", "result": null }
+  },
+  "4": {
+    "step": "4",
+    "optionA": { "text": "Hooks absent", "goTo": null, "result": "Gunnarea" },
+    "optionB": { "text": "A pair of large hooks dorsal and proximal to the opercular paleae", "goTo": "5", "result": null }
+  },
+  "5": {
+    "step": "5",
+    "optionA": { "text": "Three parathoracic setigers", "goTo": null, "result": "Idanthyrsus" },
+    "optionB": { "text": "Four parathoracic setigers", "goTo": null, "result": "Lygdamis" }
+  },
+  "6": {
+    "step": "6",
+    "optionA": { "text": "Middle opercular paleae cover the inner ones; operculum flattened cone", "goTo": null, "result": "Phragmatopoma" },
+    "optionB": { "text": "Middle opercular paleae not concealing the inner ones; operculum open and bristly", "goTo": null, "result": "Sabellaria" }
+  }
+}

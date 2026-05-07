@@ -1,0 +1,23 @@
+{
+  "_meta": { "family": "PECTINARIIDAE", "source": "Fauchald (1977) Key to Genera", "type": "genera_key" },
+  "1": {
+    "step": "1",
+    "optionA": { "text": "Cephalic veil marginally smooth, scaphe not distinctly separated from abdomen", "goTo": null, "result": "Petta" },
+    "optionB": { "text": "Cephalic veil marginally cirrate; scaphe distinctly set off from abdomen", "goTo": "2", "result": null }
+  },
+  "2": {
+    "step": "2",
+    "optionA": { "text": "Twelve uncinigers, cephalic veil at least partly fused to the operculum", "goTo": null, "result": "Lagis" },
+    "optionB": { "text": "Thirteen uncinigers, cephalic veil completely free from the operculum", "goTo": "3", "result": null }
+  },
+  "3": {
+    "step": "3",
+    "optionA": { "text": "Opercular rim cirrate", "goTo": null, "result": "Amphictene" },
+    "optionB": { "text": "Opercular rim smooth", "goTo": "4", "result": null }
+  },
+  "4": {
+    "step": "4",
+    "optionA": { "text": "Uncini with major teeth in a single row", "goTo": null, "result": "Cistenides" },
+    "optionB": { "text": "Uncini with major teeth in two rows", "goTo": null, "result": "Pectinaria" }
+  }
+}
