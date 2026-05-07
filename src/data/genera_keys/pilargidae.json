@@ -1,0 +1,48 @@
+{
+  "_meta": { "family": "PILARGIDAE", "source": "Fauchald (1977) Key to Genera", "type": "genera_key" },
+  "1": {
+    "step": "1",
+    "optionA": { "text": "Notopodia with stout emergent hooks or spines", "goTo": "2", "result": null },
+    "optionB": { "text": "Notopodia without emergent hooks or spines", "goTo": "8", "result": null }
+  },
+  "2": {
+    "step": "2",
+    "optionA": { "text": "Notopodia with recurved emergent hooks", "goTo": "3", "result": null },
+    "optionB": { "text": "Notopodia with stout, straight spines", "goTo": "6", "result": null }
+  },
+  "3": {
+    "step": "3",
+    "optionA": { "text": "Peristomium dorsally entire", "goTo": null, "result": "Ancistargis" },
+    "optionB": { "text": "Peristomium dorsally incised", "goTo": "4", "result": null }
+  },
+  "4": {
+    "step": "4",
+    "optionA": { "text": "Dorsal and ventral cirri reduced or absent; parapodia reduced, body subcylindrical", "goTo": null, "result": "Cabira" },
+    "optionB": { "text": "Dorsal and ventral cirri well developed, parapodia well developed, body dorso-ventrally flattened", "goTo": "5", "result": null }
+  },
+  "5": {
+    "step": "5",
+    "optionA": { "text": "Antennae shorter than palps; integument papillated", "goTo": null, "result": "Ancistrosyllis" },
+    "optionB": { "text": "Antennae longer than palps; integument smooth", "goTo": null, "result": "Sigambra" }
+  },
+  "6": {
+    "step": "6",
+    "optionA": { "text": "Prostomial antennae present; parapodia sharply set off from body", "goTo": null, "result": "Synelmis" },
+    "optionB": { "text": "Prostomial antennae absent; parapodia distinct, but not set off from body", "goTo": "7", "result": null }
+  },
+  "7": {
+    "step": "7",
+    "optionA": { "text": "Tentacular cirri present; palps absent", "goTo": null, "result": "Litocorsa" },
+    "optionB": { "text": "Tentacular cirri absent, palps present", "goTo": null, "result": "Parandalia" }
+  },
+  "8": {
+    "step": "8",
+    "optionA": { "text": "Prostomial antennae and tentacular cirri absent", "goTo": null, "result": "Loandalia" },
+    "optionB": { "text": "Prostomial antennae and tentacular cirri present", "goTo": "9", "result": null }
+  },
+  "9": {
+    "step": "9",
+    "optionA": { "text": "Prostomium with two antennae, biarticulate palps present", "goTo": null, "result": "Pilargis" },
+    "optionB": { "text": "Prostomium with three antennae; palps without palpostyles", "goTo": null, "result": "Otopsis" }
+  }
+}

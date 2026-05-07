@@ -1,0 +1,53 @@
+{
+  "_meta": { "family": "ONUPHIDAE", "source": "Fauchald (1977) Key to Genera", "type": "genera_key" },
+  "1": {
+    "step": "1",
+    "optionA": { "text": "Two or more anterior setigers with prolonged parapodia and modified setae", "goTo": "2", "result": null },
+    "optionB": { "text": "Anterior parapodia not prolonged, or only first parapodium longer than the following ones", "goTo": "4", "result": null }
+  },
+  "2": {
+    "step": "2",
+    "optionA": { "text": "Two modified anterior setigers; these with uni- or bidentate hooks and capillary setae", "goTo": null, "result": "Paranorthia" },
+    "optionB": { "text": "More than two modified anterior setigers", "goTo": "3", "result": null }
+  },
+  "3": {
+    "step": "3",
+    "optionA": { "text": "Modified parapodia with strongly curved, grapple-hook shaped setae", "goTo": null, "result": "Rhamphobrachium" },
+    "optionB": { "text": "Modified parapodia with composite falcigers", "goTo": null, "result": "Americonuphis" }
+  },
+  "4": {
+    "step": "4",
+    "optionA": { "text": "Branchiae in part spiralled", "goTo": "5", "result": null },
+    "optionB": { "text": "Branchiae pectinate, simple or absent", "goTo": "7", "result": null }
+  },
+  "5": {
+    "step": "5",
+    "optionA": { "text": "Tentacular cirri absent", "goTo": null, "result": "Epidiopatra" },
+    "optionB": { "text": "Tentacular cirri present", "goTo": "6", "result": null }
+  },
+  "6": {
+    "step": "6",
+    "optionA": { "text": "Frontal antennae short and conical, all dorsal cirri digitate", "goTo": null, "result": "Diopatra" },
+    "optionB": { "text": "Frontal antennae long and slender, at least some dorsal cirri foliose", "goTo": null, "result": "Heptaceras" }
+  },
+  "7": {
+    "step": "7",
+    "optionA": { "text": "Tentacular cirri absent", "goTo": "8", "result": null },
+    "optionB": { "text": "Tentacular cirri present", "goTo": "9", "result": null }
+  },
+  "8": {
+    "step": "8",
+    "optionA": { "text": "Branchiae present", "goTo": null, "result": "Hyalinoecia" },
+    "optionB": { "text": "Branchiae absent", "goTo": null, "result": "Paronuphis" }
+  },
+  "9": {
+    "step": "9",
+    "optionA": { "text": "Branchiae in part pectinate", "goTo": null, "result": "Onuphis" },
+    "optionB": { "text": "Branchiae simple or absent", "goTo": "10", "result": null }
+  },
+  "10": {
+    "step": "10",
+    "optionA": { "text": "Branchiae absent, dorsal cirri foliose in some anterior setigers", "goTo": null, "result": "Paradiopatra" },
+    "optionB": { "text": "Branchiae present or absent, all dorsal cirri digitate", "goTo": null, "result": "Nothria" }
+  }
+}
