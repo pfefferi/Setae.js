@@ -100,6 +100,17 @@ function App() {
     setGeneraKey(null);
     setGeneraStep('1');
     setGeneraHistory([]);
+    // Go back to the family key step that led to the result
+    // so the user sees the A/B options again, not the result card
+    if (currentStep.result && history.length > 0) {
+      const newHistory = [...history];
+      const lastEntry = newHistory.pop();
+      setHistory(newHistory);
+      setCurrentStep(lastEntry.step);
+      setTaxonImage(null);
+      setWormsData(null);
+      setImageFailed(false);
+    }
   };
   // --- end genera helpers ---
 
