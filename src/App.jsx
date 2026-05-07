@@ -4,6 +4,7 @@ import fauchaldKeyEs from './data/fauchald_family_key_es.json';
 import en from './locales/en.json';
 import es from './locales/es.json';
 import generaKeysIndex from './data/genera_keys/index.json';
+import Landing from './Landing.jsx';
 import './App.css';
 
 const keys = {
@@ -38,6 +39,7 @@ function App() {
   const [theme, setTheme] = useState(() => {
     return localStorage.getItem('setae-theme') || 'dark';
   });
+  const [screen, setScreen] = useState('landing'); // 'landing' | 'app'
 
   useEffect(() => {
     document.documentElement.setAttribute('data-theme', theme);
@@ -286,7 +288,15 @@ function App() {
 
   return (
     <>
-      <div className="wrapper" data-theme={theme}>
+      {screen === 'landing' ? (
+        <Landing
+          t={t}
+          lang={lang}
+          onStartKey={() => { setScreen('app'); setMode('key'); }}
+          onBrowseList={() => { setScreen('app'); setMode('list'); }}
+        />
+      ) : (
+        <div className="wrapper" data-theme={theme}>
         <header style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center' }}>
           <h1>{t.title}</h1>
           <div style={{ display: 'flex', gap: '1rem', alignItems: 'center' }}>
@@ -638,6 +648,7 @@ function App() {
           </div>
         )}
       </div>
+      )}
 
       <div className="depth-meter">
         <div className="depth-track">

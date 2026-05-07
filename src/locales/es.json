@@ -14,5 +14,10 @@
   "search_placeholder": "Buscar taxones o rasgos...",
   "genera_btn": "Clave de Géneros",
   "genera_result": "Género",
-  "back_to_family": "Volver a la Familia"
+  "back_to_family": "Volver a la Familia",
+  "landing_subtitle": "Clave de Poliquetos de Fauchald",
+  "landing_desc": "Una clave dicotómica interactiva para identificar familias de poliquetos marinos (gusanos de cerdas)",
+  "landing_start_key": "Iniciar Clave Dicotómica",
+  "landing_browse_list": "Explorar Lista de Taxones",
+  "landing_credit": "Basado en Fauchald (1977)"
 }

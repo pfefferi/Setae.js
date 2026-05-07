@@ -14,5 +14,10 @@
   "search_placeholder": "Search taxa or traits...",
   "genera_btn": "Key to Genera",
   "genera_result": "Genus",
-  "back_to_family": "Back to Family"
+  "back_to_family": "Back to Family",
+  "landing_subtitle": "Fauchald Polychaeta Key",
+  "landing_desc": "An interactive dichotomous key for identifying marine polychaete (bristle worm) families",
+  "landing_start_key": "Start Dichotomous Key",
+  "landing_browse_list": "Browse Taxa List",
+  "landing_credit": "Based on Fauchald (1977)"
 }

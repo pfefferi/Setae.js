@@ -1,0 +1,367 @@
+/* ── Landing Page ── */
+
+.landing {
+  position: fixed;
+  inset: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 100;
+  background-color: var(--abyss);
+  overflow: hidden;
+}
+
+/* ── Particles ── */
+
+.landing-particles {
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+  overflow: hidden;
+}
+
+.particle {
+  position: absolute;
+  width: 3px;
+  height: 3px;
+  border-radius: 50%;
+  background: var(--biolum);
+  opacity: 0;
+  animation: particleDrift 8s ease-in-out infinite;
+}
+
+.particle:nth-child(1) {
+  left: 15%;
+  bottom: -5%;
+  width: 4px;
+  height: 4px;
+  animation-delay: 0s;
+  animation-duration: 10s;
+}
+
+.particle:nth-child(2) {
+  left: 40%;
+  bottom: -10%;
+  width: 2px;
+  height: 2px;
+  animation-delay: 1.5s;
+  animation-duration: 12s;
+}
+
+.particle:nth-child(3) {
+  left: 65%;
+  bottom: -8%;
+  width: 3px;
+  height: 3px;
+  animation-delay: 3s;
+  animation-duration: 9s;
+}
+
+.particle:nth-child(4) {
+  left: 80%;
+  bottom: -3%;
+  width: 2.5px;
+  height: 2.5px;
+  animation-delay: 4.5s;
+  animation-duration: 11s;
+}
+
+.particle:nth-child(5) {
+  left: 25%;
+  bottom: -15%;
+  width: 3.5px;
+  height: 3.5px;
+  animation-delay: 2s;
+  animation-duration: 13s;
+}
+
+@keyframes particleDrift {
+  0% {
+    opacity: 0;
+    transform: translateY(0) translateX(0) scale(0.5);
+  }
+  10% {
+    opacity: 0.6;
+  }
+  50% {
+    opacity: 0.4;
+  }
+  90% {
+    opacity: 0.1;
+  }
+  100% {
+    opacity: 0;
+    transform: translateY(-110vh) translateX(40px) scale(1.2);
+  }
+}
+
+[data-theme="light"] .landing {
+  background-color: var(--abyss);
+}
+
+[data-theme="light"] .particle {
+  opacity: 0;
+}
+
+[data-theme="light"] .particle:nth-child(1),
+[data-theme="light"] .particle:nth-child(3),
+[data-theme="light"] .particle:nth-child(5) {
+  background: var(--amber);
+}
+
+[data-theme="light"] .particle:nth-child(2),
+[data-theme="light"] .particle:nth-child(4) {
+  background: var(--coral);
+}
+
+/* ── Body ── */
+
+.landing-body {
+  position: relative;
+  z-index: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding: 2rem;
+  max-width: 540px;
+  animation: landingFadeIn 1s cubic-bezier(0.22, 1, 0.36, 1) both;
+}
+
+@keyframes landingFadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* ── Motif ── */
+
+.landing-motif {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  margin-bottom: 2.5rem;
+  opacity: 0.6;
+}
+
+.motif-bar {
+  display: block;
+  width: 2rem;
+  height: 1px;
+  background: linear-gradient(90deg, transparent, var(--fog), transparent);
+}
+
+.motif-diamond {
+  font-size: 0.5rem;
+  color: var(--biolum);
+  letter-spacing: 0;
+  line-height: 1;
+}
+
+/* ── Title ── */
+
+.landing-title {
+  font-family: var(--serif);
+  font-size: clamp(3rem, 10vw, 5.5rem);
+  font-weight: 700;
+  font-style: italic;
+  color: var(--cream);
+  letter-spacing: 0.02em;
+  line-height: 1;
+  margin: 0 0 0.6rem;
+}
+
+.landing-subtitle {
+  font-family: var(--mono);
+  font-size: clamp(0.7rem, 2vw, 0.85rem);
+  letter-spacing: 0.25em;
+  text-transform: uppercase;
+  color: var(--fog);
+  margin: 0 0 1.5rem;
+  opacity: 0.7;
+}
+
+/* ── Divider ── */
+
+.landing-divider {
+  width: 3rem;
+  height: 1px;
+  background: linear-gradient(90deg, transparent, var(--biolum), transparent);
+  margin: 0 auto 1.5rem;
+  opacity: 0.4;
+}
+
+/* ── Description ── */
+
+.landing-desc {
+  font-family: var(--serif);
+  font-size: clamp(0.9rem, 2.5vw, 1.05rem);
+  line-height: 1.7;
+  color: var(--mist);
+  margin: 0 0 2.5rem;
+  max-width: 420px;
+  font-style: italic;
+}
+
+/* ── Buttons ── */
+
+.landing-actions {
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+  width: 100%;
+  max-width: 320px;
+}
+
+.landing-btn {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+  width: 100%;
+  padding: 0.9rem 1.25rem;
+  border-radius: 2px;
+  font-family: var(--mono);
+  font-size: 0.75rem;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  cursor: pointer;
+  transition: all 0.25s ease;
+  position: relative;
+  overflow: hidden;
+}
+
+.landing-btn::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(135deg, rgba(255,255,255,0.04), transparent);
+  pointer-events: none;
+}
+
+.landing-btn-primary {
+  background: var(--biolum);
+  color: var(--abyss);
+  border: none;
+  box-shadow: 0 0 24px rgba(var(--biolum-rgb), 0.2);
+}
+
+.landing-btn-primary:hover {
+  background: var(--glow);
+  transform: translateY(-2px);
+  box-shadow: 0 6px 32px rgba(var(--biolum-rgb), 0.35);
+}
+
+.landing-btn-primary:active {
+  transform: translateY(0);
+}
+
+.landing-btn-secondary {
+  background: transparent;
+  color: var(--fog);
+  border: 1px solid rgba(var(--fog-rgb), 0.2);
+}
+
+.landing-btn-secondary:hover {
+  background: rgba(var(--biolum-rgb), 0.04);
+  border-color: rgba(var(--biolum-rgb), 0.35);
+  color: var(--biolum);
+  transform: translateY(-1px);
+}
+
+.landing-btn-secondary:active {
+  transform: translateY(0);
+}
+
+.landing-btn-label {
+  flex: 1;
+  text-align: left;
+}
+
+.landing-btn-arrow {
+  font-size: 0.9rem;
+  opacity: 0;
+  transform: translateX(-6px);
+  transition: all 0.25s ease;
+}
+
+.landing-btn:hover .landing-btn-arrow {
+  opacity: 0.7;
+  transform: translateX(0);
+}
+
+/* ── Credit ── */
+
+.landing-credit {
+  font-family: var(--mono);
+  font-size: 0.55rem;
+  letter-spacing: 0.12em;
+  color: var(--slate);
+  margin-top: 3rem;
+  opacity: 0.5;
+}
+
+/* ── Light theme refinements ── */
+
+[data-theme="light"] .landing-title {
+  color: var(--cream);
+}
+
+[data-theme="light"] .landing-desc {
+  color: var(--mist);
+}
+
+[data-theme="light"] .landing-btn-primary {
+  box-shadow: 0 4px 20px rgba(var(--biolum-rgb), 0.25);
+}
+
+[data-theme="light"] .landing-btn-primary:hover {
+  box-shadow: 0 6px 28px rgba(var(--biolum-rgb), 0.35);
+}
+
+[data-theme="light"] .landing-btn-secondary::before {
+  background: linear-gradient(135deg, rgba(0,0,0,0.02), transparent);
+}
+
+/* ── Responsive ── */
+
+@media (max-width: 480px) {
+  .landing-body {
+    padding: 1.5rem;
+  }
+
+  .landing-motif {
+    margin-bottom: 2rem;
+  }
+
+  .landing-desc {
+    margin-bottom: 2rem;
+  }
+
+  .landing-btn {
+    padding: 0.8rem 1rem;
+    font-size: 0.65rem;
+  }
+
+  .landing-credit {
+    margin-top: 2.5rem;
+  }
+
+  .particle {
+    display: none;
+  }
+}
+
+@media (min-height: 800px) {
+  .landing-body {
+    gap: 0;
+  }
+}
