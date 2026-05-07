@@ -1,0 +1,33 @@
+{
+  "_meta": {
+    "family": "CTENODRILIDAE",
+    "source": "Fauchald (1977) Key to Genera",
+    "type": "genera_key"
+  },
+  "1": {
+    "step": "1",
+    "optionA": {
+      "text": "Body short and grublike, with few segments, unpaired dorsal cirri and branchiae absent",
+      "goTo": null,
+      "result": "Ctenodrilus"
+    },
+    "optionB": {
+      "text": "Body long and slender, with at least 15 segments; unpaired dorsal cirri on one or two anterior segments or larval branchiae present",
+      "goTo": "2",
+      "result": null
+    }
+  },
+  "2": {
+    "step": "2",
+    "optionA": {
+      "text": "Unpaired dorsal cirri present; branchiae absent",
+      "goTo": null,
+      "result": "Zeppelinia"
+    },
+    "optionB": {
+      "text": "Unpaired dorsal cirri absent; branchiae present",
+      "goTo": null,
+      "result": "Raphidrilus"
+    }
+  }
+}

@@ -1,0 +1,124 @@
+{
+  "_meta": {
+    "family": "PARAONIDAE",
+    "source": "Fauchald (1977) Key to Genera, pp. 17-18",
+    "type": "genera_key"
+  },
+  "1": {
+    "step": "1",
+    "optionA": {
+      "text": "Setae present from the first segment",
+      "goTo": null,
+      "result": "Aparaonis"
+    },
+    "optionB": {
+      "text": "Setae present from the second segment",
+      "goTo": "2",
+      "result": null
+    }
+  },
+  "2": {
+    "step": "2",
+    "optionA": {
+      "text": "Modified setae notopodial",
+      "goTo": null,
+      "result": "Cirrophorus"
+    },
+    "optionB": {
+      "text": "Modified setae, if present, neuropodial",
+      "goTo": "3",
+      "result": null
+    }
+  },
+  "3": {
+    "step": "3",
+    "optionA": {
+      "text": "Prostomium with a median antenna",
+      "goTo": "4",
+      "result": null
+    },
+    "optionB": {
+      "text": "Prostomium without a median antenna",
+      "goTo": "7",
+      "result": null
+    }
+  },
+  "4": {
+    "step": "4",
+    "optionA": {
+      "text": "Modified setae absent",
+      "goTo": null,
+      "result": "Aedicira"
+    },
+    "optionB": {
+      "text": "Modified setae present",
+      "goTo": "5",
+      "result": null
+    }
+  },
+  "5": {
+    "step": "5",
+    "optionA": {
+      "text": "Modified setae either pseudocomposite or curved with a subterminal arista on concave side of the shaft",
+      "goTo": null,
+      "result": "Aricidea"
+    },
+    "optionB": {
+      "text": "Modified setae otherwise",
+      "goTo": "6",
+      "result": null
+    }
+  },
+  "6": {
+    "step": "6",
+    "optionA": {
+      "text": "Modified setae not greatly different from the capillary setae, but somewhat thicker and more abruptly tapering and with a long arista",
+      "goTo": null,
+      "result": "Allia"
+    },
+    "optionB": {
+      "text": "Modified setae distally strongly curved, or bifid, either with numbers of long aristae or bearded",
+      "goTo": null,
+      "result": "Acesta"
+    }
+  },
+  "7": {
+    "step": "7",
+    "optionA": {
+      "text": "Nuchal organ on posterior part of prostomium, prostomium with several transverse bands of cilia",
+      "goTo": null,
+      "result": "Paraonis"
+    },
+    "optionB": {
+      "text": "Nuchal organ on the reduced peristomium; with a single preoral ciliary band or prostomial ciliary bands absent",
+      "goTo": "8",
+      "result": null
+    }
+  },
+  "8": {
+    "step": "8",
+    "optionA": {
+      "text": "Modified setae absent",
+      "goTo": null,
+      "result": "Paraonella"
+    },
+    "optionB": {
+      "text": "Modified setae present",
+      "goTo": "9",
+      "result": null
+    }
+  },
+  "9": {
+    "step": "9",
+    "optionA": {
+      "text": "Three prebranchial setigers; terminal prostomial sense organs absent",
+      "goTo": null,
+      "result": "Sabidius"
+    },
+    "optionB": {
+      "text": "More than three prebranchial setigers; terminal prostomial sense organs present",
+      "goTo": null,
+      "result": "Tauberia"
+    }
+  }
+}

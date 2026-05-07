@@ -1,0 +1,20 @@
+{
+  "_meta": {
+    "family": "PSAMMODRILIDAE",
+    "source": "Fauchald (1977) Key to Genera",
+    "type": "genera_key"
+  },
+  "1": {
+    "step": "1",
+    "optionA": {
+      "text": "Dorsal cirri decreasing evenly in length from the first to the sixth thoracic segment; abdominal uncinigers with several uncini",
+      "goTo": null,
+      "result": "Psammodrilus"
+    },
+    "optionB": {
+      "text": "Dorsal cirri increasing in length from first to fourth segment; those of segments five and six very short; single uncini present in abdominal neuropodia",
+      "goTo": null,
+      "result": "Psammodriloides"
+    }
+  }
+}

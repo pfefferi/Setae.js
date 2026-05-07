@@ -11,5 +11,8 @@
   "worms_accepted": "Nombre actualmente aceptado:",
   "worms_view": "Ver en WoRMS →",
   "list_or": "— O —",
-  "search_placeholder": "Buscar taxones o rasgos..."
+  "search_placeholder": "Buscar taxones o rasgos...",
+  "genera_btn": "Clave de Géneros",
+  "genera_result": "Género",
+  "back_to_family": "Volver a la Familia"
 }

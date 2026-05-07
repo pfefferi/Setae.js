@@ -3,6 +3,7 @@ import fauchaldKeyEn from './data/fauchald_family_key_en.json';
 import fauchaldKeyEs from './data/fauchald_family_key_es.json';
 import en from './locales/en.json';
 import es from './locales/es.json';
+import generaKeysIndex from './data/genera_keys/index.json';
 import './App.css';
 
 const keys = {
@@ -26,11 +27,53 @@ function App() {
   const [listWormsData, setListWormsData] = useState({});
   const [searchQuery, setSearchQuery] = useState('');
   const [imageFailed, setImageFailed] = useState(false);
+  const [generaActive, setGeneraActive] = useState(false);
+  const [generaFamily, setGeneraFamily] = useState(null);
+  const [generaKey, setGeneraKey] = useState(null);
+  const [generaStep, setGeneraStep] = useState('1');
+  const [generaHistory, setGeneraHistory] = useState([]);
 
   const fauchaldKey = keys[lang];
   const t = translations[lang];
   const TOTAL_STEPS = Object.keys(fauchaldKey).length;
   const node = fauchaldKey[currentStep];
+
+  // --- Genera key helpers ---
+  const hasGeneraKey = (familyName) => {
+    const base = familyName.split(' ')[0];
+    return generaKeysIndex.includes(base);
+  };
+
+  const loadGeneraKey = async (familyName) => {
+    const base = familyName.split(' ')[0];
+    try {
+      const mod = await import(`./data/genera_keys/${base.toLowerCase()}.json`);
+      setGeneraKey(mod);
+      setGeneraFamily(familyName);
+      setGeneraActive(true);
+      setGeneraStep('1');
+      setGeneraHistory([]);
+    } catch (e) {
+      console.error('Failed to load genera key:', e);
+    }
+  };
+
+  const handleGeneraChoice = (opt, letter) => {
+    setGeneraHistory([...generaHistory, { step: generaStep, choice: letter, text: opt.text }]);
+    if (opt.result) {
+      setGeneraStep({ result: opt.result });
+    } else if (opt.goTo) {
+      setGeneraStep(String(opt.goTo));
+    }
+  };
+
+  const backToFamily = () => {
+    setGeneraActive(false);
+    setGeneraKey(null);
+    setGeneraStep('1');
+    setGeneraHistory([]);
+  };
+  // --- end genera helpers ---
 
   const handleChoice = (opt, letter) => {
     setHistory([...history, { step: currentStep, choice: letter, text: opt.text }]);
@@ -278,15 +321,20 @@ function App() {
 
             <div id="app">
               <div className="controls-row" style={{ display: 'flex', gap: '1rem', marginBottom: '1rem' }}>
-                <button className="btn-back" onClick={handleBack} disabled={history.length === 0}>
-                  ← {t.back_btn}
-                </button>
-                <button className="btn-reset-small" onClick={reset} disabled={history.length === 0}>
-                  ↺ {t.start_over}
-                </button>
+                {!generaActive ? (
+                  <>
+                    <button className="btn-back" onClick={handleBack} disabled={history.length === 0}>
+                      ← {t.back_btn}
+                    </button>
+                    <button className="btn-reset-small" onClick={reset} disabled={history.length === 0}>
+                      ↺ {t.start_over}
+                    </button>
+                  </>
+                ) : null}
               </div>
 
-              {currentStep.result ? (
+              {/* Family key result */}
+              {currentStep.result && !generaActive ? (
                 <div className="result-card">
                   <div className="result-inner">
                     <div className="result-label">{t.result_label}</div>
@@ -329,10 +377,96 @@ function App() {
                         </span>
                       ))}
                     </div>
+                    {hasGeneraKey(currentStep.result) && (
+                      <button 
+                        className="btn-genera"
+                        onClick={() => loadGeneraKey(currentStep.result)}
+                        style={{
+                          marginTop: '1.5rem',
+                          padding: '0.6rem 1.2rem',
+                          backgroundColor: 'rgba(79,200,168,0.15)',
+                          border: '1px solid var(--biolum)',
+                          borderRadius: '4px',
+                          color: 'var(--biolum)',
+                          cursor: 'pointer',
+                          fontSize: '0.85rem',
+                          fontFamily: 'var(--mono)',
+                          textTransform: 'uppercase',
+                          letterSpacing: '0.05em'
+                        }}
+                      >
+                        → {t.genera_btn}
+                      </button>
+                    )}
                     <button className="btn-reset" onClick={reset}>↺ &nbsp; {t.start_over}</button>
                   </div>
                 </div>
-              ) : node ? (
+              ) : null}
+
+              {/* Genera key active */}
+              {generaActive && generaKey ? (
+                <div className="step-card">
+                  <div style={{ marginBottom: '1rem' }}>
+                    <button 
+                      className="btn-back" 
+                      onClick={backToFamily}
+                      style={{ fontSize: '0.75rem' }}
+                    >
+                      ← {t.back_to_family}: {generaFamily}
+                    </button>
+                  </div>
+                  {generaStep.result ? (
+                    <div className="result-card">
+                      <div className="result-inner">
+                        <div className="result-label">{t.genera_result}</div>
+                        <div className="result-name">{generaStep.result}</div>
+                        <div className="result-divider"></div>
+                        <div className="result-path">
+                          {generaHistory.map((h, i) => (
+                            <span key={i}>
+                              <span className="path-crumb">{h.choice}</span>
+                              {i < generaHistory.length - 1 && <span className="path-sep">→</span>}
+                            </span>
+                          ))}
+                        </div>
+                        <button className="btn-reset" onClick={backToFamily} style={{ marginTop: '1.5rem' }}>
+                          ← &nbsp; {t.back_to_family}
+                        </button>
+                      </div>
+                    </div>
+                  ) : (
+                    (() => {
+                      const generaNode = generaKey[generaStep];
+                      if (!generaNode) {
+                        return <div>{t.error_not_found}</div>;
+                      }
+                      return (
+                        <>
+                          <div className="step-meta">
+                            <span className="step-num">{generaFamily} · {generaNode.step}</span>
+                            <div className="step-line"></div>
+                          </div>
+                          <div className="options">
+                            <button className="option-btn" onClick={() => handleGeneraChoice(generaNode.optionA, 'A')}>
+                              <span className="option-letter">A</span>
+                              <div>{generaNode.optionA.text}</div>
+                              <span className="option-arrow">→</span>
+                            </button>
+                            <button className="option-btn" onClick={() => handleGeneraChoice(generaNode.optionB, 'B')}>
+                              <span className="option-letter">B</span>
+                              <div>{generaNode.optionB.text}</div>
+                              <span className="option-arrow">→</span>
+                            </button>
+                          </div>
+                        </>
+                      );
+                    })()
+                  )}
+                </div>
+              ) : null}
+
+              {/* Family key step */}
+              {!currentStep.result && !generaActive && node ? (
                 <div className="step-card">
                   <div className="step-meta">
                     <span className="step-num">{node.step}</span>
@@ -352,9 +486,11 @@ function App() {
                     </button>
                   </div>
                 </div>
-              ) : (
+              ) : null}
+
+              {!currentStep.result && !generaActive && !node ? (
                 <div>{t.error_not_found}</div>
-              )}
+              ) : null}
             </div>
           </>
         ) : (
@@ -410,7 +546,29 @@ function App() {
                     </div>
                   ))}
                   {listWormsData[taxon.split(' ')[0]] && !listWormsData[taxon.split(' ')[0]].valid && renderWormsWarning(listWormsData[taxon.split(' ')[0]], true)}
-                  <div style={{ marginTop: '1.5rem', textAlign: 'right' }}>
+                  <div style={{ marginTop: '1.5rem', textAlign: 'right', display: 'flex', gap: '1rem', justifyContent: 'flex-end', flexWrap: 'wrap' }}>
+                    {hasGeneraKey(taxon) && (
+                      <button
+                        onClick={() => {
+                          setMode('key');
+                          loadGeneraKey(taxon);
+                        }}
+                        style={{
+                          color: 'var(--biolum)',
+                          background: 'none',
+                          border: 'none',
+                          cursor: 'pointer',
+                          fontSize: '0.75rem',
+                          fontFamily: 'var(--mono)',
+                          borderBottom: '1px dashed rgba(79,200,168,0.4)',
+                          textTransform: 'uppercase',
+                          letterSpacing: '0.05em',
+                          padding: '0'
+                        }}
+                      >
+                        → {t.genera_btn}
+                      </button>
+                    )}
                     <a 
                       href={`https://www.marinespecies.org/aphia.php?p=taxlist&tName=${taxon.split(' ')[0]}`} 
                       target="_blank" 

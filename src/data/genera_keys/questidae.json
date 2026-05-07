@@ -1,0 +1,20 @@
+{
+  "_meta": {
+    "family": "QUESTIDAE",
+    "source": "Fauchald (1977) Key to Genera",
+    "type": "genera_key"
+  },
+  "1": {
+    "step": "1",
+    "optionA": {
+      "text": "Setae include capillaries and bidentate hooks; posterior cirriform branchiae present",
+      "goTo": null,
+      "result": "Questa"
+    },
+    "optionB": {
+      "text": "Setae include capillaries, bidentate hooks and trifurcate spines; branchiae absent",
+      "goTo": null,
+      "result": "Novaquesta"
+    }
+  }
+}

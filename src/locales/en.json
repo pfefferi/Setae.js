@@ -11,5 +11,8 @@
   "worms_accepted": "Currently accepted name:",
   "worms_view": "View on WoRMS →",
   "list_or": "— OR —",
-  "search_placeholder": "Search taxa or traits..."
+  "search_placeholder": "Search taxa or traits...",
+  "genera_btn": "Key to Genera",
+  "genera_result": "Genus",
+  "back_to_family": "Back to Family"
 }

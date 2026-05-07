@@ -1,0 +1,20 @@
+{
+  "_meta": {
+    "family": "POECILOCHAETIDAE",
+    "source": "Fauchald (1977) Key to Genera",
+    "type": "genera_key"
+  },
+  "1": {
+    "step": "1",
+    "optionA": {
+      "text": "Antenna frontal, first segment with series of long setae",
+      "goTo": null,
+      "result": "Poecilochaetus"
+    },
+    "optionB": {
+      "text": "Antenna median, first segment asetigerous",
+      "goTo": null,
+      "result": "Elicodasia"
+    }
+  }
+}

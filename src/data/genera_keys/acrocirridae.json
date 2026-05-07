@@ -1,0 +1,33 @@
+{
+  "_meta": {
+    "family": "ACROCIRRIDAE",
+    "source": "Fauchald (1977) Key to Genera",
+    "type": "genera_key"
+  },
+  "1": {
+    "step": "1",
+    "optionA": {
+      "text": "Branchiae absent",
+      "goTo": null,
+      "result": "Flabelligella"
+    },
+    "optionB": {
+      "text": "Branchiae present",
+      "goTo": "2",
+      "result": null
+    }
+  },
+  "2": {
+    "step": "2",
+    "optionA": {
+      "text": "Palpal bases well separated; epithelium densely papillated",
+      "goTo": null,
+      "result": "Macrochaeta"
+    },
+    "optionB": {
+      "text": "Palpal bases nearly abutting, epithelium nearly smooth",
+      "goTo": null,
+      "result": "Acrocirrus"
+    }
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "_meta": {
+    "family": "PARERGODRILIDAE",
+    "source": "Fauchald (1977) Key to Genera",
+    "type": "genera_key"
+  },
+  "1": {
+    "step": "1",
+    "optionA": {
+      "text": "Body not translucent, with 10-11 setigers; setae limbate and furcate",
+      "goTo": null,
+      "result": "Stygocapitella"
+    },
+    "optionB": {
+      "text": "Body translucent, 8-9 setigers present; all setae smooth rods",
+      "goTo": null,
+      "result": "Parergodrilus"
+    }
+  }
+}
