@@ -1,0 +1,148 @@
+{
+  "_meta": { "family": "MALDANIDAE", "source": "Fauchald (1977) Key to Genera", "type": "genera_key" },
+  "1": {
+    "step": "1",
+    "optionA": { "text": "Both cephalic and anal plaques absent", "goTo": "2", "result": null },
+    "optionB": { "text": "At least anal plaque present", "goTo": "7", "result": null }
+  },
+  "2": {
+    "step": "2",
+    "optionA": { "text": "Rostrate uncini in double rows, posterior segments with encircling collars", "goTo": null, "result": "Rhodine" },
+    "optionB": { "text": "Rostrate uncini in single rows, posterior segments not collared", "goTo": "3", "result": null }
+  },
+  "3": {
+    "step": "3",
+    "optionA": { "text": "More than 20 setigers present", "goTo": null, "result": "Praxillura" },
+    "optionB": { "text": "Nineteen setigers present", "goTo": "4", "result": null }
+  },
+  "4": {
+    "step": "4",
+    "optionA": { "text": "Setiger 4 with a deep encircling collar", "goTo": null, "result": "Clymenopsis" },
+    "optionB": { "text": "Setiger 4 without collar", "goTo": "5", "result": null }
+  },
+  "5": {
+    "step": "5",
+    "optionA": { "text": "Pygidium with anus at the end of a simple, upturned, flattened cone", "goTo": null, "result": "Lumbriclymenella" },
+    "optionB": { "text": "Pygidium otherwise", "goTo": "6", "result": null }
+  },
+  "6": {
+    "step": "6",
+    "optionA": { "text": "Pygidium flattened with anus dorsal", "goTo": null, "result": "Notoproctus" },
+    "optionB": { "text": "Pygidium conical with anus terminal", "goTo": null, "result": "Lumbriclymene" }
+  },
+  "7": {
+    "step": "7",
+    "optionA": { "text": "Cephalic plaque absent, anal plaque present", "goTo": "8", "result": null },
+    "optionB": { "text": "Both cephalic and anal plaques present", "goTo": "10", "result": null }
+  },
+  "8": {
+    "step": "8",
+    "optionA": { "text": "Rostrate uncini in all setigers", "goTo": null, "result": "Micromaldane" },
+    "optionB": { "text": "Acicular spines in first three setigers, thereafter rostrate uncini", "goTo": "9", "result": null }
+  },
+  "9": {
+    "step": "9",
+    "optionA": { "text": "Anal funnel symmetrically developed", "goTo": null, "result": "Nicomache" },
+    "optionB": { "text": "Anal funnel asymmetrical, with the dorsal side reduced", "goTo": null, "result": "Petaloproctus" }
+  },
+  "10": {
+    "step": "10",
+    "optionA": { "text": "Anus dorsal", "goTo": "11", "result": null },
+    "optionB": { "text": "Anus terminal", "goTo": "15", "result": null }
+  },
+  "11": {
+    "step": "11",
+    "optionA": { "text": "Rostrate uncini in two or three series in most setigers", "goTo": null, "result": "Sonatsa" },
+    "optionB": { "text": "Rostrate uncini always in single series", "goTo": "12", "result": null }
+  },
+  "12": {
+    "step": "12",
+    "optionA": { "text": "First three setigers with acicular neuropodial spines", "goTo": null, "result": "Clymaldane" },
+    "optionB": { "text": "First setiger either without neurosetae or with rostrate uncini", "goTo": "13", "result": null }
+  },
+  "13": {
+    "step": "13",
+    "optionA": { "text": "Cephalic keel long and high, cephalic rim shallowly notched laterally", "goTo": null, "result": "Maldane" },
+    "optionB": { "text": "Cephalic keel short and low, cephalic rim deeply incised laterally", "goTo": "14", "result": null }
+  },
+  "14": {
+    "step": "14",
+    "optionA": { "text": "Numerous branchial filaments on median setigers", "goTo": null, "result": "Branchioasychis" },
+    "optionB": { "text": "Branchial filaments absent", "goTo": null, "result": "Asychis" }
+  },
+  "15": {
+    "step": "15",
+    "optionA": { "text": "Series of vascular caeca cover the surface of the two last setigers", "goTo": null, "result": "Johnstonia" },
+    "optionB": { "text": "Vascular caeca absent", "goTo": "16", "result": null }
+  },
+  "16": {
+    "step": "16",
+    "optionA": { "text": "Anal plaque marginally smooth or gently crenulated", "goTo": "17", "result": null },
+    "optionB": { "text": "Anal plaque bordered by distinct anal cirri", "goTo": "18", "result": null }
+  },
+  "17": {
+    "step": "17",
+    "optionA": { "text": "First setiger with notosetae only; anal plaque gently crenulated", "goTo": null, "result": "Abyssoclymene" },
+    "optionB": { "text": "First setiger with noto- and neurosetae; anal plaque smooth", "goTo": null, "result": "Microclymene" }
+  },
+  "18": {
+    "step": "18",
+    "optionA": { "text": "All anal cirri similar in length", "goTo": "19", "result": null },
+    "optionB": { "text": "Midventral anal cirrus (rarely two) distinctly longer than all other anal cirri", "goTo": "23", "result": null }
+  },
+  "19": {
+    "step": "19",
+    "optionA": { "text": "More than 30 setigers present", "goTo": null, "result": "Macroclymene" },
+    "optionB": { "text": "Nineteen or 20 setigers present", "goTo": "20", "result": null }
+  },
+  "20": {
+    "step": "20",
+    "optionA": { "text": "Acicular spines in the first neuropodia", "goTo": "21", "result": null },
+    "optionB": { "text": "First neurosetae rostrate uncini", "goTo": "22", "result": null }
+  },
+  "21": {
+    "step": "21",
+    "optionA": { "text": "Setiger 4 with a deep encircling collar", "goTo": null, "result": "Clymenella" },
+    "optionB": { "text": "Setiger 4 without a collar", "goTo": null, "result": "Isocirrus" }
+  },
+  "22": {
+    "step": "22",
+    "optionA": { "text": "First setiger with notosetae only; anal plaque with numerous cirri", "goTo": null, "result": "Maldanella" },
+    "optionB": { "text": "First setiger with both noto- and neurosetae; anal plaque with a few long cirri only", "goTo": null, "result": "Clymenura" }
+  },
+  "23": {
+    "step": "23",
+    "optionA": { "text": "More than 30 setigers present", "goTo": "24", "result": null },
+    "optionB": { "text": "Eighteen to 20 setigers present", "goTo": "25", "result": null }
+  },
+  "24": {
+    "step": "24",
+    "optionA": { "text": "Setiger 4 with a deep encircling collar", "goTo": null, "result": "Macroclymenella" },
+    "optionB": { "text": "Setiger 4 without a collar", "goTo": null, "result": "Gravierella" }
+  },
+  "25": {
+    "step": "25",
+    "optionA": { "text": "Anterior neuropodia with rostrate uncini", "goTo": null, "result": "Axiothella" },
+    "optionB": { "text": "Anterior neuropodia with acicular spines", "goTo": "26", "result": null }
+  },
+  "26": {
+    "step": "26",
+    "optionA": { "text": "Anal plaque with two large ventral and several shorter lateral and dorsal anal cirri", "goTo": null, "result": "Proclymene" },
+    "optionB": { "text": "A single large ventral cirrus and several shorter lateral and dorsal anal cirri present", "goTo": "27", "result": null }
+  },
+  "27": {
+    "step": "27",
+    "optionA": { "text": "Nuchal slits short, straight and diverging anteriorly", "goTo": null, "result": "Pseudoclymene" },
+    "optionB": { "text": "Nuchal slits long, straight and parallel", "goTo": "28", "result": null }
+  },
+  "28": {
+    "step": "28",
+    "optionA": { "text": "Anal cone projecting well beyond the rim of the anal plaque", "goTo": null, "result": "Praxillella" },
+    "optionB": { "text": "Anal cone low and not projecting beyond the rim of the anal plaque", "goTo": "29", "result": null }
+  },
+  "29": {
+    "step": "29",
+    "optionA": { "text": "Apart from the long ventral anal cirrus, all other anal cirri similar in length", "goTo": null, "result": "Euclymene" },
+    "optionB": { "text": "Anal cirri of varying lengths", "goTo": null, "result": "Heteroclymene" }
+  }
+}

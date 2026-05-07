@@ -1,0 +1,138 @@
+{
+  "_meta": { "family": "SPIONIDAE", "source": "Fauchald (1977) Key to Genera", "type": "genera_key" },
+  "1": {
+    "step": "1",
+    "optionA": { "text": "Each branchia with several (maximally seven) processes in median parapodia", "goTo": null, "result": "Potybranchia" },
+    "optionB": { "text": "Branchia, if present, single process", "goTo": "2", "result": null }
+  },
+  "2": {
+    "step": "2",
+    "optionA": { "text": "One setiger with strongly modified setae", "goTo": "3", "result": null },
+    "optionB": { "text": "Setae change gradually along the body, no segment with remarkably different setae (except large hooks in the first setiger)", "goTo": "8", "result": null }
+  },
+  "3": {
+    "step": "3",
+    "optionA": { "text": "Setiger 16 modified", "goTo": null, "result": "Morants" },
+    "optionB": { "text": "Either setiger 4 or 5 modified", "goTo": "4", "result": null }
+  },
+  "4": {
+    "step": "4",
+    "optionA": { "text": "Setiger 4 modified", "goTo": null, "result": "Polydorella" },
+    "optionB": { "text": "Setiger 5 modified", "goTo": "5", "result": null }
+  },
+  "5": {
+    "step": "5",
+    "optionA": { "text": "Neuropodial uncini distally trifid", "goTo": null, "result": "Tripolydora" },
+    "optionB": { "text": "Neuropodial uncini distally bifid or entire", "goTo": "6", "result": null }
+  },
+  "6": {
+    "step": "6",
+    "optionA": { "text": "Branchiae first present from setiger 2", "goTo": null, "result": "Boccardia" },
+    "optionB": { "text": "Branchiae first present posterior to the modified segment", "goTo": "7", "result": null }
+  },
+  "7": {
+    "step": "7",
+    "optionA": { "text": "Setae in modified segment arranged in a horseshoe-shaped series", "goTo": null, "result": "Pseudopolydora" },
+    "optionB": { "text": "Setae in the modified segment in a straight line or a small patch", "goTo": null, "result": "Polydora" }
+  },
+  "8": {
+    "step": "8",
+    "optionA": { "text": "Branchiae absent; first neuropodia with stout hooks", "goTo": null, "result": "Spiophanes" },
+    "optionB": { "text": "At least one pair of branchiae present; first neuropodia without stout hooks", "goTo": "9", "result": null }
+  },
+  "9": {
+    "step": "9",
+    "optionA": { "text": "Branchiae present on nearly the whole body", "goTo": "10", "result": null },
+    "optionB": { "text": "Branchiae limited to less than half the length of the body", "goTo": "19", "result": null }
+  },
+  "10": {
+    "step": "10",
+    "optionA": { "text": "Branchiae present from setiger 1", "goTo": "11", "result": null },
+    "optionB": { "text": "Branchiae present from setiger 2", "goTo": "14", "result": null }
+  },
+  "11": {
+    "step": "11",
+    "optionA": { "text": "Accessory branchiae on some segments", "goTo": null, "result": "Dispio" },
+    "optionB": { "text": "Accessory branchiae absent", "goTo": "12", "result": null }
+  },
+  "12": {
+    "step": "12",
+    "optionA": { "text": "Posterior notopodia with uncini", "goTo": null, "result": "Marenzelleria" },
+    "optionB": { "text": "Notosetae all capillaries", "goTo": "13", "result": null }
+  },
+  "13": {
+    "step": "13",
+    "optionA": { "text": "Prostomium anteriorly rounded", "goTo": null, "result": "Spio" },
+    "optionB": { "text": "Prostomium with laterofrontal horns", "goTo": null, "result": "Malacoceros" }
+  },
+  "14": {
+    "step": "14",
+    "optionA": { "text": "Posterior notopodia with uncini", "goTo": null, "result": "Scolelepis" },
+    "optionB": { "text": "All notosetae capillaries", "goTo": "15", "result": null }
+  },
+  "15": {
+    "step": "15",
+    "optionA": { "text": "Prostomium with laterofrontal horns", "goTo": "16", "result": null },
+    "optionB": { "text": "Prostomium anteriorly blunt or pointed", "goTo": "17", "result": null }
+  },
+  "16": {
+    "step": "16",
+    "optionA": { "text": "Branchiae partially fused to the notopodial postsetal lobes", "goTo": null, "result": "Rhynchospio" },
+    "optionB": { "text": "Branchiae completely separated from the notopodial postsetal lobes", "goTo": null, "result": "Mesospio" }
+  },
+  "17": {
+    "step": "17",
+    "optionA": { "text": "Occipital antenna absent", "goTo": null, "result": "Microspio" },
+    "optionB": { "text": "Occipital antenna present", "goTo": "18", "result": null }
+  },
+  "18": {
+    "step": "18",
+    "optionA": { "text": "Branchiae partially fused to the notopodial postsetal lobes", "goTo": null, "result": "Pseudomalacoceros" },
+    "optionB": { "text": "Branchiae completely separated from the notopodial postsetal lobes", "goTo": null, "result": "Laonice" }
+  },
+  "19": {
+    "step": "19",
+    "optionA": { "text": "A single pair of branchiae present", "goTo": null, "result": "Streblospio" },
+    "optionB": { "text": "At least two pairs of branchiae present", "goTo": "20", "result": null }
+  },
+  "20": {
+    "step": "20",
+    "optionA": { "text": "Branchiae concentrated in a medio-posterior region, except in the males, where an additional single pair is present on the second setiger", "goTo": null, "result": "Pygospio" },
+    "optionB": { "text": "Branchiae concentrated near the anterior end only", "goTo": "21", "result": null }
+  },
+  "21": {
+    "step": "21",
+    "optionA": { "text": "Peristomium forms large lateral wings on either side of the prostomium", "goTo": "22", "result": null },
+    "optionB": { "text": "Peristomium does not form lateral wings on the sides of the prostomium", "goTo": "24", "result": null }
+  },
+  "22": {
+    "step": "22",
+    "optionA": { "text": "Three pairs of pinnate branchiae present from setiger 1", "goTo": null, "result": "Paraprionospio" },
+    "optionB": { "text": "Branchiae otherwise, first present from setiger 2", "goTo": "23", "result": null }
+  },
+  "23": {
+    "step": "23",
+    "optionA": { "text": "Two to four pairs of branchiae present", "goTo": null, "result": "Aquilaspio" },
+    "optionB": { "text": "At least six pairs of branchiae present", "goTo": null, "result": "Minuspio" }
+  },
+  "24": {
+    "step": "24",
+    "optionA": { "text": "Prostomium anteriorly pointed", "goTo": null, "result": "Aonides" },
+    "optionB": { "text": "Prostomium anteriorly blunt or with frontal horns", "goTo": "25", "result": null }
+  },
+  "25": {
+    "step": "25",
+    "optionA": { "text": "Prostomium with frontal horns", "goTo": null, "result": "Scolecolepides" },
+    "optionB": { "text": "Prostomium anteriorly rounded", "goTo": "26", "result": null }
+  },
+  "26": {
+    "step": "26",
+    "optionA": { "text": "Branchiae two pairs on setigers 3-4", "goTo": null, "result": "Anaspio" },
+    "optionB": { "text": "Four pairs of branchiae from setiger 2", "goTo": "27", "result": null }
+  },
+  "27": {
+    "step": "27",
+    "optionA": { "text": "Three first pairs of branchiae cirriform, the last pinnate", "goTo": null, "result": "Apoprionospio" },
+    "optionB": { "text": "Branchiae cirriform or pinnate in another pattern", "goTo": null, "result": "Prionospio" }
+  }
+}
