@@ -4,6 +4,7 @@ import fauchaldKeyEs from './data/fauchald_family_key_es.json';
 import en from './locales/en.json';
 import es from './locales/es.json';
 import generaKeysIndex from './data/genera_keys/index.json';
+import glossaryEn from './data/glossary.json';
 import Landing from './Landing.jsx';
 import './App.css';
 
@@ -16,6 +17,59 @@ const translations = {
   en,
   es
 };
+
+// ── Glossary Tooltip ──
+// Build lookup once: lowercase term -> {term, definition, figure}
+const glossaryMap = {};
+glossaryEn.forEach(entry => {
+  const key = entry.term.split(' (')[0].toLowerCase(); // strip plural suffix like " (e)"
+  glossaryMap[key] = entry;
+  // Also store the plural form variant
+  const paren = entry.term.match(/\((.+?)\)/);
+  if (paren) {
+    const plural = paren[1].trim();
+    if (plural.length > 0) {
+      glossaryMap[plural.toLowerCase()] = entry;
+    }
+  }
+});
+
+/** Split text by glossary terms and wrap matches with tooltip spans */
+function GlossaryText({ text }) {
+  if (!text) return text;
+  const lower = text.toLowerCase();
+  // Find the first glossary term match (longest first)
+  let bestMatch = null;
+  let bestLen = 0;
+  for (const [term, entry] of Object.entries(glossaryMap)) {
+    const idx = lower.indexOf(term);
+    if (idx >= 0 && term.length > bestLen) {
+      // Check word boundary: term should be a standalone word
+      const before = idx > 0 ? lower[idx-1] : ' ';
+      const after = idx + term.length < lower.length ? lower[idx+term.length] : ' ';
+      if (!before.match(/[a-z]/) && !after.match(/[a-z]/)) {
+        bestMatch = { idx, term, entry };
+        bestLen = term.length;
+      }
+    }
+  }
+  if (!bestMatch) return text;
+  const { idx, term, entry } = bestMatch;
+  const before = text.slice(0, idx);
+  const match = text.slice(idx, idx + term.length);
+  const after = text.slice(idx + term.length);
+  const fig = entry.figure ? ` (Fig. ${entry.figure})` : '';
+  return (
+    <>
+      {before}
+      <span className="glossary-term" data-def={`${entry.definition}${fig}`}>
+        {match}
+        <span className="glossary-popup">{entry.definition}{fig}</span>
+      </span>
+      <GlossaryText text={after} />
+    </>
+  );
+}
 
 function App() {
   const [lang, setLang] = useState(() => {
@@ -531,12 +585,12 @@ function App() {
                             <div className="options">
                               <button className="option-btn" onClick={() => handleGeneraChoice(generaNode.optionA, 'A')}>
                                 <span className="option-letter">A</span>
-                                <div>{generaNode.optionA.text}</div>
+                                <div><GlossaryText text={generaNode.optionA.text} /></div>
                                 <span className="option-arrow">→</span>
                               </button>
                               <button className="option-btn" onClick={() => handleGeneraChoice(generaNode.optionB, 'B')}>
                                 <span className="option-letter">B</span>
-                                <div>{generaNode.optionB.text}</div>
+                                <div><GlossaryText text={generaNode.optionB.text} /></div>
                                 <span className="option-arrow">→</span>
                               </button>
                             </div>
