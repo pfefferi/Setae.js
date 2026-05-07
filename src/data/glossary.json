@@ -1,0 +1,597 @@
+[
+  {
+    "term": "abdomen",
+    "definition": "posterior part of the body, behind the thorax, sometimes followed by a tail",
+    "figure": "2"
+  },
+  {
+    "term": "aciculum (a)",
+    "definition": "stout supportive setae found internally in each parapodial ramus where these project from the body. Acicular setae are thick, projecting setae",
+    "figure": "5"
+  },
+  {
+    "term": "branchia (e)",
+    "definition": "any extension of the body wall with a loop of the vascular system or which is wellequipped with capillary blood-vessels; a gill",
+    "figure": "27"
+  },
+  {
+    "term": "buccal",
+    "definition": "pertaining to the mouth.",
+    "figure": null
+  },
+  {
+    "term": "capillary (ies)",
+    "definition": "in polychaete literature used either as an adjective in the combination capillary seta or as a noun characterizing long, slender tapering setae.",
+    "figure": null
+  },
+  {
+    "term": "caruncle",
+    "definition": "posterior sensory organ projecting from the prostomium sometimes over the first several segments",
+    "figure": "28"
+  },
+  {
+    "term": "cephalon",
+    "definition": "head.",
+    "figure": null
+  },
+  {
+    "term": "cephalic cage",
+    "definition": "long protective setae enclosing and protecting the head.",
+    "figure": null
+  },
+  {
+    "term": "cephalic rim",
+    "definition": "flange encircling the head",
+    "figure": "25"
+  },
+  {
+    "term": "aileron",
+    "definition": "accessory jaw plate in the glycerids (9).",
+    "figure": null
+  },
+  {
+    "term": "cephalic veil",
+    "definition": "hoodlike membrane between the paleae and the buccal tentacles in pectinariids.",
+    "figure": null
+  },
+  {
+    "term": "anal cirrus (i)",
+    "definition": "one or more elongated projections from the pygidium",
+    "figure": "11"
+  },
+  {
+    "term": "ceratophore",
+    "definition": "basal joini of an antenna",
+    "figure": "30"
+  },
+  {
+    "term": "antenna (e)",
+    "definition": "sensory projection arising from the dorsal, lateral or frontal surface of the prostomium; innervated from the first part of the brain",
+    "figure": "12,61"
+  },
+  {
+    "term": "ceratostyle",
+    "definition": "distal joint of an antenna",
+    "figure": "29"
+  },
+  {
+    "term": "chevron",
+    "definition": "V-shaped chitinized jaw piece at the base of the eversible pharynx in some goniadids",
+    "figure": "31"
+  },
+  {
+    "term": "apodous",
+    "definition": "without parapodia",
+    "figure": "66"
+  },
+  {
+    "term": "cirriform",
+    "definition": "slender and cylindrical",
+    "figure": "41"
+  },
+  {
+    "term": "aristate",
+    "definition": "about setae: simple setae with smooth shaft and a tuft of hairs or a single spine distally (17).",
+    "figure": null
+  },
+  {
+    "term": "cirrophore",
+    "definition": "basal joint of a cirrus",
+    "figure": "35"
+  },
+  {
+    "term": "arborescent",
+    "definition": "branching (like a tree)",
+    "figure": "18"
+  },
+  {
+    "term": "cirrostyle",
+    "definition": "distal joint of a cirrus (34).",
+    "figure": null
+  },
+  {
+    "term": "auricular",
+    "definition": "ear-shaped",
+    "figure": "19"
+  },
+  {
+    "term": "cirrus (1)",
+    "definition": "sensory projection, usually slender and cylindrical, from the superior part of the notopodiura (dorsal cirrus) or from the inferior part of the neuropodium (ventral cirrus)",
+    "figure": "36,38,78,80"
+  },
+  {
+    "term": "avicular",
+    "definition": "beaked (shaped like a bird's head)",
+    "figure": "20"
+  },
+  {
+    "term": "clavate",
+    "definition": "club-shaped",
+    "figure": "32"
+  },
+  {
+    "term": "biarticulate",
+    "definition": "with two joints; used about antennae, tentacles and palps",
+    "figure": "13"
+  },
+  {
+    "term": "companion setae",
+    "definition": "small, simple setae in rows, accompanying, or alternating with larger setae, usually hooks of some kind.",
+    "figure": null
+  },
+  {
+    "term": "bidentate",
+    "definition": "with two teeth",
+    "figure": "21"
+  },
+  {
+    "term": "compound (or composite) setae",
+    "definition": "jointed setae",
+    "figure": "37"
+  },
+  {
+    "term": "asetigerous",
+    "definition": "without setae",
+    "figure": "66"
+  },
+  {
+    "term": "bifid",
+    "definition": "split in two",
+    "figure": "22"
+  },
+  {
+    "term": "bifurcate",
+    "definition": "with two prongs",
+    "figure": "23"
+  },
+  {
+    "term": "deciduous",
+    "definition": "liable to fall off (like leaves).",
+    "figure": null
+  },
+  {
+    "term": "bilimbate",
+    "definition": "simple setae with two wings or flattened margins",
+    "figure": "24"
+  },
+  {
+    "term": "dentate",
+    "definition": "with teeth",
+    "figure": "39"
+  },
+  {
+    "term": "bipinnate",
+    "definition": "formed like a feather with a main stem and two rows of side branches",
+    "figure": "26"
+  },
+  {
+    "term": "biramous",
+    "definition": "with two branches; usually used about parapodia having both noto- and neuropodia present",
+    "figure": "6"
+  },
+  {
+    "term": "denticulate",
+    "definition": "with small teeth",
+    "figure": "40"
+  },
+  {
+    "term": "digitiform",
+    "definition": "finger-shaped",
+    "figure": "42"
+  },
+  {
+    "term": "elytron (a)",
+    "definition": "dorsal scales found in the aphroditoids; homologous with the dorsal cirrostyles (43). THE POLYCHAETE WORMS",
+    "figure": null
+  },
+  {
+    "term": "elytrophore",
+    "definition": "aphroditoid cirrophore carrying an elytron",
+    "figure": "44"
+  },
+  {
+    "term": "epitoke",
+    "definition": "modified reproductive stage or specimen, often swarming.",
+    "figure": null
+  },
+  {
+    "term": "facial tubercle",
+    "definition": "projecting ridge or lobe on the upper lip of certain polychaetes (especially scaleworms).",
+    "figure": null
+  },
+  {
+    "term": "falcate",
+    "definition": "distally curved, usually blunt (used about setae)",
+    "figure": "45"
+  },
+  {
+    "term": "falciger",
+    "definition": "distally blunt and curved setae",
+    "figure": "45"
+  },
+  {
+    "term": "filiform",
+    "definition": "slender and threadlike",
+    "figure": "46"
+  },
+  {
+    "term": "foliaceous",
+    "definition": "leaflike",
+    "figure": "47"
+  },
+  {
+    "term": "fusiform",
+    "definition": "cigar- or spindle-shaped",
+    "figure": "48"
+  },
+  {
+    "term": "geniculated",
+    "definition": "bent (like a knee) (49).",
+    "figure": null
+  },
+  {
+    "term": "harpoon seta",
+    "definition": "stout pointed seta with recurved barbs near the tip",
+    "figure": "50"
+  },
+  {
+    "term": "liemigomph articulation",
+    "definition": "with asymmetrical articulation nearly at right angles to the long axis of the shaft",
+    "figure": "52"
+  },
+  {
+    "term": "heterogomph articulation",
+    "definition": "with articulation clearly oblique to the long axis of the shaft",
+    "figure": "53"
+  },
+  {
+    "term": "homogomph articulation",
+    "definition": "with articulation distinctly and symmetrically at right angles to the long axis of the shaft",
+    "figure": "54"
+  },
+  {
+    "term": "hooded setae",
+    "definition": "setae distally covered by a delicate chitinous envelope or guard",
+    "figure": "51"
+  },
+  {
+    "term": "hook",
+    "definition": "general term used about stout-shafted, blunt, often distally curved and dentate setae; smaller hooks arranged in single or double rows are often referred to as uncini.",
+    "figure": null
+  },
+  {
+    "term": "imbricated",
+    "definition": "overlapping (like tiles).",
+    "figure": null
+  },
+  {
+    "term": "inferior",
+    "definition": "the more ventral (of two or more structures).",
+    "figure": null
+  },
+  {
+    "term": "ligule",
+    "definition": "finger-shaped major process on a parapodium",
+    "figure": null
+  },
+  {
+    "term": "limbate",
+    "definition": "simple seta with a flattened margin or wing",
+    "figure": null
+  },
+  {
+    "term": "lobe",
+    "definition": "major parapodial process, used mainly about flattened kinds, but also more generally about all kinds of major parapodial processes (8). \u202252 -53 -54 ]976 THE POLVCHAETE WORMS",
+    "figure": null
+  },
+  {
+    "term": "long-handled",
+    "definition": "used about uncini, with a long basal rod supporting the uncinus",
+    "figure": null
+  },
+  {
+    "term": "metastomium",
+    "definition": "rarely used terin covering the segmented body between the prostomium and pygidium, but including neither.",
+    "figure": null
+  },
+  {
+    "term": "moniliform",
+    "definition": "beaded or beadlike",
+    "figure": "57"
+  },
+  {
+    "term": "mucro",
+    "definition": "with a sharp point or tip; abruptly tapered",
+    "figure": "58"
+  },
+  {
+    "term": "multiarticulated",
+    "definition": "with several joints",
+    "figure": "60"
+  },
+  {
+    "term": "natatory",
+    "definition": "swimming.",
+    "figure": null
+  },
+  {
+    "term": "neuropodium (a)",
+    "definition": "ventral branch (ramus) of a parapodium",
+    "figure": "7"
+  },
+  {
+    "term": "neurosetae",
+    "definition": "setae of the neuropodium.",
+    "figure": null
+  },
+  {
+    "term": "notopodium (a)",
+    "definition": "dorsal branch (ramus) of a parapodium (3). ,.|\u00bf,.",
+    "figure": null
+  },
+  {
+    "term": "notosetae",
+    "definition": "setae of a notopodium.",
+    "figure": null
+  },
+  {
+    "term": "nuchal",
+    "definition": "pertaining to the neck; used about sensory organs found on the posterodorsal side of the head and variously developed as paired or single processes, pits or grooves, sometimes as paired epaulettes stretching posterolaterally from the prostomium.",
+    "figure": null
+  },
+  {
+    "term": "occipital",
+    "definition": "pertaining to the posterodorsal part of the prostomium",
+    "figure": "64"
+  },
+  {
+    "term": "ocular",
+    "definition": "pertaining to the eyes.",
+    "figure": null
+  },
+  {
+    "term": "ocular peduncle",
+    "definition": "projecting structure supporting the eyes, especially in the polyodontids.",
+    "figure": null
+  },
+  {
+    "term": "ommatophore",
+    "definition": "see ocular peduncle.",
+    "figure": null
+  },
+  {
+    "term": "operculum (a)",
+    "definition": "literally a lid; used about a structure some tubicolous worms use as stoppers for their tubes when the occupant is retracted; see Sabellariidae and Serpulidae.",
+    "figure": null
+  },
+  {
+    "term": "palea (e)",
+    "definition": "strong or broad, usually flattened setae.",
+    "figure": null
+  },
+  {
+    "term": "palmate",
+    "definition": "resembling the fronds of a palm",
+    "figure": "67"
+  },
+  {
+    "term": "palp (s)",
+    "definition": "sensory or feeding structures innervated from the posterior part of the brain or from the circumesophagal nerve ring; anteroventral and sensory in the Phyllodocida; posterodorsal and used in feeding in the spioniform worms",
+    "figure": "13"
+  },
+  {
+    "term": "paragnath",
+    "definition": "chitinous denticle in the pharyngeal cavity of nereids",
+    "figure": "63"
+  },
+  {
+    "term": "parapodium (a)",
+    "definition": "segmentaily arranged projections carrying setae; foot",
+    "figure": "16"
+  },
+  {
+    "term": "seta",
+    "definition": "secretion from the parapodia forming the armature of these structures.",
+    "figure": null
+  },
+  {
+    "term": "pectinate",
+    "definition": "combiike; with series of projections arranged like the teeth of a comb (68).",
+    "figure": null
+  },
+  {
+    "term": "setter",
+    "definition": "segment carrying setae.",
+    "figure": null
+  },
+  {
+    "term": "penicillate",
+    "definition": "brushlike",
+    "figure": "70"
+  },
+  {
+    "term": "peristomium (a)",
+    "definition": "first distinct post-prostomial region; strictly including only the region around the tnouth, in practice including also segments fused to this structure, forming the posterior part of the recognizable head",
+    "figure": "16,66"
+  },
+  {
+    "term": "pharynx (ges)",
+    "definition": "anterior part of the digestive tract; often eversible, always modified for feeding purposes, sometimes also for burrowing",
+    "figure": "62"
+  },
+  {
+    "term": "pinnate",
+    "definition": "featherlike, with a main stem and lateral branches, see also bipinnate",
+    "figure": "71"
+  },
+  {
+    "term": "plumose",
+    "definition": "resembling down; hairy",
+    "figure": "69"
+  },
+  {
+    "term": "short-handled",
+    "definition": "used about uncini, without a long rod-shaped support, fine threads may be present.",
+    "figure": null
+  },
+  {
+    "term": "simple seta",
+    "definition": "unjointed seta.",
+    "figure": null
+  },
+  {
+    "term": "spatulate",
+    "definition": "blade-shaped, usually blunt-tipped, sometimes with a muero",
+    "figure": "59"
+  },
+  {
+    "term": "spiniger",
+    "definition": "seta that tapers to a fine point; most frequently used about composite setae",
+    "figure": "33"
+  },
+  {
+    "term": "spinous pocket",
+    "definition": "enlarged, pocketlike serration along the margin of the setae of some scale-worms",
+    "figure": "74"
+  },
+  {
+    "term": "stylode",
+    "definition": "small, fingerlike projection associated with a parapodium, usually small and distinctly longer than wide",
+    "figure": "73"
+  },
+  {
+    "term": "postsetal",
+    "definition": "posterior to the setae; used about parapodial lobes or hgules",
+    "figure": "8"
+  },
+  {
+    "term": "sub-biramous",
+    "definition": "pertaining to parapodia in which the neuropodia are well developed and the notopodia reduced (77).",
+    "figure": null
+  },
+  {
+    "term": "presetal",
+    "definition": "anterior to the setae; used about parapodial lobes or ligules",
+    "figure": "4"
+  },
+  {
+    "term": "subulate",
+    "definition": "awl-shaped; tapering to a fine point (75).",
+    "figure": null
+  },
+  {
+    "term": "prostomium (a)",
+    "definition": "anteriormost, a pre-segmental part of the body anterior to the mouth, enclosing at least the anterior part of the brain, often with antennae and eyes",
+    "figure": "14,64"
+  },
+  {
+    "term": "superior",
+    "definition": "the more dorsal (of two or more structures).",
+    "figure": null
+  },
+  {
+    "term": "proventricle",
+    "definition": "muscularized region of the anterior digestive tract in syllids, found posterior to the pharynx.",
+    "figure": null
+  },
+  {
+    "term": "tentacular cirrus",
+    "definition": "sensory projections arising either from the peristomium or from cephalized segments, in the latter case considered homologous with the dorsal and ventral cirri of normai, p--sicephalic parapodia",
+    "figure": "15,65"
+  },
+  {
+    "term": "pygidium (a)",
+    "definition": "post-segmental terminal part of the body carrying the anus",
+    "figure": "10"
+  },
+  {
+    "term": "thorax",
+    "definition": "anterior region of the body, posterior to the head(l).",
+    "figure": null
+  },
+  {
+    "term": "radioles",
+    "definition": "one of the main tentacles in the tentacular crown of sabellids and serpulids.",
+    "figure": null
+  },
+  {
+    "term": "ramose",
+    "definition": "branched.",
+    "figure": null
+  },
+  {
+    "term": "trepan",
+    "definition": "chitinized, anteriorly toothed part of the eversible pharynx of some worms, especially syllids",
+    "figure": "81"
+  },
+  {
+    "term": "tridentate",
+    "definition": "with three teeth",
+    "figure": "82"
+  },
+  {
+    "term": "reniform",
+    "definition": "kidney-shaped (76).",
+    "figure": null
+  },
+  {
+    "term": "rugose",
+    "definition": "roughened, lumpy",
+    "figure": "72"
+  },
+  {
+    "term": "scaphe",
+    "definition": "flattened caudal appendage of pectinariids.",
+    "figure": null
+  },
+  {
+    "term": "secondary tooth",
+    "definition": "the second of two teeth, the first being the apical, terminal or primary one.",
+    "figure": null
+  },
+  {
+    "term": "segment",
+    "definition": "any part of the body, apart from the prostomium and pygidium set off internally or externally by septa or otherwise from the preceding and following parts. c.\u00c7l-W-- VxiXv)",
+    "figure": null
+  },
+  {
+    "term": "uncinus (i)",
+    "definition": "general term covering sharply dentate, deeply imbedded setae, often with a platelike base; or small, S-shaped setae with a distinct beak. Uncini usually are arranged in rows transverse to the long axis of the animal",
+    "figure": "83"
+  },
+  {
+    "term": "unciniger",
+    "definition": "segment carrying uncini.",
+    "figure": null
+  },
+  {
+    "term": "unidentate",
+    "definition": "distally entire",
+    "figure": "45"
+  },
+  {
+    "term": "uniramous",
+    "definition": "with one branch only; used about parapodia in which one ramus, most frequently the notopodium, is absent (79). CA \\(A.'V v V- - ]976 THE POLYCHAETE WORMS LITERATURE CITED 1930. \u00dcber einen neuen S\u00fcsswasser-Polychaelen aus den H\u00f6hlengew\u00e4ssem der Herzegowina. Zool. Anz. 88:249-264. AiVAR, R. G. AND K. H. ALIKUNHI. 1940. On a new pisionid from Ihe sandy beach, Madras. Indian Mus, Calcutta, Rec. 42:89-107. 1943. Change of Ihe generic name Pisionella Aiyar and Alikunhi, 1940 into Pisionidens (Polychaeta). Current Science, Bangalore 12(4): 120. \u00c2tvESSON, B. 1963. The comparative morphology and embryology of the head in scale worms (Aphroditidae, Polychaeta). Ark. Zool. Stockholm 16(7):125-163. 1967. The embryology of the polychaete Eunice kobiensis. Acta Zool. 48:141-192. ALIKUNHI, K.H. 1949. On Anophthalmus (Fam.: Hesionidae) a new genus of polychaetes with description of four new species from the sandy beach at Madras. Proc. 35th Indian Sei. Congr. p. 192. ABSALON, K. AND S. HRABE. 1891. Report upon the Annehda Polychaeta of Beaufort, North Carolina. U.S. Nat. Mus., Proc. 14:277-302. ANDREWS, E.A. 1925. Beitr\u00e4ge zur Kenntnis die PolychaeteFauna Russlands. C.R. Acad. Sei. SSSR, Leningrad, 1925:125-126. 1927. \u00dcber die pontokaspischen Polychaeten. I, Die Gattungen Hypania Ostrooumov und Hypaniola n. gen. Ann. Mus. Zool. Leningrad 28:48-62. ANNENKOVA, N. 1928. \u00dcber die pontokaspischen Polychaeten. 2. Die Gattungen Hypaniola, Parhypania, Fabricia und Manajunkia. Ann, Mus. Zool. Leningrad 30:13-20. 1929. Beitr\u00e4ge zur Kenntnis der PolychaetenFauna der U.S.S.R. 1. Fam. Pectinariidae Quatrefages Ann. Mus, Zool. Acad. Nauk, Leningrad, 30:477-502. \u2022 1931. Zur Polychaetenfauna von Franz-JosephLand {Melinnexis gen. nov. \u00e1rctica sp. n.). Zool Anz. 95:269-272. 1934. Kurze \u00dcbersicht der Polychaeten der Litoralzone der Bering-Insel (Kommador-Inseln), nebst Beschreibung neuer Arten. Zool. Anz. 106:322-331. 1937. [The polychaete fauna of the northern part of the Japan Sea]. (In Russian). Issledovaniia morei SSSR 23:139-216. 1952. [New species of polychaetous annelids SSSR 12:148-154. APSTEIN, C. 1891. Die Alciopiden des naturhistorischen Museums in Hamburg. Jahrb. Hamburg wiss. Anst. 8:3-19. I, 1899, Studien \u00fcber die Familien Glyceridae und Goniadidae. Bergens Mus. Aarb., 1898 (ll):l-79. 1907. Studien \u00fcber die skandinavischen und arktischen Maldaniden nebst Zusammenstellung der \u00fcbrigen bisher bekannten Arten die.ser Familie. Zool. Jahrb. Suppl. 9; 1-308. -. 1911a. Die Maldaniden. Wiss. Ergeb. Swedischen S\u00fcdpolar-Exped. 1901-1903. 6(6):l-44. 1911b. On some Irish Maldanidae. Roy. Irish Acad. Dublin, Pioc. 29b(6):209-238. ARWIDSSON, \\6l 1932. Calamyzas amphictenicola, ein ektoparasitischer Verwandter der Sylliden. Zool. Bidr. Uppsala 14:153-218. ASHWORTH, J.H. 1901. The anatomy o\u00edScalibregma inflatum Rathke. Quar. J. Micro. Sei., London 45:237-309. AuDOuiN, J.V. AND H. MILNE EDWARDS. 1830. Description de VHipponoe, nouveau genred'Annelides. Ann. Sei. Nat. Paris (1)20:156-159. -. 1832. Classi\u00dfcation des Annelides, et description de celles qui habitent les c\u00f4tes de la France. Ann. Sei. Nat. Paris (1) 27:337-347. 1833a. Classification des Ann\u00e9lides, et description de celles qui habitent les c\u00f4tes de la France. Ann. Sei. Nat. Paris (1)28:187-247. 1833b, Classification des Ann\u00e9lides, et description de celles qui habitent les c\u00f4tes de la France. Ann. Sei. Nat. Paris (1)29:195-269. 1833c. Classification des Ann\u00e9lides, et description de celles qui habitent les c\u00f4tes de la France. Ann. Sei. Nat. Paris (1) 29:388-412. 1833d. Classi\u00dfcation des Ann\u00e9lides, et description de celles qui habitent les c\u00f4tes de la France. Ann. Sei. Nat. Paris (1) 30:411-425. 1834. Recherches pour servir \u00e0 l'histoire natitfelle du littoral de la France, ou Receuil de m\u00e9moires sur l'anatomie, la physiologie, la classification et les moeurs des animaux de nos c\u00f4tes; ouvrage accompagn\u00e9 des planches faites de apr\u00e8s nature. 2. Ann\u00e9lides, l'pt. Paris, 290 pp. AucENER, H. 1913a. Polychaeta I, Errantia. In: Michaelsen, W. and R. Hartmeyer (eds.): Die Fauna S\u00fcdwestAustraliens. Ergebnisse der Hamburger s\u00fcdwest-australischen Forschungsreise 1905. 4(5):65-304. 1913b. Polychaeten von Franz Josephland II. Zool. Anz. 41:253-273. 1914. Polychaeta 11, Sedentaria. In: Michaelsen, W. and R. Hartmeyer (eds.): Die Fauna S\u00fcdwestAustraliens. Ergebnisse der Hamburger s\u00fcdwest-australiscben Forschungsreise 1905. 5(I):I-170. 1918. Polychaeta. \u00a1n: Michaelsen, W. (ed.): Beitr\u00e4ge zur Kenntnis des Meeresfauna West-Afrikas. 2(2):67-625. 1922. \u00dcber littoral Polychaeten von Westindien. Sitzber. Ges. Naturf. Freunde Beriin, 1922:38-63. 1926. Polychaeten von Neuseeland II. Sedentaria. Vidensk. Medd. dansk naturh. Foren. 81:157-294. 1927a. Polychaeten von S\u00fcdost- und S\u00fcdAustralien. Vidensk. Medd. dansk naturh. Foren. 83: 71-275. 1927b. Polychaeten von Curacao. Bijdragen tot de Kennis der Fauna van Curacao. Resultaten eener Reis van Dr. C.J. van der Horst in 1920. Zool. Genoots. \"Natura aitis Magistra\", Amsterdam 25:39-82. 1928a. Beitrag zur Polychaetenfauna der Ostsee. Zeits. Moiph. Oekol. Tiere 11:102-104... 1928b. Erg\u00e4nzung zu den Polychaeten von Spitzbergen. Fauna \u00c1rctica, Jena 5:647-834. Ax, P. 1954. Thalassochaetus palpifoliaceus, nov. gen., nov. spec, (Archiannelida, Nerillidae), ein marine Verwandtes von Troglochaetus beranecki Delachaux. Zool. Anz. 153: 64-75. ]62 1969. Methods of brood protection as a basis for the reclassification of the Spirorbinae (Serpulidae). Zool. Jour. Linn. Soc. London 48:387-407. BAIRD, W. 1865, Contribution towards a monograph of the species of Annelides belonging to the Aphroditacea, containing a list of the known species, and a description of some new species, contained in the British Museum. Jour. Linn. Soc. London 8:172-202. BAILEY, J.H. 1868. Contributions to a monograph of the Aphroditacea. Jour. Linn. Soc. London 9:31-38. 1870. Contributions towards a monograph of the species of Annelides belonging to the Amphinomacea with a list of the known species and a description of several new species belonging to the group contained in the national collection of the British Museum, to which is appended a short account of two hitherto nondescript annulose animals of a larval character. Jour. Linn. Soc. Zool. London 10:215-246. 1957. Die Galtungen Oriopsis, Desdemona und Augeneriella (Sabellidae, Polychaeta). Vidensk. Medd. dansk naturh. Foren. 119:67-105. BANSE, K. 1969. Acrocirridae n. fam. (Polychaeta Sedentaria). J. Fish. Res. Bd, Canada 26:2595-2620. 1973. The ventral parapodial cirrus of the benthic Phyllodocidae (Polychaeta), with special reference to C!avadoce Hartman and Bergstroemia Banse. J. Nat. Hist. 7:683-689. AND K.D. HoflsON, 1974. Benthic errantiate polychaetes from British Columbia and Washington. Fish. Res. Bd, Canada, Bull. 185:1-111. 1762. Natuurkundige uitspanningen, beheizende eenige waarneemingen, over sommige zee-planten en zee-insecten, benevens derzelver zaadhuijsjes en eijernesten. J. Bosch, Haarlem, 2 volumes in one. BASTER, J. 1858. Histoire, naturelle d'un animal nouveau design\u00e9 sous le nom \u00e1'Histriobdella. Acad. Roy. Belg. Brussels, Bull (2)5:270-302. BENEDEN, P.J. VAN. BENEDICT; J.E. 1887. Descriptions of ten species and one new genus of annelids from the dredgings of the U.S. Fisheries Commission Steamer ALBATROSS. U.S. Nat. Mus., Proc. 9:547-553. 1894. On the classification of the Polychaeta, Rep. Brit. Assoc. Oxford, 1895:696-697. 1896. Archiannelida, Polychaeta, Myzostomaria. In: The Cambridge Natural History, 2:241-334. BENHAM, W.B. 1916, Report on the Polychaeta obtained by the F,LS. ENDEAVOUR on the coasts of New South Wales, Victoria, Tasmania and South Australia Part IL In: Biological Results of the Fishing Experiments carried on by the F.LS. ENDEAVOUR, 1909-14. 4(2-3): 125-162. 1921. Polychaeta. Scientific Reports. Australian Antarctic Expedition 1911-14. (C) 6{3):1-128. 1927. Polychaeta. British Antarctic TERRA NO VA Expedition. 1910, Natural History Reports, Zoology 7(2):47-182, 1929, The pelagic Polychaeta, British Antarctic TERRA NOVA Expedition, 1910. Natural History Reports, Zoology 7(3):183-201. 1950. Polychaeta of the Auckland and Campbell Islands. New Zealand Dep. Sei. Indust. Cape Expedition Series, Bull. 10:1-26. 1914. Zur Systematik des Polychaeten Familie der Phyilodociden. Zool. Bidr, Uppsala 3: 37-224. BERGSTR\u00f6M, E. 1916. Die Polynoiden des schwedischen S\u00fcdpolarExpedition 1901-1903. Zool. Bidr. Uppsala 4:249-304. 1927. A new genus of Chaetopteridae from the northeast Pacific; with some remarks on allied genera. Proc. Zool. Soc, London, 1927 (2);441-445. BERKELEY, E. AND C. BERKELEY. 1932. Some Capitellidae of a new genus. Proc. Zool. Soc. London, 1932 (2): 669-675. -. 1943. Biological and oceanographical conditions in Hudson Bay, Polychaeta from Hudson Bay. J. Fish. Res. Bd, Canada 6:129-132. 1948. Annelida, Polychaeta errantia. Canadian Pacific Fauna, Fish, Res. Bd, Canada 9b(l): 1-100. 1952, Annelida, Polychaeta sedentaria, Canadian Pacific Fauna, Fish, Res. Bd, Canada 9b(2):l-139. 1954. Additions to the Polychaete fauna of Canada, with comments on some older records. J. Fish. Res. Bd, Canada 11:454-471. 1828. A short account of a new species of Modioia and of the animal inhabitants of two British Serpulae. Jour, Zool. London 3:229-231. BERKELEY, M.J. 1835. Observations upon the Dentalium sublatum of Deshayes. Jour. Zool. London 5:424-427. 1924. Een nieuwe aan de anneliden verwante dierworm, het nieuwe genus Enigma. Tijdschr. Nederi. Dierk. Ver. (2) 19: XCIX. BETREM, J.G. BiDENKAP, O. 1895. Systematisk oversigt over Norges Annulata Polychaeta. Forh. Vidensk. Selsk. Christiania 1894(10):1-142. 1907. Fortegnelse over de i Trondhjemsfjorden hidtil observerede Annulata Polychaeta. Skr. K. Norske Vidensk. Selsk. Trondhjem, 1906 (10):l-48. BLAINVILLE, H. DE. 1818. M\u00e9moire sur la classe des Setipodes partie des Vers a sang rouge de M. Cuvier, et des Ann\u00e9lides de M. de Lamarck. Sei. Soc. philom. nat. Paris (3) 1818:78-85. 1825. Dictionnaire des Sciences naturelles dans lequel on traite m\u00e9thodiquement des differens \u00eatres de la nature, consid\u00e9r\u00e9s soit en eux-m\u00eames, d'apr\u00e8s l'\u00e9tat actuel de nos connais sciens; soit relativement a l'utilit\u00e9 qu'en peuvent retirer la medicine, l'agriculture, le commerce et les arts. Suive d'une biographie des plus c\u00e9l\u00e8bres naturalists, vol. 34, 560 pp. 1826, Dictionnaire des Sciences etc, vol. 42, 536 pp, 1828, Dictionnaire des Sciences etc, vol. 57, 628 pp. BLAKE, J.A. 1971. Revision of the genus Polydora from the east coast of North America (Polychaeta, Spionidae). Smithsonian Contr. Zool. 75:1-32. 1975. Phylum Annelida: Class Polychaeta, In: Smith, R.L and J.T, Carlton (eds,): Light's Manual: Intertidal Invertebrates of the Central California Coast. Third Ed., University of California Press, pp. 151-243, BLANCHARD, E. 1849. An\u00e9lidos du Chile. In: Gay's Historia fisica y pol\u00edtica de Chile. Seg\u00fan adquiridos en esta rep\u00fablica durante doce a\u00f1os de residencia en alla. Zoolog\u00eda. 3:9-52. THE POLYCHAETE WORMS BoADEN, P.J.S. 1961. Meganerilla swedmarki nov. gen., nov. spec, an archiannelid of the family Neriilidae. Ark. Zool. Stockholm 27:553-559. BoBRETZKY, N.V. 1872. Saccocirrus papillocercus n. gen., n. sp. Tip* novago semeistra annelid. Sravmilel'noAnatomichskii obcherk. Mem. Kiev Univ. Odsch. estest. Zapisky 2:211-259. Bosc, L.A.G. 1802. Histoire naturelle des vers, contenant leur description et leurs moeurs, avec figures dessin\u00e9es d'apr\u00e8s nature. Vol. 1, 324 pp. (subtitled: Suite \u00e0 Buffon vol, 68). BOURNE, A.G. 1883. On Haplobranchus, a new genus of capitobranchiale annelid. Quar. J. Micr. Sei. 23:168-176. BRUGI\u00e8RE, L.G. 1789. Encyclop\u00e9die m\u00e9thodique. Histoire naturelle des vers. 1:1-344. BUCHANAN, F. 1890. Hekaterobranchus shrubsolii, a new genus and species of the family Spionidae. Quar. Jour, Micr. Sei. 31:175-200. _. 1894. A polynoid with branchiae (Eupolyodontes cornishii). Quar, 1. Micr, Sei. 35:433-450. BUSCH, W. 1851. Beobachtungen \u00fcber Anatomie und Entwicklung einiger wirbellosen Seethiere. Aug. Hirschwald, Berlin, 143 pp. BUSH, K.J. 1904a. Tubicolous annelids of the tribes Sabellides and Serpulides from the Pacific Ocean. Harriman Alaska Exped, 12:169-355, 1904b. On Spirorbis from Japan. Acad. Nat. Sei. Phila,Proc. 56:175-178, 1907a. Notes on the relation of the two genera of tubicolous annelids Vermilia Lamarck, 1818 and Pomaloceros Philippi, 1844. Amer. J. Sei, New Haven 1907b. Descriptions of the two genera of tubicolous annelids, Paravermilia and Pseudovermilia, with species from Bermuda referable to them. Amer, J, Sei. New Haven (4) 23:131-136. 1910. Description of new serpulids from Bermuda, with notes on known forms from adjacent regions. Acad, Nat, Sei, Phila, Proc. 62:490-501. BuzHiNSKAJA, G,N. 1967. [On the ecology of the polychaetous annelids of the Possjet Bay (Sea of Japan)]. Fauna Seas 5(12):78-124. CANTONE, G. 1972. Pseudofabricia aberrans n. gen. n. sp., un anneiide polichete di incerta sede. Boll. Sed. Accad. Gioenia Sei. Nat. Catania (4) ll(3-4):l-7. 1895. Revisione del genere Polydora Bosc, e cenni su due specie che vivone sulle ostriche. Mitt. Zool. Stat. Neapel 11:4-45. CARAZZI, D. 1865. On the chaetopod annelids of the Southport sands, Proc. Lit. Philos. Soc, Manchester, 1865:176-188, CARUS, J.V, 1863. Class Annulata. In: Carus, J.V., W.C.H. Peters and E,A, Gerstaecher; Handbuch der Zoologie. 642 pp. CARRINOTON, B. 1842, L'Histoire naturelle des Ann\u00e9lides. In: Lucas, P.H.; Histoire naturelle des Crustac\u00e9s, des Arachnides et des Myriopodes. 601 pp. CASTELNAU, F.L. 1913. Sur le genre PaUasia Ofg. et la region prostomial des Sabellariens, Soc, Zool, France, Bull. 38:198-203. CAULLERY, M. /6J 1914a. Lahidognathus parasiticus n. sp. Cas nouveau d'endoparasitisme \u00e9volutif chez les Euniciens, C.R, Soc, Biol. 77:490-493, 1914b, Sur les polych\u00e8tes du genre Prionospiu Mgn, Soc. Zool. France, Bull. 39:355-361. 1915. Sur les Terebelliens de la Tribu des Thelepinae. Examen des genres. Tube spiral de Streblosoma longiremis n. sp. Soc, Zool. France, Bull. 40:44-53. 1944. Polych\u00e8tes s\u00e9dentaire de l'Exp\u00e9dition du SIBOGA: Ariciidae, Spionidae, Chaetopleridae, Chloraemidae, Opheliidae, Oweniidae, Sabellariidae, Stemaspidae, Amphictenidae, Ampharetidae, Terebellidae. Siboga-Expcd. Uiden 24<2): 1-204. AND F. MESNIL, 1896. Note sur deux serpuiiens nouveaux (Oriopsis metchnikowi n,g., n. sp. et Josephella maremeiieria n.g., n. sp.). Zool. Anz, 10:482-486, 1897. Etudes sur la morphologie compar\u00e9e et la phylogenie des esp\u00e8ces chez les Spirorbis. Bull, Sei. France Beig. 30:185-233. CERRUTI, A. 1909. Contributo all'anatomia, biolog\u00eda e sistem\u00e1tica d\u00e9lie Paraonidae (Levinsenidae) con particolare riguardo aile specie del golfo di Napoli. Mitt. Zool. Stat. Neapel 19:459-512. CHAMBERLIN, R.V. 1918. Polychaetes from Monterey Bay. Proc. Biol. Soc. Wash, 31:173-180, 1919a. New polychaetous annelids from Laguna Beach, California. Jour, Entom. Zool. Pomona 11:1-23. 1919b. Pacific coast Polychaeta collected by Alexander Agassiz. Mus. Comp. Zool. Harvard, Bull. 63:251-276. 1919c, The Annelida Polychaeta, Mus. Comp. Zool. Harvard, Mem. 48:1-514. 1920. Polychaeta. Rep. Canadian Arctic Exped. 1913-18, 9B:1-41B. 1924. A new freshwater nereid from China. Proc. Biol. Soc. Wash. 37:79-82. CHIAJE, S. DELLE. 1825. Memorie sulla storia a notomia degli animali senza vertebre del regno di Napoli, Napoli, 2, 444 pp. 1828. Memorie sulla storia a notomia degli animali senza vertebre del regno di Napoli. Napoli, 3:232 pp. _. 1841. Descrizione a notomia degli animali invertebrati della Sicilia cateriore osservati vivi negli anni 1822-1830. 1887. Die pelagische Thierwelt in gr\u00f6sseren Meerestiefen. Bibl. Zool. Cassel 1:1-66. CLAPAR\u00e8DE, E. 1863. Beobachtungen \u00fcber Anatomie und Entwicklungsgeschichte wirbelloser Thiere an der K\u00fcste von Normandie angestellt. Leipzig, VII and 120 pp. Glanures zootomiques parmi les Ann\u00e9lides de Port-Vendres (Pyrenees Orientales). Soc. Phys. Hist, nat. Gen\u00e8ve, M\u00e9m. 17(2):463-600. _. 1868. Les Ann\u00e9lides Ch\u00e9topodes du Golfe de Naples. Soc. Phys. Hist. nat. Gen\u00e8ve, M\u00e9m. 19(2): 313-584. 1870a. Les Ann\u00e9lides Ch\u00e9topodes du Golfe de Naples. Seconde partie. Soc. Phys. Hist. nat. Gen\u00e8ve, M\u00e9m. 20(l):l-225. 1870b, Les Ann\u00e9lides Ch\u00e9topodes du Golfe de Naples. Troisi\u00e8me partie. Soc. Phys. Hist. nat. Gen\u00e8ve, M\u00e9m. 20(2):365-542. CHUN, C. 1875. (Annelids of the LIGHTNING and PORCUPINE expeditions). In: Ehlers, E. Beitr\u00e4ge zur Kenntnis der Verticalverbreitung der Borstenw\u00fcrmer im Meere. Zeits. wiss. Zool. 25:1-102, AND E, MECZNIKOW, 1869. Beitr\u00e4ge zur Kenntnis der Entwicklungsgeschichte der Chaetopoden, Zeits. wiss. Zool. 19:163-205. AND P. PANCEW. 1867. Nota sopra un Alciopide parassito della Cydippe densa Forsk\u00e2l. Soc. Ital. Sei. Milano, Mem. 3(4):5-8. 1969. Systematics and Phylogeny: Annelida, Echiura, Sipuncula. In: Fiorkin, M. and B. Scheer COSTA, A. 1844. Cerni intorno alie osservazioni zoologiche fatte durante intre mesi vemali del 1844. Ann. Accad. aspir. nat. Napoli 2. CLARK, R.B. _ 1862. Descrizione di alcuni anellidi del Golfo di Napoli. Ann. Mus. zool. Napoli 1:82-90. 1864. Illustrazione Iconogr\u00e1fica degli anellidi rari o poco conosciuti del Golfo di Napoli. Ann. Mus. zool. Napoli 2:159-168. COSTA, O.G. 1841. Description des quelques ann\u00e9lides nouvelles du Golfe de Naples. Ann. Sei. Nat. Zool. France 1844. Sul sistema corcolators ed altre particolarita della Neomeris urophylla (Nuove genere di Annelide). Ann. Accad aspir. Nat. Napoli 2:81-87. 1861a. Di un nuovo genere di Anellidi dell'ordine dei tubicofaiii e della famiglia dei Chetopterini, scoperti nel mare di Napoli. Onunagio al Re d'Italia Vittorio Emmanuele dell'Accademia Pontaniana, Napoli 1(2): 53-62. 1861b. Microdoride Mediterr\u00e1nea o descrizione de poco ben conoscuti od affato ignoti viventi minuti e microscopici del Mediterranio. R 1:1-80. CROSSLAND, C. 1924. Polychaeta of tropical East Africa, the Red Sea and Cape Verde Islands, collected by Cyril Crossland and of the Maldive Archipelago collected by Professor Stanley Gardiner, M.A., F.R.S. The Lumbriconereidae and Staurocephalidae. Proc. Zool. Soc. London, 1924 pt. 1:1-106. CUNNINGHAM, \u00cd.T. AND G.A. RAMAGE. 1888. The Polychaeta sedentaria of the Firth of Forth. Trans. Roy. Soc. Edinburgh 33:635-684. CuviER, G. 1817. La R\u00e8gne Animal distribu\u00e9 d'apr\u00e8s son organisation pour servir de base \u00e0 l'Histoire naturelle des animaux et d'introduction a l'anatomie compar\u00e9e. Deterville, Paris, 2;XVin and 532 pp. \u2022 _. 1827. The Animal Kingdom. English Edition, London vol. 13, 549 pp. 1830. La R\u00e8gne Animal distribu\u00e9 d'apr\u00e8s son organisation pour servir de base \u00e0 l'Histoire naturelle des animaux et d'introduction a l'anatomie compar\u00e9e. Nouvelle Edition, Revue et Augment\u00e9e, vol. 3:504 pp, CZERNIAVSKY, V. 1881a. Materialia ad zoographiam Ponticam comparatam. Soc. Imp. Nat. Moscow, Bull. 55:213-363. 1881b. Mater\u00edali ad zoographiam Ponticam comparatam. Soc. Imp. Nat. Moscow, Bull. 56:338-420. 1882. Materialia ad zoographiam Ponticam comparatam. Soc. Imp. Nat. Moscow, Bull. 57:146-198. DALES, R.P. 1962. The polychaete stomodeum and the interrelationships of the families of Polychaeta. Proc. Zool. Soc. London l39(3):389-428. AND G. PETER. 1972. A synopsis of the pelagic Polychaeta. J. Nat. Hist. 6:55-92. 1853. The Powers of the Creator displayed in the creation; or observations on life amidst the various of the humbler tribes of animated nature with practical comments and illustrations. London, 2, 359 pp. DALYELL, J.G. DARBOUX, J.G. 1899. Recherches sur les Aphroditiens. Bull. Sei. France Belg. 33:1-276 (also reprinted as: Trav. Inst. Zool. Univ. Montpellier (2) 6:1-276). DAUDIN, P.M. 1800. Recueil de m\u00e9moires et de notes sur des esp\u00e8ces in\u00e9ditis ou peu connues de mollusques, de vers et de zoophytes. Paris, XVIII and 50 pp. 1951. The polychaete fauna of South Africa, The intertidal and estuarine Polychaeta of Natal and Mosambique. Ann. Natal Mus. 12:1-67. DAY, J.H. 1954, The Polychaeta of Tristan de Cunha. Norwegian Sei. Exped. Tristan de Cunha, 1937-1938, Report 29: 1-35. 1955. The Polychaeta of South Africa. Sedentary species from Cape shores and estuaries. J. Linn. Soc. London 42(287):407-452. 1960. The polychaete fauna of South Africa, Part 5, Errant species dredged off Cape coasts, Ann. South African Mus. 45(3):261-373. 1961. The Polychaete fauna of South Africa, Part 6, Sedentary species dredged off Cape shores with a few new records from the shore. J. Linn. Soc. London 44{299):463-560. 1962. Polychaeta from several localities in the western Indian Ocean. Proc. Zool. Soc. London 139; 627-656. 1963. The Polychaete fauna of South Africa. Part 8: New species and records from grab samples and dredgings. Bull. Brit. Mus. nat. hist. (Zool) 10(7): 384-445. 1964. A review of the family Ampharetidae (Polychaeta). Ann. South African Mus. 48:97-121, 1967. A monograph on the Polychaeta of Southern Africa. British Museum Nat. Hist. Publ. 656:38 and 878 pp. 1973. New Polychaeta from Beaufort, with a key to all species recorded from Nonh Carolina. NOAA Technical Report NMFS Circ. 375:1-140. DELACHAUX, T. 1921. Un polychete d'eau douce cavernicole. Troglockaetus beranecki nov. gen., nov. spec. Bull. Soc. Neuchatelois Sei. Nat. 45:3-11, DrrLEVSEN, H. 1917. Annelids. Danish Ingolf Exped. 4(4): 1-71. DONS, C. 1931. Zoologiske notiser; Miroserpula inflata, n. gen., n. sp. K.N. Vidensk. Selsk. Forh. Trondhjem 3(2):3-5. 1839a. M\u00e9moire sur quatre nouvelles esp\u00e8ces d'Ann\u00e9lides marins. C.R. Acad. Sei. Paris 7:648-650. DUJARDIN, F... 1839b. Observations sur quelques Ann\u00e9lides marins. Ann. Sei. Nat. Paris (2) 11:287-294. 1851. Note sur une Ann\u00e9lide (Exogone pusilla) qui porte a la fois les ouefs et des spermatozo\u00efdes, Ann, Sei. Nat. Paris (3) 15:298-301. i976 THE POLYCHAETE WORMS 1929. Die Polychaeten des Baikalsees, Bull, Internat. Acad. Polon. Sei. Lett., Cl. Sei.-Mat. Nat. DYBOWSKI. B. 1864. Die Borslenwurmer, nach systematischen und anatomischen Untersuchungen dargestellt. Leipzig, pp. 1-268. EHLERS, E. 1868. Die Borstenw\u00fcrmer, nach systematischen und anatomischen Untersuchungen dargestellt. Leipzig, pp. 269-748. 1874. Annulata nova vel minus cognita in expeditione PORCUPINE capta. Ann. Mag. Nat. Hist. London 1875. Beitr\u00e4ge zur Kenntnis der Verticalverbreitung der Borstenw\u00fcrmer in Meere, Zeits, wiss. Zool. 25: 1-102. \u00a165 Ampharetiden (Polychaeta). G\u00f6teborgs K. Vetensk. Handl. 6B (17):1-17. 1962. Die Polychaeten der Skagerak-Expedition 1933. Zool. Bidr. Uppsala 33:207-293. 1971. A revision of the genus Loandalia Monro with description of a new genus and species of pilargiid polychaete. Bull. S, CaHf. Acad. Sei. 70:18-22. EMERSON, R.R. AND K. FAUCHALD. EscHSCHOLTz, F. 1825. Bericht \u00fcber zoologische Ausbeute w\u00e4hrend der Reise von Kronstadt bis St. Peter und Paul, Isis von Oken, Jena, 16:733-747. EsMARK, L. 1878. Eieonopsis geiyonicola. Forh. Vidensk. Selsk. Christiania, 1877:497-498. FABRICIUS, O. 1780. Fauna Groenlandica, systematice sistens, 1897. Polychaeten. Hamburger Magalhaenischen Sammelreise. Hamburg, 148 pp. Animalia Groenlandica occidentalis hactenus indagata, quod nomen specificum, triviale, vernaculumque; Synonyma auctorum plurium, descriptionem, locum, victum, generationem, mores, usum, capturamque singuli, pront detegendi occasio fuit, maximaque parti secundum proprias observationes, Hafniae, XVI and 452 pp. 1900. Magellanische Anneliden gesammelt w\u00e4hrend der swedischen Expedition nach den Magellansl\u00e4ndem. Nachr. K. Ges. wiss. G\u00f6ttingen, 1900:206-223. 1785. Von dem Spio-Geschlechte, bereis ie\u00edicorniiund Nereis fllicornis. Sehr. Gesells. naturf. Freunde Berlin 6:256-270. -. 1887. Report on the annelids of the dredging expedition of the U.S. coast survey steamer BLAKE. Mus. Comp. Zool. Harvard, Mem. 15: V] and 335 pp. 1901. Die Polychaeten des magellanischen und chilenischen Strandes. Ein faunistischer Versuch. Festschrift zur Feier des Hunderf\u00fcnfzigj\u00e4hringen Bestehens des k\u00f6niglichen Gesellschaft der Wissenschaften zu G\u00f6ttingen (Abh. Math.-Phys.). Berlin, 232 pp. 1905. Neuseel\u00e4ndischen Anneliden. Abh. K. Ges. wiss. G\u00f6ttingen, Math.-Phys. Kl. n.F. 3(l):l-80. 1907. Neuseel\u00e4ndischen Anneliden II. Abh. K. Ges. Wiss. G\u00f6ttingen, Math.-Phys. Kl. n.F. 5(4): 1-31. 1908. Die bodens\u00e4ssigen Anneliden aus den Sammlungen der deutschen Tiefsee-Expedition. Wiss. Ergebn. deutsch. Tiefsee-Exped. VALDIVIA 18981899 t6(l):l-168. 1912. Polychaeta. National Antarctic Exped. 1901-1904, Nat. Hist. 6(Zool.):l-32. 1913. Die Polychaeten-Sammlungen der deutschen S\u00fcdpolar Expedition 1901-1903. Deutsche S\u00fcdpolar Exped. 13(4):397-598. 1920. Polychaeten von Java und Amboina. Ein Beitrag zur Kenntnis der malaiischen Strandfauna. Abh. K. Ges. wiss. G\u00f6ttingen n.F. 10(7):l-73. CG. 1835. Das Leuchten des Meeres. Neue Beobachtungen nebst \u00dcbersicht der Hauptmomente der geschichtlichen Entwicklung diese merkw\u00fcrdige Phaenomens. Abh. K. Akad. Wiss. Berlin, Math.-Phys. Kl., 167 pp. EHRENBERC, 1837. \u00dcber/Imp/\u00eeicora sabella. Mitt. Ges. Naturf. Freunde Berlin, 1837:2. 1887, Die Capitelliden des Golfes von Neapel, Fauna und Flora Golfes Neapels 16:1-906. 1906. Ichthyotomus sanguinarius, eine auf Aalen schmarotzende Annelide. Fauna und Flora Golfes Neapels 28: vn and 300 pp. EISIG, H. 1914. Zur Systematik, Anatomie und Morphologie der Ariciiden nebst Beitr\u00e4gen zur generellen Systematik. Mitt. Zool. Stat. Neapel 21:153-600. ELIASON, A. 1955. Neue oder wenig bekannte schwedische 1968a. Nephtyidae (Polychaeta) from the Bay of Nha Trang, South Viet Nam. NAGA Report 4(3): 1-33 (erroneously dated 1967), FAUCHALD, K. 1968b, Onuphidae (Polychaeta) from western Mexico. Allan Hancock Monogr. mar, biol. 3:1-82. 1969. A revision of six species of the flavusbidentatus group of Eunice (Eunicidae: Polychaeta). Smithsonian Contr, Zool, 6:1-15. 1970. Polychaetous annelids of the families Eunicidae, Lumbrineridae, Iphitimidae, Arabellidae, Lysaretidae and DorviUeidae from western Mexico. Allan Hancock Monogr. mar. biol. 5:1-335. \u00a1972. Benthic polychaetous annelids from deep water off western Mexico and adjacent areas in the eastern Pacific Ocean. Allan Hancock Monogr, mar. biol. 7:1-575. 1973. Polychaetes from central American sandy beaches. Bull. S. Calif. Acad, Sei. 72:19-31. 1974a. Polychaete phyiogeny: a problem in protostome evolution. Syst. Zool, 23(4):493-506, -, 1974b, Sphaerodoridae (Polychaeta: Errantia) from world-wide areas, J. Nat. Hist. 8:257-289.. AND B.W. BELMAN, 1972. A notophycid polychaete from California. Bull. S. Calif. Acad. Sei. 71:107-108. 1909, Deuxi\u00e8me note pr\u00e9liminaire sur les Polych\u00e8tes provenant des campagnes de l'HIRONDELLE et de la PRINCESSE ALICE d\u00e9pos\u00e9es dans la Mus\u00e9e Oc\u00e9anographique de Monaco, Bull. Inst. Oceanogr. Monaco 142:1-76. FAUVEL, P. 1911. Ann\u00e9lides polych\u00e8tes du Golfe Persique receuillis par M,M. Bogoyawlewsky. Arch. zool. exp. gen. Paris (5) 5:353-439. 1913. Quatri\u00e8me note pr\u00e9liminaire sur les Polych\u00e8tes provenant des campagnes de l'HIRONDELLE et de la PRINCESSE ALICE, ou d\u00e9pos\u00e9es dans le Mus\u00e9e Oc\u00e9anographique de Monaco. Bull. Inst. Oceanogr. Monaco 270:1-80, 1918. Ann\u00e9lides polych\u00e8tes des c\u00f4tes d'Arabie r\u00e9colt\u00e9es par M. Ch. Perez. Bull. Must. Hist. Nat. Paris, 24:329-344. 1919. Un singulier cas de croissance intercalaire chez un Maldanien (Gravierella n.g., multiannulata n. sp.). Bull. Soc. Zool. Paris 44:36-40. 1923a. Polych\u00e8tes errantes. Faune de France, Paris 5:1-488. 1923b. Un nouveau serpulien d'eau saumatre, Merceriella n.g., enigm\u00e1tica n. sp. Bull. Soc, Zool. France 47:424-430. 1927. Polych\u00e8tes s\u00e9dentaires. Addenda aux Errantes, Archiann\u00e9lides, Myzostomaires. Faune de France, Paris, 16:1-494.  1928a. Ann\u00e9lides polych\u00e8tes nouvelle de Tlndie. Bull. Mus. Hist. Nat. Paris, 34:90-96. 1928b. Ann\u00e9lides polych\u00e8tes nouvelle de l'Indie Pt. 2. Bull. Mus. Hist. Paris 34:159-165. 1929. Polych\u00e8tes nouvelles du Golfe de Manaar, Inde. Bull. Soc. Zool. France 54:180-186. 1932. Annelida Poiychaeta of the Indian Museum, Calcutta. Mem. Indian Museum Calcutta 12(l):l-262. der westlichen Ostsee. Kieler Meeresforsch. 3(2);362373. 1951. Zwei neue Bestandteile in der Fauna der Nordsee. Zool. Anz. 145(Suppl):171-177. 1956. Mitteilungen \u00fcber neue und wenig bekannte Polychaeten aus Mittel- und S\u00fcdamerika. Senckenbergiana. Biol\u00f3gica 37:57-68. GALLARDO, V.A. 1968. Poiychaeta from the Bay of Nha Trang, South Viet Nam. NAGA Report 4(3):35-279 GlARD, A. 1878. Sur les Harte/ia, genre nouveau d'Annelide, consid\u00e9r\u00e9s \u00e0 tort comme de embryos de T\u00e9r\u00e9belles. C. R. Acad. Sei. Paris 86:1147-1149. 1882. Sur un typ\u00e9 synth\u00e9tique d'Ann\u00e9lide (Anota\u00f1ereis herrmanni) commensal daBalanoglossus. C. R. Acad, Sei. Paris 95:389-391. 1893. Sur un type nouveau et aberrant de la famille des Sabetlides (Caobangia n.g. billeti n. sp.). C. R. Soc. Biol. Paris (9) 5:473-476. 1913. Oevres diverses r\u00e9unies et r\u00e9\u00e9dit\u00e9es par les soins d'un groupe d'\u00e9l\u00e8ves et d'amis. II. Faune et Flore de Wimereux. Notes diverses de Zoologie. 586 pp. 1935. Ann\u00e9lides polych\u00e8tes de I'Annam. Mem. Accad, nucvi Lincei Rome (3) 2:279-354. GiBBS, P. 1971. The polychaete fauna of the Solomon Islands. Bull Brit. Mus. nat. hist, (zool) 21:101-211. 1936. Contribution a la faune des Ann\u00e9lides polych\u00e8tes du Maroc. Mem. Soc. Sei. Nat. Maroc 43:1-143, GiDHOLM, L. 1962. Sur quelques polych\u00e8tes Syllidiens des sables de la region de Roseoff avec description de deux nouvelles esp\u00e8ces. Cah. Biol. Marine 3:249-260. 1953. The Fauna of India including Pakistan, Ceylon, Burma and Malaya. Annelida Polychaela, Allahabad, XII and 507 pp. 1967. A revision of Autolytinae (Syllidae, Poiychaeta) with special reference to Scandinavian species, and with notes on external and internal morphology, reproduction and ecology. Ark. Zool. Stockholm (2) 19:157-213. 1957. Sur quelques ann\u00e9lides polych\u00e8tes du Cjolfe d'Akaba. Bull. Sea Fish. Res. Sta. Haifa 13:3-11. 1958. Classe des Ann\u00e9lides Polych\u00e8tes Annelida Poiychaeta (Grube, 1851). In: Grasse, P.P. (ed.): Trait\u00e9 de Zoologie 5(1): 13-196. FEUERBORN, H.J. 1932. Eine Rhizocephale und zwei Polychaeten aus dem S\u00fcsswasser von Java und Sumatra. Verh. Intern. Verein, theoret. Limnol. Stuttgart 5: 618-660. GiSTEL, J. 1848. Naturgeschichte des Thierreichs. Stuttgart, 216 pp. GOLDFUSS, G.A. 1833. Petrefacta Germaniae etc, Dusseldorf, 1(3): 165-240. FiLiPPi, F. DE. 1861. Armandia, nuovo genere di anellidi nel Mediterr\u00e1neo. Arch. Zool. Anat. Genoa 1:215-219, 1855. On new or little known marine animals. Ann. Mag. Nat. Hist. London (2) 16:31-35. 1825. On the British testaceous annelids. Philos. Jour. Edinburgh 12:238-248. FoETLiNGER, A. 1894, Rechcrchcs sur l'organisation de Histriobdella homari. Arch. Bid. Liege 5:435-516. FOSTER, N.M. 1969. New species of spionids (Poiychaeta) from the Gulf of Mexico and Caribbean Sea with a partial revision of the genus Prionospio. Proc. Biol. Soc. Wash. 83:381-400. 1971. Spionidae (Poiychaeta) of the Gulf of Mexico and the Caribbean Sea. Studies on the Fauna of Curacao and other Caribbean Islands 36(I29):1-183. FRICKINGER, H.W. 1916. Japanische Polychaeten aus der Sammlung Doflein. Zool. Anz. 46:233-238. FRIEDRICH, H. 1937. Polychaetenstudien I-III. Kieler Meeresforsch. l(2):343-35l. 1938. Poiychaeta, Tierwelt Nord- und Ostsee 32 ( VI, b): 1-201. 1939. Polychaetenstudien V-X. Zur Kenntnis einiger wenig bekannter oder neuer Polychaeten aus FLEMING, J. 1853. A naturalist's rambles on the Devonshire coast. London, XVI and 451 pp. GOSSE, P.H. 1974. Opportunistic life histories and genetic systems in marine benthic polychaetes. J. Mar. Res. 32(2):253-284. GRAVIER, C. 1900. Sur un type nouveau de Syllidien, Fauvelia Paris 6:371-374. 1901. Sur un Capitellien d'eau douce {Eisigella n.g., ouanaryensis n. sp.). Bull. Mus, Hist, Nat. Paris 7:402-404. 1904. Sur un type nouveau de la famille des Capitelliens: Scyphoprocius nov. gen., djiboutensis nov. sp. Bull. Mus. Hist. Nat. Paris 10:557-561. 1905a. Sur deux types nouveaux de T\u00e9r\u00e9belliens, Anisocirrus nov. gen., decipiens nov. sp., Aponobranchus nov. gen., perrieri nov. sp. Bull. Mus. Hist. Nat. Paris 11:437-444. 1905b. Sur deux types nouveaux de Serpuliens: Fomatoceropsis nov. gen., coulierei nov. sp., Bonhourella nov. gen., insignis nov, sp. Bull. Mus. Hist. Nat. Paris 11:445-451. GRASSLE, J.F. AND J.P. GRASSLE. THE POLYCHAETE WORMS 1905c. Sur un nouveau Syllidien, Alluaudella nov. gen., madagascariensis nov. sp. C. R. Intern. Congr. Zool. Berne 6:372-376. 1906. Sur les Ann\u00e9lides polych\u00e8tes de la Mer Rouge (Sabellides). Bull. Mus. Hist. Nat. Paris 12: 33-43. 1907. Ann\u00e9lides polych\u00e8tes Exp\u00e9dition Antarctique fran\u00e7aise. Paris, 75 pp. 1908. Sur un type nouveau d'Ann\u00e9lide polych\u00e8te. C. R. Acad. Sei. Paris 146:144-146. 191 la. Esp\u00e8ces nouvelles d'Ann\u00e9lides polych\u00e8tes. Exp\u00e9dition antarctiques fran\u00e7aise du POURQUI-PAS?, dirig\u00e9e par le Dr. J.B. Charcot (1908-1910). Bull. Mus. Hist. Nat. Paris 17:310-316. 1911b. Ann\u00e9lides polych\u00e8tes receuillis par la seconde exp\u00e9dition antarctique fran\u00e7aise (1908-1910). Deuxi\u00e8me Exp\u00e9d. Antarc. Franc. 1:1-165. 1847. An account o\u00ed Pololo, a sea worm eaten in the Navigator Islands, with a description. Proc. Zool. Soc. London, 1847, pt. 15:17-18. GREEFF, R. 1866. \u00dcber die Krme\\vien-G\u00e4V.un%,Sphaerodorum Oerst., und einen neuen Repr\u00e4sentanten derselben, Sphaerodorum claparedii. Arch. Nat. Wiegmann 32: 338-351. 1876. Untersuchungen \u00fcber Alciopiden. Nova Acta Leopold-Carolin, d. Akad. Naturf. Dresden 39: 33-132. GRAY, J.E. _. 1879. \u00dcber pelagische Anneliden von der K\u00fcste der canarischen Inseln. Zeits. wiss. Zool. 32:237-284. GRIMM, O.A. 1877. Das Kaspische Meer und seine Fauna. Berichte der Aralo-kaspischen Expedition, 1876-1877. 1840. Actinien, Echinodermen und W\u00fcrmern des Adriatischen und Mittelmeers. K\u00f6nigsberg, 92 pp. GRUBE, A.E. 1846. Beschreibung neuer oder wenig bekannter Anneliden. Canephorus, Ammochares, Dasymallus, Scatis-A\u00f1en. Arch. Naturgesch. Berlin 12:161-171. 1848. Bemerkungen \u00fcber Tomopteris und die Stellung dieser Gattung. Arch. Nat. Ph\u00fcs. Wiss. Med. Reichert, 1848:456-468. 1850. Die Familien der Anneliden. Arch. Naturgesch. Berlin 16:249-364. 1855. Beschreibungen neuer oder wenig bekannter Anneliden. Arch. Naturgesch. Berlin 21(1):81-128. 1856. Annulata Oerstediana. Enumeratio Annulatorum, quae in itinere per Indiam occidemalum et Americam centralem annis 1845-1848 suscepto legit. d. A. S. Oersted, adjectis speciebus nonullis a d. H. Kroeyer in itinere ad Americam meridionalem collectis. Pt. 1. Vidensk. Medd. dansk naturh. Foren. 1856:44-62. 1857. Annulata Oerstediana etc. Pt. 2. Vidensk. Medd. dansk Naturh. Foren. 1857:158-166. 1858. Annulata Oerstediana etc. Pt. 3. Vidensk. Medd. dansk naturh. Foren. 1858:105-120. 1860. Beschreibung neuer oder wenig bekannter Anneliden. Zahlreiche Gattungen. Arch. Naturgesch. Berlin 26:71-118. 1862. Noch ein Wort \u00fcber die Capitellen und ihre Stellung im Systeme der Anneliden. Arch. Naturgesch. Berlin 28:366-378. 1863. Beschreibung neuer oder wenig bekannter Anneliden. Zahlreiche Gattungen. Arch. Naturgesch. Berlin 29:37-69. 1866. Eine neue Annelida, zun\u00e4chst einer nordischen, in der N\u00e4he der Ophelien und Scalibregmen zu stellenden Annelide, Euzonus arclicus. Jahresber. Schles. Gesells. Vaterl. Breslau 43:64-65. 1868a. \u00dcber neue Anneliden. Jahresber. Schles. Gesells. Vaterl. Breslau 45:50-52. 1868b. \u00dcber die Familie der Maldanien. Jahresber. Schles. Gesells. Vaterl. Breslau 45:52-58. 1869a. Beschreibung neuer von der NOVARAExpedition mitgebrachter Anneliden und einer Landplanaria. Verh. Zool. Bot. Gesells. Wien 16:173-184. 1869b. Familie der Opheliaceen. Jahresber. Schles. Gesells. Vaterl. Breslau 46:59-68.. 1870a. Beschreibungen neuer oder weniger bekannter von Hm. Ehrenberg gesammelter Anneliden des Rothen Meeres. Monatsber. Akad. Wiss. Berlin 1870:484-521. [870b. Bemerkungen \u00fcber Anneliden des Pariser Museums. Arch. Naturgesch. Berlin 36:281-352. 1871a. \u00dcber die Gattung Lycasiis und ein paar neue Arten derselben. Jahresber. Schles. Gesells. Vaterl, 49:47-48, 1871b, Nachtr\u00e4ge zur Vorigem und Vortage einer Lumbriconereis gigantea Qfg., einer neuen Oenone und Serolis. Jahresber. Schles. Gesells. Vatert. 49:56-58. 1872a. \u00dcber ein Paar neue Anneliden aus der Familie der Spiodeen. Jahresber. Schles. CJesells. Vaterl. Breslau 50:57-59. 1872b. Die Familie der Cirratuliden. Jahresber. Schles. Gesells. Vaterl. Breslau 50:59-62... 1875. Bemerkungen \u00fcber die Familie der Aphroditen, Gruppe Hermionea und Sigalionina. Jahresber. Schles. Gesells. Vatert. Breslau 52:57-59. _. 1877. Die von der GAZELLE mitgebiachten Anneliden, zu denen noch zwei von Dr. Buchholz gesammelte kommen. Monatsber. Akad. Wiss. Berlin 1877: 509-554. 1878. Annulata Semperiana. Beitr\u00e4ge zur Kenntnis der Anneliden-fauna der Philippinen nach den von Herrn Prof. Semper mitgebrachten Sammlungen. Mem. Acad. Sei. St. Petersburg 25: IX and 300 pp. _. 1880. Mittheilungen \u00fcber die Familie der Phyllodoceen und Hesioneen. Jahresber, Schles. Gesells. Vateri. Breslau 57:204-228. GUNNERUS, J. 1768. Om nogle norske Coraller. Skr. K. norske Vidensk. Selsk. Trondhjem 4:38-73. GusTAFSON, G. 1930. Anatomisciie Studien \u00fcber die Polychaeten Familien Amphinomidae und Euphrosynidae. Zool. Bidr. Uppsala 12:305-471. HAASE, P. 1915. Boreale und arktische Chloraemiden. Wiss. Meeresunters. Kiel, n.F. 17:169-228. HAECKER, V. 1896. Pelagische Polychaeten-Larven. Zur Kenntnis des Neapler Fr\u00fchjahrs-Auftriebs. Zeits. wiss. Zool. 62:74-168. _. 1898. Die pelagischen Polychaeten- und AchaetenLarven der Plankton-Expedition. Ergeb. Atl. Ocean Plankton Exped. 2: 50 pp. 1956. Larval development of the polychaete families Spionidae Sars, Disomldae Mesnil and Poecilochaetidae n. fam. in the Gullmar Fjord (Sweden). Zooi. Bidr. Uppsala 31:1-204. HANNERZ, L. 1954. Australian Nereidae, including descriptions of three new species and one genus, together with summaries of previous records and keys to species. Trans. R. Soc. S. Austr. (B) 77:1-41. HANSEN, G.A. 1955. Endemism in the North Pacific Ocean, with emphasis on the distribution of marine annelids, and descriptions of new or little known species. In: Essays in Natural Science in honor of Captain Allan Hancock. University of Southern California, pp. 39-60. 1878. Annelider fra den norske Nordhavsexpedition i 1876. Nyt Mag. Naturvid. 24:1-17. 1882. Recherches sur les Ann\u00e9lides recueillies par M. le professeur Eduard van Beneden pendant son voyage au Br\u00e9sil et \u00e0 la Plata. M\u00e9m. Acad. R. Soi. Belg. Brussels 44:1-29. 1964. \u00c9tude de l'endofauna des mattes d'herbi\u00e8res de Posidonia oce\u00e1nica Delib. Trav. Stat. Marine Endoume 51:43-105. HARMELIN, J.G. 1968. Note sur trois Capitellidae (Ann\u00e9lides polych\u00e8tes) r\u00e9colt\u00e9s en M\u00e9diterran\u00e9e, avec description d'un nouveau genre: Peresiella. Trav. Stat. Marine Endoume 59:253-259. 1897. On nereids commensal with hermit crabs. Trans. N.Y. Acad. Soi. 16:214-221. HARRIS, T. 1969. Spirorbis species (Polychaeta: Serpulidae) from the South Atlantic. Discovery Report 35:135-177. HARRINGTON, N.R. 1936a. Nomenclatorial changes involving California polychaete worms. Jour. Wash. Acad. Sei. 26:31-32. 1936b. New species of Spionidae (Annelida polychaeta) from the coast of California. Univ. Calif. Publ. Zool, 41:42-52. HARTMAN, O. 1957. Orbiniidae, Apistobranchidae, Paraonidae and Longosomidae. Allan Hancock Pacific Exped. 15: 211-393. 1959. 1965, Catalogue of the Polychaetous annelids of the world. Allan Hancock Foundation Occasional Paper 23: 628 pp. Supplement and index (1965), 197 pp. I960. Systematic account of some marine invertebrate animals from the deep basins off southern California. Allan Hancock Pacific Exped. 22:69-216. 1961, Polychaetous annelids from California. Allan Hancock Pacific Exped. 25:1-226. 1963a. Submarine Canyons of Southern California Part in. Systematics: Polychaeta. Allan Hancock Pacific Exped. 27(3): I-93, 1963b. Reteterebelta queenslandia, a new genus and species of polychaetous annelid from Queensland, Australia. Records Austr. Mus. 25:355-358. 1936c. A review of the Phyllodocidae (Annelida polychaeta) of the coast of California, with descriptions of nine new species. Univ. Calif. Publ. Zool. 41:117-132. 1965. Deep-water benthic polychaetous annelids off New England to Bermuda and other North Atlantic areas. Allan Hancock Foundation Occasional Paper 28:1-378. 1938. The types of the polychaete worms of the families Polynoidae and Polyodontidae in the United States National Museum and the description of a new genus. U.S. Nat. Mus., Proc. 86:107-134. 1966a, Quantitative survey of the benthos of San Pedro basin. Southern California, Part 2. Final results and conclusions. Allan Hancock Pacific Exped. 19: 187-456. 1939a. Polychaetous Annelids Pt. 1. Aphroditidae to Pisionidae. Allan Hancock Pacific Exped. 7:1-156. 1966b. Polychaetous annelids of the Hawaiian Islands. Bernice P. Bishop Museum, Occasional Paper 23:163-252, 1939b. New species of polychaetous annelids from southern California. Allan Hancock Pacific Exped. 7:157-172. 1942. A review of the types of polychaetous annelids at the Peabody Museum of Natural History, Yale University. Bull. Bingham Oceanogr. Coll. 8:1-98. 1944a, Polychaetous annelids Pt. 5. Eunicea. Allan Hancock Pacific Exped. 10:1-238. 1944b. Polychaetous annelids from California, including the descriptions of two new genera and nine new species. Allan Hancock Pacific Exped. 10:239-310. 1944c. Polychaetous annelids. Pt. 6. Paraonidae, Magelonidae, Longosomidae, Ctenodrilidae and Sabellariidae Allan Hancock Pacific Exped. 10:311-389. 1945. The marine annelids of North Carolina. Bull. Duke Univ. Marine Stat. 2:1-54. 1947. Polychaeteous annelids. Pt. 7. Capitellidae. Allan Hancock Pacific Exped. 10:391-481. 1950. Polychaetous annelids. Goniadidae, Glyceridae, Nephtyidae. Allan Hancock Pacific Exped. 15: 1-181. 1951a. The littoral marine annelids of the Gulf of Mexico, E\\ibl. Inst. Mar. Sei. Texas 2:7-124. 1951b. Fabriciinae (Feather-duster worms) in the Pacific. Pacific Science 5:379-391. 1967. Polychaetous annelids collected by the USNS ELTANIN and STATEN ISLAND cruises, chiefly from Antarctic seas, Allan Hancock Monogr. mar. biol. 2:1-387. -. 1968, Atlas of errantiate polychaetous annelids from California, Allan Hancock Foundation, University of Southern California, Los Angeles, 828 pp. 1969. Atlas of sedentariate polychaetous annelids from California. Allan Hancock Foundation, University of Southern California, Los Angeles, 812 pp. 1971. Abyssal polychaetous annelids from the Mozambique basin off southeast Africa, with a comp)endium of abyssal polychaetous annelids from worldwide area. J. Fish. Res. Bd Canada 28:1407-1428. AND K.J. Boss. 1965. Antonbruunia viridis, a new inquiline annelid with dwarf males, inhabiting a species of pelecypod Lucina fosteri, in the Mozambique Channel. Ann. Mag. Nat. Hist. London (13) 8:172-186. AND K. FAUCHALD. 1971. Deep-water benthic polychaetous annelids off New England to Bermuda and other North Atlantic areas. Part 2. Allan Hancock Monogr. mar. biol. 6:1-327. G. 1956. Polychaeten-Studien I. Zool, Anz, 157:87-91. HARTMANN-SCHR\u00f6DER, \u00a1976 THE POLYCHAETE WORMS 1958. Einige Polychaeten aus dem K\u00fcstengrundwasser der Bimini-Inseln (Bahamas). Kieler Meeresforsch. 14:233-240. 1959. Zur \u00d6kologie der Polychaeten des MangroveEstero-Gebietes von El Salvador. Beitr. neotrop. Fauna 1:69-183. 1960a. Polychaeten aus dem Roten Meer. Kieler Meeresforsch. 16:69-125. 1960b. Zur Polychaeten-Fauna von Peru. Part 1. Beitr. neotrop. Fauna 2:1-44. 1962a. Zweiter Beitrag zur Polychaetenfauna von Peru. Kieler Meeresforsch. 18:109-147. 1962b. Die Polychaeten des Eulitorals. Zur Kenntnis des Eulitorals der chilenischen Pazifikk\u00fcste und der argentinischen K\u00fcste S\u00fcdpatagoniens unter besonderer Ber\u00fccksichtigung der Polychaeten und Ostracoden. Min. Hamburg Zool. Mus. Inst. 60(Suppl. vol):57-167. 1965. Die Polychaeten des Sublitorals. Zur Kenntnis des Sublitorals der chilenischen K\u00fcste unter besonderer Ber\u00fccksichtigung der Polychaeten und Ostracoden. (Mit Bemerkungen \u00fcber den Einfluss sauerstoffarmer Str\u00f6mungen auf die Besiedlung von marinen Sedimenten). Mitt. Hamburg Mus. Inst. 62 (Suppi. vol.);59-305. 1971. Annelida, Borstenwurmer, Polychaeta. Tierwelt Deutschlands 58:1-594. HASWELL, W.A. 1883. A monograph of the Australian Aphroditea. Proc. Linn. Soc. N.S. Wales 7:250-298. 1885, On a destructive parasite of the rock oyster {Polydora ciliata and P. polybranchia n. sp.). Proc, Linn. Soc, N.S. Wales 10:272-275, 1892. Observations on the Chloraemidae with special reference to certain Australian forms. Proc. Linn, Soc. N.S. Wales (2) 6:329-356. 1900. On a new Histriobdellid. Quar. J. Micro, Sei, (2) 43:299-335. 1893. System der Anneliden, ein vorl\u00e4ufiger Bericht. Lotos, Prag 13:123-126. HATSCHEK, B. 1930. A connecting link between the Annelida and the Echiuroidea (Gephyrea Armata). J. Morph. Physiol. Phila 49:223-249. HEATH, H. HERMANS, CO, 1969. The systematic position of the Anhian- nelida. Systematic Zoology 18(1):85-102. AND R.M, EAKIN, 1974. Fine structure of the eyes of an alciopid polychaete, Vanadis tagensis (Annelida), Z. Morph. Tiere 79:245-267. 1917. Zur Kennmis der lerebellomorphen Polychaeten. Zool. Bidr. Uppsala 5:39-258. KESSLE, C. _. 1925. Einiges \u00fcber die Hesioniden und die Stellung der G\u00f1ttang Ancistrosyllis. Ark. Zool. Stockholm 17(10): 1-37, HOAGLAND, R.A. 1920. Poiychaetous annelids collected by the United States Fisheries Steamer ALBATROSS during the Philippine Expedition of 1907 to 1909. U.S. Nat, Mus,, Bull. 100(l):603-634. HOBSON, K.D. 1970. Novaquesta trifurcata, a new genus and species of the family Questidae (Annelida, Polychaeta) from Cape Cod Bay, Massachusetts. Proc. Biol. Soc. Wash. 83:191-194. HOLLV, M, 1935. Polychaeten von Philippinen. Zweite Mitteilung \u00fcber Polychaeten, Zool. Anz. 111:96-100. 1936. Zur Nomenklatur der Polychaeten-Gattung Pomatoceropsis Holly. Zool. Anz. 114:223. 1886. Contributions towards the knowledge of the Annelida polychaeta. Pt. 1. Amphinomidae. Notes Leyden Mus. Jentink 8:157-174. 1910. On the genus Chtoeia with some new species from the Malay Archipelago, partly collected by the SIBOGA-Expedition. Notes Leyden Mus. Jentink 32: 169-175. 1911. On the genus Notopygos. with some new species from the Malay Archipelago collected by the SIBOGA-Expedition. Notes Leyden Mus. Jentink 33: 241-247. HORST, R. 1912. Polychaeta errantia of the SIBOGAExpedition, Pt. 1. Amphinomidae. SIBOGA-Exped. Leyden 24a: 1-43. 1915a. On new and little known species of Polynoinae from the Netherlands East Indies. Zool, Meded, Leyden 1:2-20. 1915b, On a remarkable polynoid worm, Weberia pustulata nov, gen., nov. spec, from the Malay abyss. Zool. Meded. Leyden 1:246-247. 1916a. A contribution to our knowledge of the Sigalioninae. Zool, Meded. 2:11-14, 1916b. On a new genus of Aphroditidae from the Netherlands East Indies. Zool, Meded, 2:63-64. 1917. Polychaeta errantia of the SIBOGAExpedition, Part 2. Aphroditidae and Chrysopetahdae, SIBOGA-Exped. Leyden 24b: 1-140. 1918. On a new species of Lycastis and three aberrant forms of Nereidae from the Dutch East Indies. Zool. Meded. Leyden 4:246-250. 1919a. Three new Acreii-species from the Dutch East Indies. Zool. Meded. Leyden 5:59 64, 1919b. Twee s\u00e9dentaire Polychaeten uit het brakke water var Nederland. Zool. Meded. Leyden 5:100-102. 1966a. The Syllidae (Poiychaetous annelids) from Japan I. Exogoninae. Publ. Seto Mar. Biol. Lab. 13:385-404, IMAJIMA, M. 1966b. The Syllidae (Poiychaetous annelids) from Japan. II. Autolytinae. Publ. Seto Mar. Biol. Lab, 14:27-83, 1966c, The Syllidae (Poiychaetous annelids) from Japan, III. Eusyllinae. Publ. Seto Mar. Biol. Lab. 14:85-111. 1966d. The Syllidae (Poiychaetous annelids) from Japan IV. Syllidae 1. Publ. Seto Mar. Biol. Lab. 14:219-252. 1966e. The Syllidae (Poiychaetous annelids) from Japan V. Syllidae 2. Publ. Seto Mar. Biol. Lab. 14: 253-294. 1967. The Syllidae (Poiychaetous annelids) from Japan VI. Distribution and Literature. Publ. Seto Mar. Biol. Lab. 14:351-368. 1972. Review of the annelid worms of the family Nereidae of Japan, with description of five new species or subspecies. Bull. Nati. Sei. Mus. Tokyo 15:37-153. AND O, HARTMAN. 1964. The poiychaetous annelids of Japan. Allan Hancock Foundation Occasional Paper 26:1-452. IzuKA, A. 1912. The errantiate Polychaeta of Japan. Jour. Coll. Sei. Tokyo 30(2):l262. 1930. [On Archiannelida and Polychaeta in the Black Sea]. (In Russian). Isv. Altad, nauk Leningrad JAKUBOVA, L. 1926. Bemerkungen \u00fcber die Kinbergschen Arten der Familien Hermellidae und Sabellidae. Ark. Zool. Stockholm 18A (7):l-28. JOHANSSON, K.E. 1927. Beitr\u00e4ge zur Kenntnis der PolychaetenFamilien Hermellidae, Sabellidae und Serpulidae. Zool. Bidr. Uppsala 11; 1-184. 1897. A preliminary account of the marine annelids of the Pacific coast, with description of new species. Euphrosynidae, Amphinomidae, Palmyridae, Polynoidae and Sigalionidae. Proc. Calif. Acad. Sei. Zool. 1:153-190. JOHNSON, H.P, 1901. The Polychaeta of the Puget Sound region. Proc. Boston Soc. Nat. Hist. 29:381-437. 1903. Freshwater nereids from the Pacific coast and Hawaii with remarks on fresh-water Polychaeta in general. Mark Anniv. Vol., New York, pp. 205-222. 1827. Contributions to the British Fauna. Zool. Jour. London 3:321-336. JOHNSTON, G... 1835. Illustrations in British Zoology. Mag. Nat. Hist. London 8:181-183. 1838. Miscellanea Zool\u00f3gica. Ariciadae. Mag. Zool. Bot. Edinburgh 2:63-73. 1839. Miscellanea Zool\u00f3gica. The British Aphroditacea. Ann. Mag. Nat. Hist. London (1) 2:424-441. 1840a. Miscellanea Zool\u00f3gica. British Annelids. Ann. Mag. Nat. Hist. London (1) 4:368-375. 1840b. Miscellanea Zool\u00f3gica. Contributions towards a history of Irish Annelids. (1) 5:168-179. 1840c. Miscellanea Zool\u00f3gica. Contributions towards a history of Irish Annelids. (1) 5:305-309. 1844. Annelida. In: Thompson, W.: Report on the fauna of Ireland: Div. Invertebrates. Rep. Brit. Ass. Adv. Sei. 1843:271-274. 1845. An Index to the British Annelids. Ann. Mag. Nat. Hist. London (1) 16:4-10. 1865, A catalogue of the British non-parasitical worms in the collection of the British Museum. London, 366 pp. 1961. Two new polychaetes of the families Pilargidae and Capitellidae from the Gulf of Mexico. Amer. Mus. Novit\u00e4t. 2049:1-18. JONES, M.L. 1962. On some polychaetous annelids from Jamaica, The West Indies. Amer. Mus. Nat. Hist. Bull. 124(5):169-212. 1974a. Brandtika asi\u00e1tica new genus, new species, from Southeastern Asia and a redescription of Monroika africana (Monro) (Polychaeta: Sabellidae). Proc. Biol. Soc. Wash. 87:217-230. 1974b. On the Caobangiidae, a new family of the Polychaeta, with a redescription of Caobangia billeti Giard. Smithsonian Contr, Zool. 175:1-55. JouiN, C. 1966. Morphologie et anatomie compar\u00e9e de Protodrilus chaetifer Remane et Protodrilus symbioticus Giard; cr\u00e9ation du nouveau genre Protodriloides (Archiann\u00e9lide). Cah. Biol. Mar. 7:139-155. 1967. \u00c9tude morphologique et anatomique de Nerillidopsis hyatina Jouin et de quelques Nerillidium Remane (Archiann\u00e9lides, Nerillidae), Arch. zool. exp. gen. Paris 108:97-110. 1971. Status of the knowledge of the systematics and ecology of Archiannelida. Smithsonian Contr. Zool. 76:47-56. AND B. SWEDMARK. 1965. Paranerilla limicola n.g., n. sp., Archiann\u00e9lide Nerillidae du benthos vaseux marin. Cah, Biol. Mar. 6:201-218. JuMARS, P.A. 1974. A generic revision of the Etorvilleidae Pacific. Jour. Linn. Soc. London, Zool. 54:101-135. KEFERSTEIN, W. 1862, Untersuchungen \u00fcber niedere Seethiere. Zeits. wiss. Zool. 12:1-147. 1882. \u00dcber Ctenodrilus pardalis Clpd. Ein Beitrag zur Kenntnis der Anatomie und Knospung der Anneliden. Arb, Zool. Inst. W\u00fcrzburg 5:373-429. KENNEL, J.V. KiNBERG, J.G.H, 1855, Nya sl\u00e4gter och arter af Annelider. \u00d6fv. Svenska Vetensk, Akad. F\u00f6rh. 12:381-388. -, 1857. Nya sl\u00e4gter och arter af Annelider. \u00d6fv, Svenska Vetensk. Akad. F\u00f6rh. 14:11-14, 1865. Annulata nova, \u00d6fv, Svenska Vetensk. Akad. F\u00f6rh. 21:559-574. 1866a, Annulata nova. \u00d6fv. Svenska Vetensk. Akad. F\u00f6rh. 22:167-179. 1866b, Annulata nova. \u00d6fv. Svenska Vetensk. Akad. F\u00f6rh. 22:239-258. lS67a. Annulata nova, \u00d6fv. Svenska Vetensk. Akad. F\u00f6rh. 23:97-103. 1867b, Annulata nova. \u00d6fv. Svenska Vetensk. Akad. F\u00f6rh. 23:337-357. 1867c. Om Amphinomernas Systematik. \u00d6fv. Svenska Vetensk. Akad. F\u00f6rh. 24:83-91. KiRKEGAARD, J.B. 1959. The Polychaeta of West Africa. Part I. Sedentary Species. Atlantide Reports 5:10-117. KiRSTEUER, E. 1966. Zur Kenntnis der Archiannelida des Roten Meeres. Zool. Anz. 177:288-296. 1972. New species and a new subgenus of Spirorbinae (Serpulidae: Polychaeta) from Kenya. J. Zool. London 166:1-18. 1973. Spirorbinae (Serpulidae: Polychaeta) from southeastern Australia Pt. 1. A new genus, four new subgenera and seven new species. Bull. Br. Mus. nat. hist. (Zool) 24(4):231-259. KN\u00f4LLNER, F. 1934, Stypocapitella subterr\u00e1nea nov. gen., nov. spec. Sehr. Naturw. Ver. Schles. Holstein 20: 468-472. KNOX, G.A. 1957. Clavisyllis alt\u00e9rnala gen. et. sp. nov,, a new polychaete from New Zealand. Ann. Mag. Nat. Hist. London (12) 10:493-496. 1960. Biological results of the Chatham Islands 1954 Expedition. Part 3, Polychaeta Errantia. Mem. New Zealand Oceanogr. Inst. 6:77-143. AND D. B. CAMERON. 1970. Polychaeta fiom the Snares Island, New Zealand.Trans. R. Soc. New Zealand 12:73-85..AND K.M. GREEN. 1972. The polychaetes of New Zealand. Pan 3. Lysaretidae. J. R. Soc, New Zealand 2:431-434, KNIGHT-JONES, P. THE POLYCHAETE WORMS 1846. Einige Worte zur Entwicklungsgeschichte von Eunice, mit einem Nachwort won A. K\u00f6iliker. Denkschr. Allg. Schweiz. Ges. Naturw. Neuenberg 8:1-31. K\u00d6LLiKER, A. 1858. \u00fcber Kopfkiemer mit Augen an den Kiemen (Branchiomma dalyelli). Zeits. wiss. Zool. 9:536-541. KOCH, H. KoRSCHELT, E. 1893. \u00fcber Ophryotrocha pueriiis Clap.Metsch. und die polytrochen Larven eine anderen Anneliden (Harpochaeta cingulata. nov. gen., nov. spec). Zeits. wiss. Zool. 57:224-289. KROHN, A. 1845. Zoologische und anatomische Bemerkungen \u00fcber die Alciopiden. Arch. Naturgesch. Berlin 11: 171-184. 1856. Bidrag til Kundskab af Sabellerne. K. danske Vidensk. Selsk. Forh. 1856:1-36. (Reprinted as Meddelelser om Ormeslaegten S\u00e4bel la, isaer dens nordiske Arter). LAMARCK, J.B. DE. 1801. Syst\u00e8me des animaux sans vertebres ou tableau g\u00e9n\u00e9ral de classes, des ordres et des genres de ces animaux; pr\u00e9sentant leur caract\u00e8res essentiels et leur distribution, d'apr\u00e8s la consid\u00e9ration de leur rapports naturelles et de leur organisation, et suivant l'arrangement \u00e9tabli dans les galeries du Mus\u00e9um d'Histoire Naturelle, parmi leurs d\u00e9pouilles conserv\u00e9es; pr\u00e9c\u00e9d\u00e9 du discors d'ouverture du cours de zoologie, doon\u00e9 dans la Mus\u00e9um National d'Histoire Naturelle l'an 8 de la R\u00e9publique. Paris, VII and 432 pp. KR\u00f6YER, H. 1818. Histoire naturelle des animaux sans vert\u00e8bres etc. 5:618 pp. LANCERHANS, P. 1878. \u00dcber Acicularia virchowia. eine neue Annelidenform. Monatsber. Akad. Wiss. Berlin 1878:727-728. 1880. Die Wurmfauna von Madeira Part 2. Zeits. wiss. Zool. 33:267-316. 1881a. Die Wurmfauna von Madeira Part 3. Zeits. wiss. Zool. 34:87-143. 1881 b. \u00dcber einige canarische Anneliden. Deutsche Akad. Naturf. Nova Acta 42:93-124. 1884. Die Wurmfauna von Madeira. Part 4. Zeits. wiss. Zool. 40:247285. LAUBIER, L. 1961a. Monticellina heterochaeta n.g., n. sp., ct\u00e9nodrilide (polych\u00e8tes s\u00e9dentaires) des vases c\u00f4ti\u00e8res de Banyuls-sur-mer. Vie et Milieu 11:601-604. 1961b. Podarkeopsisgalangaui n.g., n.sp., h\u00e9sionide des vases c\u00f4ti\u00e8res de Banyuls-sur-mer. Vie et Milieu 12:211-217... 1962. Schroederelia pauliani gen. nov., sp. nov.. un nouvel orbiniide (polych\u00e8tes s\u00e9dentaires) de la faune interstitielle d'Afrique. Ann. Transvaal Mus. 24:231-238. 1967a. Sur quelques j4\u00ed-\u00edCi\u00a3\u00cdi?a (Polych\u00e8tes, Paraonidae) de Banyuls-sur-mer. Vie et Milieu (A) 18:99-132,.. 1967b. Presence d'une ann\u00e9lide polych\u00e8te de la famille des Pisionidae appertenant \u00e0 un genre nouveau dans les eaux interstitielles littorales de C\u00f4te d'Ivoire. C. R. Acad. Sei. Paris 264:1431-1433. 1967c. Adaptations chez les ann\u00e9lides polych\u00e8tes interstitielles. Ann. Biol. 6(1-2):1-16. AND J. RAMOS. 1973. A new genus of Poecilochaetidae (Polychaetous annelids) in the Mediterranean: EUcodasia mirabilis. Proc. Biol. Soc. Wash. 86:69-78. LEACH, W.E. 1816. Vermes Polychaeta. Encyclopedia Britan- nica Suppl. Ed. 4, 6:451-452. 1855. Contributions towards a knowledge of the marine invertebrates of the coast of Rhode Island and New Jersey. Acad. Nat. Sei. Phila, Jour. 3:135-158. 1859. Manayunkia speciosa. Acad. Nat. Sei. Phila, Jour. 10:90. LEIDY, J. 1849. Zur Kenntnis der Fauna von Island. Arch. Naturgesch. Berlin 15:149-208. LEUCKART, R. \u2022_ AND A. PAGENSTECHER, 1855. \u00dcber die Jugendzust\u00e4nde einiger Anneliden. Arch. Naturgesch. Berlin 21:63-80. LEVENSTEIN, R. 1957. Novye i redkie v fauna Beringora Moria glubokvodnye vidy mnogoshetinkovykh chervei 23:286-290. LEVINSEN, G.M.R, 1879. Om to nye Slaegter af arktiske Chaetopode Annelider. Vidensk. Medd. dansk naturh. Foren. 1879:9-18. 1883. Systematisk-geografisk Oversigt over de nordiske Annulata, Gephyrea, Chaetognathi og Balano glossi. Vidensk. Medd. dansk naturh. Foren. 1882: 160-250. _, 1884. Systematisk geografisk Oversigt over de nordiske Annulata, Gephyrea, Chaetognathi og Balanoglossi. Vidensk. Medd. dansk naturh. Foren. 1883: 92-348. 1885. Spolia atl\u00e1ntica. Om nogle pelagiske Annulata. Skr. Vidensk. Selsk. K0benhavn, Math-Nat Kl. 3(2):32I-344. 1887. Kara-Havets Ledorme (Annulata)./\u00ab Liitken, C. F. (ed.); Djimphna-Togtets Zoologisk-Botaniske Udbytte: 288-303. 1893. Annulata, Hydroidae, Anthozoa, Porifera. Vidensk. Udbytte Kanonbaaden HAUCH's Togter: 321-464. LEWIS, M. 1897. Clymene produc\u00eda n. sp. Proc. Boston Soc. Nat. Hist. 28:111-115. 1851. Anatomische Bemerkungen \u00fcber Cannar/a.",
+    "figure": null
+  }
+]
