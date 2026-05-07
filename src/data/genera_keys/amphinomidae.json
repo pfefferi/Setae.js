@@ -1,0 +1,83 @@
+{
+  "_meta": { "family": "AMPHINOMIDAE", "source": "Fauchald (1977) Key to Genera", "type": "genera_key" },
+  "1": {
+    "step": "1",
+    "optionA": { "text": "Caruncle completely absent; neurosetae simple hooks", "goTo": null, "result": "Hipponoa" },
+    "optionB": { "text": "Caruncle present, usually well developed; neurosetae otherwise", "goTo": "2", "result": null }
+  },
+  "2": {
+    "step": "2",
+    "optionA": { "text": "Body ovate or fusiform", "goTo": "3", "result": null },
+    "optionB": { "text": "Body elongated with parallel sides and usually abruptly tapering anteriorly and posteriorly", "goTo": "10", "result": null }
+  },
+  "3": {
+    "step": "3",
+    "optionA": { "text": "Branchiae present on all setigers", "goTo": null, "result": "Branchamphinome" },
+    "optionB": { "text": "Some setigers (anterior or posterior) without branchiae", "goTo": "4", "result": null }
+  },
+  "4": {
+    "step": "4",
+    "optionA": { "text": "One dorsal cirrus per notopodium", "goTo": "5", "result": null },
+    "optionB": { "text": "Two dorsal cirri per notopodium", "goTo": "7", "result": null }
+  },
+  "5": {
+    "step": "5",
+    "optionA": { "text": "Caruncle with three parallel longitudinal ridges", "goTo": null, "result": "Benthoscolex" },
+    "optionB": { "text": "Caruncle long and folded with indistinct lateral folds", "goTo": "6", "result": null }
+  },
+  "6": {
+    "step": "6",
+    "optionA": { "text": "Eyes absent, first pair of branchiae larger than the following ones", "goTo": null, "result": "Bathychloeia" },
+    "optionB": { "text": "Eyes present, first branchiae not larger than the following ones", "goTo": null, "result": "Chloeia" }
+  },
+  "7": {
+    "step": "7",
+    "optionA": { "text": "Caruncle with high central ridge and two wide flattened lateral folds", "goTo": null, "result": "Notopygos" },
+    "optionB": { "text": "Lateral lobes of caruncle small and hidden under the central ridge, or absent", "goTo": "8", "result": null }
+  },
+  "8": {
+    "step": "8",
+    "optionA": { "text": "Caruncle wedge-shaped, without crest and folds", "goTo": null, "result": "Sangiria" },
+    "optionB": { "text": "Caruncle with crest and folds", "goTo": "9", "result": null }
+  },
+  "9": {
+    "step": "9",
+    "optionA": { "text": "Caruncle high, loosely plaited and rugose", "goTo": null, "result": "Chloenopsis" },
+    "optionB": { "text": "Caruncle low, narrowly plaited with a crenulated plate", "goTo": null, "result": "Parachloeia" }
+  },
+  "10": {
+    "step": "10",
+    "optionA": { "text": "Caruncle small and inconspicuous, stretching through maximally three segments", "goTo": "11", "result": null },
+    "optionB": { "text": "Caruncle large and conspicuous, stretching through at least three segments", "goTo": "14", "result": null }
+  },
+  "11": {
+    "step": "11",
+    "optionA": { "text": "Branchiae present on all segments from the second or third", "goTo": "12", "result": null },
+    "optionB": { "text": "Branchiae limited to the anterior part of the body", "goTo": "13", "result": null }
+  },
+  "12": {
+    "step": "12",
+    "optionA": { "text": "Caruncle broadly triangular or cordate", "goTo": null, "result": "Amphinome" },
+    "optionB": { "text": "Caruncle narrow and elongated", "goTo": null, "result": "Pareurythoe" }
+  },
+  "13": {
+    "step": "13",
+    "optionA": { "text": "First segment with large, anteriorly directed hooks", "goTo": null, "result": "Paramphinome" },
+    "optionB": { "text": "First segment without hooks", "goTo": null, "result": "Linopherus" }
+  },
+  "14": {
+    "step": "14",
+    "optionA": { "text": "Caruncle longer than wide with a large smooth, sinuous median ridge nearly covering the narrow lateral parts", "goTo": null, "result": "Eurythoe" },
+    "optionB": { "text": "Caruncle about as long as wide or wider, median ridge, if present, narrow", "goTo": "15", "result": null }
+  },
+  "15": {
+    "step": "15",
+    "optionA": { "text": "Caruncle without distinct median ridge, with a few deep transverse folds", "goTo": null, "result": "Hermodice" },
+    "optionB": { "text": "Caruncle with a distinct, smooth narrow ridge", "goTo": "16", "result": null }
+  },
+  "16": {
+    "step": "16",
+    "optionA": { "text": "Furcate setae absent", "goTo": null, "result": "Pherecardia" },
+    "optionB": { "text": "Furcate setae present", "goTo": null, "result": "Pherecardites" }
+  }
+}

@@ -1,0 +1,83 @@
+{
+  "_meta": { "family": "SIGALIONIDAE", "source": "Fauchald (1977) Key to Genera", "type": "genera_key" },
+  "1": {
+    "step": "1",
+    "optionA": { "text": "One median antenna present", "goTo": "2", "result": null },
+    "optionB": { "text": "At least two antennae present", "goTo": "3", "result": null }
+  },
+  "2": {
+    "step": "2",
+    "optionA": { "text": "Composite neurosetae with long, slender, articulated appendages", "goTo": null, "result": "Mayella" },
+    "optionB": { "text": "Composite neurosetae short, smooth unidentate falcigers", "goTo": null, "result": "Pholoe" }
+  },
+  "3": {
+    "step": "3",
+    "optionA": { "text": "Two antennae present", "goTo": null, "result": "Sigalion" },
+    "optionB": { "text": "Three antennae present", "goTo": "4", "result": null }
+  },
+  "4": {
+    "step": "4",
+    "optionA": { "text": "Lateral antennae on the prostomium proper; all antennae with short ceratophores or short and inconspicuous", "goTo": "5", "result": null },
+    "optionB": { "text": "Lateral antennae fused to first setiger; median antenna with large median ceratophore", "goTo": "6", "result": null }
+  },
+  "5": {
+    "step": "5",
+    "optionA": { "text": "Eyes large, antennae with ceratophores", "goTo": null, "result": "Euthalenessa" },
+    "optionB": { "text": "Eyes small, antennae without ceratophores", "goTo": null, "result": "Thalenessa" }
+  },
+  "6": {
+    "step": "6",
+    "optionA": { "text": "Median ceratophore without auricles", "goTo": "7", "result": null },
+    "optionB": { "text": "Median ceratophore with auricles", "goTo": "10", "result": null }
+  },
+  "7": {
+    "step": "7",
+    "optionA": { "text": "Dorsal cirri absent on setiger 3; elytrae not sand-incrusted", "goTo": "8", "result": null },
+    "optionB": { "text": "Dorsal cirri present on setiger 3; elytrae sand-incrusted", "goTo": "9", "result": null }
+  },
+  "8": {
+    "step": "8",
+    "optionA": { "text": "Neurosetae composite spinigers with short, canaliculated appendages", "goTo": null, "result": "Leanira" },
+    "optionB": { "text": "Neurosetae composite, unidentate falcigers with marginally serrated appendages", "goTo": null, "result": "Pareupholoe" }
+  },
+  "9": {
+    "step": "9",
+    "optionA": { "text": "Elytrae small, leaving the middle of the dorsum uncovered; neurosetae with short bidentate appendages", "goTo": null, "result": "Eupholoe" },
+    "optionB": { "text": "Elytrae covering the dorsum, neurosetae with uni- or bidentate appendages of varying lengths", "goTo": null, "result": "Psammolyce" }
+  },
+  "10": {
+    "step": "10",
+    "optionA": { "text": "Auricles large, auricles also present on the tentacular segment", "goTo": null, "result": "Horstileanira" },
+    "optionB": { "text": "Auricles small, absent from tentacular segment", "goTo": "11", "result": null }
+  },
+  "11": {
+    "step": "11",
+    "optionA": { "text": "All neurosetae composite unidentate falcigers with relatively short, straight appendages", "goTo": null, "result": "Sthenelanella" },
+    "optionB": { "text": "At least some neurosetae otherwise", "goTo": "12", "result": null }
+  },
+  "12": {
+    "step": "12",
+    "optionA": { "text": "Ventral cirri covered medially by long papillae", "goTo": null, "result": "Willeysthenelais" },
+    "optionB": { "text": "Ventral cirri smooth", "goTo": "13", "result": null }
+  },
+  "13": {
+    "step": "13",
+    "optionA": { "text": "Parapodial lobes and stylodes covered with fine fimbriae", "goTo": null, "result": "Fimbriosthenelais" },
+    "optionB": { "text": "Parapodial lobes and stylodes smooth", "goTo": "14", "result": null }
+  },
+  "14": {
+    "step": "14",
+    "optionA": { "text": "Long dorsal cirri on setiger 3", "goTo": null, "result": "Neoleanira" },
+    "optionB": { "text": "Dorsal cirri absent from setiger 3", "goTo": "15", "result": null }
+  },
+  "15": {
+    "step": "15",
+    "optionA": { "text": "At least some neuropodial falcigers present", "goTo": "16", "result": null },
+    "optionB": { "text": "All neurosetae spinigerous", "goTo": null, "result": "Ehlersileanira" }
+  },
+  "16": {
+    "step": "16",
+    "optionA": { "text": "Dorsal tubercle present on setiger 3", "goTo": null, "result": "Sthenelais" },
+    "optionB": { "text": "Dorsal tubercle absent from setiger 3", "goTo": null, "result": "Sthenolepis" }
+  }
+}
