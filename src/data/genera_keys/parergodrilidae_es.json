@@ -1,0 +1,21 @@
+{
+  "_meta": {
+    "family": "PARERGODRILIDAE",
+    "source": "Fauchald (1977) Key to Genera",
+    "type": "genera_key",
+    "lang": "es"
+  },
+  "1": {
+    "step": "1",
+    "optionA": {
+      "text": "Body no translucent, con 10-11 setígeros; setas limbate y furcate",
+      "goTo": null,
+      "result": "Stygocapitella"
+    },
+    "optionB": {
+      "text": "Body translucent, 8-9 setígeros presentes; todas las setas liso rods",
+      "goTo": null,
+      "result": "Parergodrilus"
+    }
+  }
+}

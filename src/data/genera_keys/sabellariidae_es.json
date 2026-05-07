@@ -1,0 +1,86 @@
+{
+  "_meta": {
+    "family": "SABELLARIIDAE",
+    "source": "Fauchald (1977) Key to Genera",
+    "type": "genera_key",
+    "lang": "es"
+  },
+  "1": {
+    "step": "1",
+    "optionA": {
+      "text": "With único row of páleas in opérculo",
+      "goTo": "2",
+      "result": null
+    },
+    "optionB": {
+      "text": "With at least dos rows of páleas in opérculo",
+      "goTo": "3",
+      "result": null
+    }
+  },
+  "2": {
+    "step": "2",
+    "optionA": {
+      "text": "The prolonged opercular peduncles free from uno another",
+      "goTo": null,
+      "result": "Phalacrostemma"
+    },
+    "optionB": {
+      "text": "Opercular peduncles corto y fusionado",
+      "goTo": null,
+      "result": "Monorchos"
+    }
+  },
+  "3": {
+    "step": "3",
+    "optionA": {
+      "text": "Two rows of páleas",
+      "goTo": "4",
+      "result": null
+    },
+    "optionB": {
+      "text": "Tres rows of páleas",
+      "goTo": "6",
+      "result": null
+    }
+  },
+  "4": {
+    "step": "4",
+    "optionA": {
+      "text": "Hooks ausentes",
+      "goTo": null,
+      "result": "Gunnarea"
+    },
+    "optionB": {
+      "text": "A par of grande ganchos dorsal y proximal to opercular páleas",
+      "goTo": "5",
+      "result": null
+    }
+  },
+  "5": {
+    "step": "5",
+    "optionA": {
+      "text": "Tres paratorácico setígeros",
+      "goTo": null,
+      "result": "Idanthyrsus"
+    },
+    "optionB": {
+      "text": "Cuatro paratorácico setígeros",
+      "goTo": null,
+      "result": "Lygdamis"
+    }
+  },
+  "6": {
+    "step": "6",
+    "optionA": {
+      "text": "Middle opercular páleas cover inner ones; opérculo aplanado cone",
+      "goTo": null,
+      "result": "Phragmatopoma"
+    },
+    "optionB": {
+      "text": "Middle opercular páleas no concealing inner ones; opérculo open y bristly",
+      "goTo": null,
+      "result": "Sabellaria"
+    }
+  }
+}

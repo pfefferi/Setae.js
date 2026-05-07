@@ -1,0 +1,21 @@
+{
+  "_meta": {
+    "family": "TOMOPTERIDAE",
+    "source": "Fauchald (1977) Key to Genera",
+    "type": "genera_key",
+    "lang": "es"
+  },
+  "1": {
+    "step": "1",
+    "optionA": {
+      "text": "Tentacular cirri of second segmento much más largo que body; parapodial fins restricted to far distal part of each rama",
+      "goTo": null,
+      "result": "Enapteris"
+    },
+    "optionB": {
+      "text": "Tentacular cirri tan largo como, o barely más largo que body; parapodial fins surround distal part of ramas",
+      "goTo": null,
+      "result": "Tomopteris"
+    }
+  }
+}

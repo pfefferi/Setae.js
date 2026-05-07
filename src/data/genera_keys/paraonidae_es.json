@@ -1,0 +1,125 @@
+{
+  "_meta": {
+    "family": "PARAONIDAE",
+    "source": "Fauchald (1977) Key to Genera, pp. 17-18",
+    "type": "genera_key",
+    "lang": "es"
+  },
+  "1": {
+    "step": "1",
+    "optionA": {
+      "text": "Setas presentes from the primeros segmento",
+      "goTo": null,
+      "result": "Aparaonis"
+    },
+    "optionB": {
+      "text": "Setas presentes from second segmento",
+      "goTo": "2",
+      "result": null
+    }
+  },
+  "2": {
+    "step": "2",
+    "optionA": {
+      "text": "Modified setas notopodial",
+      "goTo": null,
+      "result": "Cirrophorus"
+    },
+    "optionB": {
+      "text": "Modified setas, if presentes, neuropodial",
+      "goTo": "3",
+      "result": null
+    }
+  },
+  "3": {
+    "step": "3",
+    "optionA": {
+      "text": "Prostomium con mediano antena",
+      "goTo": "4",
+      "result": null
+    },
+    "optionB": {
+      "text": "Prostomium sin mediano antena",
+      "goTo": "7",
+      "result": null
+    }
+  },
+  "4": {
+    "step": "4",
+    "optionA": {
+      "text": "Modified setas ausentes",
+      "goTo": null,
+      "result": "Aedicira"
+    },
+    "optionB": {
+      "text": "Modified setas presentes",
+      "goTo": "5",
+      "result": null
+    }
+  },
+  "5": {
+    "step": "5",
+    "optionA": {
+      "text": "Modified setas cualquiera pseudocomposite o curved con subterminal arista on concave side of shaft",
+      "goTo": null,
+      "result": "Aricidea"
+    },
+    "optionB": {
+      "text": "Modified setas otherwise",
+      "goTo": "6",
+      "result": null
+    }
+  },
+  "6": {
+    "step": "6",
+    "optionA": {
+      "text": "Modified setas no greatly different from setas capilares, but somewhat thicker y more abruptly tapering y con largo arista",
+      "goTo": null,
+      "result": "Allia"
+    },
+    "optionB": {
+      "text": "Modified setas distalmente strongly curved, o bífido, cualquiera con numbers of largo aristae o bearded",
+      "goTo": null,
+      "result": "Acesta"
+    }
+  },
+  "7": {
+    "step": "7",
+    "optionA": {
+      "text": "Nuchal organ on posterior part of prostomio, prostomio con varios transverso bands of cilia",
+      "goTo": null,
+      "result": "Paraonis"
+    },
+    "optionB": {
+      "text": "Nuchal organ on reducido peristomio; con único preoral ciliary band o prostomial ciliary bands ausentes",
+      "goTo": "8",
+      "result": null
+    }
+  },
+  "8": {
+    "step": "8",
+    "optionA": {
+      "text": "Modified setas ausentes",
+      "goTo": null,
+      "result": "Paraonella"
+    },
+    "optionB": {
+      "text": "Modified setas presentes",
+      "goTo": "9",
+      "result": null
+    }
+  },
+  "9": {
+    "step": "9",
+    "optionA": {
+      "text": "Tres prebranchial setígeros; terminal prostomial sense organs ausentes",
+      "goTo": null,
+      "result": "Sabidius"
+    },
+    "optionB": {
+      "text": "More than tres prebranchial setígeros; terminal prostomial sense organs presentes",
+      "goTo": null,
+      "result": "Tauberia"
+    }
+  }
+}

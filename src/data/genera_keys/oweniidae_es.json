@@ -1,0 +1,60 @@
+{
+  "_meta": {
+    "family": "OWENIIDAE",
+    "source": "Fauchald (1977) Key to Genera",
+    "type": "genera_key",
+    "lang": "es"
+  },
+  "1": {
+    "step": "1",
+    "optionA": {
+      "text": "Prostomium anteriorly produced into low collar o corona tentacular",
+      "goTo": "2",
+      "result": null
+    },
+    "optionB": {
+      "text": "Prostomium rounded o bilobed",
+      "goTo": "3",
+      "result": null
+    }
+  },
+  "2": {
+    "step": "2",
+    "optionA": {
+      "text": "Prostomium formando low collar, ventrally deeply incised",
+      "goTo": null,
+      "result": "Galathowenia"
+    },
+    "optionB": {
+      "text": "Prostomium formando corona tentacular, ventrally entero",
+      "goTo": null,
+      "result": "Owenia"
+    }
+  },
+  "3": {
+    "step": "3",
+    "optionA": {
+      "text": "Prostomium rounded, palpos ausentes",
+      "goTo": "4",
+      "result": null
+    },
+    "optionB": {
+      "text": "Prostomium deeply bilobed con pareado palpos",
+      "goTo": null,
+      "result": "Myriowenia"
+    }
+  },
+  "4": {
+    "step": "4",
+    "optionA": {
+      "text": "First dos o tres setígeros con notosetae only",
+      "goTo": null,
+      "result": "Myriochele"
+    },
+    "optionB": {
+      "text": "Only primeros setiger con notosetae only",
+      "goTo": null,
+      "result": "Myrioglobula"
+    }
+  }
+}

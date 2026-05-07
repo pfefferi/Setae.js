@@ -1,0 +1,47 @@
+{
+  "_meta": {
+    "family": "CHAETOPTERIDAE",
+    "source": "Fauchald (1977) Key to Genera",
+    "type": "genera_key",
+    "lang": "es"
+  },
+  "1": {
+    "step": "1",
+    "optionA": {
+      "text": "Median notópodos bilobed",
+      "goTo": "2",
+      "result": null
+    },
+    "optionB": {
+      "text": "Median notópodos nunca bilobed, puede ser fusionado",
+      "goTo": "3",
+      "result": null
+    }
+  },
+  "2": {
+    "step": "2",
+    "optionA": {
+      "text": "A par of pequeño tentacular cirri presentes at base of grande palpos",
+      "goTo": null,
+      "result": "Phyllochaetopterus"
+    },
+    "optionB": {
+      "text": "Tentacular cirri ausentes, palpos grande",
+      "goTo": null,
+      "result": "Spiochaetopterus"
+    }
+  },
+  "3": {
+    "step": "3",
+    "optionA": {
+      "text": "Some mediano notópodos fusionado to form dorsal fans, palpos very corto",
+      "goTo": null,
+      "result": "Chaetopterus"
+    },
+    "optionB": {
+      "text": "Notopodia nunca fusionado; palpos grande",
+      "goTo": null,
+      "result": "Mesochaetopterus"
+    }
+  }
+}

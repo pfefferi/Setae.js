@@ -1,0 +1,73 @@
+{
+  "_meta": {
+    "family": "POLYODONTIDAE",
+    "source": "Fauchald (1977) Key to Genera",
+    "type": "genera_key",
+    "lang": "es"
+  },
+  "1": {
+    "step": "1",
+    "optionA": {
+      "text": "Ommatophores presentes",
+      "goTo": "2",
+      "result": null
+    },
+    "optionB": {
+      "text": "Ommatophores ausentes",
+      "goTo": "5",
+      "result": null
+    }
+  },
+  "2": {
+    "step": "2",
+    "optionA": {
+      "text": "Two antenas presentes",
+      "goTo": "3",
+      "result": null
+    },
+    "optionB": {
+      "text": "Tres antenas presentes",
+      "goTo": "4",
+      "result": null
+    }
+  },
+  "3": {
+    "step": "3",
+    "optionA": {
+      "text": "Ommatophores fusionado in midline",
+      "goTo": null,
+      "result": "Neopanthatis"
+    },
+    "optionB": {
+      "text": "Ommatophores separado from each other",
+      "goTo": null,
+      "result": "Eupolyodontes"
+    }
+  },
+  "4": {
+    "step": "4",
+    "optionA": {
+      "text": "Superior neurosetae largo y tapering, more o less hirsute",
+      "goTo": null,
+      "result": "Polyodontes"
+    },
+    "optionB": {
+      "text": "Superior neurosetae corto y brush-topped",
+      "goTo": null,
+      "result": "Panthalis"
+    }
+  },
+  "5": {
+    "step": "5",
+    "optionA": {
+      "text": "Tres antenas presentes",
+      "goTo": null,
+      "result": "Eupanthalis"
+    },
+    "optionB": {
+      "text": "Antennae ausentes",
+      "goTo": null,
+      "result": "Restio"
+    }
+  }
+}

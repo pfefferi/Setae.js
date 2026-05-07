@@ -1,0 +1,34 @@
+{
+  "_meta": {
+    "family": "GLYCERIDAE",
+    "source": "Fauchald (1977) Key to Genera",
+    "type": "genera_key",
+    "lang": "es"
+  },
+  "1": {
+    "step": "1",
+    "optionA": {
+      "text": "Parápodos unirrameos throughout",
+      "goTo": null,
+      "result": "Hemipodus"
+    },
+    "optionB": {
+      "text": "Parápodos birrameos throughout",
+      "goTo": "2",
+      "result": null
+    }
+  },
+  "2": {
+    "step": "2",
+    "optionA": {
+      "text": "Prostomium largo, con más de tres rings; aileron of mandíbulas con lateral ala",
+      "goTo": null,
+      "result": "Glycera"
+    },
+    "optionB": {
+      "text": "Prostomium corto, con about tres rings; aileron of mandíbulas simple rod",
+      "goTo": null,
+      "result": "Glycerella"
+    }
+  }
+}

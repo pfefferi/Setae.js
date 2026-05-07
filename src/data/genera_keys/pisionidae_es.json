@@ -1,0 +1,47 @@
+{
+  "_meta": {
+    "family": "PISIONIDAE",
+    "source": "Fauchald (1977) Key to Genera",
+    "type": "genera_key",
+    "lang": "es"
+  },
+  "1": {
+    "step": "1",
+    "optionA": {
+      "text": "Median impar antenas presentes",
+      "goTo": null,
+      "result": "Pisionella"
+    },
+    "optionB": {
+      "text": "Median impar antenas ausentes",
+      "goTo": "2",
+      "result": null
+    }
+  },
+  "2": {
+    "step": "2",
+    "optionA": {
+      "text": "With dos pares of similar cephalic appendages",
+      "goTo": null,
+      "result": "Pisionidens"
+    },
+    "optionB": {
+      "text": "With tres pares of cephalic appendages of different structure",
+      "goTo": "3",
+      "result": null
+    }
+  },
+  "3": {
+    "step": "3",
+    "optionA": {
+      "text": "First segmento asetigerous y apodous; probóscide unarmed",
+      "goTo": null,
+      "result": "Anoplopisione"
+    },
+    "optionB": {
+      "text": "No apodous y asetigerous segmento presentes; probóscide con cuatro mandíbulas",
+      "goTo": null,
+      "result": "Pisione"
+    }
+  }
+}

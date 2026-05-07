@@ -1,0 +1,21 @@
+{
+  "_meta": {
+    "family": "POLYGORDIIDAE",
+    "source": "Fauchald (1977) Key to Genera",
+    "type": "genera_key",
+    "lang": "es"
+  },
+  "1": {
+    "step": "1",
+    "optionA": {
+      "text": "Setas presentes in segmentos posterior",
+      "goTo": null,
+      "result": "Chaetogordius"
+    },
+    "optionB": {
+      "text": "Setas ausentes",
+      "goTo": null,
+      "result": "Polygordius"
+    }
+  }
+}

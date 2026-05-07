@@ -69,7 +69,13 @@ function App() {
   const loadGeneraKey = async (familyName) => {
     const base = familyName.split(' ')[0];
     try {
-      const mod = await import(`./data/genera_keys/${base.toLowerCase()}.json`);
+      // Try language-specific file first, fall back to English
+      let mod;
+      try {
+        mod = await import(`./data/genera_keys/${base.toLowerCase()}_${lang}.json`);
+      } catch (e) {
+        mod = await import(`./data/genera_keys/${base.toLowerCase()}.json`);
+      }
       setGeneraKey(mod.default || mod);
       setGeneraFamily(familyName);
       setGeneraActive(true);
@@ -293,45 +299,6 @@ function App() {
       obj[key] = taxaPaths[key];
       return obj;
     }, {});
-
-  // Keyboard shortcuts: A/1 → option A, B/2 → option B
-  useEffect(() => {
-    const handleKeyDown = (e) => {
-      if (screen !== 'app') return;
-      const key = e.key.toLowerCase();
-
-      if (mode === 'key' && !currentStep.result) {
-        if (generaActive && generaKey) {
-          const generaNode = generaKey[generaStep];
-          if (generaNode && !generaStep.result) {
-            if (key === 'a' || key === '1') {
-              handleGeneraChoice(generaNode.optionA, 'A');
-            } else if (key === 'b' || key === '2') {
-              handleGeneraChoice(generaNode.optionB, 'B');
-            }
-          }
-        } else if (node && !generaActive) {
-          if (key === 'a' || key === '1') {
-            handleChoice(node.optionA, 'A');
-          } else if (key === 'b' || key === '2') {
-            handleChoice(node.optionB, 'B');
-          }
-        }
-      }
-
-      // Escape to go back
-      if (key === 'escape') {
-        if (generaActive) {
-          backToFamily();
-        } else if (history.length > 0) {
-          handleBack();
-        }
-      }
-    };
-
-    window.addEventListener('keydown', handleKeyDown);
-    return () => window.removeEventListener('keydown', handleKeyDown);
-  });
 
   return (
     <>
@@ -653,7 +620,7 @@ function App() {
                         width: '100%'
                       }}
                     >
-                      {expandedPaths[taxon] ? '▲ Hide Steps' : '▼ Show Steps'}
+                      {expandedPaths[taxon] ? `▲ ${t.hide_steps}` : `▼ ${t.show_steps}`}
                     </button>
                   </div>
                   {expandedPaths[taxon] && (

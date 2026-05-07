@@ -1,0 +1,47 @@
+{
+  "_meta": {
+    "family": "LOPADORHYNCHIDAE",
+    "source": "Fauchald (1977) Key to Genera",
+    "type": "genera_key",
+    "lang": "es"
+  },
+  "1": {
+    "step": "1",
+    "optionA": {
+      "text": "Setas presentes at base of tentacular cirri",
+      "goTo": "2",
+      "result": null
+    },
+    "optionB": {
+      "text": "Setas ausentes at base of tentacular cirri",
+      "goTo": "3",
+      "result": null
+    }
+  },
+  "2": {
+    "step": "2",
+    "optionA": {
+      "text": "Two pares of tentacular cirri on uno segmento; parapodial cirri largo y digitate",
+      "goTo": null,
+      "result": "Pelagobia"
+    },
+    "optionB": {
+      "text": "Tres pares of tentacular cirri on dos segmentos; parapodial cirri corto",
+      "goTo": null,
+      "result": "Maupasia"
+    }
+  },
+  "3": {
+    "step": "3",
+    "optionA": {
+      "text": "First dos o tres parápodos modificado y con grande, simple setas",
+      "goTo": null,
+      "result": "Lopadorhynchus"
+    },
+    "optionB": {
+      "text": "All parápodos similar, todas las setas compuestas espinígeros",
+      "goTo": null,
+      "result": "Pedinosoma"
+    }
+  }
+}

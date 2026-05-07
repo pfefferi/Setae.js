@@ -1,0 +1,47 @@
+{
+  "_meta": {
+    "family": "LYSARETIDAE",
+    "source": "Fauchald (1977) Key to Genera",
+    "type": "genera_key",
+    "lang": "es"
+  },
+  "1": {
+    "step": "1",
+    "optionA": {
+      "text": "One distinto peristomial segmento presentes",
+      "goTo": null,
+      "result": "Oenone"
+    },
+    "optionB": {
+      "text": "Two distinto peristomial segmentos presentes",
+      "goTo": "2",
+      "result": null
+    }
+  },
+  "2": {
+    "step": "2",
+    "optionA": {
+      "text": "One corto antena presentes",
+      "goTo": null,
+      "result": "Tainokia"
+    },
+    "optionB": {
+      "text": "Tres antenas presentes",
+      "goTo": "3",
+      "result": null
+    }
+  },
+  "3": {
+    "step": "3",
+    "optionA": {
+      "text": "Proximal end of maxila I dentado; extremo distal falcado",
+      "goTo": null,
+      "result": "Halla"
+    },
+    "optionB": {
+      "text": "Proximal end of maxila I liso o nearly liso; each extremo distal con dos grande fangs",
+      "goTo": null,
+      "result": "Lysarete"
+    }
+  }
+}

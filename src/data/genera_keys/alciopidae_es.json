@@ -1,0 +1,112 @@
+{
+  "_meta": {
+    "family": "ALCIOPIDAE",
+    "source": "Fauchald (1977) Key to Genera",
+    "type": "genera_key",
+    "lang": "es"
+  },
+  "1": {
+    "step": "1",
+    "optionA": {
+      "text": "Several segmentos anterior con parápodos rudimentarios",
+      "goTo": "2",
+      "result": null
+    },
+    "optionB": {
+      "text": "Anterior segmentos con completamente desarrollados parápodos",
+      "goTo": "4",
+      "result": null
+    }
+  },
+  "2": {
+    "step": "2",
+    "optionA": {
+      "text": "All setas simple capilares",
+      "goTo": null,
+      "result": "Naiades"
+    },
+    "optionB": {
+      "text": "Setas compuestas espinígeros",
+      "goTo": "3",
+      "result": null
+    }
+  },
+  "3": {
+    "step": "3",
+    "optionA": {
+      "text": "Parápodos distalmente con cirriforme apéndice",
+      "goTo": null,
+      "result": "Vanadis"
+    },
+    "optionB": {
+      "text": "Parápodos distalmente sin cirriforme apéndice",
+      "goTo": null,
+      "result": "Torrea"
+    }
+  },
+  "4": {
+    "step": "4",
+    "optionA": {
+      "text": "Parápodos con dos distal cirriforme appendages, nearly todas las setas compuestas espinígeros",
+      "goTo": null,
+      "result": "Alciopa"
+    },
+    "optionB": {
+      "text": "Parápodos sin cirriforme appendages, o con único such apéndice; simple o acicular setas presentes",
+      "goTo": "5",
+      "result": null
+    }
+  },
+  "5": {
+    "step": "5",
+    "optionA": {
+      "text": "All setas simple",
+      "goTo": "6",
+      "result": null
+    },
+    "optionB": {
+      "text": "At least some compuestas setas presentes",
+      "goTo": "7",
+      "result": null
+    }
+  },
+  "6": {
+    "step": "6",
+    "optionA": {
+      "text": "Parápodos con cirriforme apéndice",
+      "goTo": null,
+      "result": "Krohnia"
+    },
+    "optionB": {
+      "text": "Parápodos sin cirriforme appendages",
+      "goTo": null,
+      "result": "Alciopina"
+    }
+  },
+  "7": {
+    "step": "7",
+    "optionA": {
+      "text": "Parápodos con cirriforme appendages",
+      "goTo": "8",
+      "result": null
+    },
+    "optionB": {
+      "text": "Parápodos sin cirriforme appendages",
+      "goTo": null,
+      "result": "Plotohdmis"
+    }
+  },
+  "8": {
+    "step": "8",
+    "optionA": {
+      "text": "Acicula barely extending beyond tip of parápodos",
+      "goTo": null,
+      "result": "Rhynchonerella"
+    },
+    "optionB": {
+      "text": "Aciculum prolonged, extending well beyond tip of parápodos",
+      "goTo": null,
+      "result": "Watelio"
+    }
+  }
+}

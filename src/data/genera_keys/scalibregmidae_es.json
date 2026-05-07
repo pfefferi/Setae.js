@@ -1,0 +1,190 @@
+{
+  "_meta": {
+    "family": "SCALIBREGMIDAE",
+    "source": "Fauchald (1977) Key to Genera",
+    "type": "genera_key",
+    "lang": "es"
+  },
+  "1": {
+    "step": "1",
+    "optionA": {
+      "text": "Body corto, maggotlike y inflated",
+      "goTo": "2",
+      "result": null
+    },
+    "optionB": {
+      "text": "Body largo, veces anteriorly inflated, but siempre con delgado posterior end",
+      "goTo": "4",
+      "result": null
+    }
+  },
+  "2": {
+    "step": "2",
+    "optionA": {
+      "text": "Two o tres anterior asetigerous segmentos",
+      "goTo": null,
+      "result": "Neolipobranchius"
+    },
+    "optionB": {
+      "text": "One anterior asetigerous segmento",
+      "goTo": "3",
+      "result": null
+    }
+  },
+  "3": {
+    "step": "3",
+    "optionA": {
+      "text": "Branquias presentes",
+      "goTo": null,
+      "result": "Polyphysia"
+    },
+    "optionB": {
+      "text": "Branquias ausentes",
+      "goTo": null,
+      "result": "Lipobranchius"
+    }
+  },
+  "4": {
+    "step": "4",
+    "optionA": {
+      "text": "Neurosetae compuestas heterogomph espinígeros",
+      "goTo": null,
+      "result": "Scalispinigera"
+    },
+    "optionB": {
+      "text": "Neurosetae capillary, furcate o acicular",
+      "goTo": "5",
+      "result": null
+    }
+  },
+  "5": {
+    "step": "5",
+    "optionA": {
+      "text": "Furcate setas ausentes",
+      "goTo": null,
+      "result": "Proscalibregma"
+    },
+    "optionB": {
+      "text": "Furcate setas presentes",
+      "goTo": "6",
+      "result": null
+    }
+  },
+  "6": {
+    "step": "6",
+    "optionA": {
+      "text": "Median parápodos con largo, digitate postsetal lobes",
+      "goTo": null,
+      "result": "Scalibregmides"
+    },
+    "optionB": {
+      "text": "Postsetal lobes corto y triangular o ausentes",
+      "goTo": "7",
+      "result": null
+    }
+  },
+  "7": {
+    "step": "7",
+    "optionA": {
+      "text": "Prostomium con largo, cirriforme frontal antena",
+      "goTo": null,
+      "result": "Scalibregmella"
+    },
+    "optionB": {
+      "text": "Prostomium T-shaped, sin appendages",
+      "goTo": "8",
+      "result": null
+    }
+  },
+  "8": {
+    "step": "8",
+    "optionA": {
+      "text": "Neither dorsal nor ventral cirri presentes",
+      "goTo": "9",
+      "result": null
+    },
+    "optionB": {
+      "text": "At least ventral cirri presentes",
+      "goTo": "11",
+      "result": null
+    }
+  },
+  "9": {
+    "step": "9",
+    "optionA": {
+      "text": "Acicular setas presentes",
+      "goTo": null,
+      "result": "Asclerocheilus"
+    },
+    "optionB": {
+      "text": "Acicular setas ausentes",
+      "goTo": "10",
+      "result": null
+    }
+  },
+  "10": {
+    "step": "10",
+    "optionA": {
+      "text": "Eyes presentes",
+      "goTo": null,
+      "result": "Hyboscolex"
+    },
+    "optionB": {
+      "text": "Eyes ausentes",
+      "goTo": null,
+      "result": "Kebuita"
+    }
+  },
+  "11": {
+    "step": "11",
+    "optionA": {
+      "text": "Branquias presentes",
+      "goTo": "12",
+      "result": null
+    },
+    "optionB": {
+      "text": "Branquias ausentes",
+      "goTo": "14",
+      "result": null
+    }
+  },
+  "12": {
+    "step": "12",
+    "optionA": {
+      "text": "Acicular espinas ausentes",
+      "goTo": null,
+      "result": "Scalibregma"
+    },
+    "optionB": {
+      "text": "Acicular espinas presentes",
+      "goTo": "13",
+      "result": null
+    }
+  },
+  "13": {
+    "step": "13",
+    "optionA": {
+      "text": "Eyes presentes",
+      "goTo": null,
+      "result": "Parasclerocheilus"
+    },
+    "optionB": {
+      "text": "Eyes ausentes",
+      "goTo": null,
+      "result": "Sclerobregma"
+    }
+  },
+  "14": {
+    "step": "14",
+    "optionA": {
+      "text": "Dorsal cirri ausentes",
+      "goTo": null,
+      "result": "Sclerocheilus"
+    },
+    "optionB": {
+      "text": "Dorsal cirri presentes",
+      "goTo": null,
+      "result": "Pseudoscalibregma"
+    }
+  }
+}

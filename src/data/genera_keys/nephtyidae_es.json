@@ -1,0 +1,47 @@
+{
+  "_meta": {
+    "family": "NEPHTYIDAE",
+    "source": "Fauchald (1977) Key to Genera",
+    "type": "genera_key",
+    "lang": "es"
+  },
+  "1": {
+    "step": "1",
+    "optionA": {
+      "text": "Interramal cirri rudimentario o ausentes",
+      "goTo": null,
+      "result": "Micronephtys"
+    },
+    "optionB": {
+      "text": "Interramal cirri bien desarrollado, recurvado o involuto",
+      "goTo": "2",
+      "result": null
+    }
+  },
+  "2": {
+    "step": "2",
+    "optionA": {
+      "text": "Interramal cirri recurvado",
+      "goTo": null,
+      "result": "Nephtys"
+    },
+    "optionB": {
+      "text": "Interramal cirri involuto",
+      "goTo": "3",
+      "result": null
+    }
+  },
+  "3": {
+    "step": "3",
+    "optionA": {
+      "text": "Eversible faringe con subterminal y terminal papilas",
+      "goTo": null,
+      "result": "Aglaophamus"
+    },
+    "optionB": {
+      "text": "Eversible faringe sin subterminal y terminal papilas",
+      "goTo": null,
+      "result": "Inermonephtys"
+    }
+  }
+}

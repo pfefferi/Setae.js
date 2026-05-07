@@ -12,6 +12,8 @@
   "worms_view": "Ver en WoRMS →",
   "list_or": "— O —",
   "search_placeholder": "Buscar taxones o rasgos...",
+  "show_steps": "Mostrar Pasos",
+  "hide_steps": "Ocultar Pasos",
   "genera_btn": "Clave de Géneros",
   "genera_result": "Género",
   "back_to_family": "Volver a la Familia",

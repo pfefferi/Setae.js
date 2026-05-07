@@ -1,0 +1,47 @@
+{
+  "_meta": {
+    "family": "EULEPETHIDAE",
+    "source": "Fauchald (1977) Key to Genera",
+    "type": "genera_key",
+    "lang": "es"
+  },
+  "1": {
+    "step": "1",
+    "optionA": {
+      "text": "Élitros 12 pares, aumentando en longitud progresivamente, followed by posterior pseudoélitros",
+      "goTo": "2",
+      "result": null
+    },
+    "optionB": {
+      "text": "Élitros más de 12 pares; the primeros 12 pares aumentando en longitud posteriorly; los más posteriores pares más pequeños",
+      "goTo": "3",
+      "result": null
+    }
+  },
+  "2": {
+    "step": "2",
+    "optionA": {
+      "text": "Élitros con borde lateral con muesca",
+      "goTo": null,
+      "result": "Pareulepis"
+    },
+    "optionB": {
+      "text": "Élitros con aplanado lóbulos marginales laterales",
+      "goTo": null,
+      "result": "Grubeulepis"
+    }
+  },
+  "3": {
+    "step": "3",
+    "optionA": {
+      "text": "Élitros con lateral borders notched",
+      "goTo": null,
+      "result": "Eulepethus"
+    },
+    "optionB": {
+      "text": "Élitros con aplanado lóbulos marginales laterales",
+      "goTo": null,
+      "result": "Mexieulepis"
+    }
+  }
+}

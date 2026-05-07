@@ -1,0 +1,47 @@
+{
+  "_meta": {
+    "family": "IOSPILIDAE",
+    "source": "Fauchald (1977) Key to Genera",
+    "type": "genera_key",
+    "lang": "es"
+  },
+  "1": {
+    "step": "1",
+    "optionA": {
+      "text": "Eversible faringe con par of curved mandíbulas",
+      "goTo": null,
+      "result": "Phalacrophorus"
+    },
+    "optionB": {
+      "text": "Eversible faringe unarmed",
+      "goTo": "2",
+      "result": null
+    }
+  },
+  "2": {
+    "step": "2",
+    "optionA": {
+      "text": "Up to 11 segmentos anterior con reducido parápodos",
+      "goTo": null,
+      "result": "Iospilopsis"
+    },
+    "optionB": {
+      "text": "Parápodos completamente desarrollados from segmento 5",
+      "goTo": "3",
+      "result": null
+    }
+  },
+  "3": {
+    "step": "3",
+    "optionA": {
+      "text": "Dorsal y ventral cirri presentes, but pequeño on segmentos 2-3",
+      "goTo": null,
+      "result": "Paraiospilus"
+    },
+    "optionB": {
+      "text": "Dorsal y ventral cirri ausentes on segmentos 2-3",
+      "goTo": null,
+      "result": "Iospilus"
+    }
+  }
+}

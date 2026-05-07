@@ -1,0 +1,190 @@
+{
+  "_meta": {
+    "family": "ORBINIIDAE",
+    "source": "Fauchald (1977) Key to Genera",
+    "type": "genera_key",
+    "lang": "es"
+  },
+  "1": {
+    "step": "1",
+    "optionA": {
+      "text": "Two asetigerous segmentos anterior",
+      "goTo": "2",
+      "result": null
+    },
+    "optionB": {
+      "text": "A único asetigerous segmento anterior",
+      "goTo": "7",
+      "result": null
+    }
+  },
+  "2": {
+    "step": "2",
+    "optionA": {
+      "text": "Branquias ausentes",
+      "goTo": null,
+      "result": "Orbiniella"
+    },
+    "optionB": {
+      "text": "Branquias presentes",
+      "goTo": "3",
+      "result": null
+    }
+  },
+  "3": {
+    "step": "3",
+    "optionA": {
+      "text": "Branquias presentes on todas but pocos segmentos anterior",
+      "goTo": null,
+      "result": "Protoariciella"
+    },
+    "optionB": {
+      "text": "Branquias limited to abdominal segmentos",
+      "goTo": "4",
+      "result": null
+    }
+  },
+  "4": {
+    "step": "4",
+    "optionA": {
+      "text": "Only crenulado capilares presentes",
+      "goTo": null,
+      "result": "Scoloplella"
+    },
+    "optionB": {
+      "text": "Crenulated capilares y other kinds of setas presentes",
+      "goTo": "5",
+      "result": null
+    }
+  },
+  "5": {
+    "step": "5",
+    "optionA": {
+      "text": "Abdominal neurosetae include swan-shaped ganchos",
+      "goTo": null,
+      "result": "Proscoloplos"
+    },
+    "optionB": {
+      "text": "Swan-shaped ganchos ausentes",
+      "goTo": "6",
+      "result": null
+    }
+  },
+  "6": {
+    "step": "6",
+    "optionA": {
+      "text": "Abdominal neurosetae all crenulado capilares; prostomio rounded",
+      "goTo": null,
+      "result": "Protoaricia"
+    },
+    "optionB": {
+      "text": "Abdominal neurosetae include acicular ganchos; prostomio pointed",
+      "goTo": null,
+      "result": "Schroederella"
+    }
+  },
+  "7": {
+    "step": "7",
+    "optionA": {
+      "text": "Branquias ausentes",
+      "goTo": null,
+      "result": "Microrbinia"
+    },
+    "optionB": {
+      "text": "Branquias presentes on at least some segmentos",
+      "goTo": "8",
+      "result": null
+    }
+  },
+  "8": {
+    "step": "8",
+    "optionA": {
+      "text": "Prostomium rounded o truncate",
+      "goTo": null,
+      "result": "Naineris"
+    },
+    "optionB": {
+      "text": "Prostomium more o less pointed",
+      "goTo": "9",
+      "result": null
+    }
+  },
+  "9": {
+    "step": "9",
+    "optionA": {
+      "text": "All thoracic parápodos con only delgado, pointed setas",
+      "goTo": "10",
+      "result": null
+    },
+    "optionB": {
+      "text": "Some thoracic neurópodos con setas of another kind",
+      "goTo": "11",
+      "result": null
+    }
+  },
+  "10": {
+    "step": "10",
+    "optionA": {
+      "text": "Abdominal neurópodos con acicular espinas",
+      "goTo": null,
+      "result": "Berkeleya"
+    },
+    "optionB": {
+      "text": "Acicular espinas ausentes in abdominal neurópodos",
+      "goTo": null,
+      "result": "Haploscoloplos"
+    }
+  },
+  "11": {
+    "step": "11",
+    "optionA": {
+      "text": "Thoracic neurópodos of dos abruptly different kinds",
+      "goTo": "12",
+      "result": null
+    },
+    "optionB": {
+      "text": "Thoracic neurópodos no abruptly different",
+      "goTo": "13",
+      "result": null
+    }
+  },
+  "12": {
+    "step": "12",
+    "optionA": {
+      "text": "Anterior tres thoracic neurópodos con bristle-tipped setas",
+      "goTo": null,
+      "result": "Califia"
+    },
+    "optionB": {
+      "text": "Posterior thoracic neurópodos con grueso, modificado espinas associated con glandular pouch",
+      "goTo": null,
+      "result": "Phylo"
+    }
+  },
+  "13": {
+    "step": "13",
+    "optionA": {
+      "text": "Some thoracic segmentos con rows of papilas along ventrum, papilas veces also on parapodial postsetal ridges",
+      "goTo": null,
+      "result": "Orbinia"
+    },
+    "optionB": {
+      "text": "Without rows of papilas on ventrum",
+      "goTo": "14",
+      "result": null
+    }
+  },
+  "14": {
+    "step": "14",
+    "optionA": {
+      "text": "Median y posterior abdominal neurópodos con grueso acícula, proyectante from parapodial lobes; branquias usualmente presentes from fifth o sixth segmento",
+      "goTo": null,
+      "result": "Scoloplos (Leodamas)"
+    },
+    "optionB": {
+      "text": "Thick proyectante acícula ausentes; branquias usualmente no presentes before tenth segmento",
+      "goTo": null,
+      "result": "Scoloplos"
+    }
+  }
+}

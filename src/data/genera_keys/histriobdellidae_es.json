@@ -1,0 +1,21 @@
+{
+  "_meta": {
+    "family": "HISTRIOBDELLIDAE",
+    "source": "Fauchald (1977) Key to Genera",
+    "type": "genera_key",
+    "lang": "es"
+  },
+  "1": {
+    "step": "1",
+    "optionA": {
+      "text": "With único par of lateral appendages",
+      "goTo": null,
+      "result": "Histriobdella"
+    },
+    "optionB": {
+      "text": "With at least dos pares of lateral appendages",
+      "goTo": null,
+      "result": "Stratiodrilus"
+    }
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "_meta": {
+    "family": "EUPHROSINIDAE",
+    "source": "Fauchald (1977) Key to Genera",
+    "type": "genera_key",
+    "lang": "es"
+  },
+  "1": {
+    "step": "1",
+    "optionA": {
+      "text": "Notosetae bifurcate, con cilíndrico shafts",
+      "goTo": null,
+      "result": "Euphrosine"
+    },
+    "optionB": {
+      "text": "Notosetae aplanado, liso páleas",
+      "goTo": null,
+      "result": "Palmyreuphrosyne"
+    }
+  }
+}

@@ -1,0 +1,112 @@
+{
+  "_meta": {
+    "family": "CIRRATULIDAE",
+    "source": "Fauchald (1977) Key to Genera",
+    "type": "genera_key",
+    "lang": "es"
+  },
+  "1": {
+    "step": "1",
+    "optionA": {
+      "text": "A par of largo grooved palpos attached on anterior dorsum",
+      "goTo": "2",
+      "result": null
+    },
+    "optionB": {
+      "text": "Two groups of grooved tentacular cirri presentes",
+      "goTo": "5",
+      "result": null
+    }
+  },
+  "2": {
+    "step": "2",
+    "optionA": {
+      "text": "All setas delgado, distalmente pointed",
+      "goTo": null,
+      "result": "Tharyx"
+    },
+    "optionB": {
+      "text": "At least some setas cualquiera curved ganchos o espinas",
+      "goTo": "3",
+      "result": null
+    }
+  },
+  "3": {
+    "step": "3",
+    "optionA": {
+      "text": "Acicular setas distalmente excavate; body usualmente dark green o brown",
+      "goTo": null,
+      "result": "Dodecaceria"
+    },
+    "optionB": {
+      "text": "Acicular setas no excavate, body usualmente light colored",
+      "goTo": "4",
+      "result": null
+    }
+  },
+  "4": {
+    "step": "4",
+    "optionA": {
+      "text": "Acicular espinas in segmentos posterior distalmente entero",
+      "goTo": null,
+      "result": "Chaetozone"
+    },
+    "optionB": {
+      "text": "Acicular espinas in segmentos posterior distalmente bi- o multífido",
+      "goTo": null,
+      "result": "Caulleriella"
+    }
+  },
+  "5": {
+    "step": "5",
+    "optionA": {
+      "text": "All setas acicular, falcado espinas",
+      "goTo": null,
+      "result": "Pseudocirratulus"
+    },
+    "optionB": {
+      "text": "At least some setas capilares presentes",
+      "goTo": "6",
+      "result": null
+    }
+  },
+  "6": {
+    "step": "6",
+    "optionA": {
+      "text": "Anterior region sin largo tentacular structures",
+      "goTo": null,
+      "result": "Raricirrus"
+    },
+    "optionB": {
+      "text": "One o more segmentos anterior con groups of largo tentacular cirri o branquias",
+      "goTo": "7",
+      "result": null
+    }
+  },
+  "7": {
+    "step": "7",
+    "optionA": {
+      "text": "Dorsal tentacular cirri primeros presentes posterior to anteriormost branquias",
+      "goTo": null,
+      "result": "Cirriformia"
+    },
+    "optionB": {
+      "text": "Dorsal tentacular cirri primeros presentes from same segmento as anteriormost branquias",
+      "goTo": "8",
+      "result": null
+    }
+  },
+  "8": {
+    "step": "8",
+    "optionA": {
+      "text": "Tentacular cirri on uno segmento only",
+      "goTo": null,
+      "result": "Cirratulus"
+    },
+    "optionB": {
+      "text": "Tentacular cirri on dos o more segmentos",
+      "goTo": null,
+      "result": "Timarete"
+    }
+  }
+}
