@@ -1,0 +1,243 @@
+{
+  "_meta": { "family": "TEREBELLIDAE", "source": "Fauchald (1977) Key to Genera", "type": "genera_key" },
+  "1": {
+    "step": "1",
+    "optionA": { "text": "A large scoop-shaped or conical proboscis present", "goTo": "4", "result": null },
+    "optionB": { "text": "Proboscis absent", "goTo": "2", "result": null }
+  },
+  "2": {
+    "step": "2",
+    "optionA": { "text": "Thoracic uncini in double or alternating rows in at least some setigers", "goTo": "14", "result": null },
+    "optionB": { "text": "Thoracic uncini in single rows in all setigers", "goTo": "3", "result": null }
+  },
+  "3": {
+    "step": "3",
+    "optionA": { "text": "Branchiae present", "goTo": "5", "result": null },
+    "optionB": { "text": "Branchiae absent", "goTo": "10", "result": null }
+  },
+  "4": {
+    "step": "4",
+    "optionA": { "text": "Proboscis papillated, 17 thoracic setigers", "goTo": null, "result": "Artacama" },
+    "optionB": { "text": "Proboscis grooved; 15 thoracic setigers", "goTo": null, "result": "Artacamella" }
+  },
+  "5": {
+    "step": "5",
+    "optionA": { "text": "First notosetae on first postbranchial segment", "goTo": null, "result": "Pseudampharete" },
+    "optionB": { "text": "First notosetae on one of the branchial segments", "goTo": "6", "result": null }
+  },
+  "6": {
+    "step": "6",
+    "optionA": { "text": "First notosetae on the first branchial segment", "goTo": null, "result": "Streblosoma" },
+    "optionB": { "text": "First notosetae on the second branchial segment", "goTo": "7", "result": null }
+  },
+  "7": {
+    "step": "7",
+    "optionA": { "text": "Lateral lappets present on one or a few anterior segments", "goTo": "8", "result": null },
+    "optionB": { "text": "Lateral lappets absent", "goTo": "9", "result": null }
+  },
+  "8": {
+    "step": "8",
+    "optionA": { "text": "Uncini from the fifth segment", "goTo": null, "result": "Euthelepus" },
+    "optionB": { "text": "Uncini from the first abdominal segment", "goTo": null, "result": "Telothelepus" }
+  },
+  "9": {
+    "step": "9",
+    "optionA": { "text": "Uncini from setiger 9", "goTo": null, "result": "Parathelepus" },
+    "optionB": { "text": "Uncini from setiger 2", "goTo": null, "result": "Thelepus" }
+  },
+  "10": {
+    "step": "10",
+    "optionA": { "text": "Setae completely absent", "goTo": null, "result": "Hauchiella" },
+    "optionB": { "text": "At least some setae present", "goTo": "11", "result": null }
+  },
+  "11": {
+    "step": "11",
+    "optionA": { "text": "Neurosetae absent", "goTo": "12", "result": null },
+    "optionB": { "text": "Neurosetae present", "goTo": "13", "result": null }
+  },
+  "12": {
+    "step": "12",
+    "optionA": { "text": "Thoracic notopodia vascularized and in part furcate or branched", "goTo": null, "result": "Enoplobranchus" },
+    "optionB": { "text": "Thoracic notopodia may be vascularized, but never furcate or branched", "goTo": null, "result": "Lysilla" }
+  },
+  "13": {
+    "step": "13",
+    "optionA": { "text": "Neurosetae short-handled uncini", "goTo": null, "result": "Polycirrus" },
+    "optionB": { "text": "Neurosetae long-handled spines", "goTo": null, "result": "Amaeana" }
+  },
+  "14": {
+    "step": "14",
+    "optionA": { "text": "Branchiae absent", "goTo": "15", "result": null },
+    "optionB": { "text": "Branchiae present", "goTo": "22", "result": null }
+  },
+  "15": {
+    "step": "15",
+    "optionA": { "text": "Seventeen or fewer thoracic setigers", "goTo": "16", "result": null },
+    "optionB": { "text": "More than 20 thoracic setigers", "goTo": "21", "result": null }
+  },
+  "16": {
+    "step": "16",
+    "optionA": { "text": "All notosetae smooth-tipped", "goTo": "17", "result": null },
+    "optionB": { "text": "At least some notosetae with denticulated tips", "goTo": "19", "result": null }
+  },
+  "17": {
+    "step": "17",
+    "optionA": { "text": "Lateral lappets absent; 17 thoracic setigers", "goTo": null, "result": "Laphania" },
+    "optionB": { "text": "Lateral lappets present on one or a few anterior segments; 16 thoracic setigers", "goTo": "18", "result": null }
+  },
+  "18": {
+    "step": "18",
+    "optionA": { "text": "Third segment with transverse ridge across dorsum", "goTo": null, "result": "Leaena" },
+    "optionB": { "text": "Third segment without transverse ridge", "goTo": null, "result": "Stschapovella" }
+  },
+  "19": {
+    "step": "19",
+    "optionA": { "text": "Neurosetae from setiger 3; some notosetae smooth", "goTo": null, "result": "Proclea" },
+    "optionB": { "text": "Neurosetae from setiger 2; all notosetae denticulated", "goTo": "20", "result": null }
+  },
+  "20": {
+    "step": "20",
+    "optionA": { "text": "Fifteen thoracic setigers; notosetae finely denticulated", "goTo": null, "result": "Lanassa" },
+    "optionB": { "text": "Fourteen thoracic setigers; some notosetae distinctly pectinate", "goTo": null, "result": "Phisidia" }
+  },
+  "21": {
+    "step": "21",
+    "optionA": { "text": "All notosetae tapering, distally smooth-tipped", "goTo": null, "result": "Baffinia" },
+    "optionB": { "text": "Some notosetae subdistally inflated, distally denticulated", "goTo": null, "result": "Spinosphaera" }
+  },
+  "22": {
+    "step": "22",
+    "optionA": { "text": "Notosetae with marginally serrated tips", "goTo": "23", "result": null },
+    "optionB": { "text": "Notosetae with smooth tips", "goTo": "31", "result": null }
+  },
+  "23": {
+    "step": "23",
+    "optionA": { "text": "Three anterior segments with large lateral lappets to which the branchiae are attached", "goTo": null, "result": "Colymmatops" },
+    "optionB": { "text": "Lateral lappets present or absent, but never directly associated with the branchiae", "goTo": "24", "result": null }
+  },
+  "24": {
+    "step": "24",
+    "optionA": { "text": "Uncini from third thoracic setiger", "goTo": null, "result": "Neoleprea" },
+    "optionB": { "text": "Uncini from second thoracic setiger", "goTo": "25", "result": null }
+  },
+  "25": {
+    "step": "25",
+    "optionA": { "text": "Sixteen or 17 thoracic setigers", "goTo": "26", "result": null },
+    "optionB": { "text": "Eighteen or more thoracic setigers", "goTo": "28", "result": null }
+  },
+  "26": {
+    "step": "26",
+    "optionA": { "text": "A single pair of branchiae; 16 thoracic setigers", "goTo": null, "result": "Spiroverma" },
+    "optionB": { "text": "Two or three pairs of branchiae; 17 thoracic setigers", "goTo": "27", "result": null }
+  },
+  "27": {
+    "step": "27",
+    "optionA": { "text": "Lateral lappets present; branchiae stalked and branched", "goTo": null, "result": "Neoamphitrite" },
+    "optionB": { "text": "Lateral lappets absent; branchiae sessile filaments", "goTo": null, "result": "Amphitrite" }
+  },
+  "28": {
+    "step": "28",
+    "optionA": { "text": "Branchiae attached on segments 2-4", "goTo": "29", "result": null },
+    "optionB": { "text": "Branchiae attached on another combination of segments", "goTo": "30", "result": null }
+  },
+  "29": {
+    "step": "29",
+    "optionA": { "text": "Branchiae arborescent from the base", "goTo": null, "result": "Terebella" },
+    "optionB": { "text": "Branchiae distinctly stalked", "goTo": null, "result": "Amphitritides" }
+  },
+  "30": {
+    "step": "30",
+    "optionA": { "text": "Branchiae on segments 1, 2 and 5", "goTo": null, "result": "Polymniella" },
+    "optionB": { "text": "Branchiae on segments 3, 7 and 13", "goTo": null, "result": "Terebellobranchia" }
+  },
+  "31": {
+    "step": "31",
+    "optionA": { "text": "Anterior uncini long-handled", "goTo": "32", "result": null },
+    "optionB": { "text": "All uncini short-handled", "goTo": "35", "result": null }
+  },
+  "32": {
+    "step": "32",
+    "optionA": { "text": "Notosetae from segment 5, uncini from segment 6", "goTo": null, "result": "Opisthopista" },
+    "optionB": { "text": "Notosetae from segment 4, uncini from segment 5", "goTo": "33", "result": null }
+  },
+  "33": {
+    "step": "33",
+    "optionA": { "text": "Branchiae smooth, ampharetinlike", "goTo": null, "result": "Eupistella" },
+    "optionB": { "text": "Branchiae branched", "goTo": "34", "result": null }
+  },
+  "34": {
+    "step": "34",
+    "optionA": { "text": "Lateral lappets at least on segments 2 and 4", "goTo": null, "result": "Pista" },
+    "optionB": { "text": "Lateral lappets limited to segment 3", "goTo": null, "result": "Lanicides" }
+  },
+  "35": {
+    "step": "35",
+    "optionA": { "text": "Ventrum with large anteriorly opening glandular folds on segments 3-5", "goTo": null, "result": "Paraxionice" },
+    "optionB": { "text": "Ventrum with glandular scutes or smooth", "goTo": "36", "result": null }
+  },
+  "36": {
+    "step": "36",
+    "optionA": { "text": "Lateral lappets present on one or a few anterior segments", "goTo": "37", "result": null },
+    "optionB": { "text": "Lateral lappets inconspicuous or absent", "goTo": "44", "result": null }
+  },
+  "37": {
+    "step": "37",
+    "optionA": { "text": "Sixteen thoracic setigers; branchiae very long-shafted", "goTo": null, "result": "Axionice" },
+    "optionB": { "text": "Seventeen or 18 thoracic setigers; branchiae short-shafted or sessile", "goTo": "38", "result": null }
+  },
+  "38": {
+    "step": "38",
+    "optionA": { "text": "Eighteen thoracic setigers", "goTo": null, "result": "Melinella" },
+    "optionB": { "text": "Seventeen thoracic setigers", "goTo": "39", "result": null }
+  },
+  "39": {
+    "step": "39",
+    "optionA": { "text": "First four segments flattened with large lateral lappets forming an anterior plaque; one pair of branchiae", "goTo": null, "result": "Scionella" },
+    "optionB": { "text": "First four segments not modified into a flattened plaque; lateral lappets varying in size; two or three pairs of branchiae", "goTo": "40", "result": null }
+  },
+  "40": {
+    "step": "40",
+    "optionA": { "text": "Branchiae tufts of sessile filaments", "goTo": null, "result": "Thelepides" },
+    "optionB": { "text": "Branchiae branching off one or a few stems", "goTo": "41", "result": null }
+  },
+  "41": {
+    "step": "41",
+    "optionA": { "text": "Buccal lateral lappets form a crest across the dorsum", "goTo": null, "result": "Paralanice" },
+    "optionB": { "text": "No dorsal crest across the buccal segment", "goTo": "42", "result": null }
+  },
+  "42": {
+    "step": "42",
+    "optionA": { "text": "Uncini with teeth in a single row", "goTo": null, "result": "Loimia" },
+    "optionB": { "text": "Uncini with teeth in two or more rows", "goTo": "43", "result": null }
+  },
+  "43": {
+    "step": "43",
+    "optionA": { "text": "Small lateral lappets on segments 2 and 3; tube opening unadorned", "goTo": null, "result": "Eupolymnia" },
+    "optionB": { "text": "Large lateral lappets on segments 2 and 4; tube opening with fan-shaped frills", "goTo": null, "result": "Lanice" }
+  },
+  "44": {
+    "step": "44",
+    "optionA": { "text": "Thirteen thoracic setigers", "goTo": null, "result": "Ramex" },
+    "optionB": { "text": "At least 15 thoracic setigers", "goTo": "45", "result": null }
+  },
+  "45": {
+    "step": "45",
+    "optionA": { "text": "First notosetae on first branchial segment", "goTo": null, "result": "Naneva" },
+    "optionB": { "text": "First notosetae on last branchial segment or from one of the first postbranchial segments", "goTo": "46", "result": null }
+  },
+  "46": {
+    "step": "46",
+    "optionA": { "text": "Uncini present from first setiger", "goTo": null, "result": "Reteterebella" },
+    "optionB": { "text": "Uncini present from second setiger", "goTo": "47", "result": null }
+  },
+  "47": {
+    "step": "47",
+    "optionA": { "text": "Uncini in an open circle in posterior thoracal setigers", "goTo": null, "result": "Terebellanice" },
+    "optionB": { "text": "Uncini arranged back to back in posterior thoracal setigers", "goTo": "48", "result": null }
+  },
+  "48": {
+    "step": "48",
+    "optionA": { "text": "Two pairs of branchiae; thorax with 15 to 40 setigers", "goTo": null, "result": "Nicolea" },
+    "optionB": { "text": "Three pairs of branchiae; thorax with 17 setigers", "goTo": null, "result": "Scionides" }
+  }
+}
