@@ -8,12 +8,12 @@
   "1": {
     "step": "1",
     "optionA": {
-      "text": "A par of largo grooved palpos attached on anterior dorsum",
+      "text": "A par of largo grooved palpos adherido on anterior dorsum",
       "goTo": "2",
       "result": null
     },
     "optionB": {
-      "text": "Two groups of grooved tentacular cirri presentes",
+      "text": "Two groups of grooved tentacular cirros presentes",
       "goTo": "5",
       "result": null
     }
@@ -21,12 +21,12 @@
   "2": {
     "step": "2",
     "optionA": {
-      "text": "All setas delgado, distalmente pointed",
+      "text": "All setas delgado, distalmente puntiagudo",
       "goTo": null,
       "result": "Tharyx"
     },
     "optionB": {
-      "text": "At least some setas cualquiera curved ganchos o espinas",
+      "text": "Al menos algunas setas cualquiera curved ganchos o espinas",
       "goTo": "3",
       "result": null
     }
@@ -65,7 +65,7 @@
       "result": "Pseudocirratulus"
     },
     "optionB": {
-      "text": "At least some setas capilares presentes",
+      "text": "Al menos algunas setas capilares presentes",
       "goTo": "6",
       "result": null
     }
@@ -78,7 +78,7 @@
       "result": "Raricirrus"
     },
     "optionB": {
-      "text": "One o more segmentos anterior con groups of largo tentacular cirri o branquias",
+      "text": "One o more segmentos anterior con groups of largo tentacular cirros o branquias",
       "goTo": "7",
       "result": null
     }
@@ -86,12 +86,12 @@
   "7": {
     "step": "7",
     "optionA": {
-      "text": "Dorsal tentacular cirri primeros presentes posterior to anteriormost branquias",
+      "text": "Dorsal tentacular cirros primeros presentes posterior to anteriormost branquias",
       "goTo": null,
       "result": "Cirriformia"
     },
     "optionB": {
-      "text": "Dorsal tentacular cirri primeros presentes from same segmento as anteriormost branquias",
+      "text": "Dorsal tentacular cirros primeros presentes from same segmento as anteriormost branquias",
       "goTo": "8",
       "result": null
     }
@@ -99,12 +99,12 @@
   "8": {
     "step": "8",
     "optionA": {
-      "text": "Tentacular cirri on uno segmento only",
+      "text": "Tentacular cirros on uno segmento only",
       "goTo": null,
       "result": "Cirratulus"
     },
     "optionB": {
-      "text": "Tentacular cirri on dos o more segmentos",
+      "text": "Tentacular cirros on dos o more segmentos",
       "goTo": null,
       "result": "Timarete"
     }

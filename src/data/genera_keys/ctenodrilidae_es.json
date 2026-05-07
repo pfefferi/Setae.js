@@ -8,12 +8,12 @@
   "1": {
     "step": "1",
     "optionA": {
-      "text": "Body corto y grublike, con pocos segmentos, impar dorsal cirri y branquias ausentes",
+      "text": "Body corto y grublike, con pocos segmentos, impar dorsales cirros y branquias ausentes",
       "goTo": null,
       "result": "Ctenodrilus"
     },
     "optionB": {
-      "text": "Body largo y delgado, con at least 15 segmentos; impar dorsal cirri on uno o dos segmentos anterior o larval branquias presentes",
+      "text": "Body largo y delgado, con at least 15 segmentos; impar dorsales cirros on uno o dos segmentos anterior o larval branquias presentes",
       "goTo": "2",
       "result": null
     }
@@ -21,12 +21,12 @@
   "2": {
     "step": "2",
     "optionA": {
-      "text": "Unpaired dorsal cirri presentes; branquias ausentes",
+      "text": "Unpaired dorsales cirros presentes; branquias ausentes",
       "goTo": null,
       "result": "Zeppelinia"
     },
     "optionB": {
-      "text": "Unpaired dorsal cirri ausentes; branquias presentes",
+      "text": "Unpaired dorsales cirros ausentes; branquias presentes",
       "goTo": null,
       "result": "Raphidrilus"
     }

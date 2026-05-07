@@ -1,0 +1,723 @@
+{
+  "_meta": {
+    "family": "SYLLIDAE",
+    "source": "Fauchald (1977) Key to Genera",
+    "type": "genera_key",
+    "lang": "es"
+  },
+  "1": {
+    "step": "1",
+    "optionA": {
+      "text": "Cirros ventrales ausentes",
+      "goTo": "2",
+      "result": null
+    },
+    "optionB": {
+      "text": "Cirros ventrales presentes",
+      "goTo": "9",
+      "result": null
+    }
+  },
+  "2": {
+    "step": "2",
+    "optionA": {
+      "text": "Cirros dorsales on primer setiger only",
+      "goTo": null,
+      "result": "Procerastea"
+    },
+    "optionB": {
+      "text": "Cirros dorsales en la mayoría de los setígeros",
+      "goTo": "3",
+      "result": null
+    }
+  },
+  "3": {
+    "step": "3",
+    "optionA": {
+      "text": "Todas setas simples, occipital flap presentes",
+      "goTo": null,
+      "result": "Alluaudella"
+    },
+    "optionB": {
+      "text": "Al menos algunas setas compuestas, occipital flap ausentes",
+      "goTo": "4",
+      "result": null
+    }
+  },
+  "4": {
+    "step": "4",
+    "optionA": {
+      "text": "Cirros dorsales cilíndrico",
+      "goTo": "5",
+      "result": null
+    },
+    "optionB": {
+      "text": "Cirros dorsales clavate o foliosos",
+      "goTo": "6",
+      "result": null
+    }
+  },
+  "5": {
+    "step": "5",
+    "optionA": {
+      "text": "Bayonet-setas grueso-shafted; segmental ciliary bands ausentes",
+      "goTo": null,
+      "result": "Proceraea"
+    },
+    "optionB": {
+      "text": "Bayonet-setas fino-shafted; ciliary bands presentes on every segmento",
+      "goTo": null,
+      "result": "Autolytus"
+    }
+  },
+  "6": {
+    "step": "6",
+    "optionA": {
+      "text": "Eversible faringe unarmed",
+      "goTo": null,
+      "result": "Phyllosyllis"
+    },
+    "optionB": {
+      "text": "Eversible faringe con dientes",
+      "goTo": "7",
+      "result": null
+    }
+  },
+  "7": {
+    "step": "7",
+    "optionA": {
+      "text": "With proyectante nucal lobes, rather than aplanado nucal epaulettes",
+      "goTo": null,
+      "result": "Autosyllis"
+    },
+    "optionB": {
+      "text": "Nuchal organs aplanado epaulettes",
+      "goTo": "8",
+      "result": null
+    }
+  },
+  "8": {
+    "step": "8",
+    "optionA": {
+      "text": "Antennae y dorsales cirros clavate",
+      "goTo": null,
+      "result": "Umbellisyllis"
+    },
+    "optionB": {
+      "text": "Antennae cilíndrico, dorsales cirros aplanado",
+      "goTo": null,
+      "result": "Myrianida"
+    }
+  },
+  "9": {
+    "step": "9",
+    "optionA": {
+      "text": "Small forms (usualmente menor que 8 mm); palpos fusionado for at least half their lengths",
+      "goTo": "11",
+      "result": null
+    },
+    "optionB": {
+      "text": "Larger forms, palpos, if fusionado at todas, only fusionado basally",
+      "goTo": "10",
+      "result": null
+    }
+  },
+  "10": {
+    "step": "10",
+    "optionA": {
+      "text": "Palps fusionado at base; dorsales cirros liso o irregularly arrugado",
+      "goTo": "23",
+      "result": null
+    },
+    "optionB": {
+      "text": "Palpi free to base o ausentes; dorsales cirros articulated",
+      "goTo": "43",
+      "result": null
+    }
+  },
+  "11": {
+    "step": "11",
+    "optionA": {
+      "text": "Antennae, tentacular y dorsales cirros ausentes",
+      "goTo": null,
+      "result": "Exogonella"
+    },
+    "optionB": {
+      "text": "At least tentacular cirros presentes, usualmente also antenas y dorsales cirros",
+      "goTo": "12",
+      "result": null
+    }
+  },
+  "12": {
+    "step": "12",
+    "optionA": {
+      "text": "Two pares of tentacular cirros presentes",
+      "goTo": "13",
+      "result": null
+    },
+    "optionB": {
+      "text": "One par of tentacular cirros presentes",
+      "goTo": "17",
+      "result": null
+    }
+  },
+  "13": {
+    "step": "13",
+    "optionA": {
+      "text": "Antennae ausentes",
+      "goTo": null,
+      "result": "Exogonita"
+    },
+    "optionB": {
+      "text": "Three antenas presentes",
+      "goTo": "14",
+      "result": null
+    }
+  },
+  "14": {
+    "step": "14",
+    "optionA": {
+      "text": "Eversible faringe non-muscular y sinuous",
+      "goTo": null,
+      "result": "Campesyllis"
+    },
+    "optionB": {
+      "text": "Eversible faringe at least parcialmente muscular, recto",
+      "goTo": "15",
+      "result": null
+    }
+  },
+  "15": {
+    "step": "15",
+    "optionA": {
+      "text": "Cirros dorsales largo y filiform",
+      "goTo": null,
+      "result": "Brania"
+    },
+    "optionB": {
+      "text": "Cirros dorsales globulares",
+      "goTo": "16",
+      "result": null
+    }
+  },
+  "16": {
+    "step": "16",
+    "optionA": {
+      "text": "Body con dorsales globulares papilas in addition to the dorsales cirros",
+      "goTo": null,
+      "result": "Eurysyllis"
+    },
+    "optionB": {
+      "text": "Body sin dorsales globulares papilas",
+      "goTo": null,
+      "result": "Plakosyllis"
+    }
+  },
+  "17": {
+    "step": "17",
+    "optionA": {
+      "text": "One antena presentes; dorsales cirros rudimentario",
+      "goTo": null,
+      "result": "Spermosyllis"
+    },
+    "optionB": {
+      "text": "Three antenas presentes; dorsales cirros bien desarrollado if a veces corto",
+      "goTo": "18",
+      "result": null
+    }
+  },
+  "18": {
+    "step": "18",
+    "optionA": {
+      "text": "Cirros dorsales largo y delgado",
+      "goTo": null,
+      "result": "Anguillosyllis"
+    },
+    "optionB": {
+      "text": "Cirros dorsales corto, ovoid o piriformes",
+      "goTo": "19",
+      "result": null
+    }
+  },
+  "19": {
+    "step": "19",
+    "optionA": {
+      "text": "Parápodos con erect, contractile dorsales lobes",
+      "goTo": null,
+      "result": "Braniella"
+    },
+    "optionB": {
+      "text": "Parápodos sin dorsales lobes",
+      "goTo": "20",
+      "result": null
+    }
+  },
+  "20": {
+    "step": "20",
+    "optionA": {
+      "text": "Eversible faringe unarmed",
+      "goTo": null,
+      "result": "Exogonoides"
+    },
+    "optionB": {
+      "text": "Eversible faringe con a único anterior tooth",
+      "goTo": "21",
+      "result": null
+    }
+  },
+  "21": {
+    "step": "21",
+    "optionA": {
+      "text": "Cirros ventrales fusionado to lower edge of parápodos",
+      "goTo": null,
+      "result": "Pseudexogone"
+    },
+    "optionB": {
+      "text": "Cirros ventrales free from parápodos",
+      "goTo": "22",
+      "result": null
+    }
+  },
+  "22": {
+    "step": "22",
+    "optionA": {
+      "text": "Cirros dorsales piriformes (en forma de matraz)",
+      "goTo": null,
+      "result": "Sphaerosyllis"
+    },
+    "optionB": {
+      "text": "Cirros dorsales papilliform o ovoid",
+      "goTo": null,
+      "result": "Exogone"
+    }
+  },
+  "23": {
+    "step": "23",
+    "optionA": {
+      "text": "Eversible faringe unarmed",
+      "goTo": "24",
+      "result": null
+    },
+    "optionB": {
+      "text": "Eversible faringe cualquiera con a único tooth o con a circlet of smaller dientes",
+      "goTo": "30",
+      "result": null
+    }
+  },
+  "24": {
+    "step": "24",
+    "optionA": {
+      "text": "Eversible faringe con a único grande tooth",
+      "goTo": "41",
+      "result": null
+    },
+    "optionB": {
+      "text": "Eversible faringe con a series of dientes",
+      "goTo": "25",
+      "result": null
+    }
+  },
+  "25": {
+    "step": "25",
+    "optionA": {
+      "text": "Dorsum covered con pequeño papilas",
+      "goTo": null,
+      "result": "Rhopalosyllis"
+    },
+    "optionB": {
+      "text": "Dorsum sin papilas",
+      "goTo": "26",
+      "result": null
+    }
+  },
+  "26": {
+    "step": "26",
+    "optionA": {
+      "text": "Pharynx con an internal valve",
+      "goTo": null,
+      "result": "Pharyngeovalvata"
+    },
+    "optionB": {
+      "text": "Pharynx sin an internal valve",
+      "goTo": "27",
+      "result": null
+    }
+  },
+  "27": {
+    "step": "27",
+    "optionA": {
+      "text": "Tentacular cirros ausentes; dorsales cirros rudimentario",
+      "goTo": null,
+      "result": "Fauvelia"
+    },
+    "optionB": {
+      "text": "Tentacular cirros presentes; dorsales cirros bien desarrollado",
+      "goTo": "28",
+      "result": null
+    }
+  },
+  "28": {
+    "step": "28",
+    "optionA": {
+      "text": "Antennae y tentacular cirros very corto",
+      "goTo": null,
+      "result": "Atelesyllis"
+    },
+    "optionB": {
+      "text": "Antennae y tentacular cirros no noticeably corto",
+      "goTo": "29",
+      "result": null
+    }
+  },
+  "29": {
+    "step": "29",
+    "optionA": {
+      "text": "Enlarged knobbed acícula presentes in anterior parápodos",
+      "goTo": null,
+      "result": "Streptosyllis"
+    },
+    "optionB": {
+      "text": "Enlarged knobbed acícula ausentes",
+      "goTo": null,
+      "result": "Syllides"
+    }
+  },
+  "30": {
+    "step": "30",
+    "optionA": {
+      "text": "Notacicula presentes",
+      "goTo": "31",
+      "result": null
+    },
+    "optionB": {
+      "text": "Notacicula ausentes",
+      "goTo": null,
+      "result": "Nudisyllis"
+    }
+  },
+  "31": {
+    "step": "31",
+    "optionA": {
+      "text": "Antennae y dorsales cirros ausentes",
+      "goTo": null,
+      "result": "Eudontosyllis"
+    },
+    "optionB": {
+      "text": "Antennae y dorsales cirros presentes",
+      "goTo": "32",
+      "result": null
+    }
+  },
+  "32": {
+    "step": "32",
+    "optionA": {
+      "text": "Three primer segmentos fusionado con six pares of tentacular cirros",
+      "goTo": null,
+      "result": "Irmula"
+    },
+    "optionB": {
+      "text": "Maximally dos pares of tentacular cirros on uno segmento",
+      "goTo": "33",
+      "result": null
+    }
+  },
+  "33": {
+    "step": "33",
+    "optionA": {
+      "text": "One par of tentacular cirros presentes",
+      "goTo": null,
+      "result": "Lamellisyllis"
+    },
+    "optionB": {
+      "text": "Two pares of tentacular cirros presentes",
+      "goTo": "34",
+      "result": null
+    }
+  },
+  "34": {
+    "step": "34",
+    "optionA": {
+      "text": "Cirros dorsales aplanado",
+      "goTo": null,
+      "result": "Parapionosyllis"
+    },
+    "optionB": {
+      "text": "Cirros dorsales cilíndrico",
+      "goTo": "35",
+      "result": null
+    }
+  },
+  "35": {
+    "step": "35",
+    "optionA": {
+      "text": "Composite setas spinigerous",
+      "goTo": null,
+      "result": "Petitia"
+    },
+    "optionB": {
+      "text": "Composite setas falcigerous",
+      "goTo": "36",
+      "result": null
+    }
+  },
+  "36": {
+    "step": "36",
+    "optionA": {
+      "text": "Tentacular y dorsales cirros very grande, ovoid y inflados",
+      "goTo": null,
+      "result": "Clavisyllis"
+    },
+    "optionB": {
+      "text": "Tentacular y dorsales cirros more o less cilíndrico",
+      "goTo": "37",
+      "result": null
+    }
+  },
+  "37": {
+    "step": "37",
+    "optionA": {
+      "text": "Diente mediodorsal situated posterior in the evertible faringe",
+      "goTo": null,
+      "result": "Opisthodonta"
+    },
+    "optionB": {
+      "text": "Diente mediodorsal situated anterior in the evertible faringe",
+      "goTo": "38",
+      "result": null
+    }
+  },
+  "38": {
+    "step": "38",
+    "optionA": {
+      "text": "Anterior margin of evertible faringe denticulated",
+      "goTo": null,
+      "result": "Synsyllis"
+    },
+    "optionB": {
+      "text": "Anterior margin of evertible faringe liso",
+      "goTo": "39",
+      "result": null
+    }
+  },
+  "39": {
+    "step": "39",
+    "optionA": {
+      "text": "Median body-region con furcate, grueso simples setas",
+      "goTo": null,
+      "result": "Dioplosyllis"
+    },
+    "optionB": {
+      "text": "Median body-region con compuestas falcigers",
+      "goTo": "40",
+      "result": null
+    }
+  },
+  "40": {
+    "step": "40",
+    "optionA": {
+      "text": "Parápodos largo, palpos twice tan largo como prostomio",
+      "goTo": null,
+      "result": "Pionosyllis"
+    },
+    "optionB": {
+      "text": "Parápodos corto y conical; palpos máximo tan largo como prostomio",
+      "goTo": null,
+      "result": "Parautolytus"
+    }
+  },
+  "41": {
+    "step": "41",
+    "optionA": {
+      "text": "Eversible faringe con a series of very pequeño dientes",
+      "goTo": null,
+      "result": "Eusyllis"
+    },
+    "optionB": {
+      "text": "Eversible faringe con a limited number of grande dientes",
+      "goTo": "42",
+      "result": null
+    }
+  },
+  "42": {
+    "step": "42",
+    "optionA": {
+      "text": "Body corto, con pocos segmentos; grande nucal epaulettes presentes",
+      "goTo": null,
+      "result": "Amblyosyllis"
+    },
+    "optionB": {
+      "text": "Body longer, con numerosos segmentos; nucal epaulettes ausentes",
+      "goTo": null,
+      "result": "Odontosyllis"
+    }
+  },
+  "43": {
+    "step": "43",
+    "optionA": {
+      "text": "Palps ausentes; primer segmento con parápodos y setas",
+      "goTo": null,
+      "result": "Haplosyllides"
+    },
+    "optionB": {
+      "text": "Palps presentes, primer segmento sin parápodos y setas; usualmente con tentacular cirros",
+      "goTo": "44",
+      "result": null
+    }
+  },
+  "44": {
+    "step": "44",
+    "optionA": {
+      "text": "Eversible faringe con a único tooth, a trepan o ambos",
+      "goTo": "45",
+      "result": null
+    },
+    "optionB": {
+      "text": "Eversible faringe unarmed",
+      "goTo": "46",
+      "result": null
+    }
+  },
+  "45": {
+    "step": "45",
+    "optionA": {
+      "text": "Eversible faringe con a trepan of varios dientes; a veces con an additional larger único tooth as well",
+      "goTo": "49",
+      "result": null
+    },
+    "optionB": {
+      "text": "Eversible faringe con a único tooth",
+      "goTo": "50",
+      "result": null
+    }
+  },
+  "46": {
+    "step": "46",
+    "optionA": {
+      "text": "Dorsum covered con pequeño papilas",
+      "goTo": null,
+      "result": "Xenosyllis"
+    },
+    "optionB": {
+      "text": "Dorsum liso",
+      "goTo": "47",
+      "result": null
+    }
+  },
+  "47": {
+    "step": "47",
+    "optionA": {
+      "text": "Parápodos con largo, digitate distal lobes",
+      "goTo": null,
+      "result": "Branchiosyllis"
+    },
+    "optionB": {
+      "text": "Parápodos sin distal lobes",
+      "goTo": "48",
+      "result": null
+    }
+  },
+  "48": {
+    "step": "48",
+    "optionA": {
+      "text": "Paired, posteriorly directed nucal lappets presentes",
+      "goTo": null,
+      "result": "Parapterosyllis"
+    },
+    "optionB": {
+      "text": "Nuchal lappets ausentes",
+      "goTo": null,
+      "result": "Pseudosyllides"
+    }
+  },
+  "49": {
+    "step": "49",
+    "optionA": {
+      "text": "Palpi tan largo como prostomio; body cilíndrico",
+      "goTo": null,
+      "result": "Geminosyllis"
+    },
+    "optionB": {
+      "text": "Palpi pequeño y conical; body aplanado",
+      "goTo": null,
+      "result": "Trypanosyllis"
+    }
+  },
+  "50": {
+    "step": "50",
+    "optionA": {
+      "text": "Diente mediodorsal unido posteriormente",
+      "goTo": null,
+      "result": "Opisthosyllis"
+    },
+    "optionB": {
+      "text": "Diente mediodorsal unido anteriormente",
+      "goTo": "51",
+      "result": null
+    }
+  },
+  "51": {
+    "step": "51",
+    "optionA": {
+      "text": "Setas simples, distalmente furcate o subdistally bossed",
+      "goTo": null,
+      "result": "Haplosyllis"
+    },
+    "optionB": {
+      "text": "Al menos algunas setas compuestas",
+      "goTo": "52",
+      "result": null
+    }
+  },
+  "52": {
+    "step": "52",
+    "optionA": {
+      "text": "Cirros dorsales in posterior region alternately largo y delgado o grande, bulbously fusiform",
+      "goTo": null,
+      "result": "Parasphaerosyllis"
+    },
+    "optionB": {
+      "text": "Cirros dorsales may alternate between largo y corto, but todas are of similar thickness",
+      "goTo": "53",
+      "result": null
+    }
+  },
+  "53": {
+    "step": "53",
+    "optionA": {
+      "text": "Tentacular y dorsales cirros con very pocos articles; dorsales cirros ausentes from second segmento",
+      "goTo": null,
+      "result": "Paratyposyllis"
+    },
+    "optionB": {
+      "text": "Tentacular y dorsales cirros con at least cinco articles; dorsales cirros presentes on second segmento",
+      "goTo": "54",
+      "result": null
+    }
+  },
+  "54": {
+    "step": "54",
+    "optionA": {
+      "text": "Parápodos con pseudocomposite y simples setas in addition to the compuestas ones",
+      "goTo": null,
+      "result": "Syllis"
+    },
+    "optionB": {
+      "text": "Parápodos máximo con dos simples setas in addition to the compuestas ones",
+      "goTo": "55",
+      "result": null
+    }
+  },
+  "55": {
+    "step": "55",
+    "optionA": {
+      "text": "Both compuestas espinígeros y falcigers presentes",
+      "goTo": null,
+      "result": "Ehlersia"
+    },
+    "optionB": {
+      "text": "Only compuestas falcigers presentes",
+      "goTo": null,
+      "result": "Typosyllis"
+    }
+  }
+}

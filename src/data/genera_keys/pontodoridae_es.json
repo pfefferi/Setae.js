@@ -21,12 +21,12 @@
   "2": {
     "step": "2",
     "optionA": {
-      "text": "Two pares of tentacular cirri on uno segmento",
+      "text": "Two pares of tentacular cirros on uno segmento",
       "goTo": "3",
       "result": null
     },
     "optionB": {
-      "text": "At least tres pares of tentacular cirri on dos o tres segmentos",
+      "text": "At least tres pares of tentacular cirros on dos o tres segmentos",
       "goTo": "4",
       "result": null
     }
@@ -47,12 +47,12 @@
   "4": {
     "step": "4",
     "optionA": {
-      "text": "Tres pares of tentacular cirri on dos o tres segmentos",
+      "text": "Tres pares of tentacular cirros on dos o tres segmentos",
       "goTo": "5",
       "result": null
     },
     "optionB": {
-      "text": "Cuatro pares of tentacular cirri on tres segmentos",
+      "text": "Cuatro pares of tentacular cirros on tres segmentos",
       "goTo": "7",
       "result": null
     }
@@ -60,12 +60,12 @@
   "5": {
     "step": "5",
     "optionA": {
-      "text": "Third segmento con dorsal cirri",
+      "text": "Third segmento con dorsales cirros",
       "goTo": null,
       "result": "Lugia"
     },
     "optionB": {
-      "text": "Third segmento sin dorsal cirri",
+      "text": "Third segmento sin dorsales cirros",
       "goTo": "6",
       "result": null
     }
@@ -73,12 +73,12 @@
   "6": {
     "step": "6",
     "optionA": {
-      "text": "Second segmento con setas; dorsal y ventral cirri broadly ovate",
+      "text": "Second segmento con setas; dorsales y ventral cirros broadly ovate",
       "goTo": null,
       "result": "Myxicola"
     },
     "optionB": {
-      "text": "Second segmento sin setas; dorsal y ventral cirri lanceolate",
+      "text": "Second segmento sin setas; dorsales y ventral cirros lanceolate",
       "goTo": null,
       "result": "Hesionura"
     }
@@ -104,7 +104,7 @@
       "result": "Hesperophyllum"
     },
     "optionB": {
-      "text": "Ventral tentacular cirri digitate o subulado",
+      "text": "Ventral tentacular cirros digitate o subulado",
       "goTo": "9",
       "result": null
     }
@@ -125,12 +125,12 @@
   "10": {
     "step": "10",
     "optionA": {
-      "text": "First segmento con dos pares of cirri y setas",
+      "text": "First segmento con dos pares of cirros y setas",
       "goTo": null,
       "result": "Nipponophyllum"
     },
     "optionB": {
-      "text": "First segmento con único par of cirri; setas primeros presentes from second segmento",
+      "text": "First segmento con único par of cirros; setas primeros presentes from second segmento",
       "goTo": null,
       "result": "Notophyllum"
     }
@@ -151,12 +151,12 @@
   "12": {
     "step": "12",
     "optionA": {
-      "text": "Ventral tentacular cirri (on segmento 2) foliose",
+      "text": "Ventral tentacular cirros (on segmento 2) foliosos",
       "goTo": null,
       "result": "Phyllodoce"
     },
     "optionB": {
-      "text": "Ventral tentacular cirri digitate o subulado",
+      "text": "Ventral tentacular cirros digitate o subulado",
       "goTo": "13",
       "result": null
     }
@@ -164,12 +164,12 @@
   "13": {
     "step": "13",
     "optionA": {
-      "text": "First segmento con setas y dos pares of cirri",
+      "text": "First segmento con setas y dos pares of cirros",
       "goTo": null,
       "result": "Ptychoptychopora"
     },
     "optionB": {
-      "text": "First segmento sin setas, uno pair of cirri",
+      "text": "First segmento sin setas, uno pair of cirros",
       "goTo": "14",
       "result": null
     }

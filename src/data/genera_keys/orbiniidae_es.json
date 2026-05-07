@@ -78,7 +78,7 @@
       "result": "Protoaricia"
     },
     "optionB": {
-      "text": "Abdominal neurosetae include acicular ganchos; prostomio pointed",
+      "text": "Abdominal neurosetae include acicular ganchos; prostomio puntiagudo",
       "goTo": null,
       "result": "Schroederella"
     }
@@ -91,7 +91,7 @@
       "result": "Microrbinia"
     },
     "optionB": {
-      "text": "Branquias presentes on at least some segmentos",
+      "text": "Branquias presentes on al menos algunas segmentos",
       "goTo": "8",
       "result": null
     }
@@ -99,12 +99,12 @@
   "8": {
     "step": "8",
     "optionA": {
-      "text": "Prostomium rounded o truncate",
+      "text": "Prostomium rounded o truncado",
       "goTo": null,
       "result": "Naineris"
     },
     "optionB": {
-      "text": "Prostomium more o less pointed",
+      "text": "Prostomium more o less puntiagudo",
       "goTo": "9",
       "result": null
     }
@@ -112,7 +112,7 @@
   "9": {
     "step": "9",
     "optionA": {
-      "text": "All thoracic parápodos con only delgado, pointed setas",
+      "text": "All thoracic parápodos con only delgado, puntiagudo setas",
       "goTo": "10",
       "result": null
     },
@@ -164,12 +164,12 @@
   "13": {
     "step": "13",
     "optionA": {
-      "text": "Some thoracic segmentos con rows of papilas along ventrum, papilas veces also on parapodial postsetal ridges",
+      "text": "Some thoracic segmentos con rows of papilas along ventro, papilas veces also on parapodial postsetal ridges",
       "goTo": null,
       "result": "Orbinia"
     },
     "optionB": {
-      "text": "Without rows of papilas on ventrum",
+      "text": "Without rows of papilas on ventro",
       "goTo": "14",
       "result": null
     }

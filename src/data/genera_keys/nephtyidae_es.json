@@ -8,12 +8,12 @@
   "1": {
     "step": "1",
     "optionA": {
-      "text": "Interramal cirri rudimentario o ausentes",
+      "text": "Interramal cirros rudimentario o ausentes",
       "goTo": null,
       "result": "Micronephtys"
     },
     "optionB": {
-      "text": "Interramal cirri bien desarrollado, recurvado o involuto",
+      "text": "Interramal cirros bien desarrollado, recurvado o involuto",
       "goTo": "2",
       "result": null
     }
@@ -21,12 +21,12 @@
   "2": {
     "step": "2",
     "optionA": {
-      "text": "Interramal cirri recurvado",
+      "text": "Interramal cirros recurvado",
       "goTo": null,
       "result": "Nephtys"
     },
     "optionB": {
-      "text": "Interramal cirri involuto",
+      "text": "Interramal cirros involuto",
       "goTo": "3",
       "result": null
     }

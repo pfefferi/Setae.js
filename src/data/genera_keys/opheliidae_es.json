@@ -13,7 +13,7 @@
       "result": null
     },
     "optionB": {
-      "text": "Body cilíndrico con at least posterior ventrum deeply grooved",
+      "text": "Body cilíndrico con at least posterior ventro deeply grooved",
       "goTo": "4",
       "result": null
     }
@@ -39,7 +39,7 @@
       "result": "Travisia"
     },
     "optionB": {
-      "text": "First setiger appear behind mouth; some setas spinose",
+      "text": "First setiger appear behind mouth; some setas espinosas",
       "goTo": null,
       "result": "Dindymenides"
     }
@@ -60,12 +60,12 @@
   "5": {
     "step": "5",
     "optionA": {
-      "text": "Tres body-regions, including inflated cabeza, inflated anterior part y estrecho posterior part; branquias in posterior region only",
+      "text": "Tres body-regions, including inflados cabeza, inflados anterior part y estrecho posterior part; branquias in posterior region only",
       "goTo": null,
       "result": "Euzonus"
     },
     "optionB": {
-      "text": "Body no clearly regionated, inflated anteriorly y grooved posteriorly; branquias from setígeros 8-10, if presentes",
+      "text": "Body no clearly regionated, inflados anteriormente y grooved posteriorly; branquias from setígeros 8-10, if presentes",
       "goTo": null,
       "result": "Ophelia"
     }
@@ -112,12 +112,12 @@
   "9": {
     "step": "9",
     "optionA": {
-      "text": "Anal tubo corto, all anal cirri of similar length",
+      "text": "Anal tubo corto, all anal cirros of similar length",
       "goTo": null,
       "result": "Antiobactrum"
     },
     "optionB": {
-      "text": "Anal tubo largo, dos internally attached ventral cirri presentes, dorsal anal cirri corto",
+      "text": "Anal tubo largo, dos internally adherido ventral cirros presentes, dorsales anal cirros corto",
       "goTo": "10",
       "result": null
     }

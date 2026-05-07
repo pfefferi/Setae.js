@@ -34,12 +34,12 @@
   "3": {
     "step": "3",
     "optionA": {
-      "text": "Dorsal y ventral cirri presentes, but pequeño on segmentos 2-3",
+      "text": "Dorsal y ventral cirros presentes, but pequeño on segmentos 2-3",
       "goTo": null,
       "result": "Paraiospilus"
     },
     "optionB": {
-      "text": "Dorsal y ventral cirri ausentes on segmentos 2-3",
+      "text": "Dorsal y ventral cirros ausentes on segmentos 2-3",
       "goTo": null,
       "result": "Iospilus"
     }

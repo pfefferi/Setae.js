@@ -8,12 +8,12 @@
   "1": {
     "step": "1",
     "optionA": {
-      "text": "Setas presentes at base of tentacular cirri",
+      "text": "Setas presentes at base of tentacular cirros",
       "goTo": "2",
       "result": null
     },
     "optionB": {
-      "text": "Setas ausentes at base of tentacular cirri",
+      "text": "Setas ausentes at base of tentacular cirros",
       "goTo": "3",
       "result": null
     }
@@ -21,12 +21,12 @@
   "2": {
     "step": "2",
     "optionA": {
-      "text": "Two pares of tentacular cirri on uno segmento; parapodial cirri largo y digitate",
+      "text": "Two pares of tentacular cirros on uno segmento; parapodial cirros largo y digitate",
       "goTo": null,
       "result": "Pelagobia"
     },
     "optionB": {
-      "text": "Tres pares of tentacular cirri on dos segmentos; parapodial cirri corto",
+      "text": "Tres pares of tentacular cirros on dos segmentos; parapodial cirros corto",
       "goTo": null,
       "result": "Maupasia"
     }

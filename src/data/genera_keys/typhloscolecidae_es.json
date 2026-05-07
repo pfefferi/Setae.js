@@ -21,12 +21,12 @@
   "2": {
     "step": "2",
     "optionA": {
-      "text": "Median prostomial papilla on dorsal side presentes",
+      "text": "Median prostomial papilla on dorsales side presentes",
       "goTo": null,
       "result": "Travisiopsis"
     },
     "optionB": {
-      "text": "Prostomium sin mediano dorsal papilla",
+      "text": "Prostomium sin mediano dorsales papilla",
       "goTo": null,
       "result": "Sagitella"
     }

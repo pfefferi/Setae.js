@@ -1,0 +1,1217 @@
+{
+  "_meta": {
+    "family": "POLYNOIDAE",
+    "source": "Fauchald (1977) Key to Genera",
+    "type": "genera_key",
+    "lang": "es"
+  },
+  "1": {
+    "step": "1",
+    "optionA": {
+      "text": "Lateral antenas inserted posteriorly on the prostomio",
+      "goTo": null,
+      "result": "Cervilia"
+    },
+    "optionB": {
+      "text": "Lateral antenas inserted anteriormente",
+      "goTo": "2",
+      "result": null
+    }
+  },
+  "2": {
+    "step": "2",
+    "optionA": {
+      "text": "At least dos antenas bien desarrollado",
+      "goTo": "3",
+      "result": null
+    },
+    "optionB": {
+      "text": "Median antena bien desarrollado; lateral antenas reducido o ausentes",
+      "goTo": "5",
+      "result": null
+    }
+  },
+  "3": {
+    "step": "3",
+    "optionA": {
+      "text": "Median antena presentes",
+      "goTo": "4",
+      "result": null
+    },
+    "optionB": {
+      "text": "Median antena ausentes",
+      "goTo": "7",
+      "result": null
+    }
+  },
+  "4": {
+    "step": "4",
+    "optionA": {
+      "text": "Lateral antenas adherido sub-distalmente o ventrally on the prostomio",
+      "goTo": "8",
+      "result": null
+    },
+    "optionB": {
+      "text": "Lateral antenas adherido distalmente on the prostomio",
+      "goTo": "51",
+      "result": null
+    }
+  },
+  "5": {
+    "step": "5",
+    "optionA": {
+      "text": "Fifteen pares of élitros",
+      "goTo": null,
+      "result": "Macelloides"
+    },
+    "optionB": {
+      "text": "Maximally 13 pares of élitros",
+      "goTo": "6",
+      "result": null
+    }
+  },
+  "6": {
+    "step": "6",
+    "optionA": {
+      "text": "Prostomium que consiste en dos inflados lobes, 16-17 segmentos presentes",
+      "goTo": null,
+      "result": "Macellicephaloides"
+    },
+    "optionB": {
+      "text": "Prostomium a único unified lóbulo, con pareado rounded anterior projections, 17-19 segmentos",
+      "goTo": null,
+      "result": "Macellicephala"
+    }
+  },
+  "7": {
+    "step": "7",
+    "optionA": {
+      "text": "Notosetae más gruesas que neurosetae",
+      "goTo": null,
+      "result": "Bylgides"
+    },
+    "optionB": {
+      "text": "Notosetae mucho más delgadas que neurosetae",
+      "goTo": null,
+      "result": "Iphione"
+    }
+  },
+  "8": {
+    "step": "8",
+    "optionA": {
+      "text": "First setigers con simples, strongly curvo ganchos",
+      "goTo": "9",
+      "result": null
+    },
+    "optionB": {
+      "text": "Anterior ganchos ausentes",
+      "goTo": "10",
+      "result": null
+    }
+  },
+  "9": {
+    "step": "9",
+    "optionA": {
+      "text": "Two segmentos con anterior ganchos",
+      "goTo": null,
+      "result": "Australaugeneria"
+    },
+    "optionB": {
+      "text": "Three segmentos con anterior ganchos",
+      "goTo": null,
+      "result": "Uncopolynoe"
+    }
+  },
+  "10": {
+    "step": "10",
+    "optionA": {
+      "text": "Fourteen o fewer pares of élitros",
+      "goTo": "11",
+      "result": null
+    },
+    "optionB": {
+      "text": "Fifteen o more pares of élitros",
+      "goTo": "15",
+      "result": null
+    }
+  },
+  "11": {
+    "step": "11",
+    "optionA": {
+      "text": "Notosetae ausentes",
+      "goTo": null,
+      "result": "Polynoella"
+    },
+    "optionB": {
+      "text": "Notosetae presentes",
+      "goTo": "12",
+      "result": null
+    }
+  },
+  "12": {
+    "step": "12",
+    "optionA": {
+      "text": "Eight o nine pares of élitros presentes, parápodos prolonged",
+      "goTo": null,
+      "result": "Herdmanella"
+    },
+    "optionB": {
+      "text": "Twelve to 14 pares of élitros presentes, parápodos corto",
+      "goTo": "13",
+      "result": null
+    }
+  },
+  "13": {
+    "step": "13",
+    "optionA": {
+      "text": "Some notocirros con spherical subdistal inflations",
+      "goTo": null,
+      "result": "Andresia"
+    },
+    "optionB": {
+      "text": "Notocirros máximo suavemente inflados",
+      "goTo": "14",
+      "result": null
+    }
+  },
+  "14": {
+    "step": "14",
+    "optionA": {
+      "text": "Eyes very grande y confluent",
+      "goTo": null,
+      "result": "Robertianella"
+    },
+    "optionB": {
+      "text": "Eyes pequeño",
+      "goTo": null,
+      "result": "Antinoana"
+    }
+  },
+  "15": {
+    "step": "15",
+    "optionA": {
+      "text": "Fifteen pares of élitros",
+      "goTo": "16",
+      "result": null
+    },
+    "optionB": {
+      "text": "Sixteen o more pares of élitros",
+      "goTo": "42",
+      "result": null
+    }
+  },
+  "16": {
+    "step": "16",
+    "optionA": {
+      "text": "More than 50 segmentos presentes, only anterior part of body cubierto por élitros",
+      "goTo": "17",
+      "result": null
+    },
+    "optionB": {
+      "text": "Less than 45 segmentos presentes; élitros cover the whole body",
+      "goTo": "23",
+      "result": null
+    }
+  },
+  "17": {
+    "step": "17",
+    "optionA": {
+      "text": "Neurosetae con semilunar pockets",
+      "goTo": null,
+      "result": "Adyte"
+    },
+    "optionB": {
+      "text": "Neurosetae espinosas o liso, sin pockets",
+      "goTo": "18",
+      "result": null
+    }
+  },
+  "18": {
+    "step": "18",
+    "optionA": {
+      "text": "Notosetae ausentes",
+      "goTo": null,
+      "result": "Heteropolynoe"
+    },
+    "optionB": {
+      "text": "Notosetae presentes",
+      "goTo": "19",
+      "result": null
+    }
+  },
+  "19": {
+    "step": "19",
+    "optionA": {
+      "text": "Todas notosetae thicker than o at least as grueso as the neurosetae",
+      "goTo": "20",
+      "result": null
+    },
+    "optionB": {
+      "text": "Al menos algunas capilares notosetae presentes",
+      "goTo": "21",
+      "result": null
+    }
+  },
+  "20": {
+    "step": "20",
+    "optionA": {
+      "text": "Notosetae mantenidas erectas sobre el cuerpo",
+      "goTo": null,
+      "result": "Hermadion"
+    },
+    "optionB": {
+      "text": "Notosetae corto y lateral in position",
+      "goTo": null,
+      "result": "Hemilepidia"
+    }
+  },
+  "21": {
+    "step": "21",
+    "optionA": {
+      "text": "Eyes reducido o ausentes, prostomio quadrangular",
+      "goTo": null,
+      "result": "Nemidia"
+    },
+    "optionB": {
+      "text": "Eyes distinto, prostomio rounded",
+      "goTo": "22",
+      "result": null
+    }
+  },
+  "22": {
+    "step": "22",
+    "optionA": {
+      "text": "Notosetae mainly capilares, neurosetae unidentate",
+      "goTo": null,
+      "result": "Enipo"
+    },
+    "optionB": {
+      "text": "Notosetae mainly grueso y blunt-tipped, neurosetae bidentadas, except in far posterior setigers",
+      "goTo": null,
+      "result": "Polynoe"
+    }
+  },
+  "23": {
+    "step": "23",
+    "optionA": {
+      "text": "Notosetae distintamente más delgadas que las neurosetae",
+      "goTo": "24",
+      "result": null
+    },
+    "optionB": {
+      "text": "Al menos algunas notosetae as grueso as o thicker than the neurosetae",
+      "goTo": "27",
+      "result": null
+    }
+  },
+  "24": {
+    "step": "24",
+    "optionA": {
+      "text": "Ventral surface con pareado foliosos appendages",
+      "goTo": null,
+      "result": "Phyllohartmania"
+    },
+    "optionB": {
+      "text": "Ventral surface liso",
+      "goTo": "25",
+      "result": null
+    }
+  },
+  "25": {
+    "step": "25",
+    "optionA": {
+      "text": "La mayoría de las neurosetae bidentadas",
+      "goTo": null,
+      "result": "Arcteobia"
+    },
+    "optionB": {
+      "text": "Todas neurosetae unidentate",
+      "goTo": "26",
+      "result": null
+    }
+  },
+  "26": {
+    "step": "26",
+    "optionA": {
+      "text": "Neurosetae delgado, recto espinas",
+      "goTo": null,
+      "result": "Hartmania"
+    },
+    "optionB": {
+      "text": "Neurosetae distalmente falcado",
+      "goTo": null,
+      "result": "Gattyana"
+    }
+  },
+  "27": {
+    "step": "27",
+    "optionA": {
+      "text": "Cirros ventrales foliosos, ventro papiloso",
+      "goTo": null,
+      "result": "Phyllosheila"
+    },
+    "optionB": {
+      "text": "Cirros ventrales digitate, ventro usualmente liso",
+      "goTo": "28",
+      "result": null
+    }
+  },
+  "28": {
+    "step": "28",
+    "optionA": {
+      "text": "Neurosetae in part distalmente trífido",
+      "goTo": null,
+      "result": "Gorekia"
+    },
+    "optionB": {
+      "text": "Neurosetae distalmente uni- o bidentadas",
+      "goTo": "29",
+      "result": null
+    }
+  },
+  "29": {
+    "step": "29",
+    "optionA": {
+      "text": "Neurosetae con semilunar pockets",
+      "goTo": null,
+      "result": "Paradyte"
+    },
+    "optionB": {
+      "text": "Neurosetae espinosas o nearly liso",
+      "goTo": "30",
+      "result": null
+    }
+  },
+  "30": {
+    "step": "30",
+    "optionA": {
+      "text": "Notosetae con distal tufts of largo hairs",
+      "goTo": null,
+      "result": "Barrukia"
+    },
+    "optionB": {
+      "text": "Notosetae sin distal tufts of hairs",
+      "goTo": "31",
+      "result": null
+    }
+  },
+  "31": {
+    "step": "31",
+    "optionA": {
+      "text": "Neurosetae distalmente con capilares tips",
+      "goTo": "32",
+      "result": null
+    },
+    "optionB": {
+      "text": "Neurosetae distalmente falcado, uni- o bi-dentado",
+      "goTo": "33",
+      "result": null
+    }
+  },
+  "32": {
+    "step": "32",
+    "optionA": {
+      "text": "Some neurosetae con fine, filamentous tips",
+      "goTo": null,
+      "result": "Antinoella"
+    },
+    "optionB": {
+      "text": "Todas neurosetae con delgado tips, but sin filaments",
+      "goTo": null,
+      "result": "Antinoe"
+    }
+  },
+  "33": {
+    "step": "33",
+    "optionA": {
+      "text": "Todas neurosetae unidentate",
+      "goTo": "34",
+      "result": null
+    },
+    "optionB": {
+      "text": "Al menos algunas neurosetae bidentadas",
+      "goTo": "37",
+      "result": null
+    }
+  },
+  "34": {
+    "step": "34",
+    "optionA": {
+      "text": "Cirros dorsales alternating between corto y largo; corto dorsales cirros basally inflados",
+      "goTo": null,
+      "result": "Kermadecella"
+    },
+    "optionB": {
+      "text": "Todas dorsales cirros similar in length, none basally inflados",
+      "goTo": "35",
+      "result": null
+    }
+  },
+  "35": {
+    "step": "35",
+    "optionA": {
+      "text": "Notosetae of dos kinds, grueso y delgado",
+      "goTo": null,
+      "result": "Hesperonoe"
+    },
+    "optionB": {
+      "text": "Todas notosetae grueso y similar in shape",
+      "goTo": "36",
+      "result": null
+    }
+  },
+  "36": {
+    "step": "36",
+    "optionA": {
+      "text": "Eyes ausentes",
+      "goTo": null,
+      "result": "Intoshella"
+    },
+    "optionB": {
+      "text": "Eyes presentes",
+      "goTo": null,
+      "result": "Eunoe"
+    }
+  },
+  "37": {
+    "step": "37",
+    "optionA": {
+      "text": "Neurosetae distalmente pencillate",
+      "goTo": null,
+      "result": "Austrolaenilla"
+    },
+    "optionB": {
+      "text": "Neurosetae nunca pencillate",
+      "goTo": "38",
+      "result": null
+    }
+  },
+  "38": {
+    "step": "38",
+    "optionA": {
+      "text": "Both noto- y neurosetae delgado; notosetae con capilares tips",
+      "goTo": null,
+      "result": "Tenonia"
+    },
+    "optionB": {
+      "text": "Notosetae y most neurosetae coarse",
+      "goTo": "39",
+      "result": null
+    }
+  },
+  "39": {
+    "step": "39",
+    "optionA": {
+      "text": "Neurosetae include furcate espinas con subequal tips y delgado, dentado capilares",
+      "goTo": null,
+      "result": "Melaenis"
+    },
+    "optionB": {
+      "text": "Neuropodial capilares setas ausentes",
+      "goTo": "40",
+      "result": null
+    }
+  },
+  "40": {
+    "step": "40",
+    "optionA": {
+      "text": "Some neurosetae deeply cleft con ambos dientes largo y estrecho",
+      "goTo": null,
+      "result": "Eucranta"
+    },
+    "optionB": {
+      "text": "Neurosetae con main fangs very much larger than secondary dientes",
+      "goTo": "41",
+      "result": null
+    }
+  },
+  "41": {
+    "step": "41",
+    "optionA": {
+      "text": "Posterior eight to ten segmentos no cubierto por élitros",
+      "goTo": null,
+      "result": "Lagisca"
+    },
+    "optionB": {
+      "text": "Whole body cubierto por élitros",
+      "goTo": null,
+      "result": "Harmothoe"
+    }
+  },
+  "42": {
+    "step": "42",
+    "optionA": {
+      "text": "Sixteen pares of élitros",
+      "goTo": "43",
+      "result": null
+    },
+    "optionB": {
+      "text": "Eighteen o more pares of élitros",
+      "goTo": "45",
+      "result": null
+    }
+  },
+  "43": {
+    "step": "43",
+    "optionA": {
+      "text": "Neurosetae con semilunar pockets",
+      "goTo": null,
+      "result": "Subadyte"
+    },
+    "optionB": {
+      "text": "Neurosetae delgado y serrate, semilunar pockets ausentes",
+      "goTo": "44",
+      "result": null
+    }
+  },
+  "44": {
+    "step": "44",
+    "optionA": {
+      "text": "Notosetae distinctly aserrado",
+      "goTo": null,
+      "result": "Leucia"
+    },
+    "optionB": {
+      "text": "Notosetae con a pocos espinas",
+      "goTo": null,
+      "result": "Scalisetosus"
+    }
+  },
+  "45": {
+    "step": "45",
+    "optionA": {
+      "text": "Eighteen pares of élitros",
+      "goTo": null,
+      "result": "Acanthicolepis"
+    },
+    "optionB": {
+      "text": "Nineteen o more pares of élitros",
+      "goTo": "46",
+      "result": null
+    }
+  },
+  "46": {
+    "step": "46",
+    "optionA": {
+      "text": "Notosetae distintamente más delgadas que neurosetae",
+      "goTo": "47",
+      "result": null
+    },
+    "optionB": {
+      "text": "Notosetae as grueso as, o thicker than neurosetae",
+      "goTo": "49",
+      "result": null
+    }
+  },
+  "47": {
+    "step": "47",
+    "optionA": {
+      "text": "Neurosetae con semilunar pockets",
+      "goTo": null,
+      "result": "Pottsiscalisetosus"
+    },
+    "optionB": {
+      "text": "Semilunar pockets ausentes",
+      "goTo": "48",
+      "result": null
+    }
+  },
+  "48": {
+    "step": "48",
+    "optionA": {
+      "text": "Neuropodia con subacicular digitiforme lobes",
+      "goTo": null,
+      "result": "Parahotalepidella"
+    },
+    "optionB": {
+      "text": "Neuropodia con grande, supra-acicular presetal lobes",
+      "goTo": null,
+      "result": "Grubeopolynoe"
+    }
+  },
+  "49": {
+    "step": "49",
+    "optionA": {
+      "text": "Todas neurosetae unidentate",
+      "goTo": null,
+      "result": "Polyeunoa"
+    },
+    "optionB": {
+      "text": "Al menos algunas neurosetae bidentadas",
+      "goTo": "50",
+      "result": null
+    }
+  },
+  "50": {
+    "step": "50",
+    "optionA": {
+      "text": "Neurosetae con largo bare tips beyond the aserrado regions",
+      "goTo": null,
+      "result": "Hololepidella"
+    },
+    "optionB": {
+      "text": "Neurosetae con very corto bare tips beyond the aserrado region",
+      "goTo": null,
+      "result": "Neohololepidella"
+    }
+  },
+  "51": {
+    "step": "51",
+    "optionA": {
+      "text": "Palps represented by dos pequeño tubercles",
+      "goTo": null,
+      "result": "Bouchiria"
+    },
+    "optionB": {
+      "text": "Palps bien desarrollado",
+      "goTo": "52",
+      "result": null
+    }
+  },
+  "52": {
+    "step": "52",
+    "optionA": {
+      "text": "Ventral cirrus heavily fimbriated, ventro con transverso filas of tres papilas on each segmento",
+      "goTo": null,
+      "result": "Lepidofimbria"
+    },
+    "optionB": {
+      "text": "Ventral cirrus y ventro liso",
+      "goTo": "53",
+      "result": null
+    }
+  },
+  "53": {
+    "step": "53",
+    "optionA": {
+      "text": "Neurosetae distalmente bífido con varios pequeño accessory dientes in the crotch",
+      "goTo": null,
+      "result": "Lepidogyra"
+    },
+    "optionB": {
+      "text": "Neurosetae unidentate o bífido, rarely trífido; if bífido, then sin accessory dientes",
+      "goTo": "54",
+      "result": null
+    }
+  },
+  "54": {
+    "step": "54",
+    "optionA": {
+      "text": "Prostomium anteriormente produced into dos grande lobes con pequeño lateral antenas adherido distalmente",
+      "goTo": null,
+      "result": "Allmaniella"
+    },
+    "optionB": {
+      "text": "Prostomio anteriormente estrechándose hacia los ceratóforos",
+      "goTo": "55",
+      "result": null
+    }
+  },
+  "55": {
+    "step": "55",
+    "optionA": {
+      "text": "Renal papilas greatly prolonged in some mediano setigers",
+      "goTo": null,
+      "result": "Bathymoorea"
+    },
+    "optionB": {
+      "text": "Renal papilas of similar length in todas setigers",
+      "goTo": "56",
+      "result": null
+    }
+  },
+  "56": {
+    "step": "56",
+    "optionA": {
+      "text": "Notopodia completamente reducido, neurópodo prolonged con the ventral cirrus adherido near the medio",
+      "goTo": null,
+      "result": "Frennia"
+    },
+    "optionB": {
+      "text": "Notopodia usualmente presentes; if ausentes, then neurópodos corto con ventral cirros basal",
+      "goTo": "57",
+      "result": null
+    }
+  },
+  "57": {
+    "step": "57",
+    "optionA": {
+      "text": "Twelve o 13 pares of élitros",
+      "goTo": "58",
+      "result": null
+    },
+    "optionB": {
+      "text": "More than 13 pares of élitros",
+      "goTo": "66",
+      "result": null
+    }
+  },
+  "58": {
+    "step": "58",
+    "optionA": {
+      "text": "With branquial filaments on the elytrophores",
+      "goTo": "59",
+      "result": null
+    },
+    "optionB": {
+      "text": "Branchial filaments ausentes",
+      "goTo": "61",
+      "result": null
+    }
+  },
+  "59": {
+    "step": "59",
+    "optionA": {
+      "text": "With pseudelytrae on non-elytrophoral, alternating segmentos posteriorly",
+      "goTo": null,
+      "result": "Euphionella"
+    },
+    "optionB": {
+      "text": "Pseudelytrae ausentes",
+      "goTo": "60",
+      "result": null
+    }
+  },
+  "60": {
+    "step": "60",
+    "optionA": {
+      "text": "Neurosetae gruesamente espinosas",
+      "goTo": null,
+      "result": "Chaetacanthus"
+    },
+    "optionB": {
+      "text": "Neurosetae finamente plumosas",
+      "goTo": null,
+      "result": "Euphione"
+    }
+  },
+  "61": {
+    "step": "61",
+    "optionA": {
+      "text": "Notopodia ausentes",
+      "goTo": null,
+      "result": "Drieschia"
+    },
+    "optionB": {
+      "text": "Notopodia presentes",
+      "goTo": "62",
+      "result": null
+    }
+  },
+  "62": {
+    "step": "62",
+    "optionA": {
+      "text": "With uno very grande bidentadas gancho in the medio of each neuropodial fascículo",
+      "goTo": null,
+      "result": "Sheila"
+    },
+    "optionB": {
+      "text": "Todas neurosetae similar in thickness, none bidentadas ganchos",
+      "goTo": "63",
+      "result": null
+    }
+  },
+  "63": {
+    "step": "63",
+    "optionA": {
+      "text": "Neurosetae distalmente trifurcate",
+      "goTo": null,
+      "result": "Hermenia"
+    },
+    "optionB": {
+      "text": "Neurosetae distalmente entero",
+      "goTo": "64",
+      "result": null
+    }
+  },
+  "64": {
+    "step": "64",
+    "optionA": {
+      "text": "Notosetae of dos kinds, lancet-shaped y tapering y aserrado",
+      "goTo": null,
+      "result": "Thormora"
+    },
+    "optionB": {
+      "text": "Notosetae todas of uno kind, usualmente delgado y aserrado",
+      "goTo": "65",
+      "result": null
+    }
+  },
+  "65": {
+    "step": "65",
+    "optionA": {
+      "text": "Pseudelytrae on non-elytrophoral segmentos",
+      "goTo": null,
+      "result": "Dilepidonotus"
+    },
+    "optionB": {
+      "text": "Pseudelytrae ausentes",
+      "goTo": null,
+      "result": "Lepidonotus"
+    }
+  },
+  "66": {
+    "step": "66",
+    "optionA": {
+      "text": "Fourteen pares of élitros",
+      "goTo": "67",
+      "result": null
+    },
+    "optionB": {
+      "text": "Fifteen o more pares of élitros",
+      "goTo": "68",
+      "result": null
+    }
+  },
+  "67": {
+    "step": "67",
+    "optionA": {
+      "text": "Neurosetae bidentadas",
+      "goTo": null,
+      "result": "Lucopia"
+    },
+    "optionB": {
+      "text": "Neurosetae entero",
+      "goTo": null,
+      "result": "Podarmus"
+    }
+  },
+  "68": {
+    "step": "68",
+    "optionA": {
+      "text": "Only anterior half of body cubierto por élitros",
+      "goTo": null,
+      "result": "Pseudopolynoe"
+    },
+    "optionB": {
+      "text": "Élitros en la mayoría de las partes del cuerpo",
+      "goTo": "69",
+      "result": null
+    }
+  },
+  "69": {
+    "step": "69",
+    "optionA": {
+      "text": "Fifteen pares of élitros",
+      "goTo": "70",
+      "result": null
+    },
+    "optionB": {
+      "text": "Sixteen o more pares of élitros",
+      "goTo": "74",
+      "result": null
+    }
+  },
+  "70": {
+    "step": "70",
+    "optionA": {
+      "text": "Notosetae fino",
+      "goTo": null,
+      "result": "Parahalosydna"
+    },
+    "optionB": {
+      "text": "Notosetae as grueso as, o thicker than the neurosetae",
+      "goTo": "71",
+      "result": null
+    }
+  },
+  "71": {
+    "step": "71",
+    "optionA": {
+      "text": "Todas neurosetae unidentate",
+      "goTo": null,
+      "result": "Eulagisca"
+    },
+    "optionB": {
+      "text": "Al menos algunas neurosetae bidentadas",
+      "goTo": "72",
+      "result": null
+    }
+  },
+  "72": {
+    "step": "72",
+    "optionA": {
+      "text": "Cirros dorsales of dos kinds, corto y expanded o largo y suavemente inflados",
+      "goTo": null,
+      "result": "Malmgreniella"
+    },
+    "optionB": {
+      "text": "Todas dorsales cirros largo y slightly inflados subdistally",
+      "goTo": "73",
+      "result": null
+    }
+  },
+  "73": {
+    "step": "73",
+    "optionA": {
+      "text": "Notosetae nearly liso",
+      "goTo": null,
+      "result": "Malmgrenia"
+    },
+    "optionB": {
+      "text": "Notosetae densely aserrado",
+      "goTo": null,
+      "result": "Paralepidonotus"
+    }
+  },
+  "74": {
+    "step": "74",
+    "optionA": {
+      "text": "With 16 pares of élitros",
+      "goTo": null,
+      "result": "Arctonoella"
+    },
+    "optionB": {
+      "text": "At least 17 pares of élitros",
+      "goTo": "75",
+      "result": null
+    }
+  },
+  "75": {
+    "step": "75",
+    "optionA": {
+      "text": "Seventeen to 20 pares of élitros",
+      "goTo": "76",
+      "result": null
+    },
+    "optionB": {
+      "text": "At least 21 pares of élitros",
+      "goTo": "80",
+      "result": null
+    }
+  },
+  "76": {
+    "step": "76",
+    "optionA": {
+      "text": "Notosetae ausentes",
+      "goTo": "77",
+      "result": null
+    },
+    "optionB": {
+      "text": "Notosetae presentes",
+      "goTo": "79",
+      "result": null
+    }
+  },
+  "77": {
+    "step": "77",
+    "optionA": {
+      "text": "Dorsum con a mediano pustule on each segmento",
+      "goTo": null,
+      "result": "Weberia"
+    },
+    "optionB": {
+      "text": "Dorsal pustules ausentes",
+      "goTo": "78",
+      "result": null
+    }
+  },
+  "78": {
+    "step": "78",
+    "optionA": {
+      "text": "Neurosetae con capilares tips",
+      "goTo": null,
+      "result": "Drieschella"
+    },
+    "optionB": {
+      "text": "Neurosetae con falcado tips",
+      "goTo": null,
+      "result": "Alentiana"
+    }
+  },
+  "79": {
+    "step": "79",
+    "optionA": {
+      "text": "Notosetae numerosos, lateral antenas terminal",
+      "goTo": null,
+      "result": "Halosydna"
+    },
+    "optionB": {
+      "text": "Only pocos notosetae presentes; lateral antenas subterminal",
+      "goTo": null,
+      "result": "Alentia"
+    }
+  },
+  "80": {
+    "step": "80",
+    "optionA": {
+      "text": "Notosetae presentes",
+      "goTo": "81",
+      "result": null
+    },
+    "optionB": {
+      "text": "Notosetae ausentes",
+      "goTo": "90",
+      "result": null
+    }
+  },
+  "81": {
+    "step": "81",
+    "optionA": {
+      "text": "Parápodos distalmente con series of largo papilas",
+      "goTo": null,
+      "result": "Halosydnopsis"
+    },
+    "optionB": {
+      "text": "Parápodos distalmente sin papilas",
+      "goTo": "82",
+      "result": null
+    }
+  },
+  "82": {
+    "step": "82",
+    "optionA": {
+      "text": "Neurosetae con semilunar pockets",
+      "goTo": null,
+      "result": "Hololepida"
+    },
+    "optionB": {
+      "text": "Neurosetae espinosas o liso",
+      "goTo": "83",
+      "result": null
+    }
+  },
+  "83": {
+    "step": "83",
+    "optionA": {
+      "text": "Notosetae más delgadas que la mayoría de las neurosetae",
+      "goTo": "84",
+      "result": null
+    },
+    "optionB": {
+      "text": "Notosetae as grueso as, o thicker than the neurosetae",
+      "goTo": "86",
+      "result": null
+    }
+  },
+  "84": {
+    "step": "84",
+    "optionA": {
+      "text": "Superior neurosetae delgado y espinosas, inferior ones acicular",
+      "goTo": null,
+      "result": "Pseudohalosydna"
+    },
+    "optionB": {
+      "text": "Todas neurosetae stout",
+      "goTo": "85",
+      "result": null
+    }
+  },
+  "85": {
+    "step": "85",
+    "optionA": {
+      "text": "Al menos algunas neurosetae bidentadas",
+      "goTo": null,
+      "result": "Halosydnella"
+    },
+    "optionB": {
+      "text": "Todas neurosetae unidentate",
+      "goTo": null,
+      "result": "Acholoe"
+    }
+  },
+  "86": {
+    "step": "86",
+    "optionA": {
+      "text": "Todas neurosetae unidentate",
+      "goTo": "87",
+      "result": null
+    },
+    "optionB": {
+      "text": "Al menos algunas neurosetae bidentadas",
+      "goTo": "88",
+      "result": null
+    }
+  },
+  "87": {
+    "step": "87",
+    "optionA": {
+      "text": "Ventrum con grande segmentally arranged lamellae",
+      "goTo": null,
+      "result": "Gastrolepidia"
+    },
+    "optionB": {
+      "text": "Ventrum liso",
+      "goTo": null,
+      "result": "Lepidastheniella"
+    }
+  },
+  "88": {
+    "step": "88",
+    "optionA": {
+      "text": "Lateral antenas subterminal, neurosetae pocos",
+      "goTo": null,
+      "result": "Arctonoe"
+    },
+    "optionB": {
+      "text": "Lateral antenas terminal, neurosetae numerosos",
+      "goTo": "89",
+      "result": null
+    }
+  },
+  "89": {
+    "step": "89",
+    "optionA": {
+      "text": "Twenty-uno o 22 pares of élitros; neurosetae con largo, curvo tips",
+      "goTo": null,
+      "result": "Hyperhalosydna"
+    },
+    "optionB": {
+      "text": "Numerous pares of élitros; neurosetae con corto, recto o curvo tips",
+      "goTo": null,
+      "result": "Lepidasthenia"
+    }
+  },
+  "90": {
+    "step": "90",
+    "optionA": {
+      "text": "Cirros ventrales con dos-tres knobs",
+      "goTo": null,
+      "result": "Perolepis"
+    },
+    "optionB": {
+      "text": "Cirros ventrales liso",
+      "goTo": "91",
+      "result": null
+    }
+  },
+  "91": {
+    "step": "91",
+    "optionA": {
+      "text": "Antennal scales presentes",
+      "goTo": "92",
+      "result": null
+    },
+    "optionB": {
+      "text": "Antennal scales ausentes",
+      "goTo": "93",
+      "result": null
+    }
+  },
+  "92": {
+    "step": "92",
+    "optionA": {
+      "text": "Setas aplanado, marginally aserrado con largo, delgado tips; up to 30 pares of élitros",
+      "goTo": null,
+      "result": "Admetella"
+    },
+    "optionB": {
+      "text": "Setas aplanado, finamente dentado y very abruptly tapering; 23 pares of élitros",
+      "goTo": null,
+      "result": "Bathyadmetella"
+    }
+  },
+  "93": {
+    "step": "93",
+    "optionA": {
+      "text": "Neurosetae stout, falcado; pre- y postsetal neuropodial lobes of similar length",
+      "goTo": null,
+      "result": "Benhamipolynoe"
+    },
+    "optionB": {
+      "text": "Neurosetae delgado; presetal lobes distinctly más largo que the postsetal ones in the neurópodos",
+      "goTo": null,
+      "result": "Polynoe"
+    }
+  }
+}

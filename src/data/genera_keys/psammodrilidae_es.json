@@ -8,12 +8,12 @@
   "1": {
     "step": "1",
     "optionA": {
-      "text": "Dorsal cirri decreasing evenly in length from los primeros to sixth thoracic segmento; abdominal uncinigers con varios uncinos",
+      "text": "Cirros dorsales decreasing evenly in length from los primeros to sixth thoracic segmento; abdominal uncinigers con varios uncinos",
       "goTo": null,
       "result": "Psammodrilus"
     },
     "optionB": {
-      "text": "Dorsal cirri aumentando en longitud from primeros to fourth segmento; those of segmentos cinco y six very corto; único uncinos presentes in abdominal neurópodos",
+      "text": "Cirros dorsales aumentando en longitud from primeros to fourth segmento; those of segmentos cinco y six very corto; único uncinos presentes in abdominal neurópodos",
       "goTo": null,
       "result": "Psammodriloides"
     }

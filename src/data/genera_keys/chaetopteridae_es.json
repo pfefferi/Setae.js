@@ -21,12 +21,12 @@
   "2": {
     "step": "2",
     "optionA": {
-      "text": "A par of pequeño tentacular cirri presentes at base of grande palpos",
+      "text": "A par of pequeño tentacular cirros presentes at base of grande palpos",
       "goTo": null,
       "result": "Phyllochaetopterus"
     },
     "optionB": {
-      "text": "Tentacular cirri ausentes, palpos grande",
+      "text": "Tentacular cirros ausentes, palpos grande",
       "goTo": null,
       "result": "Spiochaetopterus"
     }
@@ -34,7 +34,7 @@
   "3": {
     "step": "3",
     "optionA": {
-      "text": "Some mediano notópodos fusionado to form dorsal fans, palpos very corto",
+      "text": "Some mediano notópodos fusionado to form dorsales fans, palpos very corto",
       "goTo": null,
       "result": "Chaetopterus"
     },

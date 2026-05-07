@@ -8,12 +8,12 @@
   "1": {
     "step": "1",
     "optionA": {
-      "text": "Tentacular cirri presentes",
+      "text": "Tentacular cirros presentes",
       "goTo": null,
       "result": "Lacydonia"
     },
     "optionB": {
-      "text": "Tentacular cirri ausentes",
+      "text": "Tentacular cirros ausentes",
       "goTo": "2",
       "result": null
     }

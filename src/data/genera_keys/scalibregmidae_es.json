@@ -8,12 +8,12 @@
   "1": {
     "step": "1",
     "optionA": {
-      "text": "Body corto, maggotlike y inflated",
+      "text": "Body corto, maggotlike y inflados",
       "goTo": "2",
       "result": null
     },
     "optionB": {
-      "text": "Body largo, veces anteriorly inflated, but siempre con delgado posterior end",
+      "text": "Body largo, veces anteriormente inflados, but siempre con delgado posterior end",
       "goTo": "4",
       "result": null
     }
@@ -99,12 +99,12 @@
   "8": {
     "step": "8",
     "optionA": {
-      "text": "Neither dorsal nor ventral cirri presentes",
+      "text": "Neither dorsales nor ventral cirros presentes",
       "goTo": "9",
       "result": null
     },
     "optionB": {
-      "text": "At least ventral cirri presentes",
+      "text": "At least ventral cirros presentes",
       "goTo": "11",
       "result": null
     }
@@ -177,12 +177,12 @@
   "14": {
     "step": "14",
     "optionA": {
-      "text": "Dorsal cirri ausentes",
+      "text": "Cirros dorsales ausentes",
       "goTo": null,
       "result": "Sclerocheilus"
     },
     "optionB": {
-      "text": "Dorsal cirri presentes",
+      "text": "Cirros dorsales presentes",
       "goTo": null,
       "result": "Pseudoscalibregma"
     }

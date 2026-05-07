@@ -8,12 +8,12 @@
   "1": {
     "step": "1",
     "optionA": {
-      "text": "Setas include capilares y bidentate ganchos; posterior cirriforme branquias presentes",
+      "text": "Setas include capilares y bidentadas ganchos; posterior cirriforme branquias presentes",
       "goTo": null,
       "result": "Questa"
     },
     "optionB": {
-      "text": "Setas include capilares, bidentate ganchos y trifurcate espinas; branquias ausentes",
+      "text": "Setas include capilares, bidentadas ganchos y trifurcate espinas; branquias ausentes",
       "goTo": null,
       "result": "Novaquesta"
     }

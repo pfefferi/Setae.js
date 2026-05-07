@@ -1,0 +1,788 @@
+{
+  "_meta": {
+    "family": "AMPHARETIDAE",
+    "source": "Fauchald (1977) Key to Genera",
+    "type": "genera_key",
+    "lang": "es"
+  },
+  "1": {
+    "step": "1",
+    "optionA": {
+      "text": "First varios neurópodos con fine acicular setas; other neurópodos con uncinos",
+      "goTo": "2",
+      "result": null
+    },
+    "optionB": {
+      "text": "First varios neurópodos sin acicular setas; todas neurosetae uncinos",
+      "goTo": "10",
+      "result": null
+    }
+  },
+  "2": {
+    "step": "2",
+    "optionA": {
+      "text": "Nuchal ganchos presentes",
+      "goTo": "3",
+      "result": null
+    },
+    "optionB": {
+      "text": "Nuchal ganchos ausentes",
+      "goTo": "6",
+      "result": null
+    }
+  },
+  "3": {
+    "step": "3",
+    "optionA": {
+      "text": "Branquias liso",
+      "goTo": "4",
+      "result": null
+    },
+    "optionB": {
+      "text": "Branquias in part papiloso o pennate",
+      "goTo": "5",
+      "result": null
+    }
+  },
+  "4": {
+    "step": "4",
+    "optionA": {
+      "text": "Two pares of nucal ganchos; 12 torácico uncinigers",
+      "goTo": null,
+      "result": "Moyanas"
+    },
+    "optionB": {
+      "text": "A único par of nucal ganchos; 14 torácico uncinigers",
+      "goTo": null,
+      "result": "Melinna"
+    }
+  },
+  "5": {
+    "step": "5",
+    "optionA": {
+      "text": "Four pares of branquias, dos liso y dos papiloso; capilares notosetae on setigers 3-4",
+      "goTo": null,
+      "result": "Isolda"
+    },
+    "optionB": {
+      "text": "Three pares of branquias, uno liso, dos papiloso; notosetae ausentes on setigers 3-4",
+      "goTo": null,
+      "result": "Irana"
+    }
+  },
+  "6": {
+    "step": "6",
+    "optionA": {
+      "text": "Ten torácico uncinigers presentes",
+      "goTo": "7",
+      "result": null
+    },
+    "optionB": {
+      "text": "At least 12 torácico uncinigers presentes",
+      "goTo": "8",
+      "result": null
+    }
+  },
+  "7": {
+    "step": "7",
+    "optionA": {
+      "text": "Three pares of branquias",
+      "goTo": null,
+      "result": "Melinnopsides"
+    },
+    "optionB": {
+      "text": "Four pares of branquias",
+      "goTo": null,
+      "result": "Melinnopsis"
+    }
+  },
+  "8": {
+    "step": "8",
+    "optionA": {
+      "text": "Sixteen torácico uncinigers presentes; todas buccal tentáculos similar",
+      "goTo": null,
+      "result": "Melinantipoda"
+    },
+    "optionB": {
+      "text": "Maximally 14 torácico uncinigers presentes; uno o dos buccal tentáculos very grande",
+      "goTo": "9",
+      "result": null
+    }
+  },
+  "9": {
+    "step": "9",
+    "optionA": {
+      "text": "Segment 6 con a distinto dorsales cresta between the notópodos",
+      "goTo": null,
+      "result": "Melinnexis"
+    },
+    "optionB": {
+      "text": "A dorsales cresta ausentes",
+      "goTo": null,
+      "result": "Amelinna"
+    }
+  },
+  "10": {
+    "step": "10",
+    "optionA": {
+      "text": "At least tres pares of branquias",
+      "goTo": "11",
+      "result": null
+    },
+    "optionB": {
+      "text": "Two pares of branquias",
+      "goTo": "12",
+      "result": null
+    }
+  },
+  "11": {
+    "step": "11",
+    "optionA": {
+      "text": "Three pares of branquias presentes",
+      "goTo": "15",
+      "result": null
+    },
+    "optionB": {
+      "text": "Four pares of branquias",
+      "goTo": "35",
+      "result": null
+    }
+  },
+  "12": {
+    "step": "12",
+    "optionA": {
+      "text": "Fourteen torácico uncinigers; páleas presentes",
+      "goTo": null,
+      "result": "Ecamphicteis"
+    },
+    "optionB": {
+      "text": "Maximally 12 torácico uncinigers; páleas ausentes",
+      "goTo": "13",
+      "result": null
+    }
+  },
+  "13": {
+    "step": "13",
+    "optionA": {
+      "text": "Nine uncinigers, primer uncinos in a corto fila similar a todas others",
+      "goTo": null,
+      "result": "Egamella"
+    },
+    "optionB": {
+      "text": "Twelve uncinigers, primer uncinos in a largo fila",
+      "goTo": "14",
+      "result": null
+    }
+  },
+  "14": {
+    "step": "14",
+    "optionA": {
+      "text": "Prostomio anteriormente puntiagudo",
+      "goTo": null,
+      "result": "Auchenoplax"
+    },
+    "optionB": {
+      "text": "Prostomio anteriormente truncado",
+      "goTo": null,
+      "result": "Melinnoides"
+    }
+  },
+  "15": {
+    "step": "15",
+    "optionA": {
+      "text": "Todas branquial pares dispuesto en a distinctly segmental fashion",
+      "goTo": "16",
+      "result": null
+    },
+    "optionB": {
+      "text": "Only último par of branquias clearly associated con a specific segmento",
+      "goTo": "18",
+      "result": null
+    }
+  },
+  "16": {
+    "step": "16",
+    "optionA": {
+      "text": "Eleven torácico uncinigers; membrana tentacular grande",
+      "goTo": null,
+      "result": "Ampharana"
+    },
+    "optionB": {
+      "text": "At least 14 torácico uncinigers; membrana tentacular pequeño",
+      "goTo": "17",
+      "result": null
+    }
+  },
+  "17": {
+    "step": "17",
+    "optionA": {
+      "text": "First setas on segmento 2; 14 torácico uncinigers",
+      "goTo": null,
+      "result": "Neopaiwa"
+    },
+    "optionB": {
+      "text": "First setas on segmento 3; 15 torácico uncinigers",
+      "goTo": null,
+      "result": "Weddellia"
+    }
+  },
+  "18": {
+    "step": "18",
+    "optionA": {
+      "text": "Paleae presentes",
+      "goTo": "19",
+      "result": null
+    },
+    "optionB": {
+      "text": "Paleae ausentes",
+      "goTo": "25",
+      "result": null
+    }
+  },
+  "19": {
+    "step": "19",
+    "optionA": {
+      "text": "Nine torácico uncinigers; último torácico notópodos elevated",
+      "goTo": null,
+      "result": "Mugga"
+    },
+    "optionB": {
+      "text": "Ten o more torácico uncinigers",
+      "goTo": "20",
+      "result": null
+    }
+  },
+  "20": {
+    "step": "20",
+    "optionA": {
+      "text": "Flange presentes between último thoracal notópodos; ten torácico uncinigers",
+      "goTo": null,
+      "result": "Melinnaia"
+    },
+    "optionB": {
+      "text": "Flange o cresta, if presentes, anterior in position; at least 11 torácico uncinigers",
+      "goTo": "21",
+      "result": null
+    }
+  },
+  "21": {
+    "step": "21",
+    "optionA": {
+      "text": "Few stout buccal tentáculos presentes; 11 torácico uncinigers",
+      "goTo": null,
+      "result": "Amythasides"
+    },
+    "optionB": {
+      "text": "Buccal tentáculos, if presentes, numerosos; 12 torácico uncinigers",
+      "goTo": "22",
+      "result": null
+    }
+  },
+  "22": {
+    "step": "22",
+    "optionA": {
+      "text": "Dorsal cresta presentes on uno anterior setiger",
+      "goTo": "23",
+      "result": null
+    },
+    "optionB": {
+      "text": "Dorsal cresta ausentes",
+      "goTo": null,
+      "result": "Eclysippe"
+    }
+  },
+  "23": {
+    "step": "23",
+    "optionA": {
+      "text": "Oral membrana broadly folded; 15 torácico setigers",
+      "goTo": null,
+      "result": "Eusamythella"
+    },
+    "optionB": {
+      "text": "Oral membrana corto; 14 torácico setigers",
+      "goTo": "24",
+      "result": null
+    }
+  },
+  "24": {
+    "step": "24",
+    "optionA": {
+      "text": "Dorsal cresta on segmento 4",
+      "goTo": null,
+      "result": "Neosamytha"
+    },
+    "optionB": {
+      "text": "Dorsal cresta on cualquiera segmento 6 o 7",
+      "goTo": null,
+      "result": "Melinnampharete"
+    }
+  },
+  "25": {
+    "step": "25",
+    "optionA": {
+      "text": "Ten torácico uncinigers",
+      "goTo": null,
+      "result": "Muggoides"
+    },
+    "optionB": {
+      "text": "At least 11 torácico uncinigers",
+      "goTo": "26",
+      "result": null
+    }
+  },
+  "26": {
+    "step": "26",
+    "optionA": {
+      "text": "Eleven torácico uncinigers",
+      "goTo": null,
+      "result": "Glyphanostomum"
+    },
+    "optionB": {
+      "text": "At least 12 torácico uncinigers",
+      "goTo": "27",
+      "result": null
+    }
+  },
+  "27": {
+    "step": "27",
+    "optionA": {
+      "text": "Twelve torácico uncinigers",
+      "goTo": "28",
+      "result": null
+    },
+    "optionB": {
+      "text": "At least 13 torácico uncinigers",
+      "goTo": "31",
+      "result": null
+    }
+  },
+  "28": {
+    "step": "28",
+    "optionA": {
+      "text": "At least uno par of branquias basally flanged",
+      "goTo": null,
+      "result": "Samythella"
+    },
+    "optionB": {
+      "text": "Todas branquias cilíndrico",
+      "goTo": "29",
+      "result": null
+    }
+  },
+  "29": {
+    "step": "29",
+    "optionA": {
+      "text": "Buccal tentáculos papiloso",
+      "goTo": null,
+      "result": "Neosabellides"
+    },
+    "optionB": {
+      "text": "Buccal tentáculos liso",
+      "goTo": "30",
+      "result": null
+    }
+  },
+  "30": {
+    "step": "30",
+    "optionA": {
+      "text": "Oral membrana greatly prolonged",
+      "goTo": null,
+      "result": "Pabits"
+    },
+    "optionB": {
+      "text": "Oral membrana corto",
+      "goTo": null,
+      "result": "Eusamytha"
+    }
+  },
+  "31": {
+    "step": "31",
+    "optionA": {
+      "text": "Thirteen torácico uncinigers",
+      "goTo": "32",
+      "result": null
+    },
+    "optionB": {
+      "text": "Fourteen torácico uncinigers",
+      "goTo": "33",
+      "result": null
+    }
+  },
+  "32": {
+    "step": "32",
+    "optionA": {
+      "text": "Notopodia of setiger 13 elevated con hirsute notosetae",
+      "goTo": null,
+      "result": "Sosanella"
+    },
+    "optionB": {
+      "text": "Notopodia of setiger 13 at the same level as todas others; hirsute setas ausentes",
+      "goTo": null,
+      "result": "Alkmaria"
+    }
+  },
+  "33": {
+    "step": "33",
+    "optionA": {
+      "text": "Oral membrana liso y folded",
+      "goTo": null,
+      "result": "Amythas"
+    },
+    "optionB": {
+      "text": "Oral membrana tentaculate",
+      "goTo": "34",
+      "result": null
+    }
+  },
+  "34": {
+    "step": "34",
+    "optionA": {
+      "text": "Glandular ridges on prostomio",
+      "goTo": null,
+      "result": "Samythopsis"
+    },
+    "optionB": {
+      "text": "Glandular ridges ausentes",
+      "goTo": null,
+      "result": "Samytha"
+    }
+  },
+  "35": {
+    "step": "35",
+    "optionA": {
+      "text": "Paleae presentes (i.e. setas presentes on segmento 3, as the primer notosetae in the body)",
+      "goTo": "36",
+      "result": null
+    },
+    "optionB": {
+      "text": "Paleae ausentes (i.e. setas ausentes on segmento 3 o setas already presentes from segmento 2)",
+      "goTo": "52",
+      "result": null
+    }
+  },
+  "36": {
+    "step": "36",
+    "optionA": {
+      "text": "Flanged branquias presentes on cuatro successive segmentos",
+      "goTo": null,
+      "result": "Phyllampharete"
+    },
+    "optionB": {
+      "text": "Branquias flanged, lamelado, pennate o cilíndrico; only uno par clearly associated con a segmento",
+      "goTo": "37",
+      "result": null
+    }
+  },
+  "37": {
+    "step": "37",
+    "optionA": {
+      "text": "Eleven torácico uncinigers",
+      "goTo": "38",
+      "result": null
+    },
+    "optionB": {
+      "text": "At least 12 torácico uncinigers",
+      "goTo": "39",
+      "result": null
+    }
+  },
+  "38": {
+    "step": "38",
+    "optionA": {
+      "text": "Branquias pennate, buccal tentáculos papiloso",
+      "goTo": null,
+      "result": "Pterampharete"
+    },
+    "optionB": {
+      "text": "Both branquias y buccal tentáculos liso",
+      "goTo": null,
+      "result": "Sabellides"
+    }
+  },
+  "39": {
+    "step": "39",
+    "optionA": {
+      "text": "Twelve torácico uncinigers presentes",
+      "goTo": "40",
+      "result": null
+    },
+    "optionB": {
+      "text": "At least 13 torácico uncinigers presentes",
+      "goTo": "44",
+      "result": null
+    }
+  },
+  "40": {
+    "step": "40",
+    "optionA": {
+      "text": "Buccal tentáculos papiloso",
+      "goTo": "41",
+      "result": null
+    },
+    "optionB": {
+      "text": "Buccal tentáculos liso",
+      "goTo": "42",
+      "result": null
+    }
+  },
+  "41": {
+    "step": "41",
+    "optionA": {
+      "text": "Setiger 11 con notópodos elevated y notosetae distalmente hirsute",
+      "goTo": null,
+      "result": "Anobothrella"
+    },
+    "optionB": {
+      "text": "Setiger 11 con notópodos at the same level as todas other setigers; notosetae limbate o capilares",
+      "goTo": null,
+      "result": "Ampharete"
+    }
+  },
+  "42": {
+    "step": "42",
+    "optionA": {
+      "text": "Setiger 14 con elevated notópodos y hirsute notosetae",
+      "goTo": null,
+      "result": "Sosane"
+    },
+    "optionB": {
+      "text": "Setiger 10 o 11 con elevated notópodos y tapering o hirsute notosetae",
+      "goTo": "43",
+      "result": null
+    }
+  },
+  "43": {
+    "step": "43",
+    "optionA": {
+      "text": "Notopodial rudiments presentes in abdomen",
+      "goTo": null,
+      "result": "Anobothrus"
+    },
+    "optionB": {
+      "text": "Notopodial rudiments ausentes from abdomen",
+      "goTo": null,
+      "result": "Sosanides"
+    }
+  },
+  "44": {
+    "step": "44",
+    "optionA": {
+      "text": "Thirteen torácico uncinigers",
+      "goTo": "45",
+      "result": null
+    },
+    "optionB": {
+      "text": "Fourteen torácico uncinigers",
+      "goTo": "47",
+      "result": null
+    }
+  },
+  "45": {
+    "step": "45",
+    "optionA": {
+      "text": "One par of branquias pennate, others liso",
+      "goTo": null,
+      "result": "Pterolysippe"
+    },
+    "optionB": {
+      "text": "Todas branquias liso",
+      "goTo": "46",
+      "result": null
+    }
+  },
+  "46": {
+    "step": "46",
+    "optionA": {
+      "text": "Glandular cresta on prostomio",
+      "goTo": null,
+      "result": "Hypania"
+    },
+    "optionB": {
+      "text": "Glandular cresta ausentes",
+      "goTo": null,
+      "result": "Lysippe"
+    }
+  },
+  "47": {
+    "step": "47",
+    "optionA": {
+      "text": "Two of the cuatro pares of branquias lamelado",
+      "goTo": "48",
+      "result": null
+    },
+    "optionB": {
+      "text": "Todas cuatro pares of branquias cilíndrico",
+      "goTo": "49",
+      "result": null
+    }
+  },
+  "48": {
+    "step": "48",
+    "optionA": {
+      "text": "Paleae grande, abdominal notopodial rudiments ausentes",
+      "goTo": null,
+      "result": "Phyllamphicteis"
+    },
+    "optionB": {
+      "text": "Paleae pequeño, abdominal notopodial rudiments presentes",
+      "goTo": null,
+      "result": "Lysippides"
+    }
+  },
+  "49": {
+    "step": "49",
+    "optionA": {
+      "text": "Glandular ridges on prostomio",
+      "goTo": "50",
+      "result": null
+    },
+    "optionB": {
+      "text": "Glandular ridges ausentes",
+      "goTo": "51",
+      "result": null
+    }
+  },
+  "50": {
+    "step": "50",
+    "optionA": {
+      "text": "Abdominal notopodial rudiments presentes",
+      "goTo": null,
+      "result": "Amphicteis"
+    },
+    "optionB": {
+      "text": "Abdominal notopodial rudiments ausentes",
+      "goTo": null,
+      "result": "Parhypania"
+    }
+  },
+  "51": {
+    "step": "51",
+    "optionA": {
+      "text": "Abdominal notopodial rudiments presentes",
+      "goTo": null,
+      "result": "Paiwa"
+    },
+    "optionB": {
+      "text": "Abdominal notopodial rudiments ausentes",
+      "goTo": null,
+      "result": "Hypaniola"
+    }
+  },
+  "52": {
+    "step": "52",
+    "optionA": {
+      "text": "Branquias dispuesto en oblique series directly associated con distinto segmentos",
+      "goTo": null,
+      "result": "Mexamage"
+    },
+    "optionB": {
+      "text": "Only the último par of branquias clearly associated con a segmento",
+      "goTo": "53",
+      "result": null
+    }
+  },
+  "53": {
+    "step": "53",
+    "optionA": {
+      "text": "At least tres pares of branquias lamelado",
+      "goTo": "54",
+      "result": null
+    },
+    "optionB": {
+      "text": "Todas branquias cilíndrico",
+      "goTo": "55",
+      "result": null
+    }
+  },
+  "54": {
+    "step": "54",
+    "optionA": {
+      "text": "Todas cuatro pares of branquias lamelado; anus rodeado de a circle of papilas",
+      "goTo": null,
+      "result": "Phyllocomus"
+    },
+    "optionB": {
+      "text": "Three pares of lamelado y uno par of cilíndrico branquias; anus con dos pares of anal cirros",
+      "goTo": null,
+      "result": "Schistocomus"
+    }
+  },
+  "55": {
+    "step": "55",
+    "optionA": {
+      "text": "Eleven torácico uncinigers",
+      "goTo": "56",
+      "result": null
+    },
+    "optionB": {
+      "text": "At least 12 torácico uncinigers",
+      "goTo": "58",
+      "result": null
+    }
+  },
+  "56": {
+    "step": "56",
+    "optionA": {
+      "text": "First dos notópodos (segmentos 4 y 5) asetigerous",
+      "goTo": null,
+      "result": "Paramage"
+    },
+    "optionB": {
+      "text": "Todas anterior notópodos con setas",
+      "goTo": "57",
+      "result": null
+    }
+  },
+  "57": {
+    "step": "57",
+    "optionA": {
+      "text": "One par of anal cirros",
+      "goTo": null,
+      "result": "Grubianella"
+    },
+    "optionB": {
+      "text": "Two pares of anal cirros",
+      "goTo": null,
+      "result": "Amage"
+    }
+  },
+  "58": {
+    "step": "58",
+    "optionA": {
+      "text": "Twelve torácico uncinigers",
+      "goTo": "59",
+      "result": null
+    },
+    "optionB": {
+      "text": "Fourteen torácico uncinigers",
+      "goTo": "60",
+      "result": null
+    }
+  },
+  "59": {
+    "step": "59",
+    "optionA": {
+      "text": "Buccal tentáculos papiloso; todas notosetae capilares",
+      "goTo": null,
+      "result": "Asabellides"
+    },
+    "optionB": {
+      "text": "Buccal tentáculos liso; último torácico notosetae modificado",
+      "goTo": null,
+      "result": "Sosanopsis"
+    }
+  },
+  "60": {
+    "step": "60",
+    "optionA": {
+      "text": "Buccal tentáculos papiloso; notopodial cirros presentes",
+      "goTo": null,
+      "result": "Paramphicteis"
+    },
+    "optionB": {
+      "text": "Buccal tentáculos liso; notopodial cirros ausentes",
+      "goTo": null,
+      "result": "Amphisamytha"
+    }
+  }
+}

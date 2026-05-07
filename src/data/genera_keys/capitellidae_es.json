@@ -1,0 +1,463 @@
+{
+  "_meta": {
+    "family": "CAPITELLIDAE",
+    "source": "Fauchald (1977) Key to Genera",
+    "type": "genera_key",
+    "lang": "es"
+  },
+  "1": {
+    "step": "1",
+    "optionA": {
+      "text": "Three primer setigers con capilares setas only",
+      "goTo": "2",
+      "result": null
+    },
+    "optionB": {
+      "text": "At least cuatro setigers con capilares setas only",
+      "goTo": "4",
+      "result": null
+    }
+  },
+  "2": {
+    "step": "2",
+    "optionA": {
+      "text": "Some torácico segmentos con flanged ganchos; twelve torácico segmentos presentes",
+      "goTo": null,
+      "result": "Peresiella"
+    },
+    "optionB": {
+      "text": "Flanged ganchos ausentes; cualquiera ten o thirteen torácico segmentos presentes",
+      "goTo": "3",
+      "result": null
+    }
+  },
+  "3": {
+    "step": "3",
+    "optionA": {
+      "text": "Setigers 7-8 con genital espinas; ten torácico segmentos",
+      "goTo": null,
+      "result": "Capitomastus"
+    },
+    "optionB": {
+      "text": "Genital espinas ausentes; 13 torácico segmentos",
+      "goTo": null,
+      "result": "Heteromastides"
+    }
+  },
+  "4": {
+    "step": "4",
+    "optionA": {
+      "text": "Four primer setigers con capilares setas only",
+      "goTo": "5",
+      "result": null
+    },
+    "optionB": {
+      "text": "At least cinco anterior setigers con capilares setas",
+      "goTo": "8",
+      "result": null
+    }
+  },
+  "5": {
+    "step": "5",
+    "optionA": {
+      "text": "Genital espinas presentes",
+      "goTo": "6",
+      "result": null
+    },
+    "optionB": {
+      "text": "Genital espinas ausentes",
+      "goTo": "7",
+      "result": null
+    }
+  },
+  "6": {
+    "step": "6",
+    "optionA": {
+      "text": "Genital espinas in setigers 7-8; ten torácico segmentos presentes",
+      "goTo": null,
+      "result": "Capitomastus"
+    },
+    "optionB": {
+      "text": "Genital espinas in setigers 8-9; nine torácico segmentos presentes",
+      "goTo": null,
+      "result": "Capitella"
+    }
+  },
+  "7": {
+    "step": "7",
+    "optionA": {
+      "text": "Thorax con 11 segmentos",
+      "goTo": null,
+      "result": "Mediomastus"
+    },
+    "optionB": {
+      "text": "Thorax con 12 segmentos",
+      "goTo": null,
+      "result": "Parheteromastus"
+    }
+  },
+  "8": {
+    "step": "8",
+    "optionA": {
+      "text": "Five setigers con capilares setas",
+      "goTo": "9",
+      "result": null
+    },
+    "optionB": {
+      "text": "At least six anterior setigers con capilares setas only",
+      "goTo": "10",
+      "result": null
+    }
+  },
+  "9": {
+    "step": "9",
+    "optionA": {
+      "text": "First setiger con ambos noto- y neurópodos; branquias presentes",
+      "goTo": null,
+      "result": "Heteromastus"
+    },
+    "optionB": {
+      "text": "First setiger con notópodos only; branquias ausentes",
+      "goTo": null,
+      "result": "Parheteromastides"
+    }
+  },
+  "10": {
+    "step": "10",
+    "optionA": {
+      "text": "Six anterior setigers con capilares setas only",
+      "goTo": "11",
+      "result": null
+    },
+    "optionB": {
+      "text": "At least seven anterior setigers con capilares setas",
+      "goTo": "13",
+      "result": null
+    }
+  },
+  "11": {
+    "step": "11",
+    "optionA": {
+      "text": "Genital espinas in setigers 8-9",
+      "goTo": null,
+      "result": "Capitellides"
+    },
+    "optionB": {
+      "text": "Genital espinas ausentes",
+      "goTo": "12",
+      "result": null
+    }
+  },
+  "12": {
+    "step": "12",
+    "optionA": {
+      "text": "Thorax con 11 segmentos",
+      "goTo": null,
+      "result": "Neomediomastus"
+    },
+    "optionB": {
+      "text": "Thorax con 12 segmentos",
+      "goTo": null,
+      "result": "Barantolla"
+    }
+  },
+  "13": {
+    "step": "13",
+    "optionA": {
+      "text": "Seven anterior setigers con capilares setas only",
+      "goTo": "14",
+      "result": null
+    },
+    "optionB": {
+      "text": "At least nine anterior setigers con capilares setas only",
+      "goTo": "17",
+      "result": null
+    }
+  },
+  "14": {
+    "step": "14",
+    "optionA": {
+      "text": "Genital espinas presentes",
+      "goTo": "15",
+      "result": null
+    },
+    "optionB": {
+      "text": "Genital espinas ausentes",
+      "goTo": "16",
+      "result": null
+    }
+  },
+  "15": {
+    "step": "15",
+    "optionA": {
+      "text": "Notopodial cirriforme branquias on some abdominal segmentos",
+      "goTo": null,
+      "result": "Branchiocapitella"
+    },
+    "optionB": {
+      "text": "Branquias ausentes",
+      "goTo": null,
+      "result": "Capitella"
+    }
+  },
+  "16": {
+    "step": "16",
+    "optionA": {
+      "text": "Thorax con eight segmentos; todas torácico setigers con capilares setas only",
+      "goTo": null,
+      "result": "Leiocapitellides"
+    },
+    "optionB": {
+      "text": "Thorax con 12 segmentos; posterior torácico setigers con ganchos",
+      "goTo": null,
+      "result": "Neoheteromastus"
+    }
+  },
+  "17": {
+    "step": "17",
+    "optionA": {
+      "text": "Nine anterior setigers con capilares setas only",
+      "goTo": "18",
+      "result": null
+    },
+    "optionB": {
+      "text": "Ten o more anterior setigers con capilares setas",
+      "goTo": "19",
+      "result": null
+    }
+  },
+  "18": {
+    "step": "18",
+    "optionA": {
+      "text": "One anterior asetigerous segmento presentes; notopodial acícula ausentes; tórax con ten segmentos",
+      "goTo": null,
+      "result": "Pseudoleiocapitella"
+    },
+    "optionB": {
+      "text": "Anterior asetigerous segmento ausentes; notópodos con acícula; tórax con nine segmentos",
+      "goTo": null,
+      "result": "Pulliella"
+    }
+  },
+  "19": {
+    "step": "19",
+    "optionA": {
+      "text": "Ten primer setigers con capilares setas only",
+      "goTo": "20",
+      "result": null
+    },
+    "optionB": {
+      "text": "At least 11 anterior setigers con capilares setas",
+      "goTo": "23",
+      "result": null
+    }
+  },
+  "20": {
+    "step": "20",
+    "optionA": {
+      "text": "First setiger con ambos noto- y neurópodos",
+      "goTo": null,
+      "result": "Decamastus"
+    },
+    "optionB": {
+      "text": "First setiger con notópodo only",
+      "goTo": "21",
+      "result": null
+    }
+  },
+  "21": {
+    "step": "21",
+    "optionA": {
+      "text": "Todas torácico setigers con capilares setas; todas abdominal setigers con ganchos only; mixed segmentos ausentes",
+      "goTo": null,
+      "result": "Capitellethus"
+    },
+    "optionB": {
+      "text": "At least uno segmento con mixed ganchos y capilares setas",
+      "goTo": "22",
+      "result": null
+    }
+  },
+  "22": {
+    "step": "22",
+    "optionA": {
+      "text": "Two primer abdominal segmentos con mixed ganchos y capilares setas; tórax con eleven segmentos",
+      "goTo": null,
+      "result": "Neonotomastus"
+    },
+    "optionB": {
+      "text": "Last torácico segmento con ambos ganchos y capilares setas; twelve torácico segmentos presentes",
+      "goTo": null,
+      "result": "Paraleiocapitella"
+    }
+  },
+  "23": {
+    "step": "23",
+    "optionA": {
+      "text": "Eleven anterior setigers con capilares setas only",
+      "goTo": "24",
+      "result": null
+    },
+    "optionB": {
+      "text": "Twelve o more anterior setigers con capilares setas only",
+      "goTo": "27",
+      "result": null
+    }
+  },
+  "24": {
+    "step": "24",
+    "optionA": {
+      "text": "Al menos algunas capilares setas in the primer dos abdominal setigers",
+      "goTo": "25",
+      "result": null
+    },
+    "optionB": {
+      "text": "Todas abdominal segmentos con ganchos only",
+      "goTo": "26",
+      "result": null
+    }
+  },
+  "25": {
+    "step": "25",
+    "optionA": {
+      "text": "First setiger con neurópodos only; primer dos abdominal setigers con capilares setas in ambos ramas",
+      "goTo": null,
+      "result": "Notodasus"
+    },
+    "optionB": {
+      "text": "First setiger con ambos noto- y neurópodos; primer dos abdominal setigers con ganchos in the neurópodos y mixed ganchos y capilares setas in the notópodos",
+      "goTo": null,
+      "result": "Mastobranchus"
+    }
+  },
+  "26": {
+    "step": "26",
+    "optionA": {
+      "text": "Abdominal notopodial tori nearly coalesce; notopodial ganchos ausentes",
+      "goTo": null,
+      "result": "Rashgua"
+    },
+    "optionB": {
+      "text": "Abdominal notopodial tori well separado; notopodial ganchos presentes",
+      "goTo": null,
+      "result": "Notomastus"
+    }
+  },
+  "27": {
+    "step": "27",
+    "optionA": {
+      "text": "Twelve setigers con capilares setas only",
+      "goTo": "28",
+      "result": null
+    },
+    "optionB": {
+      "text": "Thirteen o more setigers con capilares setas only",
+      "goTo": "30",
+      "result": null
+    }
+  },
+  "28": {
+    "step": "28",
+    "optionA": {
+      "text": "Anal plaque con imbedded espinas presentes",
+      "goTo": null,
+      "result": "Scyphoproctus"
+    },
+    "optionB": {
+      "text": "Anal end rounded o con anal cirros",
+      "goTo": "29",
+      "result": null
+    }
+  },
+  "29": {
+    "step": "29",
+    "optionA": {
+      "text": "Thirteenth setiger con ambos ganchos y capilares setas",
+      "goTo": null,
+      "result": "Leiochrus"
+    },
+    "optionB": {
+      "text": "No setiger con ambos ganchos y capilares setas presentes",
+      "goTo": null,
+      "result": "Leiochrides"
+    }
+  },
+  "30": {
+    "step": "30",
+    "optionA": {
+      "text": "Thirteen anterior setigers con capilares setas only",
+      "goTo": "31",
+      "result": null
+    },
+    "optionB": {
+      "text": "At least 15 anterior setigers con capilares setas",
+      "goTo": "35",
+      "result": null
+    }
+  },
+  "31": {
+    "step": "31",
+    "optionA": {
+      "text": "First setiger con notópodos only",
+      "goTo": "32",
+      "result": null
+    },
+    "optionB": {
+      "text": "First setiger con ambos noto- y neurópodos",
+      "goTo": "33",
+      "result": null
+    }
+  },
+  "32": {
+    "step": "32",
+    "optionA": {
+      "text": "Thorax con 14 o 15 segmentos; uno segmento con ambos capilares setas y ganchos presentes",
+      "goTo": null,
+      "result": "Leiocapitella"
+    },
+    "optionB": {
+      "text": "Thorax con 15 to 18 segmentos; tres o cuatro segmentos con ambos capilares setas y ganchos presentes",
+      "goTo": null,
+      "result": "Pseudocapitella"
+    }
+  },
+  "33": {
+    "step": "33",
+    "optionA": {
+      "text": "Thorax con 19 segmentos; branquias neuropodial",
+      "goTo": null,
+      "result": "Capitobranchus"
+    },
+    "optionB": {
+      "text": "Thorax con máximo 15 segmentos; branquias, if presentes, notopodial",
+      "goTo": "34",
+      "result": null
+    }
+  },
+  "34": {
+    "step": "34",
+    "optionA": {
+      "text": "Todas notopodial setas capilares",
+      "goTo": null,
+      "result": "Protomastobranchus"
+    },
+    "optionB": {
+      "text": "Abdominal notopodial setas ganchos",
+      "goTo": null,
+      "result": "Dasybranchus"
+    }
+  },
+  "35": {
+    "step": "35",
+    "optionA": {
+      "text": "At least 16 setigers con capilares setas only; additional cuatro segmentos have ambos setas y ganchos in the notópodos",
+      "goTo": null,
+      "result": "Heteromastella"
+    },
+    "optionB": {
+      "text": null,
+      "goTo": null,
+      "result": null
+    }
+  }
+}
