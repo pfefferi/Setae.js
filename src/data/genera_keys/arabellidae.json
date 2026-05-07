@@ -1,0 +1,38 @@
+{
+  "_meta": { "family": "ARABELLIDAE", "source": "Fauchald (1977) Key to Genera", "type": "genera_key" },
+  "1": {
+    "step": "1",
+    "optionA": { "text": "Acicular spines present", "goTo": "2", "result": null },
+    "optionB": { "text": "Acicular spines absent", "goTo": "4", "result": null }
+  },
+  "2": {
+    "step": "2",
+    "optionA": { "text": "Maxillary apparatus represented by a single rod", "goTo": null, "result": "Drilognathus" },
+    "optionB": { "text": "Four or five pairs of jaws present", "goTo": "3", "result": null }
+  },
+  "3": {
+    "step": "3",
+    "optionA": { "text": "Maxilla I distally falcate", "goTo": null, "result": "Drilonereis" },
+    "optionB": { "text": "Maxilla I distally dentate", "goTo": null, "result": "Notocirrus" }
+  },
+  "4": {
+    "step": "4",
+    "optionA": { "text": "Maxillary apparatus absent", "goTo": null, "result": "Biborin" },
+    "optionB": { "text": "Maxillary apparatus present, but often reduced", "goTo": "5", "result": null }
+  },
+  "5": {
+    "step": "5",
+    "optionA": { "text": "Five pairs of maxillae present", "goTo": null, "result": "Arabella" },
+    "optionB": { "text": "Two or three pairs of maxillae present", "goTo": "6", "result": null }
+  },
+  "6": {
+    "step": "6",
+    "optionA": { "text": "Mandibles fused and horseshoe-shaped", "goTo": null, "result": "Oligognathus" },
+    "optionB": { "text": "Mandibles two triangular plates", "goTo": "7", "result": null }
+  },
+  "7": {
+    "step": "7",
+    "optionA": { "text": "Maxillary carriers anteriorly bilobed and fused along most of their lengths", "goTo": null, "result": "Labrorostratus" },
+    "optionB": { "text": "Maxillary carriers anteriorly rounded and fused along their whole length", "goTo": null, "result": "Haematocleptes" }
+  }
+}

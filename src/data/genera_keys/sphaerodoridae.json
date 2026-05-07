@@ -1,0 +1,43 @@
+{
+  "_meta": { "family": "SPHAERODORIDAE", "source": "Fauchald (1977) Key to Genera", "type": "genera_key" },
+  "1": {
+    "step": "1",
+    "optionA": { "text": "Both dorsal and ventral surfaces smooth", "goTo": null, "result": "Levidorum" },
+    "optionB": { "text": "At least two rows of dorsal macrotubercles", "goTo": "2", "result": null }
+  },
+  "2": {
+    "step": "2",
+    "optionA": { "text": "Macrotubercles with terminal papillae", "goTo": "3", "result": null },
+    "optionB": { "text": "Macrotubercles distally rounded", "goTo": "6", "result": null }
+  },
+  "3": {
+    "step": "3",
+    "optionA": { "text": "Macrotubercles in four rows; terminal papillae very short", "goTo": null, "result": "Sphaerephesia" },
+    "optionB": { "text": "Macrotubercles in two rows; terminal papillae long", "goTo": "4", "result": null }
+  },
+  "4": {
+    "step": "4",
+    "optionA": { "text": "All setae simple", "goTo": null, "result": "Sphaerodorum" },
+    "optionB": { "text": "At least some setae composite", "goTo": "5", "result": null }
+  },
+  "5": {
+    "step": "5",
+    "optionA": { "text": "All setae composite apart from the recurved hooks in the first setiger", "goTo": null, "result": "Ephesiella" },
+    "optionB": { "text": "Both composite and simple setae in all setigers; apart from the first, which has simple recurved hooks", "goTo": null, "result": "Ephesiopsis" }
+  },
+  "6": {
+    "step": "6",
+    "optionA": { "text": "Macrotubercles stalked", "goTo": "7", "result": null },
+    "optionB": { "text": "Macrotubercles sessile", "goTo": "8", "result": null }
+  },
+  "7": {
+    "step": "7",
+    "optionA": { "text": "Median antenna as long as, or longer than, the lateral antennae", "goTo": null, "result": "Clavodorum" },
+    "optionB": { "text": "Median antenna shorter than the lateral antennae", "goTo": null, "result": "Sphaerodoridium" }
+  },
+  "8": {
+    "step": "8",
+    "optionA": { "text": "All setae composite", "goTo": null, "result": "Sphaerodoropsis" },
+    "optionB": { "text": "All setae simple", "goTo": null, "result": "Commensodorum" }
+  }
+}

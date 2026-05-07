@@ -1,0 +1,43 @@
+{
+  "_meta": { "family": "NERILLIDAE", "source": "Fauchald (1977) Key to Genera", "type": "genera_key" },
+  "1": {
+    "step": "1",
+    "optionA": { "text": "Body with nine segments including the post-peristomial pharyngeal segment", "goTo": "2", "result": null },
+    "optionB": { "text": "Body with less than nine segments", "goTo": "4", "result": null }
+  },
+  "2": {
+    "step": "2",
+    "optionA": { "text": "Composite setae present", "goTo": null, "result": "Mesonerilla" },
+    "optionB": { "text": "Simple capillary setae present", "goTo": "3", "result": null }
+  },
+  "3": {
+    "step": "3",
+    "optionA": { "text": "Three antennae present", "goTo": null, "result": "Nerilla" },
+    "optionB": { "text": "Maximally one antenna present", "goTo": null, "result": "Meganerilla" }
+  },
+  "4": {
+    "step": "4",
+    "optionA": { "text": "Eight segments, including the post-peristomial pharyngeal segment", "goTo": "5", "result": null },
+    "optionB": { "text": "Seven segments present", "goTo": "8", "result": null }
+  },
+  "5": {
+    "step": "5",
+    "optionA": { "text": "Both simple and composite setae present", "goTo": null, "result": "Nerillidopsis" },
+    "optionB": { "text": "All setae either composite or simple", "goTo": "6", "result": null }
+  },
+  "6": {
+    "step": "6",
+    "optionA": { "text": "All setae composite", "goTo": null, "result": "Thalassochaetus" },
+    "optionB": { "text": "All setae simple and capillary", "goTo": "7", "result": null }
+  },
+  "7": {
+    "step": "7",
+    "optionA": { "text": "Pharyngeal segment asetigerous, antennae absent; freshwater", "goTo": null, "result": "Troglochaetus" },
+    "optionB": { "text": "Pharyngeal segment with setae, two antennae present; marine", "goTo": null, "result": "Nerillidium" }
+  },
+  "8": {
+    "step": "8",
+    "optionA": { "text": "Parapodia with cirri; setae composite", "goTo": null, "result": "Paranerilla" },
+    "optionB": { "text": "Parapodia without cirri; setae simple capillaries", "goTo": null, "result": "Psammoriedlia" }
+  }
+}

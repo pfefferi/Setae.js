@@ -1,0 +1,38 @@
+{
+  "_meta": { "family": "DORVILLEIDAE", "source": "Fauchald (1977) Key to Genera", "type": "genera_key" },
+  "1": {
+    "step": "1",
+    "optionA": { "text": "Notacicula present", "goTo": "2", "result": null },
+    "optionB": { "text": "Notacicula absent", "goTo": "3", "result": null }
+  },
+  "2": {
+    "step": "2",
+    "optionA": { "text": "Furcate setae present", "goTo": null, "result": "Schistomeringos" },
+    "optionB": { "text": "Furcate setae absent", "goTo": null, "result": "Dorvillea" }
+  },
+  "3": {
+    "step": "3",
+    "optionA": { "text": "Furcate or geniculate setae present", "goTo": "4", "result": null },
+    "optionB": { "text": "Furcate or geniculate setae absent", "goTo": "5", "result": null }
+  },
+  "4": {
+    "step": "4",
+    "optionA": { "text": "Palps well developed", "goTo": null, "result": "Protodorvillea" },
+    "optionB": { "text": "Second pair of antennae reduced or absent", "goTo": null, "result": "Meiodorvillea" }
+  },
+  "5": {
+    "step": "5",
+    "optionA": { "text": "Only simple acicular setae present", "goTo": null, "result": "Parophryotrocha" },
+    "optionB": { "text": "Both capillary and compound setae present", "goTo": "6", "result": null }
+  },
+  "6": {
+    "step": "6",
+    "optionA": { "text": "Setae of first setiger markedly different from the others", "goTo": null, "result": "Exallopus" },
+    "optionB": { "text": "Setae of first setiger similar to others", "goTo": "7", "result": null }
+  },
+  "7": {
+    "step": "7",
+    "optionA": { "text": "First antennae long and cirriform", "goTo": null, "result": "Apophryotrocha" },
+    "optionB": { "text": "First antennae reduced and papilliform", "goTo": null, "result": "Ophryotrocha" }
+  }
+}

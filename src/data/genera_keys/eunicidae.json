@@ -1,0 +1,33 @@
+{
+  "_meta": { "family": "EUNICIDAE", "source": "Fauchald (1977) Key to Genera", "type": "genera_key" },
+  "1": {
+    "step": "1",
+    "optionA": { "text": "Five occipital antennae present", "goTo": "2", "result": null },
+    "optionB": { "text": "One to three occipital antennae present", "goTo": "6", "result": null }
+  },
+  "2": {
+    "step": "2",
+    "optionA": { "text": "Tentacular cirri present", "goTo": "3", "result": null },
+    "optionB": { "text": "Tentacular cirri absent", "goTo": "5", "result": null }
+  },
+  "3": {
+    "step": "3",
+    "optionA": { "text": "Subacicular hooks absent", "goTo": null, "result": "Palola" },
+    "optionB": { "text": "Subacicular hooks present", "goTo": "4", "result": null }
+  },
+  "4": {
+    "step": "4",
+    "optionA": { "text": "Composite setae falcigers", "goTo": null, "result": "Eunice" },
+    "optionB": { "text": "Composite setae spinigers", "goTo": null, "result": "Euniphysa" }
+  },
+  "5": {
+    "step": "5",
+    "optionA": { "text": "Branchiae present", "goTo": null, "result": "Marphysa" },
+    "optionB": { "text": "Branchiae absent", "goTo": null, "result": "Paramarphysa" }
+  },
+  "6": {
+    "step": "6",
+    "optionA": { "text": "One occipital antenna present", "goTo": null, "result": "Nematonereis" },
+    "optionB": { "text": "Three occipital antennae present", "goTo": null, "result": "Lysidice" }
+  }
+}
