@@ -49,7 +49,7 @@ function App() {
     const base = familyName.split(' ')[0];
     try {
       const mod = await import(`./data/genera_keys/${base.toLowerCase()}.json`);
-      setGeneraKey(mod);
+      setGeneraKey(mod.default || mod);
       setGeneraFamily(familyName);
       setGeneraActive(true);
       setGeneraStep('1');
