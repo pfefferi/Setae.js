@@ -1,0 +1,303 @@
+{
+  "_meta": { "family": "AMPHARETIDAE", "source": "Fauchald (1977) Key to Genera", "type": "genera_key" },
+  "1": {
+    "step": "1",
+    "optionA": { "text": "First several neuropodia with fine acicular setae; other neuropodia with uncini", "goTo": "2", "result": null },
+    "optionB": { "text": "First several neuropodia without acicular setae; all neurosetae uncini", "goTo": "10", "result": null }
+  },
+  "2": {
+    "step": "2",
+    "optionA": { "text": "Nuchal hooks present", "goTo": "3", "result": null },
+    "optionB": { "text": "Nuchal hooks absent", "goTo": "6", "result": null }
+  },
+  "3": {
+    "step": "3",
+    "optionA": { "text": "Branchiae smooth", "goTo": "4", "result": null },
+    "optionB": { "text": "Branchiae in part papillose or pennate", "goTo": "5", "result": null }
+  },
+  "4": {
+    "step": "4",
+    "optionA": { "text": "Two pairs of nuchal hooks; 12 thoracic uncinigers", "goTo": null, "result": "Moyanas" },
+    "optionB": { "text": "A single pair of nuchal hooks; 14 thoracic uncinigers", "goTo": null, "result": "Melinna" }
+  },
+  "5": {
+    "step": "5",
+    "optionA": { "text": "Four pairs of branchiae, two smooth and two papillose; capillary notosetae on setigers 3-4", "goTo": null, "result": "Isolda" },
+    "optionB": { "text": "Three pairs of branchiae, one smooth, two papillose; notosetae absent on setigers 3-4", "goTo": null, "result": "Irana" }
+  },
+  "6": {
+    "step": "6",
+    "optionA": { "text": "Ten thoracic uncinigers present", "goTo": "7", "result": null },
+    "optionB": { "text": "At least 12 thoracic uncinigers present", "goTo": "8", "result": null }
+  },
+  "7": {
+    "step": "7",
+    "optionA": { "text": "Three pairs of branchiae", "goTo": null, "result": "Melinnopsides" },
+    "optionB": { "text": "Four pairs of branchiae", "goTo": null, "result": "Melinnopsis" }
+  },
+  "8": {
+    "step": "8",
+    "optionA": { "text": "Sixteen thoracic uncinigers present; all buccal tentacles similar", "goTo": null, "result": "Melinantipoda" },
+    "optionB": { "text": "Maximally 14 thoracic uncinigers present; one or two buccal tentacles very large", "goTo": "9", "result": null }
+  },
+  "9": {
+    "step": "9",
+    "optionA": { "text": "Segment 6 with a distinct dorsal crest between the notopodia", "goTo": null, "result": "Melinnexis" },
+    "optionB": { "text": "A dorsal crest absent", "goTo": null, "result": "Amelinna" }
+  },
+  "10": {
+    "step": "10",
+    "optionA": { "text": "At least three pairs of branchiae", "goTo": "11", "result": null },
+    "optionB": { "text": "Two pairs of branchiae", "goTo": "12", "result": null }
+  },
+  "11": {
+    "step": "11",
+    "optionA": { "text": "Three pairs of branchiae present", "goTo": "15", "result": null },
+    "optionB": { "text": "Four pairs of branchiae", "goTo": "35", "result": null }
+  },
+  "12": {
+    "step": "12",
+    "optionA": { "text": "Fourteen thoracic uncinigers; paleae present", "goTo": null, "result": "Ecamphicteis" },
+    "optionB": { "text": "Maximally 12 thoracic uncinigers; paleae absent", "goTo": "13", "result": null }
+  },
+  "13": {
+    "step": "13",
+    "optionA": { "text": "Nine uncinigers, first uncini in a short row similar to all others", "goTo": null, "result": "Egamella" },
+    "optionB": { "text": "Twelve uncinigers, first uncini in a long row", "goTo": "14", "result": null }
+  },
+  "14": {
+    "step": "14",
+    "optionA": { "text": "Prostomium anteriorly pointed", "goTo": null, "result": "Auchenoplax" },
+    "optionB": { "text": "Prostomium anteriorly truncate", "goTo": null, "result": "Melinnoides" }
+  },
+  "15": {
+    "step": "15",
+    "optionA": { "text": "All branchial pairs arranged in a distinctly segmental fashion", "goTo": "16", "result": null },
+    "optionB": { "text": "Only last pair of branchiae clearly associated with a specific segment", "goTo": "18", "result": null }
+  },
+  "16": {
+    "step": "16",
+    "optionA": { "text": "Eleven thoracic uncinigers; tentacular membrane large", "goTo": null, "result": "Ampharana" },
+    "optionB": { "text": "At least 14 thoracic uncinigers; tentacular membrane small", "goTo": "17", "result": null }
+  },
+  "17": {
+    "step": "17",
+    "optionA": { "text": "First setae on segment 2; 14 thoracic uncinigers", "goTo": null, "result": "Neopaiwa" },
+    "optionB": { "text": "First setae on segment 3; 15 thoracic uncinigers", "goTo": null, "result": "Weddellia" }
+  },
+  "18": {
+    "step": "18",
+    "optionA": { "text": "Paleae present", "goTo": "19", "result": null },
+    "optionB": { "text": "Paleae absent", "goTo": "25", "result": null }
+  },
+  "19": {
+    "step": "19",
+    "optionA": { "text": "Nine thoracic uncinigers; last thoracic notopodia elevated", "goTo": null, "result": "Mugga" },
+    "optionB": { "text": "Ten or more thoracic uncinigers", "goTo": "20", "result": null }
+  },
+  "20": {
+    "step": "20",
+    "optionA": { "text": "Flange present between last thoracal notopodia; ten thoracic uncinigers", "goTo": null, "result": "Melinnaia" },
+    "optionB": { "text": "Flange or crest, if present, anterior in position; at least 11 thoracic uncinigers", "goTo": "21", "result": null }
+  },
+  "21": {
+    "step": "21",
+    "optionA": { "text": "Few stout buccal tentacles present; 11 thoracic uncinigers", "goTo": null, "result": "Amythasides" },
+    "optionB": { "text": "Buccal tentacles, if present, numerous; 12 thoracic uncinigers", "goTo": "22", "result": null }
+  },
+  "22": {
+    "step": "22",
+    "optionA": { "text": "Dorsal crest present on one anterior setiger", "goTo": "23", "result": null },
+    "optionB": { "text": "Dorsal crest absent", "goTo": null, "result": "Eclysippe" }
+  },
+  "23": {
+    "step": "23",
+    "optionA": { "text": "Oral membrane broadly folded; 15 thoracic setigers", "goTo": null, "result": "Eusamythella" },
+    "optionB": { "text": "Oral membrane short; 14 thoracic setigers", "goTo": "24", "result": null }
+  },
+  "24": {
+    "step": "24",
+    "optionA": { "text": "Dorsal crest on segment 4", "goTo": null, "result": "Neosamytha" },
+    "optionB": { "text": "Dorsal crest on either segment 6 or 7", "goTo": null, "result": "Melinnampharete" }
+  },
+  "25": {
+    "step": "25",
+    "optionA": { "text": "Ten thoracic uncinigers", "goTo": null, "result": "Muggoides" },
+    "optionB": { "text": "At least 11 thoracic uncinigers", "goTo": "26", "result": null }
+  },
+  "26": {
+    "step": "26",
+    "optionA": { "text": "Eleven thoracic uncinigers", "goTo": null, "result": "Glyphanostomum" },
+    "optionB": { "text": "At least 12 thoracic uncinigers", "goTo": "27", "result": null }
+  },
+  "27": {
+    "step": "27",
+    "optionA": { "text": "Twelve thoracic uncinigers", "goTo": "28", "result": null },
+    "optionB": { "text": "At least 13 thoracic uncinigers", "goTo": "31", "result": null }
+  },
+  "28": {
+    "step": "28",
+    "optionA": { "text": "At least one pair of branchiae basally flanged", "goTo": null, "result": "Samythella" },
+    "optionB": { "text": "All branchiae cylindrical", "goTo": "29", "result": null }
+  },
+  "29": {
+    "step": "29",
+    "optionA": { "text": "Buccal tentacles papillose", "goTo": null, "result": "Neosabellides" },
+    "optionB": { "text": "Buccal tentacles smooth", "goTo": "30", "result": null }
+  },
+  "30": {
+    "step": "30",
+    "optionA": { "text": "Oral membrane greatly prolonged", "goTo": null, "result": "Pabits" },
+    "optionB": { "text": "Oral membrane short", "goTo": null, "result": "Eusamytha" }
+  },
+  "31": {
+    "step": "31",
+    "optionA": { "text": "Thirteen thoracic uncinigers", "goTo": "32", "result": null },
+    "optionB": { "text": "Fourteen thoracic uncinigers", "goTo": "33", "result": null }
+  },
+  "32": {
+    "step": "32",
+    "optionA": { "text": "Notopodia of setiger 13 elevated with hirsute notosetae", "goTo": null, "result": "Sosanella" },
+    "optionB": { "text": "Notopodia of setiger 13 at the same level as all others; hirsute setae absent", "goTo": null, "result": "Alkmaria" }
+  },
+  "33": {
+    "step": "33",
+    "optionA": { "text": "Oral membrane smooth and folded", "goTo": null, "result": "Amythas" },
+    "optionB": { "text": "Oral membrane tentaculate", "goTo": "34", "result": null }
+  },
+  "34": {
+    "step": "34",
+    "optionA": { "text": "Glandular ridges on prostomium", "goTo": null, "result": "Samythopsis" },
+    "optionB": { "text": "Glandular ridges absent", "goTo": null, "result": "Samytha" }
+  },
+  "35": {
+    "step": "35",
+    "optionA": { "text": "Paleae present (i.e. setae present on segment 3, as the first notosetae in the body)", "goTo": "36", "result": null },
+    "optionB": { "text": "Paleae absent (i.e. setae absent on segment 3 or setae already present from segment 2)", "goTo": "52", "result": null }
+  },
+  "36": {
+    "step": "36",
+    "optionA": { "text": "Flanged branchiae present on four successive segments", "goTo": null, "result": "Phyllampharete" },
+    "optionB": { "text": "Branchiae flanged, lamellate, pennate or cylindrical; only one pair clearly associated with a segment", "goTo": "37", "result": null }
+  },
+  "37": {
+    "step": "37",
+    "optionA": { "text": "Eleven thoracic uncinigers", "goTo": "38", "result": null },
+    "optionB": { "text": "At least 12 thoracic uncinigers", "goTo": "39", "result": null }
+  },
+  "38": {
+    "step": "38",
+    "optionA": { "text": "Branchiae pennate, buccal tentacles papillose", "goTo": null, "result": "Pterampharete" },
+    "optionB": { "text": "Both branchiae and buccal tentacles smooth", "goTo": null, "result": "Sabellides" }
+  },
+  "39": {
+    "step": "39",
+    "optionA": { "text": "Twelve thoracic uncinigers present", "goTo": "40", "result": null },
+    "optionB": { "text": "At least 13 thoracic uncinigers present", "goTo": "44", "result": null }
+  },
+  "40": {
+    "step": "40",
+    "optionA": { "text": "Buccal tentacles papillose", "goTo": "41", "result": null },
+    "optionB": { "text": "Buccal tentacles smooth", "goTo": "42", "result": null }
+  },
+  "41": {
+    "step": "41",
+    "optionA": { "text": "Setiger 11 with notopodia elevated and notosetae distally hirsute", "goTo": null, "result": "Anobothrella" },
+    "optionB": { "text": "Setiger 11 with notopodia at the same level as all other setigers; notosetae limbate or capillary", "goTo": null, "result": "Ampharete" }
+  },
+  "42": {
+    "step": "42",
+    "optionA": { "text": "Setiger 14 with elevated notopodia and hirsute notosetae", "goTo": null, "result": "Sosane" },
+    "optionB": { "text": "Setiger 10 or 11 with elevated notopodia and tapering or hirsute notosetae", "goTo": "43", "result": null }
+  },
+  "43": {
+    "step": "43",
+    "optionA": { "text": "Notopodial rudiments present in abdomen", "goTo": null, "result": "Anobothrus" },
+    "optionB": { "text": "Notopodial rudiments absent from abdomen", "goTo": null, "result": "Sosanides" }
+  },
+  "44": {
+    "step": "44",
+    "optionA": { "text": "Thirteen thoracic uncinigers", "goTo": "45", "result": null },
+    "optionB": { "text": "Fourteen thoracic uncinigers", "goTo": "47", "result": null }
+  },
+  "45": {
+    "step": "45",
+    "optionA": { "text": "One pair of branchiae pennate, others smooth", "goTo": null, "result": "Pterolysippe" },
+    "optionB": { "text": "All branchiae smooth", "goTo": "46", "result": null }
+  },
+  "46": {
+    "step": "46",
+    "optionA": { "text": "Glandular ridge on prostomium", "goTo": null, "result": "Hypania" },
+    "optionB": { "text": "Glandular ridge absent", "goTo": null, "result": "Lysippe" }
+  },
+  "47": {
+    "step": "47",
+    "optionA": { "text": "Two of the four pairs of branchiae lamellate", "goTo": "48", "result": null },
+    "optionB": { "text": "All four pairs of branchiae cylindrical", "goTo": "49", "result": null }
+  },
+  "48": {
+    "step": "48",
+    "optionA": { "text": "Paleae large, abdominal notopodial rudiments absent", "goTo": null, "result": "Phyllamphicteis" },
+    "optionB": { "text": "Paleae small, abdominal notopodial rudiments present", "goTo": null, "result": "Lysippides" }
+  },
+  "49": {
+    "step": "49",
+    "optionA": { "text": "Glandular ridges on prostomium", "goTo": "50", "result": null },
+    "optionB": { "text": "Glandular ridges absent", "goTo": "51", "result": null }
+  },
+  "50": {
+    "step": "50",
+    "optionA": { "text": "Abdominal notopodial rudiments present", "goTo": null, "result": "Amphicteis" },
+    "optionB": { "text": "Abdominal notopodial rudiments absent", "goTo": null, "result": "Parhypania" }
+  },
+  "51": {
+    "step": "51",
+    "optionA": { "text": "Abdominal notopodial rudiments present", "goTo": null, "result": "Paiwa" },
+    "optionB": { "text": "Abdominal notopodial rudiments absent", "goTo": null, "result": "Hypaniola" }
+  },
+  "52": {
+    "step": "52",
+    "optionA": { "text": "Branchiae arranged in oblique series directly associated with distinct segments", "goTo": null, "result": "Mexamage" },
+    "optionB": { "text": "Only the last pair of branchiae clearly associated with a segment", "goTo": "53", "result": null }
+  },
+  "53": {
+    "step": "53",
+    "optionA": { "text": "At least three pairs of branchiae lamellate", "goTo": "54", "result": null },
+    "optionB": { "text": "All branchiae cylindrical", "goTo": "55", "result": null }
+  },
+  "54": {
+    "step": "54",
+    "optionA": { "text": "All four pairs of branchiae lamellate; anus surrounded by a circle of papillae", "goTo": null, "result": "Phyllocomus" },
+    "optionB": { "text": "Three pairs of lamellate and one pair of cylindrical branchiae; anus with two pairs of anal cirri", "goTo": null, "result": "Schistocomus" }
+  },
+  "55": {
+    "step": "55",
+    "optionA": { "text": "Eleven thoracic uncinigers", "goTo": "56", "result": null },
+    "optionB": { "text": "At least 12 thoracic uncinigers", "goTo": "58", "result": null }
+  },
+  "56": {
+    "step": "56",
+    "optionA": { "text": "First two notopodia (segments 4 and 5) asetigerous", "goTo": null, "result": "Paramage" },
+    "optionB": { "text": "All anterior notopodia with setae", "goTo": "57", "result": null }
+  },
+  "57": {
+    "step": "57",
+    "optionA": { "text": "One pair of anal cirri", "goTo": null, "result": "Grubianella" },
+    "optionB": { "text": "Two pairs of anal cirri", "goTo": null, "result": "Amage" }
+  },
+  "58": {
+    "step": "58",
+    "optionA": { "text": "Twelve thoracic uncinigers", "goTo": "59", "result": null },
+    "optionB": { "text": "Fourteen thoracic uncinigers", "goTo": "60", "result": null }
+  },
+  "59": {
+    "step": "59",
+    "optionA": { "text": "Buccal tentacles papillose; all notosetae capillary", "goTo": null, "result": "Asabellides" },
+    "optionB": { "text": "Buccal tentacles smooth; last thoracic notosetae modified", "goTo": null, "result": "Sosanopsis" }
+  },
+  "60": {
+    "step": "60",
+    "optionA": { "text": "Buccal tentacles papillose; notopodial cirri present", "goTo": null, "result": "Paramphicteis" },
+    "optionB": { "text": "Buccal tentacles smooth; notopodial cirri absent", "goTo": null, "result": "Amphisamytha" }
+  }
+}

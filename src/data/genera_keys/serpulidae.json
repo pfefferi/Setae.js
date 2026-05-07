@@ -1,0 +1,273 @@
+{
+  "_meta": { "family": "SERPULIDAE", "source": "Fauchald (1977) Key to Genera", "type": "genera_key" },
+  "1": {
+    "step": "1",
+    "optionA": { "text": "Operculum absent", "goTo": "2", "result": null },
+    "optionB": { "text": "Operculum present", "goTo": "7", "result": null }
+  },
+  "2": {
+    "step": "2",
+    "optionA": { "text": "Abdominal setae trumpet-shaped", "goTo": null, "result": "Pseudoserpula" },
+    "optionB": { "text": "Abdominal setae marginally dentate and geniculate, limbate or capillary", "goTo": "3", "result": null }
+  },
+  "3": {
+    "step": "3",
+    "optionA": { "text": "Slender capillary or limbate collar setae present", "goTo": "4", "result": null },
+    "optionB": { "text": "Collar setae modified", "goTo": "6", "result": null }
+  },
+  "4": {
+    "step": "4",
+    "optionA": { "text": "Thoracic membrane absent", "goTo": null, "result": "Salmacinopsis" },
+    "optionB": { "text": "Thoracic membrane present", "goTo": "5", "result": null }
+  },
+  "5": {
+    "step": "5",
+    "optionA": { "text": "Thoracic membrane reaches setiger 5", "goTo": null, "result": "Subprotula" },
+    "optionB": { "text": "Thoracic membrane reaches setiger 7", "goTo": null, "result": "Salmacina" }
+  },
+  "6": {
+    "step": "6",
+    "optionA": { "text": "Abdominal setae geniculate", "goTo": null, "result": "Salmacina" },
+    "optionB": { "text": "Abdominal setae slender, nearly straight capillaries", "goTo": null, "result": "Protis" }
+  },
+  "7": {
+    "step": "7",
+    "optionA": { "text": "Operculum carried on a branchial radioles", "goTo": "8", "result": null },
+    "optionB": { "text": "Operculum carried on a modified stalk", "goTo": "12", "result": null }
+  },
+  "8": {
+    "step": "8",
+    "optionA": { "text": "Five thoracic setigers present", "goTo": "9", "result": null },
+    "optionB": { "text": "Six or more thoracic setigers present", "goTo": "10", "result": null }
+  },
+  "9": {
+    "step": "9",
+    "optionA": { "text": "Collar setae slender and limbate; long asetose region present between thorax and abdomen", "goTo": null, "result": "Josephella" },
+    "optionB": { "text": "Collar setae basally dentate; thorax and abdomen not separated by a long asetose region", "goTo": null, "result": "Dipomatus" }
+  },
+  "10": {
+    "step": "10",
+    "optionA": { "text": "Collar setae simple and tapered limbate", "goTo": null, "result": "Apomatus" },
+    "optionB": { "text": "Collar setae with a few coarse teeth basally and a limbate denticulate blade distally", "goTo": "11", "result": null }
+  },
+  "11": {
+    "step": "11",
+    "optionA": { "text": "Operculum a shallowly depressed cone on a spherical swelling of the opercular stalk", "goTo": null, "result": "Filogranula" },
+    "optionB": { "text": "Operculum a depressed cone; stalk without the subdistal swelling", "goTo": null, "result": "Filograna" }
+  },
+  "12": {
+    "step": "12",
+    "optionA": { "text": "Opercular stalk flattened and ribbonlike", "goTo": null, "result": "Mesavermilia" },
+    "optionB": { "text": "Opercular stalk oval or circular in cross-section (sometimes with wings or spines)", "goTo": "13", "result": null }
+  },
+  "13": {
+    "step": "13",
+    "optionA": { "text": "Opercular stalk with wings or spines", "goTo": "14", "result": null },
+    "optionB": { "text": "Opercular stalk without wings or spines", "goTo": "26", "result": null }
+  },
+  "14": {
+    "step": "14",
+    "optionA": { "text": "Opercular stalk with spines", "goTo": "15", "result": null },
+    "optionB": { "text": "Opercular stalk with wings (sometimes produced into points distally)", "goTo": "17", "result": null }
+  },
+  "15": {
+    "step": "15",
+    "optionA": { "text": "Opercular stalk with spines on one side only; six thoracic setigers present", "goTo": null, "result": "Spirodiscus" },
+    "optionB": { "text": "Opercular stalk with four spines in a cross; seven thoracic setigers present", "goTo": "16", "result": null }
+  },
+  "16": {
+    "step": "16",
+    "optionA": { "text": "Thoracic neuropodia widely separated anteriorly and approaching posteriorly; collar setae all of one kind, with basal pilose boss and distal spines", "goTo": null, "result": "Spirobranchus" },
+    "optionB": { "text": "Thoracic neuropodia equidistant in all setigers; collar setae of two kinds; either capillary or with a smooth double-boss basally and smooth tapering tips", "goTo": null, "result": "Crucigera" }
+  },
+  "17": {
+    "step": "17",
+    "optionA": { "text": "Collar setae absent", "goTo": "18", "result": null },
+    "optionB": { "text": "Collar setae present", "goTo": "19", "result": null }
+  },
+  "18": {
+    "step": "18",
+    "optionA": { "text": "Operculum with two projections", "goTo": null, "result": "Olga" },
+    "optionB": { "text": "Operculum without projections", "goTo": null, "result": "Pomatoleios" }
+  },
+  "19": {
+    "step": "19",
+    "optionA": { "text": "Collar setae limbate or capillary", "goTo": "20", "result": null },
+    "optionB": { "text": "Collar setae with two separate limbations (bayonet-type), with a basal boss or setose", "goTo": "23", "result": null }
+  },
+  "20": {
+    "step": "20",
+    "optionA": { "text": "Anterior abdominal setae stout, acute spines", "goTo": null, "result": "Paumotella" },
+    "optionB": { "text": "Anterior abdominal setae trumpet-shaped or geniculate", "goTo": "21", "result": null }
+  },
+  "21": {
+    "step": "21",
+    "optionA": { "text": "Opercular cap black and chitinous", "goTo": null, "result": "Crosslandiella" },
+    "optionB": { "text": "Opercular cap calcareous", "goTo": "22", "result": null }
+  },
+  "22": {
+    "step": "22",
+    "optionA": { "text": "Opercular cap flat, with or without spines", "goTo": null, "result": "Pomatoceros" },
+    "optionB": { "text": "Operculum distally excavated, bordered by two eccentrically placed thorns connected by a low ridge", "goTo": null, "result": "Pseudopomatoceros" }
+  },
+  "23": {
+    "step": "23",
+    "optionA": { "text": "At least anterior abdominal setae trumpet-shaped", "goTo": "24", "result": null },
+    "optionB": { "text": "Anterior abdominal setae geniculate", "goTo": "25", "result": null }
+  },
+  "24": {
+    "step": "24",
+    "optionA": { "text": "Operculum conical, collar setae basally pilose", "goTo": null, "result": "Conopomatus" },
+    "optionB": { "text": "Operculum with slanting distal plate, collar setae bayonet-shaped", "goTo": null, "result": "Temporaria" }
+  },
+  "25": {
+    "step": "25",
+    "optionA": { "text": "Uncini with anterior peg pointed", "goTo": null, "result": "Omphalopomopsis" },
+    "optionB": { "text": "Uncini with anterior peg gouge-shaped (hollowed out from beneath)", "goTo": null, "result": "Pomatostegus" }
+  },
+  "26": {
+    "step": "26",
+    "optionA": { "text": "Collar setae absent", "goTo": "27", "result": null },
+    "optionB": { "text": "Collar setae present", "goTo": "33", "result": null }
+  },
+  "27": {
+    "step": "27",
+    "optionA": { "text": "Abdominal setae absent; abdominal uncini present", "goTo": null, "result": "Rhodopsis" },
+    "optionB": { "text": "Abdominal setae present; uncini usually present", "goTo": "28", "result": null }
+  },
+  "28": {
+    "step": "28",
+    "optionA": { "text": "At least some abdominal setae geniculate", "goTo": "29", "result": null },
+    "optionB": { "text": "All abdominal setae slender capillaries", "goTo": "30", "result": null }
+  },
+  "29": {
+    "step": "29",
+    "optionA": { "text": "Uncini with numerous teeth", "goTo": null, "result": "Placostegus" },
+    "optionB": { "text": "Uncini with seven to nine teeth", "goTo": null, "result": "Marifugia" }
+  },
+  "30": {
+    "step": "30",
+    "optionA": { "text": "Abdominal uncini absent", "goTo": null, "result": "Bonhourella" },
+    "optionB": { "text": "Abdominal uncini present", "goTo": "31", "result": null }
+  },
+  "31": {
+    "step": "31",
+    "optionA": { "text": "Tube free, tusk-shaped and smooth", "goTo": null, "result": "Ditrupa" },
+    "optionB": { "text": "Tube at least partly attached", "goTo": "32", "result": null }
+  },
+  "32": {
+    "step": "32",
+    "optionA": { "text": "Opercular stalk calcified; operculum funnel-shaped", "goTo": null, "result": "Sclerostyla" },
+    "optionB": { "text": "Opercular stalk not calcified; operculum spherical", "goTo": null, "result": "Dasynema" }
+  },
+  "33": {
+    "step": "33",
+    "optionA": { "text": "Opercular spines movable", "goTo": null, "result": "Galeolaria" },
+    "optionB": { "text": "Opercular spines, if present, immovable", "goTo": "34", "result": null }
+  },
+  "34": {
+    "step": "34",
+    "optionA": { "text": "Abdominal setae slender capillaries", "goTo": null, "result": "Schizocraspedon" },
+    "optionB": { "text": "Abdominal setae trumpet-shaped or geniculate", "goTo": "35", "result": null }
+  },
+  "35": {
+    "step": "35",
+    "optionA": { "text": "Abdominal setae trumpet-shaped", "goTo": "36", "result": null },
+    "optionB": { "text": "Abdominal setae geniculate", "goTo": "39", "result": null }
+  },
+  "36": {
+    "step": "36",
+    "optionA": { "text": "Operculum a simple funnel", "goTo": "37", "result": null },
+    "optionB": { "text": "Operculum with a basal funnel and in addition various spines or hoods forming a distal part", "goTo": "38", "result": null }
+  },
+  "37": {
+    "step": "37",
+    "optionA": { "text": "Collar setae basally minutely hirsute", "goTo": null, "result": "Paraserpula" },
+    "optionB": { "text": "Collar setae basally dentate", "goTo": null, "result": "Serpula" }
+  },
+  "38": {
+    "step": "38",
+    "optionA": { "text": "Operculum with a large, glandular hood-shaped distal part", "goTo": null, "result": "Olgaharmania" },
+    "optionB": { "text": "Operculum with series of distal spines and, sometimes, smaller hoods", "goTo": null, "result": "Hydroides" }
+  },
+  "39": {
+    "step": "39",
+    "optionA": { "text": "Side setae (Apomatus-setae) absent", "goTo": "40", "result": null },
+    "optionB": { "text": "Side setae present", "goTo": "49", "result": null }
+  },
+  "40": {
+    "step": "40",
+    "optionA": { "text": "Collar setae with few coarse teeth in one or two marginal rows", "goTo": "41", "result": null },
+    "optionB": { "text": "Collar setae at least in part limbate", "goTo": "45", "result": null }
+  },
+  "41": {
+    "step": "41",
+    "optionA": { "text": "Operculum distally ornamented", "goTo": "42", "result": null },
+    "optionB": { "text": "Operculum distally smooth, rounded or excavate", "goTo": "43", "result": null }
+  },
+  "42": {
+    "step": "42",
+    "optionA": { "text": "Operculum with concentric series of teeth, nearly radial in structure", "goTo": null, "result": "Neopomatus" },
+    "optionB": { "text": "Operculum with a single series of long, strong teeth, making it bilaterally symmetrical", "goTo": null, "result": "Mercierella" }
+  },
+  "43": {
+    "step": "43",
+    "optionA": { "text": "Collar setae with teeth in two rows", "goTo": null, "result": "Sphaeropomatus" },
+    "optionB": { "text": "Collar setae with teeth in a single row", "goTo": "44", "result": null }
+  },
+  "44": {
+    "step": "44",
+    "optionA": { "text": "Operculum distally rounded", "goTo": null, "result": "Ficopomatus" },
+    "optionB": { "text": "Operculum distally excavate", "goTo": null, "result": "Mercierellopsis" }
+  },
+  "45": {
+    "step": "45",
+    "optionA": { "text": "At least some collar setae with a basal dentate or hirsute region", "goTo": "46", "result": null },
+    "optionB": { "text": "All collar setae limbate", "goTo": "48", "result": null }
+  },
+  "46": {
+    "step": "46",
+    "optionA": { "text": "Simple limbate collar setae present, in addition to some with a basal group of spines", "goTo": null, "result": "Omphalopoma" },
+    "optionB": { "text": "All collar setae with basal denticulated or hirsute region", "goTo": "47", "result": null }
+  },
+  "47": {
+    "step": "47",
+    "optionA": { "text": "Six thoracic setigers present", "goTo": null, "result": "Hyalopomatus" },
+    "optionB": { "text": "Seven thoracic setigers present", "goTo": null, "result": "Pseudochitinopoma" }
+  },
+  "48": {
+    "step": "48",
+    "optionA": { "text": "Opercular stalk calcified; abdominal setae with only a short geniculate tip", "goTo": null, "result": "Sclerostyla" },
+    "optionB": { "text": "Opercular stalk not calcified; abdominal setae with about one-half of the exposed setae in the geniculate tip", "goTo": null, "result": "Neovermilia" }
+  },
+  "49": {
+    "step": "49",
+    "optionA": { "text": "Opercular stalk annulated", "goTo": null, "result": "Calcareopomatus" },
+    "optionB": { "text": "Opercular stalk not annulated", "goTo": "50", "result": null }
+  },
+  "50": {
+    "step": "50",
+    "optionA": { "text": "Collar setae limbate", "goTo": "51", "result": null },
+    "optionB": { "text": "Collar setae with a basal boss in addition to the limbate distal portion", "goTo": "52", "result": null }
+  },
+  "51": {
+    "step": "51",
+    "optionA": { "text": "Both thoracic and abdominal uncini with all teeth in a single row; anterior peg entire", "goTo": null, "result": "Vermiliopsis" },
+    "optionB": { "text": "Thoracic uncini with teeth in a single row, anterior peg furcate; abdominal uncini with teeth in several rows", "goTo": null, "result": "Pseudovermilia" }
+  },
+  "52": {
+    "step": "52",
+    "optionA": { "text": "Both thoracic and abdominal uncini with teeth in several rows", "goTo": null, "result": "Filogranula" },
+    "optionB": { "text": "Thoracic uncini with teeth in a single row", "goTo": "53", "result": null }
+  },
+  "53": {
+    "step": "53",
+    "optionA": { "text": "Operculum distally rounded", "goTo": null, "result": "Chitinopomoides" },
+    "optionB": { "text": "Operculum distally excavate", "goTo": "54", "result": null }
+  },
+  "54": {
+    "step": "54",
+    "optionA": { "text": "Opercular stalk with three distal bulbs", "goTo": null, "result": "Janita" },
+    "optionB": { "text": "Opercular stalk without swellings", "goTo": null, "result": "Chitinopoma" }
+  }
+}

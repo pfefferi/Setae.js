@@ -1,0 +1,278 @@
+{
+  "_meta": { "family": "SYLLIDAE", "source": "Fauchald (1977) Key to Genera", "type": "genera_key" },
+  "1": {
+    "step": "1",
+    "optionA": { "text": "Ventral cirri absent", "goTo": "2", "result": null },
+    "optionB": { "text": "Ventral cirri present", "goTo": "9", "result": null }
+  },
+  "2": {
+    "step": "2",
+    "optionA": { "text": "Dorsal cirri on first setiger only", "goTo": null, "result": "Procerastea" },
+    "optionB": { "text": "Dorsal cirri on most setigers", "goTo": "3", "result": null }
+  },
+  "3": {
+    "step": "3",
+    "optionA": { "text": "All setae simple, occipital flap present", "goTo": null, "result": "Alluaudella" },
+    "optionB": { "text": "At least some setae composite, occipital flap absent", "goTo": "4", "result": null }
+  },
+  "4": {
+    "step": "4",
+    "optionA": { "text": "Dorsal cirri cylindrical", "goTo": "5", "result": null },
+    "optionB": { "text": "Dorsal cirri clavate or foliose", "goTo": "6", "result": null }
+  },
+  "5": {
+    "step": "5",
+    "optionA": { "text": "Bayonet-setae thick-shafted; segmental ciliary bands absent", "goTo": null, "result": "Proceraea" },
+    "optionB": { "text": "Bayonet-setae thin-shafted; ciliary bands present on every segment", "goTo": null, "result": "Autolytus" }
+  },
+  "6": {
+    "step": "6",
+    "optionA": { "text": "Eversible pharynx unarmed", "goTo": null, "result": "Phyllosyllis" },
+    "optionB": { "text": "Eversible pharynx with teeth", "goTo": "7", "result": null }
+  },
+  "7": {
+    "step": "7",
+    "optionA": { "text": "With projecting nuchal lobes, rather than flattened nuchal epaulettes", "goTo": null, "result": "Autosyllis" },
+    "optionB": { "text": "Nuchal organs flattened epaulettes", "goTo": "8", "result": null }
+  },
+  "8": {
+    "step": "8",
+    "optionA": { "text": "Antennae and dorsal cirri clavate", "goTo": null, "result": "Umbellisyllis" },
+    "optionB": { "text": "Antennae cylindrical, dorsal cirri flattened", "goTo": null, "result": "Myrianida" }
+  },
+  "9": {
+    "step": "9",
+    "optionA": { "text": "Small forms (usually less than 8 mm); palps fused for at least half their lengths", "goTo": "11", "result": null },
+    "optionB": { "text": "Larger forms, palps, if fused at all, only fused basally", "goTo": "10", "result": null }
+  },
+  "10": {
+    "step": "10",
+    "optionA": { "text": "Palps fused at base; dorsal cirri smooth or irregularly wrinkled", "goTo": "23", "result": null },
+    "optionB": { "text": "Palpi free to base or absent; dorsal cirri articulated", "goTo": "43", "result": null }
+  },
+  "11": {
+    "step": "11",
+    "optionA": { "text": "Antennae, tentacular and dorsal cirri absent", "goTo": null, "result": "Exogonella" },
+    "optionB": { "text": "At least tentacular cirri present, usually also antennae and dorsal cirri", "goTo": "12", "result": null }
+  },
+  "12": {
+    "step": "12",
+    "optionA": { "text": "Two pairs of tentacular cirri present", "goTo": "13", "result": null },
+    "optionB": { "text": "One pair of tentacular cirri present", "goTo": "17", "result": null }
+  },
+  "13": {
+    "step": "13",
+    "optionA": { "text": "Antennae absent", "goTo": null, "result": "Exogonita" },
+    "optionB": { "text": "Three antennae present", "goTo": "14", "result": null }
+  },
+  "14": {
+    "step": "14",
+    "optionA": { "text": "Eversible pharynx non-muscular and sinuous", "goTo": null, "result": "Campesyllis" },
+    "optionB": { "text": "Eversible pharynx at least partially muscular, straight", "goTo": "15", "result": null }
+  },
+  "15": {
+    "step": "15",
+    "optionA": { "text": "Dorsal cirri long and filiform", "goTo": null, "result": "Brania" },
+    "optionB": { "text": "Dorsal cirri globular", "goTo": "16", "result": null }
+  },
+  "16": {
+    "step": "16",
+    "optionA": { "text": "Body with dorsal globular papillae in addition to the dorsal cirri", "goTo": null, "result": "Eurysyllis" },
+    "optionB": { "text": "Body without dorsal globular papillae", "goTo": null, "result": "Plakosyllis" }
+  },
+  "17": {
+    "step": "17",
+    "optionA": { "text": "One antenna present; dorsal cirri rudimentary", "goTo": null, "result": "Spermosyllis" },
+    "optionB": { "text": "Three antennae present; dorsal cirri well developed if sometimes short", "goTo": "18", "result": null }
+  },
+  "18": {
+    "step": "18",
+    "optionA": { "text": "Dorsal cirri long and slender", "goTo": null, "result": "Anguillosyllis" },
+    "optionB": { "text": "Dorsal cirri short, ovoid or pyriform", "goTo": "19", "result": null }
+  },
+  "19": {
+    "step": "19",
+    "optionA": { "text": "Parapodia with erect, contractile dorsal lobes", "goTo": null, "result": "Braniella" },
+    "optionB": { "text": "Parapodia without dorsal lobes", "goTo": "20", "result": null }
+  },
+  "20": {
+    "step": "20",
+    "optionA": { "text": "Eversible pharynx unarmed", "goTo": null, "result": "Exogonoides" },
+    "optionB": { "text": "Eversible pharynx with a single anterior tooth", "goTo": "21", "result": null }
+  },
+  "21": {
+    "step": "21",
+    "optionA": { "text": "Ventral cirri fused to lower edge of parapodia", "goTo": null, "result": "Pseudexogone" },
+    "optionB": { "text": "Ventral cirri free from parapodia", "goTo": "22", "result": null }
+  },
+  "22": {
+    "step": "22",
+    "optionA": { "text": "Dorsal cirri pyriform (flask-shaped)", "goTo": null, "result": "Sphaerosyllis" },
+    "optionB": { "text": "Dorsal cirri papilliform or ovoid", "goTo": null, "result": "Exogone" }
+  },
+  "23": {
+    "step": "23",
+    "optionA": { "text": "Eversible pharynx unarmed", "goTo": "24", "result": null },
+    "optionB": { "text": "Eversible pharynx either with a single tooth or with a circlet of smaller teeth", "goTo": "30", "result": null }
+  },
+  "24": {
+    "step": "24",
+    "optionA": { "text": "Eversible pharynx with a single large tooth", "goTo": "41", "result": null },
+    "optionB": { "text": "Eversible pharynx with a series of teeth", "goTo": "25", "result": null }
+  },
+  "25": {
+    "step": "25",
+    "optionA": { "text": "Dorsum covered with small papillae", "goTo": null, "result": "Rhopalosyllis" },
+    "optionB": { "text": "Dorsum without papillae", "goTo": "26", "result": null }
+  },
+  "26": {
+    "step": "26",
+    "optionA": { "text": "Pharynx with an internal valve", "goTo": null, "result": "Pharyngeovalvata" },
+    "optionB": { "text": "Pharynx without an internal valve", "goTo": "27", "result": null }
+  },
+  "27": {
+    "step": "27",
+    "optionA": { "text": "Tentacular cirri absent; dorsal cirri rudimentary", "goTo": null, "result": "Fauvelia" },
+    "optionB": { "text": "Tentacular cirri present; dorsal cirri well developed", "goTo": "28", "result": null }
+  },
+  "28": {
+    "step": "28",
+    "optionA": { "text": "Antennae and tentacular cirri very short", "goTo": null, "result": "Atelesyllis" },
+    "optionB": { "text": "Antennae and tentacular cirri not noticeably short", "goTo": "29", "result": null }
+  },
+  "29": {
+    "step": "29",
+    "optionA": { "text": "Enlarged knobbed acicula present in anterior parapodia", "goTo": null, "result": "Streptosyllis" },
+    "optionB": { "text": "Enlarged knobbed acicula absent", "goTo": null, "result": "Syllides" }
+  },
+  "30": {
+    "step": "30",
+    "optionA": { "text": "Notacicula present", "goTo": "31", "result": null },
+    "optionB": { "text": "Notacicula absent", "goTo": null, "result": "Nudisyllis" }
+  },
+  "31": {
+    "step": "31",
+    "optionA": { "text": "Antennae and dorsal cirri absent", "goTo": null, "result": "Eudontosyllis" },
+    "optionB": { "text": "Antennae and dorsal cirri present", "goTo": "32", "result": null }
+  },
+  "32": {
+    "step": "32",
+    "optionA": { "text": "Three first segments fused with six pairs of tentacular cirri", "goTo": null, "result": "Irmula" },
+    "optionB": { "text": "Maximally two pairs of tentacular cirri on one segment", "goTo": "33", "result": null }
+  },
+  "33": {
+    "step": "33",
+    "optionA": { "text": "One pair of tentacular cirri present", "goTo": null, "result": "Lamellisyllis" },
+    "optionB": { "text": "Two pairs of tentacular cirri present", "goTo": "34", "result": null }
+  },
+  "34": {
+    "step": "34",
+    "optionA": { "text": "Dorsal cirri flattened", "goTo": null, "result": "Parapionosyllis" },
+    "optionB": { "text": "Dorsal cirri cylindrical", "goTo": "35", "result": null }
+  },
+  "35": {
+    "step": "35",
+    "optionA": { "text": "Composite setae spinigerous", "goTo": null, "result": "Petitia" },
+    "optionB": { "text": "Composite setae falcigerous", "goTo": "36", "result": null }
+  },
+  "36": {
+    "step": "36",
+    "optionA": { "text": "Tentacular and dorsal cirri very large, ovoid and inflated", "goTo": null, "result": "Clavisyllis" },
+    "optionB": { "text": "Tentacular and dorsal cirri more or less cylindrical", "goTo": "37", "result": null }
+  },
+  "37": {
+    "step": "37",
+    "optionA": { "text": "Middorsal tooth situated posterior in the eversible pharynx", "goTo": null, "result": "Opisthodonta" },
+    "optionB": { "text": "Middorsal tooth situated anterior in the eversible pharynx", "goTo": "38", "result": null }
+  },
+  "38": {
+    "step": "38",
+    "optionA": { "text": "Anterior margin of eversible pharynx denticulated", "goTo": null, "result": "Synsyllis" },
+    "optionB": { "text": "Anterior margin of eversible pharynx smooth", "goTo": "39", "result": null }
+  },
+  "39": {
+    "step": "39",
+    "optionA": { "text": "Median body-region with furcate, thick simple setae", "goTo": null, "result": "Dioplosyllis" },
+    "optionB": { "text": "Median body-region with composite falcigers", "goTo": "40", "result": null }
+  },
+  "40": {
+    "step": "40",
+    "optionA": { "text": "Parapodia long, palps twice as long as prostomium", "goTo": null, "result": "Pionosyllis" },
+    "optionB": { "text": "Parapodia short and conical; palps maximally as long as prostomium", "goTo": null, "result": "Parautolytus" }
+  },
+  "41": {
+    "step": "41",
+    "optionA": { "text": "Eversible pharynx with a series of very small teeth", "goTo": null, "result": "Eusyllis" },
+    "optionB": { "text": "Eversible pharynx with a limited number of large teeth", "goTo": "42", "result": null }
+  },
+  "42": {
+    "step": "42",
+    "optionA": { "text": "Body short, with few segments; large nuchal epaulettes present", "goTo": null, "result": "Amblyosyllis" },
+    "optionB": { "text": "Body longer, with numerous segments; nuchal epaulettes absent", "goTo": null, "result": "Odontosyllis" }
+  },
+  "43": {
+    "step": "43",
+    "optionA": { "text": "Palps absent; first segment with parapodia and setae", "goTo": null, "result": "Haplosyllides" },
+    "optionB": { "text": "Palps present, first segment without parapodia and setae; usually with tentacular cirri", "goTo": "44", "result": null }
+  },
+  "44": {
+    "step": "44",
+    "optionA": { "text": "Eversible pharynx with a single tooth, a trepan or both", "goTo": "45", "result": null },
+    "optionB": { "text": "Eversible pharynx unarmed", "goTo": "46", "result": null }
+  },
+  "45": {
+    "step": "45",
+    "optionA": { "text": "Eversible pharynx with a trepan of several teeth; sometimes with an additional larger single tooth as well", "goTo": "49", "result": null },
+    "optionB": { "text": "Eversible pharynx with a single tooth", "goTo": "50", "result": null }
+  },
+  "46": {
+    "step": "46",
+    "optionA": { "text": "Dorsum covered with small papillae", "goTo": null, "result": "Xenosyllis" },
+    "optionB": { "text": "Dorsum smooth", "goTo": "47", "result": null }
+  },
+  "47": {
+    "step": "47",
+    "optionA": { "text": "Parapodia with long, digitate distal lobes", "goTo": null, "result": "Branchiosyllis" },
+    "optionB": { "text": "Parapodia without distal lobes", "goTo": "48", "result": null }
+  },
+  "48": {
+    "step": "48",
+    "optionA": { "text": "Paired, posteriorly directed nuchal lappets present", "goTo": null, "result": "Parapterosyllis" },
+    "optionB": { "text": "Nuchal lappets absent", "goTo": null, "result": "Pseudosyllides" }
+  },
+  "49": {
+    "step": "49",
+    "optionA": { "text": "Palpi as long as prostomium; body cylindrical", "goTo": null, "result": "Geminosyllis" },
+    "optionB": { "text": "Palpi small and conical; body flattened", "goTo": null, "result": "Trypanosyllis" }
+  },
+  "50": {
+    "step": "50",
+    "optionA": { "text": "Middorsal tooth attached posteriorly", "goTo": null, "result": "Opisthosyllis" },
+    "optionB": { "text": "Middorsal tooth attached anteriorly", "goTo": "51", "result": null }
+  },
+  "51": {
+    "step": "51",
+    "optionA": { "text": "Setae simple, distally furcate or subdistally bossed", "goTo": null, "result": "Haplosyllis" },
+    "optionB": { "text": "At least some setae composite", "goTo": "52", "result": null }
+  },
+  "52": {
+    "step": "52",
+    "optionA": { "text": "Dorsal cirri in posterior region alternately long and slender or large, bulbously fusiform", "goTo": null, "result": "Parasphaerosyllis" },
+    "optionB": { "text": "Dorsal cirri may alternate between long and short, but all are of similar thickness", "goTo": "53", "result": null }
+  },
+  "53": {
+    "step": "53",
+    "optionA": { "text": "Tentacular and dorsal cirri with very few articles; dorsal cirri absent from second segment", "goTo": null, "result": "Paratyposyllis" },
+    "optionB": { "text": "Tentacular and dorsal cirri with at least five articles; dorsal cirri present on second segment", "goTo": "54", "result": null }
+  },
+  "54": {
+    "step": "54",
+    "optionA": { "text": "Parapodia with pseudocomposite and simple setae in addition to the composite ones", "goTo": null, "result": "Syllis" },
+    "optionB": { "text": "Parapodia maximally with two simple setae in addition to the composite ones", "goTo": "55", "result": null }
+  },
+  "55": {
+    "step": "55",
+    "optionA": { "text": "Both composite spinigers and falcigers present", "goTo": null, "result": "Ehlersia" },
+    "optionB": { "text": "Only composite falcigers present", "goTo": null, "result": "Typosyllis" }
+  }
+}

@@ -1,0 +1,178 @@
+{
+  "_meta": { "family": "CAPITELLIDAE", "source": "Fauchald (1977) Key to Genera", "type": "genera_key" },
+  "1": {
+    "step": "1",
+    "optionA": { "text": "Three first setigers with capillary setae only", "goTo": "2", "result": null },
+    "optionB": { "text": "At least four setigers with capillary setae only", "goTo": "4", "result": null }
+  },
+  "2": {
+    "step": "2",
+    "optionA": { "text": "Some thoracic segments with flanged hooks; twelve thoracic segments present", "goTo": null, "result": "Peresiella" },
+    "optionB": { "text": "Flanged hooks absent; either ten or thirteen thoracic segments present", "goTo": "3", "result": null }
+  },
+  "3": {
+    "step": "3",
+    "optionA": { "text": "Setigers 7-8 with genital spines; ten thoracic segments", "goTo": null, "result": "Capitomastus" },
+    "optionB": { "text": "Genital spines absent; 13 thoracic segments", "goTo": null, "result": "Heteromastides" }
+  },
+  "4": {
+    "step": "4",
+    "optionA": { "text": "Four first setigers with capillary setae only", "goTo": "5", "result": null },
+    "optionB": { "text": "At least five anterior setigers with capillary setae", "goTo": "8", "result": null }
+  },
+  "5": {
+    "step": "5",
+    "optionA": { "text": "Genital spines present", "goTo": "6", "result": null },
+    "optionB": { "text": "Genital spines absent", "goTo": "7", "result": null }
+  },
+  "6": {
+    "step": "6",
+    "optionA": { "text": "Genital spines in setigers 7-8; ten thoracic segments present", "goTo": null, "result": "Capitomastus" },
+    "optionB": { "text": "Genital spines in setigers 8-9; nine thoracic segments present", "goTo": null, "result": "Capitella" }
+  },
+  "7": {
+    "step": "7",
+    "optionA": { "text": "Thorax with 11 segments", "goTo": null, "result": "Mediomastus" },
+    "optionB": { "text": "Thorax with 12 segments", "goTo": null, "result": "Parheteromastus" }
+  },
+  "8": {
+    "step": "8",
+    "optionA": { "text": "Five setigers with capillary setae", "goTo": "9", "result": null },
+    "optionB": { "text": "At least six anterior setigers with capillary setae only", "goTo": "10", "result": null }
+  },
+  "9": {
+    "step": "9",
+    "optionA": { "text": "First setiger with both noto- and neuropodia; branchiae present", "goTo": null, "result": "Heteromastus" },
+    "optionB": { "text": "First setiger with notopodia only; branchiae absent", "goTo": null, "result": "Parheteromastides" }
+  },
+  "10": {
+    "step": "10",
+    "optionA": { "text": "Six anterior setigers with capillary setae only", "goTo": "11", "result": null },
+    "optionB": { "text": "At least seven anterior setigers with capillary setae", "goTo": "13", "result": null }
+  },
+  "11": {
+    "step": "11",
+    "optionA": { "text": "Genital spines in setigers 8-9", "goTo": null, "result": "Capitellides" },
+    "optionB": { "text": "Genital spines absent", "goTo": "12", "result": null }
+  },
+  "12": {
+    "step": "12",
+    "optionA": { "text": "Thorax with 11 segments", "goTo": null, "result": "Neomediomastus" },
+    "optionB": { "text": "Thorax with 12 segments", "goTo": null, "result": "Barantolla" }
+  },
+  "13": {
+    "step": "13",
+    "optionA": { "text": "Seven anterior setigers with capillary setae only", "goTo": "14", "result": null },
+    "optionB": { "text": "At least nine anterior setigers with capillary setae only", "goTo": "17", "result": null }
+  },
+  "14": {
+    "step": "14",
+    "optionA": { "text": "Genital spines present", "goTo": "15", "result": null },
+    "optionB": { "text": "Genital spines absent", "goTo": "16", "result": null }
+  },
+  "15": {
+    "step": "15",
+    "optionA": { "text": "Notopodial cirriform branchiae on some abdominal segments", "goTo": null, "result": "Branchiocapitella" },
+    "optionB": { "text": "Branchiae absent", "goTo": null, "result": "Capitella" }
+  },
+  "16": {
+    "step": "16",
+    "optionA": { "text": "Thorax with eight segments; all thoracic setigers with capillary setae only", "goTo": null, "result": "Leiocapitellides" },
+    "optionB": { "text": "Thorax with 12 segments; posterior thoracic setigers with hooks", "goTo": null, "result": "Neoheteromastus" }
+  },
+  "17": {
+    "step": "17",
+    "optionA": { "text": "Nine anterior setigers with capillary setae only", "goTo": "18", "result": null },
+    "optionB": { "text": "Ten or more anterior setigers with capillary setae", "goTo": "19", "result": null }
+  },
+  "18": {
+    "step": "18",
+    "optionA": { "text": "One anterior asetigerous segment present; notopodial acicula absent; thorax with ten segments", "goTo": null, "result": "Pseudoleiocapitella" },
+    "optionB": { "text": "Anterior asetigerous segment absent; notopodia with acicula; thorax with nine segments", "goTo": null, "result": "Pulliella" }
+  },
+  "19": {
+    "step": "19",
+    "optionA": { "text": "Ten first setigers with capillary setae only", "goTo": "20", "result": null },
+    "optionB": { "text": "At least 11 anterior setigers with capillary setae", "goTo": "23", "result": null }
+  },
+  "20": {
+    "step": "20",
+    "optionA": { "text": "First setiger with both noto- and neuropodia", "goTo": null, "result": "Decamastus" },
+    "optionB": { "text": "First setiger with notopodium only", "goTo": "21", "result": null }
+  },
+  "21": {
+    "step": "21",
+    "optionA": { "text": "All thoracic setigers with capillary setae; all abdominal setigers with hooks only; mixed segments absent", "goTo": null, "result": "Capitellethus" },
+    "optionB": { "text": "At least one segment with mixed hooks and capillary setae", "goTo": "22", "result": null }
+  },
+  "22": {
+    "step": "22",
+    "optionA": { "text": "Two first abdominal segments with mixed hooks and capillary setae; thorax with eleven segments", "goTo": null, "result": "Neonotomastus" },
+    "optionB": { "text": "Last thoracic segment with both hooks and capillary setae; twelve thoracic segments present", "goTo": null, "result": "Paraleiocapitella" }
+  },
+  "23": {
+    "step": "23",
+    "optionA": { "text": "Eleven anterior setigers with capillary setae only", "goTo": "24", "result": null },
+    "optionB": { "text": "Twelve or more anterior setigers with capillary setae only", "goTo": "27", "result": null }
+  },
+  "24": {
+    "step": "24",
+    "optionA": { "text": "At least some capillary setae in the first two abdominal setigers", "goTo": "25", "result": null },
+    "optionB": { "text": "All abdominal segments with hooks only", "goTo": "26", "result": null }
+  },
+  "25": {
+    "step": "25",
+    "optionA": { "text": "First setiger with neuropodia only; first two abdominal setigers with capillary setae in both rami", "goTo": null, "result": "Notodasus" },
+    "optionB": { "text": "First setiger with both noto- and neuropodia; first two abdominal setigers with hooks in the neuropodia and mixed hooks and capillary setae in the notopodia", "goTo": null, "result": "Mastobranchus" }
+  },
+  "26": {
+    "step": "26",
+    "optionA": { "text": "Abdominal notopodial tori nearly coalesce; notopodial hooks absent", "goTo": null, "result": "Rashgua" },
+    "optionB": { "text": "Abdominal notopodial tori well separated; notopodial hooks present", "goTo": null, "result": "Notomastus" }
+  },
+  "27": {
+    "step": "27",
+    "optionA": { "text": "Twelve setigers with capillary setae only", "goTo": "28", "result": null },
+    "optionB": { "text": "Thirteen or more setigers with capillary setae only", "goTo": "30", "result": null }
+  },
+  "28": {
+    "step": "28",
+    "optionA": { "text": "Anal plaque with imbedded spines present", "goTo": null, "result": "Scyphoproctus" },
+    "optionB": { "text": "Anal end rounded or with anal cirri", "goTo": "29", "result": null }
+  },
+  "29": {
+    "step": "29",
+    "optionA": { "text": "Thirteenth setiger with both hooks and capillary setae", "goTo": null, "result": "Leiochrus" },
+    "optionB": { "text": "No setiger with both hooks and capillary setae present", "goTo": null, "result": "Leiochrides" }
+  },
+  "30": {
+    "step": "30",
+    "optionA": { "text": "Thirteen anterior setigers with capillary setae only", "goTo": "31", "result": null },
+    "optionB": { "text": "At least 15 anterior setigers with capillary setae", "goTo": "35", "result": null }
+  },
+  "31": {
+    "step": "31",
+    "optionA": { "text": "First setiger with notopodia only", "goTo": "32", "result": null },
+    "optionB": { "text": "First setiger with both noto- and neuropodia", "goTo": "33", "result": null }
+  },
+  "32": {
+    "step": "32",
+    "optionA": { "text": "Thorax with 14 or 15 segments; one segment with both capillary setae and hooks present", "goTo": null, "result": "Leiocapitella" },
+    "optionB": { "text": "Thorax with 15 to 18 segments; three or four segments with both capillary setae and hooks present", "goTo": null, "result": "Pseudocapitella" }
+  },
+  "33": {
+    "step": "33",
+    "optionA": { "text": "Thorax with 19 segments; branchiae neuropodial", "goTo": null, "result": "Capitobranchus" },
+    "optionB": { "text": "Thorax with maximally 15 segments; branchiae, if present, notopodial", "goTo": "34", "result": null }
+  },
+  "34": {
+    "step": "34",
+    "optionA": { "text": "All notopodial setae capillary", "goTo": null, "result": "Protomastobranchus" },
+    "optionB": { "text": "Abdominal notopodial setae hooks", "goTo": null, "result": "Dasybranchus" }
+  },
+  "35": {
+    "step": "35",
+    "optionA": { "text": "At least 16 setigers with capillary setae only; additional four segments have both setae and hooks in the notopodia", "goTo": null, "result": "Heteromastella" },
+    "optionB": { "text": null, "goTo": null, "result": null }
+  }
+}
