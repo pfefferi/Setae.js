@@ -111,6 +111,7 @@ function App() {
   const fetchTaxonImage = async (familyName) => {
     setTaxonImage(null);
     setImageFailed(false);
+    setImageLoading(true);
     try {
       const res = await fetch(`https://api.inaturalist.org/v1/taxa?q=${familyName}`);
       const data = await res.json();
@@ -122,6 +123,8 @@ function App() {
     } catch (e) {
       console.error('Failed to fetch taxon image:', e);
       setImageFailed(true);
+    } finally {
+      setImageLoading(false);
     }
   };
 
@@ -328,7 +331,7 @@ function App() {
         </header>
 
         {mode === 'key' ? (
-          <>
+          <div className="mode-panel" key="key-mode">
             <div className="breadcrumb">
               <span className="crumb">{history.length === 0 ? '01' : '01'}</span>
               {history.length > 0 && <span className="crumb-sep">·</span>}
@@ -370,11 +373,14 @@ function App() {
                 <div className="result-card">
                   <div className="result-inner">
                     <div className="result-label">{t.result_label}</div>
-                    {taxonImage && !imageFailed ? (
+                    {imageLoading ? (
+                      <div className="result-image-shimmer" />
+                    ) : taxonImage && !imageFailed ? (
                       <div className="result-image" style={{ marginBottom: '1.5rem' }}>
                         <img 
                           src={taxonImage} 
                           alt={currentStep.result} 
+                          className="result-img"
                           style={{ 
                             maxWidth: '200px', 
                             borderRadius: '4px', 
@@ -385,7 +391,12 @@ function App() {
                       </div>
                     ) : imageFailed ? (
                       <div className="result-image-placeholder">
-                        No image available<br/>on iNaturalist
+                        <svg className="placeholder-icon" viewBox="0 0 48 48" width="48" height="48" fill="none" stroke="currentColor" strokeWidth="1">
+                          <circle cx="24" cy="20" r="8" opacity="0.3"/>
+                          <path d="M12 40c0-8 5.4-14 12-14s12 6 12 14" opacity="0.3"/>
+                          <path d="M8 8l32 32" opacity="0.2"/>
+                        </svg>
+                        <span>No image available</span>
                       </div>
                     ) : null}
                     {wormsData && renderWormsWarning(wormsData)}
@@ -437,69 +448,87 @@ function App() {
 
               {/* Genera key active */}
               {generaActive && generaKey ? (
-                <div className="step-card">
-                  <div style={{ marginBottom: '1rem' }}>
-                    <button 
-                      className="btn-back" 
-                      onClick={backToFamily}
-                      style={{ fontSize: '0.75rem' }}
-                    >
-                      ← {t.back_to_family}: {generaFamily}
+                <>
+                  {/* Genera breadcrumb */}
+                  <div className="breadcrumb genera-breadcrumb" key="genera-breadcrumb">
+                    <button className="crumb-btn" onClick={backToFamily}>
+                      <span className="crumb" style={{ color: 'var(--fog)' }}>{generaFamily}</span>
                     </button>
-                  </div>
-                  {generaStep.result ? (
-                    <div className="result-card">
-                      <div className="result-inner">
-                        <div className="result-label">{t.genera_result}</div>
-                        <div className="result-name">{generaStep.result}</div>
-                        <div className="result-divider"></div>
-                        <div className="result-path">
-                          {generaHistory.map((h, i) => (
-                            <span key={i}>
-                              <span className="path-crumb">{h.choice}</span>
-                              {i < generaHistory.length - 1 && <span className="path-sep">→</span>}
-                            </span>
-                          ))}
-                        </div>
-                        <button className="btn-reset" onClick={backToFamily} style={{ marginTop: '1.5rem' }}>
-                          ← &nbsp; {t.back_to_family}
-                        </button>
-                      </div>
-                    </div>
-                  ) : (
-                    (() => {
-                      const generaNode = generaKey[generaStep];
-                      if (!generaNode) {
-                        return <div>{t.error_not_found}</div>;
-                      }
+                    {generaHistory.map((h, i) => {
+                      const isActive = i === generaHistory.length - 1 && !generaStep.result;
+                      const label = String(i + 1).padStart(2, '0') + h.choice;
                       return (
-                        <>
-                          <div className="step-meta">
-                            <span className="step-num">{generaFamily} · {generaNode.step}</span>
-                            <div className="step-line"></div>
-                          </div>
-                          <div className="options">
-                            <button className="option-btn" onClick={() => handleGeneraChoice(generaNode.optionA, 'A')}>
-                              <span className="option-letter">A</span>
-                              <div>{generaNode.optionA.text}</div>
-                              <span className="option-arrow">→</span>
-                            </button>
-                            <button className="option-btn" onClick={() => handleGeneraChoice(generaNode.optionB, 'B')}>
-                              <span className="option-letter">B</span>
-                              <div>{generaNode.optionB.text}</div>
-                              <span className="option-arrow">→</span>
-                            </button>
-                          </div>
-                        </>
+                        <span key={i}>
+                          <span className="crumb-sep">·</span>
+                          <span className={`crumb ${isActive ? 'active' : ''}`}>{label}</span>
+                        </span>
                       );
-                    })()
-                  )}
-                </div>
+                    })}
+                  </div>
+                  <div className="step-card">
+                    <div style={{ marginBottom: '1rem' }}>
+                      <button 
+                        className="btn-back" 
+                        onClick={backToFamily}
+                        style={{ fontSize: '0.75rem' }}
+                      >
+                        ← {t.back_to_family}: {generaFamily}
+                      </button>
+                    </div>
+                    {generaStep.result ? (
+                      <div className="result-card">
+                        <div className="result-inner">
+                          <div className="result-label">{t.genera_result}</div>
+                          <div className="result-name">{generaStep.result}</div>
+                          <div className="result-divider"></div>
+                          <div className="result-path">
+                            {generaHistory.map((h, i) => (
+                              <span key={i}>
+                                <span className="path-crumb">{h.choice}</span>
+                                {i < generaHistory.length - 1 && <span className="path-sep">→</span>}
+                              </span>
+                            ))}
+                          </div>
+                          <button className="btn-reset" onClick={backToFamily} style={{ marginTop: '1.5rem' }}>
+                            ← &nbsp; {t.back_to_family}
+                          </button>
+                        </div>
+                      </div>
+                    ) : (
+                      (() => {
+                        const generaNode = generaKey[generaStep];
+                        if (!generaNode) {
+                          return <div>{t.error_not_found}</div>;
+                        }
+                        return (
+                          <>
+                            <div className="step-meta">
+                              <span className="step-num">{generaFamily} · {generaNode.step}</span>
+                              <div className="step-line"></div>
+                            </div>
+                            <div className="options">
+                              <button className="option-btn" onClick={() => handleGeneraChoice(generaNode.optionA, 'A')}>
+                                <span className="option-letter">A</span>
+                                <div>{generaNode.optionA.text}</div>
+                                <span className="option-arrow">→</span>
+                              </button>
+                              <button className="option-btn" onClick={() => handleGeneraChoice(generaNode.optionB, 'B')}>
+                                <span className="option-letter">B</span>
+                                <div>{generaNode.optionB.text}</div>
+                                <span className="option-arrow">→</span>
+                              </button>
+                            </div>
+                          </>
+                        );
+                      })()
+                    )}
+                  </div>
+                </>
               ) : null}
 
               {/* Family key step */}
               {!currentStep.result && !generaActive && node ? (
-                <div className="step-card">
+                <div className={`step-card nav-${navDir}`} key={`step-${currentStep}`}>
                   <div className="step-meta">
                     <span className="step-num">{node.step}</span>
                     <div className="step-line"></div>
@@ -524,8 +553,9 @@ function App() {
                 <div>{t.error_not_found}</div>
               ) : null}
             </div>
-          </>
+          </div>
         ) : (
+          <div className="mode-panel" key="list-mode">
           <div className="taxa-list" style={{ marginTop: '2rem', width: '100%', maxWidth: '760px' }}>
             <div className="search-bar">
               <input 
@@ -645,6 +675,7 @@ function App() {
                 </div>
               </div>
             ))}
+          </div>
           </div>
         )}
       </div>
