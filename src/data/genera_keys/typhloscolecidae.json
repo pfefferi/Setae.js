@@ -1,0 +1,13 @@
+{
+  "_meta": { "family": "TYPHLOSCOLECIDAE", "source": "Fauchald (1977) Key to Genera", "type": "genera_key" },
+  "1": {
+    "step": "1",
+    "optionA": { "text": "Prostomium with ciliated ridges dorsally and ventrally", "goTo": null, "result": "Typhloscolex" },
+    "optionB": { "text": "Prostomium without ciliated ridges", "goTo": "2", "result": null }
+  },
+  "2": {
+    "step": "2",
+    "optionA": { "text": "Median prostomial papilla on the dorsal side present", "goTo": null, "result": "Travisiopsis" },
+    "optionB": { "text": "Prostomium without median dorsal papilla", "goTo": null, "result": "Sagitella" }
+  }
+}

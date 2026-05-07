@@ -1,0 +1,8 @@
+{
+  "_meta": { "family": "BOGUEIDAE", "source": "Fauchald (1977) Key to Genera", "type": "genera_key" },
+  "1": {
+    "step": "1",
+    "optionA": { "text": "First three setigers without neurosetae", "goTo": null, "result": "Boguea" },
+    "optionB": { "text": "First four setigers without neurosetae", "goTo": null, "result": "Boguella" }
+  }
+}

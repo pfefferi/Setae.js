@@ -1,0 +1,8 @@
+{
+  "_meta": { "family": "PROTODRILIDAE", "source": "Fauchald (1977) Key to Genera", "type": "genera_key" },
+  "1": {
+    "step": "1",
+    "optionA": { "text": "Setae or segmentally arranged adhesive organs present", "goTo": null, "result": "Protodriloides" },
+    "optionB": { "text": "Setae and segmentally arranged adhesive organs absent", "goTo": null, "result": "Protodrilus" }
+  }
+}

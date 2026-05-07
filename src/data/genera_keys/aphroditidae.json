@@ -1,0 +1,85 @@
+{
+  "_meta": {
+    "family": "APHRODITIDAE",
+    "source": "Fauchald (1977) Key to Genera",
+    "type": "genera_key"
+  },
+  "1": {
+    "step": "1",
+    "optionA": {
+      "text": "Dorsum covered with felted notosetae",
+      "goTo": "2",
+      "result": null
+    },
+    "optionB": {
+      "text": "Dorsum without felt, or with a very few felt setae",
+      "goTo": "4",
+      "result": null
+    }
+  },
+  "2": {
+    "step": "2",
+    "optionA": {
+      "text": "Stout supportive notosetae absent; facial tubercle absent",
+      "goTo": null,
+      "result": "Heteraphrodita"
+    },
+    "optionB": {
+      "text": "Stout supportive notosetae present; facial tubercle present",
+      "goTo": "3",
+      "result": null
+    }
+  },
+  "3": {
+    "step": "3",
+    "optionA": {
+      "text": "Neutosetae distally bifid",
+      "goTo": null,
+      "result": "Tricertia"
+    },
+    "optionB": {
+      "text": "Neurosetae distally entire, but sometimes subdistally spurred",
+      "goTo": null,
+      "result": "Aphrodita"
+    }
+  },
+  "4": {
+    "step": "4",
+    "optionA": {
+      "text": "Harpoon-shaped notosetae present",
+      "goTo": null,
+      "result": "Laetmonice"
+    },
+    "optionB": {
+      "text": "Harpoon-shaped notosetae absent",
+      "goTo": "5",
+      "result": null
+    }
+  },
+  "5": {
+    "step": "5",
+    "optionA": {
+      "text": "Notosetae sabre-shaped and smooth",
+      "goTo": null,
+      "result": "Aphrogenia"
+    },
+    "optionB": {
+      "text": "Notosetae, if flattened, marginally serrated",
+      "goTo": "6",
+      "result": null
+    }
+  },
+  "6": {
+    "step": "6",
+    "optionA": {
+      "text": "Notosetae flattened and marginally serrated",
+      "goTo": null,
+      "result": "Pontogenia"
+    },
+    "optionB": {
+      "text": "Notosetae cylindrical and smooth",
+      "goTo": null,
+      "result": "Hermionopsis"
+    }
+  }
+}

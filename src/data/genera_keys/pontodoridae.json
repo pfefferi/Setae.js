@@ -1,0 +1,189 @@
+{
+  "_meta": {
+    "family": "PONTODORIDAE",
+    "source": "Fauchald (1977) Key to Genera",
+    "type": "genera_key"
+  },
+  "1": {
+    "step": "1",
+    "optionA": {
+      "text": "Two antennae present",
+      "goTo": null,
+      "result": "Cirrodoce"
+    },
+    "optionB": {
+      "text": "At least four antennae present",
+      "goTo": "2",
+      "result": null
+    }
+  },
+  "2": {
+    "step": "2",
+    "optionA": {
+      "text": "Two pairs of tentacular cirri on one segment",
+      "goTo": "3",
+      "result": null
+    },
+    "optionB": {
+      "text": "At least three pairs of tentacular cirri on two or three segments",
+      "goTo": "4",
+      "result": null
+    }
+  },
+  "3": {
+    "step": "3",
+    "optionA": {
+      "text": "Eversible pharynx diffusely papillated or smooth",
+      "goTo": null,
+      "result": "Eteone"
+    },
+    "optionB": {
+      "text": "Eversible pharynx with large lateral papillae in rows",
+      "goTo": null,
+      "result": "Mysta"
+    }
+  },
+  "4": {
+    "step": "4",
+    "optionA": {
+      "text": "Three pairs of tentacular cirri on two or three segments",
+      "goTo": "5",
+      "result": null
+    },
+    "optionB": {
+      "text": "Four pairs of tentacular cirri on three segments",
+      "goTo": "7",
+      "result": null
+    }
+  },
+  "5": {
+    "step": "5",
+    "optionA": {
+      "text": "Third segment with dorsal cirri",
+      "goTo": null,
+      "result": "Lugia"
+    },
+    "optionB": {
+      "text": "Third segment without dorsal cirri",
+      "goTo": "6",
+      "result": null
+    }
+  },
+  "6": {
+    "step": "6",
+    "optionA": {
+      "text": "Second segment with setae; dorsal and ventral cirri broadly ovate",
+      "goTo": null,
+      "result": "Myxicola"
+    },
+    "optionB": {
+      "text": "Second segment without setae; dorsal and ventral cirri lanceolate",
+      "goTo": null,
+      "result": "Hesionura"
+    }
+  },
+  "7": {
+    "step": "7",
+    "optionA": {
+      "text": "Parapodia biramous",
+      "goTo": "8",
+      "result": null
+    },
+    "optionB": {
+      "text": "Parapodia uniramous",
+      "goTo": "11",
+      "result": null
+    }
+  },
+  "8": {
+    "step": "8",
+    "optionA": {
+      "text": "Ventral tentacular cirrus (on segment 2) foliaceous",
+      "goTo": null,
+      "result": "Hesperophyllum"
+    },
+    "optionB": {
+      "text": "Ventral tentacular cirri digitate or subulate",
+      "goTo": "9",
+      "result": null
+    }
+  },
+  "9": {
+    "step": "9",
+    "optionA": {
+      "text": "First tentacular segment a complete ring",
+      "goTo": null,
+      "result": "Austrophyllum"
+    },
+    "optionB": {
+      "text": "First tentacular segment dorsally reduced",
+      "goTo": "10",
+      "result": null
+    }
+  },
+  "10": {
+    "step": "10",
+    "optionA": {
+      "text": "First segment with two pairs of cirri and setae",
+      "goTo": null,
+      "result": "Nipponophyllum"
+    },
+    "optionB": {
+      "text": "First segment with a single pair of cirri; setae first present from the second segment",
+      "goTo": null,
+      "result": "Notophyllum"
+    }
+  },
+  "11": {
+    "step": "11",
+    "optionA": {
+      "text": "Five antenna present",
+      "goTo": "12",
+      "result": null
+    },
+    "optionB": {
+      "text": "Four antennae present",
+      "goTo": "22",
+      "result": null
+    }
+  },
+  "12": {
+    "step": "12",
+    "optionA": {
+      "text": "Ventral tentacular cirri (on segment 2) foliose",
+      "goTo": null,
+      "result": "Phyllodoce"
+    },
+    "optionB": {
+      "text": "Ventral tentacular cirri digitate or subulate",
+      "goTo": "13",
+      "result": null
+    }
+  },
+  "13": {
+    "step": "13",
+    "optionA": {
+      "text": "First segment with setae and two pairs of cirri",
+      "goTo": null,
+      "result": "Ptychoptychopora"
+    },
+    "optionB": {
+      "text": "First segment without setae, one pair of cirri",
+      "goTo": "14",
+      "result": null
+    }
+  },
+  "14": {
+    "step": "14",
+    "optionA": {
+      "text": "Median antenna present",
+      "goTo": null,
+      "result": "Pontodora"
+    },
+    "optionB": {
+      "text": "Median antenna absent",
+      "goTo": null,
+      "result": "Treptopyle"
+    }
+  }
+}

@@ -1,0 +1,137 @@
+{
+  "_meta": {
+    "family": "OPHELIIDAE",
+    "source": "Fauchald (1977) Key to Genera",
+    "type": "genera_key"
+  },
+  "1": {
+    "step": "1",
+    "optionA": {
+      "text": "Body fusiform without ventral groove",
+      "goTo": "2",
+      "result": null
+    },
+    "optionB": {
+      "text": "Body cylindrical with at least posterior ventrum deeply grooved",
+      "goTo": "4",
+      "result": null
+    }
+  },
+  "2": {
+    "step": "2",
+    "optionA": {
+      "text": "Branchiae absent",
+      "goTo": null,
+      "result": "Kesun"
+    },
+    "optionB": {
+      "text": "Branchiae present",
+      "goTo": "3",
+      "result": null
+    }
+  },
+  "3": {
+    "step": "3",
+    "optionA": {
+      "text": "First setiger appear in front of the mouth; all setae smooth",
+      "goTo": null,
+      "result": "Travisia"
+    },
+    "optionB": {
+      "text": "First setiger appear behind the mouth; some setae spinose",
+      "goTo": null,
+      "result": "Dindymenides"
+    }
+  },
+  "4": {
+    "step": "4",
+    "optionA": {
+      "text": "Ventral groove present in posterior part of body only",
+      "goTo": "5",
+      "result": null
+    },
+    "optionB": {
+      "text": "Ventral groove present along the whole body",
+      "goTo": "6",
+      "result": null
+    }
+  },
+  "5": {
+    "step": "5",
+    "optionA": {
+      "text": "Three body-regions, including inflated head, inflated anterior part and narrow posterior part; branchiae in posterior region only",
+      "goTo": null,
+      "result": "Euzonus"
+    },
+    "optionB": {
+      "text": "Body not clearly regionated, inflated anteriorly and grooved posteriorly; branchiae from setigers 8-10, if present",
+      "goTo": null,
+      "result": "Ophelia"
+    }
+  },
+  "6": {
+    "step": "6",
+    "optionA": {
+      "text": "Branchiae absent",
+      "goTo": "7",
+      "result": null
+    },
+    "optionB": {
+      "text": "Branchiae present",
+      "goTo": "8",
+      "result": null
+    }
+  },
+  "7": {
+    "step": "7",
+    "optionA": {
+      "text": "Lateral eyes absent",
+      "goTo": null,
+      "result": "Tachytrypane"
+    },
+    "optionB": {
+      "text": "Lateral eyes present",
+      "goTo": null,
+      "result": "Polyophthalmus"
+    }
+  },
+  "8": {
+    "step": "8",
+    "optionA": {
+      "text": "Lateral eyes present",
+      "goTo": null,
+      "result": "Armandia"
+    },
+    "optionB": {
+      "text": "Lateral eyes absent",
+      "goTo": "9",
+      "result": null
+    }
+  },
+  "9": {
+    "step": "9",
+    "optionA": {
+      "text": "Anal tube short, all anal cirri of similar length",
+      "goTo": null,
+      "result": "Antiobactrum"
+    },
+    "optionB": {
+      "text": "Anal tube long, two internally attached ventral cirri present, dorsal anal cirri short",
+      "goTo": "10",
+      "result": null
+    }
+  },
+  "10": {
+    "step": "10",
+    "optionA": {
+      "text": "Branchiae, if present, along the whole body",
+      "goTo": null,
+      "result": "Ophelina"
+    },
+    "optionB": {
+      "text": "Branchiae always present, limited to the posterior end of body only",
+      "goTo": null,
+      "result": "Ammotrypanella"
+    }
+  }
+}

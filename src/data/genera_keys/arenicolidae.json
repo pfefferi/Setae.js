@@ -1,0 +1,46 @@
+{
+  "_meta": {
+    "family": "ARENICOLIDAE",
+    "source": "Fauchald (1977) Key to Genera",
+    "type": "genera_key"
+  },
+  "1": {
+    "step": "1",
+    "optionA": {
+      "text": "Body slender, branchiae first present from setiger 18, or later, as thick filaments arranged with maximally two or three in a tuft",
+      "goTo": null,
+      "result": "Branchiomaldane"
+    },
+    "optionB": {
+      "text": "Body thick, branchiae first present from a more anterior setiger as thick tufts of very fine filaments",
+      "goTo": "2",
+      "result": null
+    }
+  },
+  "2": {
+    "step": "2",
+    "optionA": {
+      "text": "Asetose caudal end absent",
+      "goTo": null,
+      "result": "Arenicolides"
+    },
+    "optionB": {
+      "text": "Asetose caudal end present",
+      "goTo": "3",
+      "result": null
+    }
+  },
+  "3": {
+    "step": "3",
+    "optionA": {
+      "text": "Neuropodia of branchial segment approach midventrally; a single pair of oesophageal sacs present",
+      "goTo": null,
+      "result": "Arenicola"
+    },
+    "optionB": {
+      "text": "Neuropodia of branchial segments well separated; more than one pair of oesophageal sacs present",
+      "goTo": null,
+      "result": "Abarenicola"
+    }
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "_meta": { "family": "LACYDONIIDAE", "source": "Fauchald (1977) Key to Genera", "type": "genera_key" },
+  "1": {
+    "step": "1",
+    "optionA": { "text": "Tentacular cirri present", "goTo": null, "result": "Lacydonia" },
+    "optionB": { "text": "Tentacular cirri absent", "goTo": "2", "result": null }
+  },
+  "2": {
+    "step": "2",
+    "optionA": { "text": "Antennae short and biarticulated; first setiger uniramous", "goTo": null, "result": "Paralacydonia" },
+    "optionB": { "text": "Antennae long and smooth; first setiger biramous", "goTo": null, "result": "Paraonis" }
+  }
+}

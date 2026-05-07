@@ -1,0 +1,18 @@
+{
+  "_meta": { "family": "IOSPILIDAE", "source": "Fauchald (1977) Key to Genera", "type": "genera_key" },
+  "1": {
+    "step": "1",
+    "optionA": { "text": "Eversible pharynx with a pair of curved jaws", "goTo": null, "result": "Phalacrophorus" },
+    "optionB": { "text": "Eversible pharynx unarmed", "goTo": "2", "result": null }
+  },
+  "2": {
+    "step": "2",
+    "optionA": { "text": "Up to 11 anterior segments with reduced parapodia", "goTo": null, "result": "Iospilopsis" },
+    "optionB": { "text": "Parapodia fully developed from segment 5", "goTo": "3", "result": null }
+  },
+  "3": {
+    "step": "3",
+    "optionA": { "text": "Dorsal and ventral cirri present, but small on segments 2-3", "goTo": null, "result": "Paraiospilus" },
+    "optionB": { "text": "Dorsal and ventral cirri absent on segments 2-3", "goTo": null, "result": "Iospilus" }
+  }
+}
