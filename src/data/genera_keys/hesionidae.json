@@ -1,0 +1,153 @@
+{
+  "_meta": { "family": "HESIONIDAE", "source": "Fauchald (1977) Key to Genera", "type": "genera_key" },
+  "1": {
+    "step": "1",
+    "optionA": { "text": "Two pairs of tentacular cirri; five antennae", "goTo": null, "result": "Hesiosyllis" },
+    "optionB": { "text": "At least three pairs of tentacular cirri; maximally three antennae", "goTo": "2", "result": null }
+  },
+  "2": {
+    "step": "2",
+    "optionA": { "text": "Four or more pairs of tentacular cirri", "goTo": "3", "result": null },
+    "optionB": { "text": "Three pairs of tentacular cirri", "goTo": "7", "result": null }
+  },
+  "3": {
+    "step": "3",
+    "optionA": { "text": "Five or more pairs of tentacular cirri", "goTo": "4", "result": null },
+    "optionB": { "text": "Four pairs of tentacular cirri", "goTo": "8", "result": null }
+  },
+  "4": {
+    "step": "4",
+    "optionA": { "text": "Five pairs of tentacular cirri", "goTo": null, "result": "Friedericiella" },
+    "optionB": { "text": "Six or more pairs of tentacular cirri", "goTo": "5", "result": null }
+  },
+  "5": {
+    "step": "5",
+    "optionA": { "text": "Seven or more pairs of tentacular cirri", "goTo": "6", "result": null },
+    "optionB": { "text": "Six pairs of tentacular cirri", "goTo": "12", "result": null }
+  },
+  "6": {
+    "step": "6",
+    "optionA": { "text": "Seven pairs of tentacular cirri", "goTo": null, "result": "Periboea" },
+    "optionB": { "text": "Eight pairs of tentacular cirri", "goTo": "22", "result": null }
+  },
+  "7": {
+    "step": "7",
+    "optionA": { "text": "Parapodia uniramous", "goTo": null, "result": "Orseis" },
+    "optionB": { "text": "Parapodia biramous", "goTo": null, "result": "Alikunhia" }
+  },
+  "8": {
+    "step": "8",
+    "optionA": { "text": "Parapodia distinctly uniramous", "goTo": "9", "result": null },
+    "optionB": { "text": "Parapodia sub-biramous or biramous", "goTo": "10", "result": null }
+  },
+  "9": {
+    "step": "9",
+    "optionA": { "text": "First setiger with large hooks", "goTo": null, "result": "Struvela" },
+    "optionB": { "text": "First setiger without hooks", "goTo": null, "result": "Hesiocaeca" }
+  },
+  "10": {
+    "step": "10",
+    "optionA": { "text": "Antennae absent", "goTo": null, "result": "Bonuania" },
+    "optionB": { "text": "Antennae present", "goTo": "11", "result": null }
+  },
+  "11": {
+    "step": "11",
+    "optionA": { "text": "Tentacular cirri on three segments (1-2-1); dorsal cirri articulated", "goTo": null, "result": "Hesionella" },
+    "optionB": { "text": "Tentacular cirri on two segments (2-2); dorsal cirri smooth", "goTo": null, "result": "Hesionides" }
+  },
+  "12": {
+    "step": "12",
+    "optionA": { "text": "All parapodia uniramous", "goTo": null, "result": "Podarke" },
+    "optionB": { "text": "At least some parapodia sub-biramous or biramous", "goTo": "13", "result": null }
+  },
+  "13": {
+    "step": "13",
+    "optionA": { "text": "First three segments dorsally reduced", "goTo": "17", "result": null },
+    "optionB": { "text": "Maximally first segment dorsally reduced", "goTo": "14", "result": null }
+  },
+  "14": {
+    "step": "14",
+    "optionA": { "text": "Tentacular cirri on four segments (first reduced) so that they appear as 3-2-1", "goTo": null, "result": "Amphiduros" },
+    "optionB": { "text": "Tentacular cirri on three segments (2-2-2)", "goTo": "15", "result": null }
+  },
+  "15": {
+    "step": "15",
+    "optionA": { "text": "Pharynx distally with a circlet of fine fimbriae", "goTo": null, "result": "Hesione" },
+    "optionB": { "text": "Pharynx with either eleven or twenty-one distal papillae", "goTo": "16", "result": null }
+  },
+  "16": {
+    "step": "16",
+    "optionA": { "text": "Pharynx with 21 distal papillae", "goTo": null, "result": "Leocrates" },
+    "optionB": { "text": "Pharynx with eleven distal papillae", "goTo": null, "result": "Leocratides" }
+  },
+  "17": {
+    "step": "17",
+    "optionA": { "text": "Three antennae present", "goTo": "18", "result": null },
+    "optionB": { "text": "Two antennae present", "goTo": "19", "result": null }
+  },
+  "18": {
+    "step": "18",
+    "optionA": { "text": "Median antenna attached medially or posteriorly on the prostomium", "goTo": null, "result": "Podarkeopsis" },
+    "optionB": { "text": "Median antenna attached frontally", "goTo": null, "result": "Gyptis" }
+  },
+  "19": {
+    "step": "19",
+    "optionA": { "text": "Palpi simple", "goTo": "20", "result": null },
+    "optionB": { "text": "Palpi biarticulated", "goTo": "21", "result": null }
+  },
+  "20": {
+    "step": "20",
+    "optionA": { "text": "Setae present from the second segment", "goTo": null, "result": "Neogyptis" },
+    "optionB": { "text": "Setae present from the fourth segment", "goTo": null, "result": "Paragyptis" }
+  },
+  "21": {
+    "step": "21",
+    "optionA": { "text": "Dorsal cirri smooth", "goTo": null, "result": "Oxydromus" },
+    "optionB": { "text": "Dorsal cirri articulated", "goTo": null, "result": "Microphthalmus" }
+  },
+  "22": {
+    "step": "22",
+    "optionA": { "text": "Three antennae", "goTo": "26", "result": null },
+    "optionB": { "text": "Two antennae", "goTo": "23", "result": null }
+  },
+  "23": {
+    "step": "23",
+    "optionA": { "text": "Median antenna attached medially or posteriorly on the prostomium", "goTo": null, "result": "Kefersteinia" },
+    "optionB": { "text": "Median antenna attached frontally", "goTo": "24", "result": null }
+  },
+  "24": {
+    "step": "24",
+    "optionA": { "text": "Eversible pharynx distally fimbriated", "goTo": null, "result": "Magna" },
+    "optionB": { "text": "Eversible pharynx distally papillated", "goTo": "25", "result": null }
+  },
+  "25": {
+    "step": "25",
+    "optionA": { "text": "Parapodia uniramous", "goTo": null, "result": "Nereimyra" },
+    "optionB": { "text": "Parapodia biramous", "goTo": null, "result": "Castalia" }
+  },
+  "26": {
+    "step": "26",
+    "optionA": { "text": "Setae present from the second segment", "goTo": null, "result": "Hesiospina" },
+    "optionB": { "text": "Setae present from the fifth (or fourth) segment", "goTo": "27", "result": null }
+  },
+  "27": {
+    "step": "27",
+    "optionA": { "text": "Notopodia with falcate spines", "goTo": null, "result": "Podarmus" },
+    "optionB": { "text": "Parapodia uniramous", "goTo": "28", "result": null }
+  },
+  "28": {
+    "step": "28",
+    "optionA": { "text": "Palps absent", "goTo": null, "result": "Hesiotes" },
+    "optionB": { "text": "Palps present", "goTo": "29", "result": null }
+  },
+  "29": {
+    "step": "29",
+    "optionA": { "text": "Setae present from the fourth segment", "goTo": null, "result": "Dalhousia" },
+    "optionB": { "text": "Setae present from the third segment", "goTo": "30", "result": null }
+  },
+  "30": {
+    "step": "30",
+    "optionA": { "text": "Eversible pharynx smooth", "goTo": null, "result": "Westheides" },
+    "optionB": { "text": "Eversible pharynx distally fimbriated", "goTo": null, "result": "Hartmanella" }
+  }
+}

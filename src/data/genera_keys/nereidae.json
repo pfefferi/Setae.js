@@ -1,0 +1,183 @@
+{
+  "_meta": { "family": "NEREIDAE", "source": "Fauchald (1977) Key to Genera", "type": "genera_key" },
+  "1": {
+    "step": "1",
+    "optionA": { "text": "Peristomium forms a large ventral collar", "goTo": null, "result": "Cheilonereis" },
+    "optionB": { "text": "Peristomium not ventrally enlarged", "goTo": "2", "result": null }
+  },
+  "2": {
+    "step": "2",
+    "optionA": { "text": "Some notopodia with pectinate branchiae", "goTo": "3", "result": null },
+    "optionB": { "text": "Branchiae absent", "goTo": "4", "result": null }
+  },
+  "3": {
+    "step": "3",
+    "optionA": { "text": "Branchiae arise from the dorsal cirrus; all setae composite spinigers", "goTo": null, "result": "Dendronereis" },
+    "optionB": { "text": "Branchiae arise from the notopodial lobes; some composite falcigers present", "goTo": null, "result": "Dendronereides" }
+  },
+  "4": {
+    "step": "4",
+    "optionA": { "text": "Anterior ventrum with transverse fleshy ridges", "goTo": null, "result": "Australonereis" },
+    "optionB": { "text": "Anterior ventrum smooth", "goTo": "5", "result": null }
+  },
+  "5": {
+    "step": "5",
+    "optionA": { "text": "Antennae absent", "goTo": "6", "result": null },
+    "optionB": { "text": "At least one antenna present", "goTo": "7", "result": null }
+  },
+  "6": {
+    "step": "6",
+    "optionA": { "text": "Two pairs of tentacular cirri present; anterior apodous segment absent", "goTo": null, "result": "Micronereis" },
+    "optionB": { "text": "Three pairs of tentacular cirri present; anterior apodous segment present", "goTo": null, "result": "Cryptonereis" }
+  },
+  "7": {
+    "step": "7",
+    "optionA": { "text": "A single median antenna present", "goTo": "8", "result": null },
+    "optionB": { "text": "Two antennae present", "goTo": "9", "result": null }
+  },
+  "8": {
+    "step": "8",
+    "optionA": { "text": "Paragnaths present on the maxillary ring; parapodia biramous (except the first two)", "goTo": null, "result": "Unanereis" },
+    "optionB": { "text": "Paragnaths absent; parapodia uniramous", "goTo": null, "result": "Dawbinia" }
+  },
+  "9": {
+    "step": "9",
+    "optionA": { "text": "Notocirri of parapodia 5-7 broadly elytraeform", "goTo": null, "result": "Kainonereis" },
+    "optionB": { "text": "Notocirri of parapodia 5-7 cylindrical and cirriform", "goTo": "10", "result": null }
+  },
+  "10": {
+    "step": "10",
+    "optionA": { "text": "Notopodia strongly reduced or absent", "goTo": "11", "result": null },
+    "optionB": { "text": "Median and posterior notopodia well developed, with lobes and setae", "goTo": "14", "result": null }
+  },
+  "11": {
+    "step": "11",
+    "optionA": { "text": "Notosetae present", "goTo": null, "result": "Namanereis" },
+    "optionB": { "text": "Notosetae absent", "goTo": "12", "result": null }
+  },
+  "12": {
+    "step": "12",
+    "optionA": { "text": "Tentacular cirri articulated", "goTo": null, "result": "Lycastoides" },
+    "optionB": { "text": "Tentacular cirri smooth", "goTo": "13", "result": null }
+  },
+  "13": {
+    "step": "13",
+    "optionA": { "text": "Notacicula present; antennae and cirri well developed", "goTo": null, "result": "Namalycastis" },
+    "optionB": { "text": "Notacicula absent; antennae and cirri reduced", "goTo": null, "result": "Lycastopsis" }
+  },
+  "14": {
+    "step": "14",
+    "optionA": { "text": "Eversible pharynx with either papillae or paragnaths or both, in addition to the jaws", "goTo": "15", "result": null },
+    "optionB": { "text": "Eversible pharynx with jaws, but otherwise smooth", "goTo": "16", "result": null }
+  },
+  "15": {
+    "step": "15",
+    "optionA": { "text": "Eversible pharynx with soft papillae only", "goTo": "20", "result": null },
+    "optionB": { "text": "Eversible pharynx with at least some paragnaths", "goTo": "25", "result": null }
+  },
+  "16": {
+    "step": "16",
+    "optionA": { "text": "Two pairs of tentacular cirri; apodous segment absent", "goTo": null, "result": "Micronereides" },
+    "optionB": { "text": "Four pairs of tentacular cirri; apodous segment present", "goTo": "17", "result": null }
+  },
+  "17": {
+    "step": "17",
+    "optionA": { "text": "Dorsal cirri attached basally on the notopodial superior lobes", "goTo": "18", "result": null },
+    "optionB": { "text": "Dorsal cirri attached distally on the notopodial superior lobes", "goTo": "19", "result": null }
+  },
+  "18": {
+    "step": "18",
+    "optionA": { "text": "Notopodial homogomph falcigers present in posterior setigers", "goTo": null, "result": "Rullierinereis" },
+    "optionB": { "text": "Notopodial homogomph falcigers absent", "goTo": null, "result": "Nicon" }
+  },
+  "19": {
+    "step": "19",
+    "optionA": { "text": "Superior notopodial lobes long and straplike; inferior neuropodial lobe absent", "goTo": null, "result": "Steninonereis" },
+    "optionB": { "text": "Superior notopodial lobes large and foliose; inferior neuropodial lobes present", "goTo": null, "result": "Leptonereis" }
+  },
+  "20": {
+    "step": "20",
+    "optionA": { "text": "Pharyngeal papillae at least in part in tufts", "goTo": "21", "result": null },
+    "optionB": { "text": "Pharyngeal papillae solitary", "goTo": "22", "result": null }
+  },
+  "21": {
+    "step": "21",
+    "optionA": { "text": "All setae homogomph spinigers", "goTo": null, "result": "Tylonereis" },
+    "optionB": { "text": "Setae include also neuropodial homogomph falcigers in posterior setigers", "goTo": null, "result": "Laeonereis" }
+  },
+  "22": {
+    "step": "22",
+    "optionA": { "text": "Ventral cirri double at least in some setigers", "goTo": null, "result": "Ceratocephale" },
+    "optionB": { "text": "All ventral cirri simple", "goTo": "23", "result": null }
+  },
+  "23": {
+    "step": "23",
+    "optionA": { "text": "Accessory dorsal cirri on some anterior setigers; posterior dorsal cirri long and whiplike", "goTo": null, "result": "Gymnonereis" },
+    "optionB": { "text": "Accessory dorsal cirri absent; posterior dorsal cirri not whiplike", "goTo": "24", "result": null }
+  },
+  "24": {
+    "step": "24",
+    "optionA": { "text": "Pharyngeal papillae on both rings; inferior neuropodial lobes absent; dorsal cirri distally attached", "goTo": null, "result": "Tylorrhynchus" },
+    "optionB": { "text": "Pharyngeal papillae on oral ring only; inferior neuropodial lobes present; dorsal cirri basally attached", "goTo": null, "result": "Kinberginereis" }
+  },
+  "25": {
+    "step": "25",
+    "optionA": { "text": "Eversible pharynx with both papillae and paragnaths", "goTo": null, "result": "Leonnates" },
+    "optionB": { "text": "Papillae absent, paragnaths present", "goTo": "26", "result": null }
+  },
+  "26": {
+    "step": "26",
+    "optionA": { "text": "Paragnaths present on one pharyngeal ring only", "goTo": "27", "result": null },
+    "optionB": { "text": "Paragnaths present on both pharyngeal rings", "goTo": "30", "result": null }
+  },
+  "27": {
+    "step": "27",
+    "optionA": { "text": "Paragnaths present on the maxillary ring only", "goTo": "28", "result": null },
+    "optionB": { "text": "Paragnaths present on the oral ring only", "goTo": "29", "result": null }
+  },
+  "28": {
+    "step": "28",
+    "optionA": { "text": "Paragnaths in eight groups, all rod-shaped", "goTo": null, "result": "Solomononereis" },
+    "optionB": { "text": "Paragnaths in patches and bands, all conical", "goTo": null, "result": "Ceratonereis" }
+  },
+  "29": {
+    "step": "29",
+    "optionA": { "text": "Notopodial homogomph falcigers present in posterior setigers", "goTo": null, "result": "Eunereis" },
+    "optionB": { "text": "Notopodial homogomph falcigers absent", "goTo": null, "result": "Websterinereis" }
+  },
+  "30": {
+    "step": "30",
+    "optionA": { "text": "All paragnaths conical", "goTo": "31", "result": null },
+    "optionB": { "text": "Cones and in addition either transverse or pectinate paragnaths or both present on the pharynx", "goTo": "35", "result": null }
+  },
+  "31": {
+    "step": "31",
+    "optionA": { "text": "All setae homogomph spinigers", "goTo": null, "result": "Nectoneanthes" },
+    "optionB": { "text": "At least some falcigers present", "goTo": "32", "result": null }
+  },
+  "32": {
+    "step": "32",
+    "optionA": { "text": "Middle and posterior neuropodia with single homogomph falcigers", "goTo": null, "result": "Hediste" },
+    "optionB": { "text": "Homogomph falcigers, if present, in notopodial positions", "goTo": "33", "result": null }
+  },
+  "33": {
+    "step": "33",
+    "optionA": { "text": "With blunt simple falcigers in notopodia", "goTo": null, "result": "Cirronereis" },
+    "optionB": { "text": "Simple falcigers absent, composite falcigers present or absent", "goTo": "34", "result": null }
+  },
+  "34": {
+    "step": "34",
+    "optionA": { "text": "Notopodial homogomph falcigers present in posterior setigers", "goTo": null, "result": "Nereis" },
+    "optionB": { "text": "Notopodial homogomph falcigers absent", "goTo": null, "result": "Neanthes" }
+  },
+  "35": {
+    "step": "35",
+    "optionA": { "text": "Paragnaths include pectinate bars and usually small patches of cones; transverse smooth bars absent", "goTo": null, "result": "Platynereis" },
+    "optionB": { "text": "Paragnaths include transverse smooth bars, patches of cones and sometimes pectinate bars", "goTo": "36", "result": null }
+  },
+  "36": {
+    "step": "36",
+    "optionA": { "text": "Superior notopodial lobes greatly expanded in posterior setigers; pectinate bars usually present", "goTo": null, "result": "Pseudonereis" },
+    "optionB": { "text": "Superior notopodial lobes not expanded in any setigers; pectinate bars absent", "goTo": null, "result": "Perinereis" }
+  }
+}
