@@ -1,4 +1,4 @@
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
 import fauchaldKeyEn from './data/fauchald_family_key_en.json';
 import fauchaldKeyEs from './data/fauchald_family_key_es.json';
 import en from './locales/en.json';
@@ -17,7 +17,9 @@ const translations = {
 };
 
 function App() {
-  const [lang, setLang] = useState('en');
+  const [lang, setLang] = useState(() => {
+    return localStorage.getItem('setae-lang') || 'en';
+  });
   const [mode, setMode] = useState('key'); // 'key' or 'list'
   const [currentStep, setCurrentStep] = useState('1');
   const [history, setHistory] = useState([]);
@@ -33,6 +35,21 @@ function App() {
   const [generaKey, setGeneraKey] = useState(null);
   const [generaStep, setGeneraStep] = useState('1');
   const [generaHistory, setGeneraHistory] = useState([]);
+  const [theme, setTheme] = useState(() => {
+    return localStorage.getItem('setae-theme') || 'dark';
+  });
+
+  useEffect(() => {
+    document.documentElement.setAttribute('data-theme', theme);
+  }, [theme]);
+
+  const toggleTheme = () => {
+    setTheme(prev => {
+      const next = prev === 'dark' ? 'light' : 'dark';
+      localStorage.setItem('setae-theme', next);
+      return next;
+    });
+  };
 
   const fauchaldKey = keys[lang];
   const t = translations[lang];
@@ -269,7 +286,7 @@ function App() {
 
   return (
     <>
-      <div className="wrapper">
+      <div className="wrapper" data-theme={theme}>
         <header style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center' }}>
           <h1>{t.title}</h1>
           <div style={{ display: 'flex', gap: '1rem', alignItems: 'center' }}>
@@ -290,9 +307,13 @@ function App() {
               </button>
             </div>
             <div className="lang-switcher">
-              <button className={lang === 'en' ? 'active' : ''} onClick={() => setLang('en')}>EN</button>
-              <button className={lang === 'es' ? 'active' : ''} onClick={() => setLang('es')}>ES</button>
+              <button className={lang === 'en' ? 'active' : ''} onClick={() => { setLang('en'); localStorage.setItem('setae-lang', 'en'); }}>EN</button>
+              <button className={lang === 'es' ? 'active' : ''} onClick={() => { setLang('es'); localStorage.setItem('setae-lang', 'es'); }}>ES</button>
             </div>
+            <button className="theme-toggle" onClick={toggleTheme} aria-label="Toggle theme">
+              <span className={`theme-icon ${theme === 'dark' ? 'active' : ''}`}>☽</span>
+              <span className={`theme-icon ${theme === 'light' ? 'active' : ''}`}>☀</span>
+            </button>
           </div>
         </header>
 
@@ -544,7 +565,7 @@ function App() {
                         textTransform: 'uppercase',
                         letterSpacing: '0.05em',
                         padding: '0.5rem 1rem',
-                        borderTop: '1px solid rgba(255,255,255,0.08)',
+                        borderTop: '1px solid rgba(var(--fog-rgb), 0.12)',
                         width: '100%'
                       }}
                     >
