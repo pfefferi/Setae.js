@@ -28,6 +28,7 @@ function App() {
   const [searchQuery, setSearchQuery] = useState('');
   const [imageFailed, setImageFailed] = useState(false);
   const [generaActive, setGeneraActive] = useState(false);
+  const [expandedPaths, setExpandedPaths] = useState({});
   const [generaFamily, setGeneraFamily] = useState(null);
   const [generaKey, setGeneraKey] = useState(null);
   const [generaStep, setGeneraStep] = useState('1');
@@ -529,22 +530,46 @@ function App() {
                   <span className="taxon-list-icon">▼</span>
                 </div>
                 <div className="taxon-list-content">
-                  {listWormsData[taxon.split(' ')[0]] && !listWormsData[taxon.split(' ')[0]].valid && renderWormsWarning(listWormsData[taxon.split(' ')[0]])}
-                  {filteredTaxaPaths[taxon].map((path, pathIdx) => (
-                    <div key={pathIdx} style={{ marginBottom: pathIdx < filteredTaxaPaths[taxon].length - 1 ? '2rem' : '0' }}>
-                      {path.map((step, stepIdx) => (
-                        <div key={stepIdx} className="taxon-path-step">
-                          <div className="taxon-path-id">{step.step}{step.choice}</div>
-                          <div className="taxon-path-text">{step.text}</div>
+{listWormsData[taxon.split(' ')[0]] && !listWormsData[taxon.split(' ')[0]].valid && renderWormsWarning(listWormsData[taxon.split(' ')[0]])}
+                  <div style={{ marginTop: '1.5rem', textAlign: 'center' }}>
+                    <button
+                      onClick={() => setExpandedPaths(prev => ({...prev, [taxon]: !prev[taxon]}))}
+                      style={{
+                        background: 'none',
+                        border: 'none',
+                        cursor: 'pointer',
+                        color: 'var(--fog)',
+                        fontSize: '0.75rem',
+                        fontFamily: 'var(--mono)',
+                        textTransform: 'uppercase',
+                        letterSpacing: '0.05em',
+                        padding: '0.5rem 1rem',
+                        borderTop: '1px solid rgba(255,255,255,0.08)',
+                        width: '100%'
+                      }}
+                    >
+                      {expandedPaths[taxon] ? '▲ Hide Steps' : '▼ Show Steps'}
+                    </button>
+                  </div>
+                  {expandedPaths[taxon] && (
+                    <>
+                      {filteredTaxaPaths[taxon].map((path, pathIdx) => (
+                        <div key={pathIdx} style={{ marginBottom: pathIdx < filteredTaxaPaths[taxon].length - 1 ? '2rem' : '0' }}>
+                          {path.map((step, stepIdx) => (
+                            <div key={stepIdx} className="taxon-path-step">
+                              <div className="taxon-path-id">{step.step}{step.choice}</div>
+                              <div className="taxon-path-text">{step.text}</div>
+                            </div>
+                          ))}
+                          {pathIdx < filteredTaxaPaths[taxon].length - 1 && (
+                            <div style={{ margin: '1rem 0', color: 'var(--fog)', fontStyle: 'italic', fontSize: '0.8rem', textAlign: 'center' }}>
+                              {t.list_or}
+                            </div>
+                          )}
                         </div>
                       ))}
-                      {pathIdx < filteredTaxaPaths[taxon].length - 1 && (
-                        <div style={{ margin: '1rem 0', color: 'var(--fog)', fontStyle: 'italic', fontSize: '0.8rem', textAlign: 'center' }}>
-                          {t.list_or}
-                        </div>
-                      )}
-                    </div>
-                  ))}
+                    </>
+                  )}
                   {listWormsData[taxon.split(' ')[0]] && !listWormsData[taxon.split(' ')[0]].valid && renderWormsWarning(listWormsData[taxon.split(' ')[0]], true)}
                   <div style={{ marginTop: '1.5rem', textAlign: 'right', display: 'flex', gap: '1rem', justifyContent: 'flex-end', flexWrap: 'wrap' }}>
                     {hasGeneraKey(taxon) && (
