@@ -613,12 +613,12 @@ function App() {
                   <div className="options">
                     <button className="option-btn" onClick={() => handleChoice(node.optionA, 'A')}>
                       <span className="option-letter">A</span>
-                      <div>{node.optionA.text}</div>
+                      <div><GlossaryText text={node.optionA.text} /></div>
                       <span className="option-arrow">→</span>
                     </button>
                     <button className="option-btn" onClick={() => handleChoice(node.optionB, 'B')}>
                       <span className="option-letter">B</span>
-                      <div>{node.optionB.text}</div>
+                      <div><GlossaryText text={node.optionB.text} /></div>
                       <span className="option-arrow">→</span>
                     </button>
                   </div>
@@ -695,7 +695,7 @@ function App() {
                           {path.map((step, stepIdx) => (
                             <div key={stepIdx} className="taxon-path-step">
                               <div className="taxon-path-id">{step.step}{step.choice}</div>
-                              <div className="taxon-path-text">{step.text}</div>
+                              <div className="taxon-path-text"><GlossaryText text={step.text} /></div>
                             </div>
                           ))}
                           {pathIdx < filteredTaxaPaths[taxon].length - 1 && (
