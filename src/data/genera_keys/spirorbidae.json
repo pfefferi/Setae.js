@@ -1,0 +1,128 @@
+{
+  "_meta": { "family": "SPIRORBIDAE", "source": "Fauchald (1977) Key to Genera", "type": "genera_key" },
+  "1": {
+    "step": "1",
+    "optionA": { "text": "With three or more pairs of thoracic tori", "goTo": "2", "result": null },
+    "optionB": { "text": "With two pairs of thoracic tori", "goTo": "5", "result": null }
+  },
+  "2": {
+    "step": "2",
+    "optionA": { "text": "With four or more pairs of thoracic tori or at least rudiments of a fourth pair present on the concave side", "goTo": "3", "result": null },
+    "optionB": { "text": "With three pairs of thoracic tori", "goTo": "17", "result": null }
+  },
+  "3": {
+    "step": "3",
+    "optionA": { "text": "With at least four complete thoracic tori present", "goTo": "4", "result": null },
+    "optionB": { "text": "With remnants of a fourth thoracic torus present", "goTo": "21", "result": null }
+  },
+  "4": {
+    "step": "4",
+    "optionA": { "text": "Four pairs of thoracic tori present", "goTo": null, "result": "Anomalorbis" },
+    "optionB": { "text": "Approximately seven pairs of thoracic tori present", "goTo": null, "result": "Neomicrorbis" }
+  },
+  "5": {
+    "step": "5",
+    "optionA": { "text": "Side setae absent", "goTo": "6", "result": null },
+    "optionB": { "text": "Side setae present", "goTo": "10", "result": null }
+  },
+  "6": {
+    "step": "6",
+    "optionA": { "text": "Margins of collar fused to form dorsal tunnel", "goTo": null, "result": "Dexiospira" },
+    "optionB": { "text": "Margins of collar not fused", "goTo": "7", "result": null }
+  },
+  "7": {
+    "step": "7",
+    "optionA": { "text": "Dextrally coiled", "goTo": null, "result": "Pillaiospira" },
+    "optionB": { "text": "Sinistrally coiled", "goTo": "8", "result": null }
+  },
+  "8": {
+    "step": "8",
+    "optionA": { "text": "Collar setae limbate", "goTo": null, "result": "Leodora" },
+    "optionB": { "text": "Collar setae of fin and blade construction", "goTo": "9", "result": null }
+  },
+  "9": {
+    "step": "9",
+    "optionA": { "text": "Thoracic uncini with simple, blunt anterior peg", "goTo": null, "result": "Simplicaria" },
+    "optionB": { "text": "Thoracic uncini with broadly indented anterior peg", "goTo": null, "result": "Eulaeospira" }
+  },
+  "10": {
+    "step": "10",
+    "optionA": { "text": "Dextrally coiled", "goTo": "11", "result": null },
+    "optionB": { "text": "Sinistrally coiled", "goTo": "12", "result": null }
+  },
+  "11": {
+    "step": "11",
+    "optionA": { "text": "Collar setae of fin and blade construction", "goTo": null, "result": "Spirorbella" },
+    "optionB": { "text": "Collar setae simply limbate", "goTo": null, "result": "Janua" }
+  },
+  "12": {
+    "step": "12",
+    "optionA": { "text": "Collar setae simply limbate", "goTo": "13", "result": null },
+    "optionB": { "text": "Collar setae of fin and blade construction", "goTo": "15", "result": null }
+  },
+  "13": {
+    "step": "13",
+    "optionA": { "text": "Collar fused dorsally to form tunnel", "goTo": null, "result": "Romanchella" },
+    "optionB": { "text": "Collar not fused dorsally", "goTo": "14", "result": null }
+  },
+  "14": {
+    "step": "14",
+    "optionA": { "text": "Incubation of larvae in opercular chamber; abdominal setae with blades as those of the collar setae", "goTo": null, "result": "Fauveldora" },
+    "optionB": { "text": "Incubation in the tube; abdominal setae very small with short blades", "goTo": null, "result": "Buskiella" }
+  },
+  "15": {
+    "step": "15",
+    "optionA": { "text": "Thoracic uncini with several rows of teeth", "goTo": null, "result": "Spirorbis" },
+    "optionB": { "text": "Thoracic uncini with a single row of teeth", "goTo": "16", "result": null }
+  },
+  "16": {
+    "step": "16",
+    "optionA": { "text": "Two or more opercular plates on top of each other on the operculum", "goTo": null, "result": "Duplicaria" },
+    "optionB": { "text": "A single opercular plate present", "goTo": null, "result": "Pileolaria" }
+  },
+  "17": {
+    "step": "17",
+    "optionA": { "text": "Side setae present", "goTo": "18", "result": null },
+    "optionB": { "text": "Side setae absent", "goTo": "20", "result": null }
+  },
+  "18": {
+    "step": "18",
+    "optionA": { "text": "Collar setae of fin and blade construction", "goTo": null, "result": "Paralaeospira" },
+    "optionB": { "text": "Collar setae simply limbate", "goTo": "19", "result": null }
+  },
+  "19": {
+    "step": "19",
+    "optionA": { "text": "Incubation of larvae in opercular chamber", "goTo": null, "result": "Protolaeodora" },
+    "optionB": { "text": "Larvae attached to stalk in faecal groove", "goTo": null, "result": "Metalaeospira" }
+  },
+  "20": {
+    "step": "20",
+    "optionA": { "text": "Tube tightly coiled along its whole length", "goTo": null, "result": "Circeis" },
+    "optionB": { "text": "Tube coiled only basally, most of the tube uncoiled", "goTo": null, "result": "Helicosiphon" }
+  },
+  "21": {
+    "step": "21",
+    "optionA": { "text": "Three thoracic tori and four fascicles of setae on the convex side; four thoracic tori and five fascicles of setae on the concave side", "goTo": null, "result": "Amplaria" },
+    "optionB": { "text": "Fourth setiger represented by a rudiment of the torus on the concave side", "goTo": "22", "result": null }
+  },
+  "22": {
+    "step": "22",
+    "optionA": { "text": "Sinistrally coiled", "goTo": "23", "result": null },
+    "optionB": { "text": "Dextrally coiled", "goTo": "24", "result": null }
+  },
+  "23": {
+    "step": "23",
+    "optionA": { "text": "Side setae present", "goTo": null, "result": "Protolaeospira" },
+    "optionB": { "text": "Side setae absent", "goTo": null, "result": "Capeospira" }
+  },
+  "24": {
+    "step": "24",
+    "optionA": { "text": "Collar setae simply limbate", "goTo": null, "result": "Prodexiospira" },
+    "optionB": { "text": "Collar setae of fin and blade construction", "goTo": "25", "result": null }
+  },
+  "25": {
+    "step": "25",
+    "optionA": { "text": "Thoracic uncini with furcate anterior peg", "goTo": null, "result": "Dextralia" },
+    "optionB": { "text": "Thoracic uncini with bluntly rounded anterior peg", "goTo": null, "result": "Paradexiospira" }
+  }
+}

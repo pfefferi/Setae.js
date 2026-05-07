@@ -1,0 +1,168 @@
+{
+  "_meta": { "family": "SABELLIDAE", "source": "Fauchald (1977) Key to Genera", "type": "genera_key" },
+  "1": {
+    "step": "1",
+    "optionA": { "text": "Abdominal uncini form nearly complete cinctures around the body", "goTo": null, "result": "Myxicola" },
+    "optionB": { "text": "Abdominal uncini in short, discrete tori", "goTo": "2", "result": null }
+  },
+  "2": {
+    "step": "2",
+    "optionA": { "text": "Thoracic uncini with long, gently curved shafts (acicular); companion setae always absent", "goTo": "3", "result": null },
+    "optionB": { "text": "Thoracic uncini with short or long, but always strongly bent shafts (avicular); companion setae present in some forms", "goTo": "15", "result": null }
+  },
+  "3": {
+    "step": "3",
+    "optionA": { "text": "Abdomen with two or three setigers", "goTo": "4", "result": null },
+    "optionB": { "text": "Abdomen with four or more setigers", "goTo": "9", "result": null }
+  },
+  "4": {
+    "step": "4",
+    "optionA": { "text": "Radioles partially united by a membrane", "goTo": null, "result": "Monroika" },
+    "optionB": { "text": "Radioles free to the base", "goTo": "5", "result": null }
+  },
+  "5": {
+    "step": "5",
+    "optionA": { "text": "With an extensive lower lip, curved up under the weakly bilobed prostomium", "goTo": null, "result": "Pseudofabricia" },
+    "optionB": { "text": "Without a distinct lower lip; prostomium anteriorly rounded", "goTo": "6", "result": null }
+  },
+  "6": {
+    "step": "6",
+    "optionA": { "text": "Abdominal uncini short-handled", "goTo": null, "result": "Fabriciola" },
+    "optionB": { "text": "Abdominal uncini long-handled", "goTo": "7", "result": null }
+  },
+  "7": {
+    "step": "7",
+    "optionA": { "text": "Without ventral vascularized filaments", "goTo": null, "result": "Fabricia" },
+    "optionB": { "text": "With ventral vascularized filaments in the tentacular crown", "goTo": "8", "result": null }
+  },
+  "8": {
+    "step": "8",
+    "optionA": { "text": "Ventral vascularized filaments branched; three pairs of radioli", "goTo": null, "result": "Augeneriella" },
+    "optionB": { "text": "Ventral vascularized filaments smooth; two pairs of radioli", "goTo": null, "result": "Manayunkia" }
+  },
+  "9": {
+    "step": "9",
+    "optionA": { "text": "Posterior end distinctly modified, with fused segments or greatly expanded pygidium", "goTo": "10", "result": null },
+    "optionB": { "text": "Posterior end not modified", "goTo": "11", "result": null }
+  },
+  "10": {
+    "step": "10",
+    "optionA": { "text": "Seven last setigers covered dorsally by the large, ring-shaped pygidium", "goTo": null, "result": "Euchonella" },
+    "optionB": { "text": "Last several setigers flanged laterally to form a spoon-shaped dorsal cavity", "goTo": null, "result": "Euchone" }
+  },
+  "11": {
+    "step": "11",
+    "optionA": { "text": "Radioles united by a membrane", "goTo": null, "result": "Chone" },
+    "optionB": { "text": "Radioles free to the base", "goTo": "12", "result": null }
+  },
+  "12": {
+    "step": "12",
+    "optionA": { "text": "Abdominal uncini with a large main fang and a crest of smaller teeth", "goTo": null, "result": "Jasmineira" },
+    "optionB": { "text": "Abdominal uncini with major teeth in two or more rows", "goTo": "13", "result": null }
+  },
+  "13": {
+    "step": "13",
+    "optionA": { "text": "More than ten pairs of radioli in the tentacular crown", "goTo": null, "result": "Dialychone" },
+    "optionB": { "text": "Maximally five pairs of radioli in the tentacular crown", "goTo": "14", "result": null }
+  },
+  "14": {
+    "step": "14",
+    "optionA": { "text": "Radioles externally distinctly ridged", "goTo": null, "result": "Oriopsis" },
+    "optionB": { "text": "Radioles externally rounded", "goTo": null, "result": "Desdemona" }
+  },
+  "15": {
+    "step": "15",
+    "optionA": { "text": "Thoracic neuropodial companion setae absent", "goTo": "16", "result": null },
+    "optionB": { "text": "Thoracic neuropodial companion setae present", "goTo": "21", "result": null }
+  },
+  "16": {
+    "step": "16",
+    "optionA": { "text": "Radioli with external stylodes", "goTo": "17", "result": null },
+    "optionB": { "text": "Radioles without external stylodes", "goTo": "18", "result": null }
+  },
+  "17": {
+    "step": "17",
+    "optionA": { "text": "Four thoracic setigers; external stylodes very small", "goTo": null, "result": "Pseudobranchiomma" },
+    "optionB": { "text": "Eight thoracic setigers; external stylodes well developed", "goTo": null, "result": "Branchiomma" }
+  },
+  "18": {
+    "step": "18",
+    "optionA": { "text": "Thoracic spatulate notosetae present", "goTo": "19", "result": null },
+    "optionB": { "text": "Thoracic spatulate notosetae absent", "goTo": "20", "result": null }
+  },
+  "19": {
+    "step": "19",
+    "optionA": { "text": "Thoracic uncini with gently curved, long handles", "goTo": null, "result": "Fabrisabella" },
+    "optionB": { "text": "Thoracic uncini with sharply bent handles", "goTo": null, "result": "Laonome" }
+  },
+  "20": {
+    "step": "20",
+    "optionA": { "text": "Collar reduced, radioli basally united by a web", "goTo": null, "result": "Euratella" },
+    "optionB": { "text": "Collar well developed; radioli free to the base", "goTo": null, "result": "Sabellastarte" }
+  },
+  "21": {
+    "step": "21",
+    "optionA": { "text": "Tentacular crown with radioli arranged in one or two spirals", "goTo": "22", "result": null },
+    "optionB": { "text": "Tentacular crown with radioli in two semicircles", "goTo": "26", "result": null }
+  },
+  "22": {
+    "step": "22",
+    "optionA": { "text": "Posterior thoracic notopodia with lancet-shaped, transversely striated setae", "goTo": null, "result": "Bispira" },
+    "optionB": { "text": "Lancet-shaped notopodial setae absent", "goTo": "23", "result": null }
+  },
+  "23": {
+    "step": "23",
+    "optionA": { "text": "Collar two-lobed", "goTo": "24", "result": null },
+    "optionB": { "text": "Collar four-lobed", "goTo": "25", "result": null }
+  },
+  "24": {
+    "step": "24",
+    "optionA": { "text": "Anterior ventrum irregularly rugose", "goTo": null, "result": "Distylidia" },
+    "optionB": { "text": "Anterior ventrum smooth, apart from the glandular fields", "goTo": null, "result": "Demonax" }
+  },
+  "25": {
+    "step": "25",
+    "optionA": { "text": "One half of tentacular crown very much larger than the other; spatulate setae absent", "goTo": null, "result": "Spirographis" },
+    "optionB": { "text": "Both parts of the tentacular crown similar in size; spatulate setae present", "goTo": null, "result": "Eudistylia" }
+  },
+  "26": {
+    "step": "26",
+    "optionA": { "text": "Large subdistal compound eyes on a few dorsal radioli", "goTo": null, "result": "Megalomma" },
+    "optionB": { "text": "Eyes, if present, smaller and scattered over most of the radioli", "goTo": "27", "result": null }
+  },
+  "27": {
+    "step": "27",
+    "optionA": { "text": "Collar reduced or absent, a triangular ventral projection at base of tentacular crown present", "goTo": null, "result": "Amphiglena" },
+    "optionB": { "text": "Collar well developed; triangular ventral projection absent", "goTo": "28", "result": null }
+  },
+  "28": {
+    "step": "28",
+    "optionA": { "text": "Notosetae of the collar-segment in a long row", "goTo": null, "result": "Hypsicomus" },
+    "optionB": { "text": "Notosetae of the collar-segment in a tuft", "goTo": "29", "result": null }
+  },
+  "29": {
+    "step": "29",
+    "optionA": { "text": "Radioli dichotomously branching", "goTo": null, "result": "Schizobranchia" },
+    "optionB": { "text": "Radioli not divided", "goTo": "30", "result": null }
+  },
+  "30": {
+    "step": "30",
+    "optionA": { "text": "Spatulate thoracic notosetae absent", "goTo": null, "result": "Sabella" },
+    "optionB": { "text": "Spatulate thoracic notosetae present", "goTo": "31", "result": null }
+  },
+  "31": {
+    "step": "31",
+    "optionA": { "text": "Thoracic uncini at least in part nearly straight and long-handled", "goTo": "32", "result": null },
+    "optionB": { "text": "Thoracic uncini sharply bent, long- or short-handled", "goTo": "33", "result": null }
+  },
+  "32": {
+    "step": "32",
+    "optionA": { "text": "Abdominal uncini long-handled and nearly straight", "goTo": null, "result": "Potamethus" },
+    "optionB": { "text": "Abdominal uncini short-handled and strongly bent", "goTo": null, "result": "Potamilla" }
+  },
+  "33": {
+    "step": "33",
+    "optionA": { "text": "Thoracic uncini long-handled", "goTo": null, "result": "Perkinsiana" },
+    "optionB": { "text": "Thoracic uncini short-handled", "goTo": null, "result": "Pseudopotamilla" }
+  }
+}
