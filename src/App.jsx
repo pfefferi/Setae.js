@@ -23,12 +23,15 @@ const translations = {
 const glossaryMap = {};
 glossaryEn.forEach(entry => {
   const key = entry.term.split(' (')[0].toLowerCase(); // strip plural suffix like " (e)"
-  glossaryMap[key] = entry;
-  // Also store the plural form variant
+  // Skip terms that are too short (would cause false matches)
+  if (key.length >= 3) {
+    glossaryMap[key] = entry;
+  }
+  // Also store the plural form variant (only if 3+ chars)
   const paren = entry.term.match(/\((.+?)\)/);
   if (paren) {
     const plural = paren[1].trim();
-    if (plural.length > 0) {
+    if (plural.length >= 3) {
       glossaryMap[plural.toLowerCase()] = entry;
     }
   }

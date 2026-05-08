@@ -871,8 +871,8 @@ h1 {
   left: 50%;
   transform: translateX(-50%);
   z-index: 100;
-  min-width: 220px;
-  max-width: 320px;
+  width: max-content;
+  max-width: 420px;
   padding: 0.75rem 1rem;
   background: var(--ink);
   border: 1px solid rgba(var(--biolum-rgb), 0.3);
