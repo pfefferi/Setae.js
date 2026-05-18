@@ -1,0 +1,97 @@
+{
+  "1": {
+    "step": "1",
+    "optionA": { "text": "Pecíolo de dos segmentos (pecíolo y pospecíolo)", "goTo": "2", "result": null },
+    "optionB": { "text": "Pecíolo de un segmento", "goTo": "12", "result": null }
+  },
+  "2": {
+    "step": "2",
+    "optionA": { "text": "Espinas en el mesosoma", "goTo": "5", "result": null },
+    "optionB": { "text": "Mesosoma sin espinas", "goTo": "3", "result": null }
+  },
+  "3": {
+    "step": "3",
+    "optionA": { "text": "Antena con una maza de 2 segmentos, de aspecto muy característico; aguijón presente", "result": "Solenopsis (Myrmicinae) 1.3–6 mm" },
+    "optionB": { "text": "Antena con o sin maza; en caso de tener maza nunca es como la opción A", "goTo": "4", "result": null }
+  },
+  "4": {
+    "step": "4",
+    "optionA": { "text": "Ojos muy grandes, abarcando casi 2/3 de la cabeza; cuerpo alargado y esbelto; arborícolas", "result": "Pseudomyrmex (Pseudomyrmecinae) 3–6 mm" },
+    "optionB": { "text": "Ojos de tamaño normal; cuerpo aplanado dorsoventralmente; cabeza cuadrada en vista dorsal; arborícolas", "result": "Cephalotes (Myrmicinae) 3–4.5 mm" }
+  },
+  "5": {
+    "step": "5",
+    "optionA": { "text": "Mesosoma con más de dos espinas en punta o romas", "goTo": "6", "result": null },
+    "optionB": { "text": "Mesosoma con dos o cuatro espinas en punta ubicadas en el propodeo", "goTo": "8", "result": null }
+  },
+  "6": {
+    "step": "6",
+    "optionA": { "text": "Cuatro pares de espinas con punta bien definida en el mesosoma; obreras polimórficas (hormigas cortadoras de hojas)", "result": "Acromyrmex (Myrmicinae) 2.5–7.5 mm" },
+    "optionB": { "text": "Más de cuatro pares de espinas romas (sin punta) en el mesosoma", "goTo": "7", "result": null }
+  },
+  "7": {
+    "step": "7",
+    "optionA": { "text": "Cabeza vista de frente con aurículas (como orejas) donde se esconden parcialmente las antenas; mesosoma con espinas romas; en alcohol se curvan formando una bolita", "result": "Cyphomyrmex (Myrmicinae) 1.5–3 mm" },
+    "optionB": { "text": "Cabeza vista de frente sin aurículas, con espinas o tubérculos en los vértices; mesosoma y gáster con tubérculos, dientes y espinas romas", "result": "Mycetomoellerius (Myrmicinae) 4–6 mm" }
+  },
+  "8": {
+    "step": "8",
+    "optionA": { "text": "Gáster en forma de corazón en vista dorsal; el postpecíolo articula con la parte dorsal del gáster; arborícolas en general", "result": "Crematogaster (Myrmicinae) 2.5–4 mm" },
+    "optionB": { "text": "Gáster sin forma de corazón; el postpecíolo articula con la parte anterior del gáster", "goTo": "9", "result": null }
+  },
+  "9": {
+    "step": "9",
+    "optionA": { "text": "Mandíbulas muy alargadas; tamaño muy pequeño", "result": "Strumigenys (Myrmicinae) 1.8–2.7 mm" },
+    "optionB": { "text": "Mandíbulas triangulares", "goTo": "10", "result": null }
+  },
+  "10": {
+    "step": "10",
+    "optionA": { "text": "Cabeza y mesosoma con esculturación muy evidente en forma de retículo y estrías; pecíolo con cara anterior corta y empinada, en ángulo recto respecto al pedúnculo", "result": "Pogonomyrmex (Myrmicinae) 6–9.5 mm" },
+    "optionB": { "text": "Maza antenal de dos o tres segmentos; solo parte de la cabeza y mesosoma con esculturación, o cabeza lisa", "goTo": "11", "result": null }
+  },
+  "11": {
+    "step": "11",
+    "optionA": { "text": "Maza de tres segmentos; mandíbulas tipo cortadora; mesosoma bien discontinuo; obreras polimórficas (soldados con cabeza grande)", "result": "Pheidole (Myrmicinae) 2.8–4.5 mm" },
+    "optionB": { "text": "Maza de dos segmentos; antena de 11 segmentos; dos espinas al final del mesosoma; estrías en la cabeza; color rojizo", "result": "Wasmannia (Myrmicinae) 1.3–1.7 mm" }
+  },
+  "12": {
+    "step": "12",
+    "optionA": { "text": "Hormiga grande de más de 1,5 cm", "result": "Pachycondyla (Ponerinae) >15 mm" },
+    "optionB": { "text": "Hormiga de menor tamaño, menos de 1,5 cm", "goTo": "13", "result": null }
+  },
+  "13": {
+    "step": "13",
+    "optionA": { "text": "Cuerpo con tegumento liso en algún tagma", "goTo": "14", "result": null },
+    "optionB": { "text": "Cuerpo con tegumento con estrías muy pronunciadas (surcos paralelos) o fóveas grandes y pronunciadas en todos los tagmas", "result": "Gnamptogenys (Ectatomminae) 5–9.5 mm" }
+  },
+  "14": {
+    "step": "14",
+    "optionA": { "text": "Antena con maza de dos o tres segmentos; arborícola", "result": "Myrmelachista (Formicinae) 1.8–2.5 mm" },
+    "optionB": { "text": "Antena sin maza", "goTo": "15", "result": null }
+  },
+  "15": {
+    "step": "15",
+    "optionA": { "text": "Cabeza, escapo antenal, mesosoma y gáster cubiertos de pelos muy gruesos, espaciados y erectos", "result": "Nylanderia (Formicinae) 1–4 mm" },
+    "optionB": { "text": "Mesosoma con pelos finos o sin pelos", "goTo": "16", "result": null }
+  },
+  "16": {
+    "step": "16",
+    "optionA": { "text": "Perfil del mesosoma continuo y convexo; pelos finos de escasos a abundantes; muy variables en tamaño", "result": "Camponotus (Formicinae) 5–12 mm" },
+    "optionB": { "text": "Perfil del mesosoma discontinuo; muy pocos pelos o sin pelos en el mesosoma", "goTo": "17", "result": null }
+  },
+  "17": {
+    "step": "17",
+    "optionA": { "text": "Antenas de 9 segmentos; pecíolo muy reducido", "result": "Brachymyrmex (Formicinae) 1–2 mm" },
+    "optionB": { "text": "Antenas con más de 9 segmentos", "goTo": "18", "result": null }
+  },
+  "18": {
+    "step": "18",
+    "optionA": { "text": "Con aguijón; ojos muy pequeños", "result": "Hypoponera (Ponerinae) 1.4–5.5 mm" },
+    "optionB": { "text": "Sin aguijón", "goTo": "19", "result": null }
+  },
+  "19": {
+    "step": "19",
+    "optionA": { "text": "Propodeo con protuberancia en forma de cono", "result": "Dorymyrmex (Dolichoderinae) 2.8–3.5 mm" },
+    "optionB": { "text": "Propodeo bien redondeado, sin protuberancias; hormigas estilizadas", "result": "Linepithema (Dolichoderinae) 1.8–3 mm" }
+  }
+}

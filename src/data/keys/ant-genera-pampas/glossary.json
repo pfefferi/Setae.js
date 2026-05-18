@@ -1,0 +1,77 @@
+[
+  {
+    "term": "Pecíolo (petiole)",
+    "definition": "Segmento angosto que forma la 'cintura' de la hormiga, entre el mesosoma y el gáster. Puede ser de uno o dos segmentos.",
+    "figure": ""
+  },
+  {
+    "term": "Pospecíolo (postpetiole)",
+    "definition": "Segundo segmento de la cintura, presente solo cuando el pecíolo tiene dos segmentos. Se ubica entre el pecíolo y el gáster.",
+    "figure": ""
+  },
+  {
+    "term": "Mesosoma",
+    "definition": "Región del cuerpo que fusiona el tórax con el primer segmento abdominal (propodeo). En himenópteros, el propodeo se incorporó al tórax.",
+    "figure": ""
+  },
+  {
+    "term": "Gáster (gaster)",
+    "definition": "Porción del abdomen posterior al pecíolo. Excluye los segmentos abdominales que forman la cintura.",
+    "figure": ""
+  },
+  {
+    "term": "Propodeo (propodeum)",
+    "definition": "Primer segmento del abdomen, fusionado al tórax formando parte del mesosoma. Lleva el último par de patas.",
+    "figure": ""
+  },
+  {
+    "term": "Escapo (scape)",
+    "definition": "Primer segmento (basal) de la antena, generalmente el más largo.",
+    "figure": ""
+  },
+  {
+    "term": "Maza antenal (antennal club)",
+    "definition": "Engrosamiento de los segmentos finales de la antena. Se considera maza cuando el ancho y/o largo de los últimos segmentos cambia abruptamente respecto a los anteriores.",
+    "figure": ""
+  },
+  {
+    "term": "Antenómeros (antennomeres)",
+    "definition": "Cada uno de los segmentos individuales que componen la antena.",
+    "figure": ""
+  },
+  {
+    "term": "Esculturación (sculpturing)",
+    "definition": "Textura del tegumento. Clasificación ordinal: 0 = liso y brillante; 1 = fina red de marcas; 2 = hoyuelos y crestas profundos; 3 = superficie muy texturizada con crestas, surcos u hoyos.",
+    "figure": ""
+  },
+  {
+    "term": "Fóveas (foveae)",
+    "definition": "Depresiones en forma de pozo o hoyuelo en la superficie del tegumento.",
+    "figure": ""
+  },
+  {
+    "term": "Aguijón (stinger)",
+    "definition": "Órgano punzante en el extremo del gáster, usado para defensa o captura de presas. Puede estar retraído.",
+    "figure": ""
+  },
+  {
+    "term": "Aurículas (auricles)",
+    "definition": "Estructuras en forma de oreja a los lados de la cabeza, dentro de las cuales se esconden parcialmente las antenas.",
+    "figure": ""
+  },
+  {
+    "term": "Obreras polimórficas (polymorphic workers)",
+    "definition": "Obreras de diferentes tamaños y formas dentro de una misma especie, incluyendo soldados con cabezas grandes y mandíbulas poderosas.",
+    "figure": ""
+  },
+  {
+    "term": "Espina roma (blunt spine)",
+    "definition": "Espina sin punta aguda, de extremo redondeado o romo.",
+    "figure": ""
+  },
+  {
+    "term": "Tégmina (tegmen/integument)",
+    "definition": "Cubierta externa del cuerpo del insecto. Su textura (lisa, estriada, foveolada) es un carácter diagnóstico importante.",
+    "figure": ""
+  }
+]

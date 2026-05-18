@@ -1,0 +1,44 @@
+[
+  {
+    "id": "polychaete-fauchald",
+    "title": {
+      "en": "Polychaete Families",
+      "es": "Familias de Poliquetos"
+    },
+    "subtitle": {
+      "en": "Fauchald (1977) key",
+      "es": "Clave de Fauchald (1977)"
+    },
+    "description": {
+      "en": "Interactive key to marine polychaete families based on the classic Fauchald key",
+      "es": "Clave interactiva para familias de poliquetos marinos basada en la clave clásica de Fauchald"
+    },
+    "icon": "🐛",
+    "features": {
+      "generaKeys": true,
+      "worms": true,
+      "inaturalist": true
+    }
+  },
+  {
+    "id": "ant-genera-pampas",
+    "title": {
+      "en": "Ant Genera",
+      "es": "Géneros de Hormigas"
+    },
+    "subtitle": {
+      "en": "Pampas & Espinal ecoregions",
+      "es": "Ecorregiones Pampeana y Espinal"
+    },
+    "description": {
+      "en": "Key to ant genera of the Pampas and Espinal ecoregions — Buenos Aires and Entre Ríos. Based on Paris & Santoandré (2023)",
+      "es": "Clave para géneros de hormigas de las ecorregiones Pampeana y Espinal — Buenos Aires y Entre Ríos. Basada en Paris & Santoandré (2023)"
+    },
+    "icon": "🐜",
+    "features": {
+      "generaKeys": false,
+      "worms": false,
+      "inaturalist": false
+    }
+  }
+]

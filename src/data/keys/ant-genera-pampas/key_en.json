@@ -1,0 +1,97 @@
+{
+  "1": {
+    "step": "1",
+    "optionA": { "text": "Petiole of two segments (petiole and postpetiole)", "goTo": "2", "result": null },
+    "optionB": { "text": "Petiole of one segment", "goTo": "12", "result": null }
+  },
+  "2": {
+    "step": "2",
+    "optionA": { "text": "Spines present on mesosoma", "goTo": "5", "result": null },
+    "optionB": { "text": "Mesosoma without spines", "goTo": "3", "result": null }
+  },
+  "3": {
+    "step": "3",
+    "optionA": { "text": "Antenna with a very distinctive 2-segmented club; stinger present", "result": "Solenopsis (Myrmicinae) 1.3–6 mm" },
+    "optionB": { "text": "Antenna with or without club; if clubbed, never as in option A", "goTo": "4", "result": null }
+  },
+  "4": {
+    "step": "4",
+    "optionA": { "text": "Eyes very large, spanning nearly 2/3 of the head; body elongated and slender; arboreal", "result": "Pseudomyrmex (Pseudomyrmecinae) 3–6 mm" },
+    "optionB": { "text": "Eyes normal size; body flattened dorsoventrally; head square in dorsal view; arboreal", "result": "Cephalotes (Myrmicinae) 3–4.5 mm" }
+  },
+  "5": {
+    "step": "5",
+    "optionA": { "text": "Mesosoma with more than two pointed or blunt spines", "goTo": "6", "result": null },
+    "optionB": { "text": "Mesosoma with two or four pointed spines on the propodeum", "goTo": "8", "result": null }
+  },
+  "6": {
+    "step": "6",
+    "optionA": { "text": "Four pairs of clearly pointed spines on the mesosoma; polymorphic workers (leaf-cutter ants)", "result": "Acromyrmex (Myrmicinae) 2.5–7.5 mm" },
+    "optionB": { "text": "More than four pairs of blunt spines on the mesosoma", "goTo": "7", "result": null }
+  },
+  "7": {
+    "step": "7",
+    "optionA": { "text": "Head with auricles (ear-like structures) partly hiding the antennae; mesosoma with blunt spines; curl into a ball in alcohol", "result": "Cyphomyrmex (Myrmicinae) 1.5–3 mm" },
+    "optionB": { "text": "Head without auricles, with spines or tubercles at vertices; mesosoma and gaster with tubercles, teeth and blunt spines", "result": "Mycetomoellerius (Myrmicinae) 4–6 mm" }
+  },
+  "8": {
+    "step": "8",
+    "optionA": { "text": "Heart-shaped gaster in dorsal view; postpetiole articulates with the dorsal part of the gaster; generally arboreal", "result": "Crematogaster (Myrmicinae) 2.5–4 mm" },
+    "optionB": { "text": "Gaster not heart-shaped; postpetiole articulates with the anterior part of the gaster", "goTo": "9", "result": null }
+  },
+  "9": {
+    "step": "9",
+    "optionA": { "text": "Very elongated mandibles; very small size", "result": "Strumigenys (Myrmicinae) 1.8–2.7 mm" },
+    "optionB": { "text": "Triangular mandibles", "goTo": "10", "result": null }
+  },
+  "10": {
+    "step": "10",
+    "optionA": { "text": "Head and mesosoma with very evident reticulate sculpturing and striae; petiole with short steep anterior face at right angle to peduncle", "result": "Pogonomyrmex (Myrmicinae) 6–9.5 mm" },
+    "optionB": { "text": "Antennal club of two or three segments; only part of head and mesosoma sculptured, or head smooth", "goTo": "11", "result": null }
+  },
+  "11": {
+    "step": "11",
+    "optionA": { "text": "Three-segmented club; cutter-type mandibles; strongly discontinuous mesosoma; polymorphic workers (soldiers with large heads)", "result": "Pheidole (Myrmicinae) 2.8–4.5 mm" },
+    "optionB": { "text": "Two-segmented club; 11-segmented antenna; two spines at end of mesosoma; striae on head; reddish color", "result": "Wasmannia (Myrmicinae) 1.3–1.7 mm" }
+  },
+  "12": {
+    "step": "12",
+    "optionA": { "text": "Large ant, more than 1.5 cm", "result": "Pachycondyla (Ponerinae) >15 mm" },
+    "optionB": { "text": "Smaller ant, less than 1.5 cm", "goTo": "13", "result": null }
+  },
+  "13": {
+    "step": "13",
+    "optionA": { "text": "Body with smooth integument on at least one tagma", "goTo": "14", "result": null },
+    "optionB": { "text": "Body with very pronounced striae (parallel grooves) or large, pronounced foveae on all tagmata", "result": "Gnamptogenys (Ectatomminae) 5–9.5 mm" }
+  },
+  "14": {
+    "step": "14",
+    "optionA": { "text": "Antenna with two- or three-segmented club; arboreal", "result": "Myrmelachista (Formicinae) 1.8–2.5 mm" },
+    "optionB": { "text": "Antenna without club", "goTo": "15", "result": null }
+  },
+  "15": {
+    "step": "15",
+    "optionA": { "text": "Head, antennal scape, mesosoma and gaster covered in thick, spaced, erect setae", "result": "Nylanderia (Formicinae) 1–4 mm" },
+    "optionB": { "text": "Mesosoma with fine setae or hairless", "goTo": "16", "result": null }
+  },
+  "16": {
+    "step": "16",
+    "optionA": { "text": "Continuous, convex mesosoma profile; fine setae sparse to abundant; highly variable in size", "result": "Camponotus (Formicinae) 5–12 mm" },
+    "optionB": { "text": "Discontinuous mesosoma profile; very few or no setae on mesosoma", "goTo": "17", "result": null }
+  },
+  "17": {
+    "step": "17",
+    "optionA": { "text": "9-segmented antenna; petiole very reduced", "result": "Brachymyrmex (Formicinae) 1–2 mm" },
+    "optionB": { "text": "Antenna with more than 9 segments", "goTo": "18", "result": null }
+  },
+  "18": {
+    "step": "18",
+    "optionA": { "text": "Stinger present; very small eyes", "result": "Hypoponera (Ponerinae) 1.4–5.5 mm" },
+    "optionB": { "text": "Stinger absent", "goTo": "19", "result": null }
+  },
+  "19": {
+    "step": "19",
+    "optionA": { "text": "Propodeum with cone-shaped protuberance", "result": "Dorymyrmex (Dolichoderinae) 2.8–3.5 mm" },
+    "optionB": { "text": "Propodeum well rounded, without protuberances; streamlined ants", "result": "Linepithema (Dolichoderinae) 1.8–3 mm" }
+  }
+}
