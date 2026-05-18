@@ -161,17 +161,17 @@
 
 /* ── Light theme ── */
 
-[data-theme="light"] .key-selector {
+.key-selector[data-theme="light"] {
   background: var(--cream);
 }
 
-[data-theme="light"] .key-card {
+.key-selector[data-theme="light"] .key-card {
   background: white;
   border-color: rgba(0, 0, 0, 0.08);
   box-shadow: 0 1px 4px rgba(0, 0, 0, 0.04);
 }
 
-[data-theme="light"] .key-card:hover {
+.key-selector[data-theme="light"] .key-card:hover {
   border-color: rgba(0, 0, 0, 0.15);
   background: white;
 }
