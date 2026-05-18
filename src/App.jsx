@@ -709,7 +709,18 @@ function App() {
                     }, 100);
                   }
                 }}>
-                  <h3 className="taxon-list-title">{taxon}</h3>
+                  <div style={{ display: 'flex', alignItems: 'center', gap: '0.75rem', minWidth: 0, flex: 1 }}>
+                    {features.listImages && (() => {
+                      const genusName = taxon.split(' ')[0].toLowerCase();
+                      const img = keyImages[activeKey]?.[genusName];
+                      return img ? (
+                        <img src={img} alt={''}
+                          style={{ width: '36px', height: '36px', borderRadius: '3px', objectFit: 'cover', flexShrink: 0 }}
+                        />
+                      ) : null;
+                    })()}
+                    <h3 className="taxon-list-title">{taxon}</h3>
+                  </div>
                   <span className="taxon-list-icon">▼</span>
                 </div>
                 <div className="taxon-list-content">

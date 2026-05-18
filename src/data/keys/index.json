@@ -38,7 +38,8 @@
     "features": {
       "generaKeys": false,
       "worms": false,
-      "inaturalist": false
+      "inaturalist": false,
+      "listImages": true
     }
   }
 ]
