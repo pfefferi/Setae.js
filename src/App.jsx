@@ -14,11 +14,13 @@ const translations = { en, es };
 //   genera_keys/      → genus-level sub-keys (optional)
 // To add a new key: create a folder, add metadata to index.json, done.
 const keyModules = import.meta.glob('./data/keys/**/*.json', { eager: true });
+const imageModules = import.meta.glob('./data/keys/**/*.png', { eager: true });
 
 // Build dynamic lookups from discovered file structure
 const keyData = {};
 const glossaryData = {};
 const generaIndexes = {};
+const keyImages = {};
 
 for (const [filePath, mod] of Object.entries(keyModules)) {
   const match = filePath.match(/\.\/data\/keys\/([^/]+)\/(.+)\.json$/);
@@ -48,6 +50,18 @@ for (const [filePath, mod] of Object.entries(keyModules)) {
   const generaMatch = subPath.match(/^genera_keys\/index$/);
   if (generaMatch) {
     generaIndexes[keyId] = mod.default;
+  }
+}
+
+// Build image lookup: keyId → genus (lowercase) → resolved image URL
+for (const [filePath, mod] of Object.entries(imageModules)) {
+  const match = filePath.match(/\/data\/keys\/([^/]+)\/images\/(.+)\.png$/);
+  if (match) {
+    const keyId = match[1];
+    const genus = match[2].toLowerCase();
+    if (!keyImages[keyId]) keyImages[keyId] = {};
+    // mod.default is the resolved asset URL (e.g., /assets/solenopsis.abc123.png)
+    keyImages[keyId][genus] = mod.default;
   }
 }
 
@@ -513,26 +527,42 @@ function App() {
                 <div className="result-inner">
                   <div className="result-label">{t.result_label}</div>
 
-                  {features.inaturalist ? (
-                    imageLoading ? (
-                      <div className="result-image-shimmer" />
-                    ) : taxonImage && !imageFailed ? (
-                      <div className="result-image" style={{ marginBottom: '1.5rem' }}>
-                        <img src={taxonImage} alt={currentStep.result}
-                          style={{ maxWidth: '200px', borderRadius: '4px', boxShadow: '0 4px 12px rgba(0,0,0,0.5)', border: '1px solid rgba(79,200,168,0.2)' }}
-                        />
-                      </div>
-                    ) : (
-                      <div className="result-image-placeholder">
-                        <svg className="placeholder-icon" viewBox="0 0 48 48" width="48" height="48" fill="none" stroke="currentColor" strokeWidth="1">
-                          <circle cx="24" cy="20" r="8" opacity="0.3"/>
-                          <path d="M12 40c0-8 5.4-14 12-14s12 6 12 14" opacity="0.3"/>
-                          <path d="M8 8l32 32" opacity="0.2"/>
-                        </svg>
-                        <span>No image available</span>
-                      </div>
-                    )
-                  ) : null}
+                  {(() => {
+                    const genusName = currentStep.result.split(' ')[0].toLowerCase();
+                    const localImage = activeKey ? keyImages[activeKey]?.[genusName] : null;
+                    if (localImage) {
+                      return (
+                        <div className="result-image" style={{ marginBottom: '1.5rem' }}>
+                          <img src={localImage} alt={currentStep.result}
+                            style={{ maxWidth: '200px', borderRadius: '4px', boxShadow: '0 4px 12px rgba(0,0,0,0.5)', border: '1px solid rgba(79,200,168,0.2)' }}
+                          />
+                        </div>
+                      );
+                    }
+                    if (features.inaturalist) {
+                      if (imageLoading) return <div className="result-image-shimmer" />;
+                      if (taxonImage && !imageFailed) {
+                        return (
+                          <div className="result-image" style={{ marginBottom: '1.5rem' }}>
+                            <img src={taxonImage} alt={currentStep.result}
+                              style={{ maxWidth: '200px', borderRadius: '4px', boxShadow: '0 4px 12px rgba(0,0,0,0.5)', border: '1px solid rgba(79,200,168,0.2)' }}
+                            />
+                          </div>
+                        );
+                      }
+                      return (
+                        <div className="result-image-placeholder">
+                          <svg className="placeholder-icon" viewBox="0 0 48 48" width="48" height="48" fill="none" stroke="currentColor" strokeWidth="1">
+                            <circle cx="24" cy="20" r="8" opacity="0.3"/>
+                            <path d="M12 40c0-8 5.4-14 12-14s12 6 12 14" opacity="0.3"/>
+                            <path d="M8 8l32 32" opacity="0.2"/>
+                          </svg>
+                          <span>No image available</span>
+                        </div>
+                      );
+                    }
+                    return null;
+                  })()}
 
                   {features.worms && wormsData && renderWormsWarning(wormsData)}
 
