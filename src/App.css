@@ -857,6 +857,9 @@ h1 {
   color: var(--biolum);
   border-bottom: 1px dashed rgba(var(--biolum-rgb), 0.3);
   transition: color 0.2s, border-color 0.2s;
+  user-select: none;
+  -webkit-user-select: none;
+  -webkit-touch-callout: none;
 }
 
 .glossary-term:hover {

@@ -111,7 +111,7 @@ function GlossaryText({ text, keyId }) {
 
 function App() {
   const [lang, setLang] = useState(() => {
-    return localStorage.getItem('setae-lang') || 'en';
+    return localStorage.getItem('setae-lang') || 'es';
   });
   const [activeKey, setActiveKey] = useState(null);
   const [mode, setMode] = useState('key');
