@@ -160,18 +160,6 @@
 }
 
 /* ── Light theme ── */
-
-.key-selector[data-theme="light"] {
-  background: var(--cream);
-}
-
-.key-selector[data-theme="light"] .key-card {
-  background: white;
-  border-color: rgba(0, 0, 0, 0.08);
-  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.04);
-}
-
-.key-selector[data-theme="light"] .key-card:hover {
-  border-color: rgba(0, 0, 0, 0.15);
-  background: white;
-}
+/* Note: CSS variable redefinitions in App.css ([data-theme=light] block)
+   handle theme switching for most colors (--abyss, --midnight, --ink, etc.)
+   automatically — no overrides needed here unless explicit values differ. */
