@@ -178,7 +178,6 @@ h1 {
     border-color 0.2s,
     transform 0.15s,
     box-shadow 0.2s;
-  overflow: hidden;
 }
 
 .option-btn::before {
