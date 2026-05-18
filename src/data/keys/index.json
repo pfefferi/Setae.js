@@ -39,7 +39,9 @@
       "generaKeys": false,
       "worms": false,
       "inaturalist": false,
-      "listImages": true
+      "listImages": true,
+      "antLinks": true,
+      "liveImages": true
     }
   }
 ]

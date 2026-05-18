@@ -154,6 +154,8 @@ Edit `src/data/keys/index.json` and add an entry like this:
 | `worms` | After a result, check the taxon name against the World Register of Marine Species API. Shows a warning if the name is outdated. | Only meaningful for marine taxa. |
 | `inaturalist` | After a result, fetch a photo from iNaturalist's API. | Shows a representative image on the result card. |
 | `listImages` | Show images when expanding items in the Taxa List view. Requires images in `{keyId}/images/` folder named `{genus}.png`. | Ant key — shows a photo of each genus in the expanded detail area. |
+| `liveImages` | Fetch live specimen images from an external API (AntWeb for ants). Falls back to local `images/` folder if API is unavailable. | Ant key — shows real AntWeb specimen photos when available. |
+| `antLinks` | Show external resource links (AntWiki, AntWeb) on result cards and list view. | Ant key — quick access to species pages and specimen galleries. |
 
 If your key doesn't need these, set them all to `false`. They are opt-in features for specific use cases.
 

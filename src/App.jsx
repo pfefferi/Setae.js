@@ -138,6 +138,8 @@ function App() {
   const [searchQuery, setSearchQuery] = useState('');
   const [imageFailed, setImageFailed] = useState(false);
   const [imageLoading, setImageLoading] = useState(false);
+  const [antWebImage, setAntWebImage] = useState(null);
+  const [antWebLoading, setAntWebLoading] = useState(false);
   const [navDir, setNavDir] = useState('forward');
   const [generaActive, setGeneraActive] = useState(false);
   const [expandedPaths, setExpandedPaths] = useState({});
@@ -241,6 +243,8 @@ function App() {
       setHistory(newHistory);
       setCurrentStep(lastEntry.step);
       setTaxonImage(null);
+      setAntWebImage(null);
+      setAntWebLoading(false);
       setWormsData(null);
       setImageFailed(false);
     }
@@ -256,6 +260,7 @@ function App() {
       setCurrentStep({ result: opt.result });
       if (features.inaturalist) fetchTaxonImage(familyName);
       if (features.worms) checkWorms(familyName);
+      if (features.liveImages) fetchAntWebImage(familyName);
     } else if (opt.goTo) {
       setCurrentStep(String(opt.goTo));
     }
@@ -277,6 +282,28 @@ function App() {
       setImageFailed(true);
     } finally {
       setImageLoading(false);
+    }
+  };
+
+  const fetchAntWebImage = async (genusName) => {
+    setAntWebImage(null);
+    setAntWebLoading(true);
+    try {
+      const res = await fetch(`https://www.antweb.org/api/v2?genus_name=${encodeURIComponent(genusName.toLowerCase())}&hasImage=true&limit=1`);
+      if (!res.ok) throw new Error('AntWeb API blocked');
+      const data = await res.json();
+      // AntWeb v2 returns results with image URLs in various formats
+      const result = Array.isArray(data) ? data[0] : data.results?.[0];
+      if (result?.images?.length > 0) {
+        setAntWebImage(result.images[0].url || result.images[0]);
+      } else if (result?.media?.[0]?.url) {
+        setAntWebImage(result.media[0].url);
+      }
+    } catch (e) {
+      // AntWeb unavailable — local images will be used as fallback
+      console.log('AntWeb unavailable, using local images');
+    } finally {
+      setAntWebLoading(false);
     }
   };
 
@@ -358,6 +385,8 @@ function App() {
     setHistory(newHistory);
     setCurrentStep(targetStep);
     setTaxonImage(null);
+    setAntWebImage(null);
+    setAntWebLoading(false);
     setWormsData(null);
     setImageFailed(false);
   };
@@ -370,6 +399,8 @@ function App() {
     setHistory(newHistory);
     setCurrentStep(last.step);
     setTaxonImage(null);
+    setAntWebImage(null);
+    setAntWebLoading(false);
     setWormsData(null);
     setImageFailed(false);
   };
@@ -378,6 +409,8 @@ function App() {
     setCurrentStep('1');
     setHistory([]);
     setTaxonImage(null);
+    setAntWebImage(null);
+    setAntWebLoading(false);
     setWormsData(null);
     setImageFailed(false);
     setGeneraActive(false);
@@ -530,23 +563,36 @@ function App() {
                   {(() => {
                     const genusName = currentStep.result.split(' ')[0].toLowerCase();
                     const localImage = activeKey ? keyImages[activeKey]?.[genusName] : null;
+                    const imgStyle = { maxWidth: '200px', borderRadius: '4px', boxShadow: '0 4px 12px rgba(0,0,0,0.5)', border: '1px solid rgba(79,200,168,0.2)' };
+
+                    // Priority 1: Live AntWeb images (if enabled and available)
+                    if (features.liveImages) {
+                      if (antWebLoading) return <div className="result-image-shimmer" />;
+                      if (antWebImage) {
+                        return (
+                          <div className="result-image" style={{ marginBottom: '1.5rem' }}>
+                            <img src={antWebImage} alt={currentStep.result} style={imgStyle} />
+                          </div>
+                        );
+                      }
+                    }
+
+                    // Priority 2: Local images (screenshots bundled with key)
                     if (localImage) {
                       return (
                         <div className="result-image" style={{ marginBottom: '1.5rem' }}>
-                          <img src={localImage} alt={currentStep.result}
-                            style={{ maxWidth: '200px', borderRadius: '4px', boxShadow: '0 4px 12px rgba(0,0,0,0.5)', border: '1px solid rgba(79,200,168,0.2)' }}
-                          />
+                          <img src={localImage} alt={currentStep.result} style={imgStyle} />
                         </div>
                       );
                     }
+
+                    // Priority 3: iNaturalist (for polychaete key)
                     if (features.inaturalist) {
                       if (imageLoading) return <div className="result-image-shimmer" />;
                       if (taxonImage && !imageFailed) {
                         return (
                           <div className="result-image" style={{ marginBottom: '1.5rem' }}>
-                            <img src={taxonImage} alt={currentStep.result}
-                              style={{ maxWidth: '200px', borderRadius: '4px', boxShadow: '0 4px 12px rgba(0,0,0,0.5)', border: '1px solid rgba(79,200,168,0.2)' }}
-                            />
+                            <img src={taxonImage} alt={currentStep.result} style={imgStyle} />
                           </div>
                         );
                       }
@@ -584,6 +630,26 @@ function App() {
                       </span>
                     ))}
                   </div>
+
+                  {features.antLinks && (() => {
+                    const genusRaw = currentStep.result.split(' ')[0];
+                    const genusEnc = encodeURIComponent(genusRaw);
+                    const linkStyle = {
+                      color: 'var(--biolum)', textDecoration: 'none', fontSize: '0.7rem',
+                      fontFamily: 'var(--mono)', borderBottom: '1px dashed rgba(79,200,168,0.3)',
+                      textTransform: 'uppercase', letterSpacing: '0.05em'
+                    };
+                    return (
+                      <div style={{ display: 'flex', gap: '1rem', justifyContent: 'center', marginTop: '0.5rem' }}>
+                        <a href={`https://www.antwiki.org/wiki/${genusEnc}`} target="_blank" rel="noopener noreferrer" style={linkStyle}>
+                          AntWiki →
+                        </a>
+                        <a href={`https://www.antweb.org/genus/${genusEnc}`} target="_blank" rel="noopener noreferrer" style={linkStyle}>
+                          AntWeb →
+                        </a>
+                      </div>
+                    );
+                  })()}
 
                   {hasGeneraKey(currentStep.result) && (
                     <button className="btn-genera" onClick={() => loadGeneraKey(currentStep.result)}
@@ -764,6 +830,25 @@ function App() {
                         {t.worms_view}
                       </a>
                     )}
+                    {features.antLinks && (() => {
+                      const genusRaw = taxon.split(' ')[0];
+                      const genusEnc = encodeURIComponent(genusRaw);
+                      const linkStyle = {
+                        color: 'var(--biolum)', textDecoration: 'none', fontSize: '0.7rem',
+                        fontFamily: 'var(--mono)', borderBottom: '1px dashed rgba(79,200,168,0.3)',
+                        textTransform: 'uppercase', letterSpacing: '0.05em'
+                      };
+                      return (
+                        <>
+                          <a href={`https://www.antwiki.org/wiki/${genusEnc}`} target="_blank" rel="noopener noreferrer" style={linkStyle}>
+                            AntWiki →
+                          </a>
+                          <a href={`https://www.antweb.org/genus/${genusEnc}`} target="_blank" rel="noopener noreferrer" style={linkStyle}>
+                            AntWeb →
+                          </a>
+                        </>
+                      );
+                    })()}
                   </div>
                 </div>
               </div>
