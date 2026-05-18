@@ -1,10 +1,22 @@
 import keyRegistry from './data/keys/index.json';
 import './KeySelector.css';
 
-function KeySelector({ lang, onSelectKey, onBrowseList }) {
+function KeySelector({ lang, onSelectKey, onBrowseList, theme, onToggleTheme, onSetLang }) {
   return (
-    <div className="key-selector">
-      <div className="key-selector-title">Seleccionar clave / Select key</div>
+    <div className="key-selector" data-theme={theme}>
+      <div className="key-selector-controls">
+        <div className="key-selector-title">Seleccionar clave / Select key</div>
+        <div style={{ display: 'flex', gap: '0.5rem', alignItems: 'center' }}>
+          <div className="lang-switcher">
+            <button className={lang === 'en' ? 'active' : ''} onClick={() => onSetLang('en')}>EN</button>
+            <button className={lang === 'es' ? 'active' : ''} onClick={() => onSetLang('es')}>ES</button>
+          </div>
+          <button className="theme-toggle" onClick={onToggleTheme} aria-label="Toggle theme">
+            <span className={`theme-icon ${theme === 'dark' ? 'active' : ''}`}>☽</span>
+            <span className={`theme-icon ${theme === 'light' ? 'active' : ''}`}>☀</span>
+          </button>
+        </div>
+      </div>
       <div className="key-grid">
         {keyRegistry.map(key => (
           <div key={key.id} className="key-card">

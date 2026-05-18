@@ -12,13 +12,21 @@
   padding: 2rem;
 }
 
+.key-selector-controls {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  max-width: 380px;
+  margin-bottom: 2rem;
+}
+
 .key-selector-title {
   font-family: var(--mono);
   font-size: 0.7rem;
   letter-spacing: 0.15em;
   text-transform: uppercase;
   color: var(--fog);
-  margin-bottom: 2rem;
   opacity: 0.6;
 }
 

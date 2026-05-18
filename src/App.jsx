@@ -424,7 +424,7 @@ function App() {
 
   // ── Render: Key Selector screen ──
   if (!activeKey) {
-    return <KeySelector lang={lang} onSelectKey={handleSelectKey} onBrowseList={handleBrowseList} />;
+    return <KeySelector lang={lang} onSelectKey={handleSelectKey} onBrowseList={handleBrowseList} theme={theme} onToggleTheme={toggleTheme} onSetLang={(l) => { setLang(l); localStorage.setItem('setae-lang', l); }} />;
   }
 
   // ── Render: Main app ──
