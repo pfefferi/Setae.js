@@ -153,7 +153,7 @@ Edit `src/data/keys/index.json` and add an entry like this:
 | `generaKeys` | This key has genus-level sub-keys in a `genera_keys/` folder. | Polychaete key — after identifying a family, user can drill to genus. |
 | `worms` | After a result, check the taxon name against the World Register of Marine Species API. Shows a warning if the name is outdated. | Only meaningful for marine taxa. |
 | `inaturalist` | After a result, fetch a photo from iNaturalist's API. | Shows a representative image on the result card. |
-| `listImages` | Show thumbnail images in the Taxa List view. Requires images in `{keyId}/images/` folder named `{genus}.png`. | Ant key — shows a small photo of each genus next to its name in the browse list. |
+| `listImages` | Show images when expanding items in the Taxa List view. Requires images in `{keyId}/images/` folder named `{genus}.png`. | Ant key — shows a photo of each genus in the expanded detail area. |
 
 If your key doesn't need these, set them all to `false`. They are opt-in features for specific use cases.
 
